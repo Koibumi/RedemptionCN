@@ -1,0 +1,9 @@
+displayName = 救赎汉化补丁
+author = ziyi&终子星&super_ego
+version = 0.1
+translationMod = true
+side = Client
+hideCode = true
+modReferences = Redemption
+sortAfter = Redemption
+homepage = https://modofredemption.wiki.gg/wiki/Mod_of_Redemption_Wiki
