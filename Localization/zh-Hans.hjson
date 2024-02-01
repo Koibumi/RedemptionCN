@@ -10948,8 +10948,8 @@ Mods: {
 			KeycardGiven: 收到钥匙卡后
 			NukeDropped: 在创造了一片废土后
 			NukeDroppedOrDownedMechBossAll: 在创造了一片废土，或在可进入实验室后
-			IsFinlandDay: 当在芬兰独立日时
-			IsNotFinlandDay: 但今天不是芬兰独立日
+			IsFinlandDay: 且当天现实日期是芬兰独立日时
+			IsNotFinlandDay: 且当天现实日期不是芬兰独立日时
 			InMoonlight: 在月光下
 			RepairedByFallen: 由堕落者修复
 			DownedEarlyGameBossAndMoR: 击败任何早期困难模式前Boss时
