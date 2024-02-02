@@ -1,6 +1,6 @@
 displayName = 救赎汉化补丁
 author = ziyi&终子星&super_ego
-version = 0.1
+version = 0.2
 translationMod = true
 side = Client
 hideCode = true
