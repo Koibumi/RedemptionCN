@@ -9112,7 +9112,7 @@ Mods: {
 			}
 
 			HangingTied: {
-				DisplayName: 用绳悬挂（的遗骸）
+				DisplayName: 悬挂Tied
 				Tooltip: ""
 			}
 
@@ -9667,7 +9667,7 @@ Mods: {
 			TeslaCoil_Proj.DisplayName: 特斯拉线圈
 			Hacksaw_Proj.DisplayName: 自动钢锯
 			MythrilsBane_Proj.DisplayName: 秘银祸锋
-			PiercingNebulaWeapon_Proj.DisplayName: 遗忘者之剑
+			PiercingNebulaWeapon_Proj.DisplayName: 贯穿星云
 			PNebula1_Friendly.DisplayName: 贯穿星云
 			PNebula2_Friendly.DisplayName: 贯穿星云
 			PNebula3_Friendly.DisplayName: 贯穿星云
@@ -9740,7 +9740,7 @@ Mods: {
 			AkkaIslandWarning.DisplayName: 预警
 			AkkaPoisonBubble.DisplayName: 剧毒泡泡
 			AkkaTremor.DisplayName: 地震
-			DualcastBall.DisplayName: 静电双铸
+			DualcastBall.DisplayName: 静电双团
 			EarthBarrier.DisplayName: 漂浮土堆
 			Jyrina.DisplayName: 乌戈战马
 			Moonbeam.DisplayName: 月光
@@ -9764,14 +9764,14 @@ Mods: {
 			UkkoStrikeZap.DisplayName: 乌戈落雷
 			UkkoThunderwave.DisplayName: 雷鸣波
 			CleaverHitbox.DisplayName: 欧米伽斩切刃
-			OmegaBlast.DisplayName: Omega Blast
+			OmegaBlast.DisplayName: 欧米伽猛击弹
 			OmegaCleaver_GirusTalk.DisplayName: Ominous Voice
 			PhantomCleaver.DisplayName: 幻影斩切刃
 			PhantomCleaver_F.DisplayName: 幻影斩切刃
 			PhantomCleaver2.DisplayName: 幻影斩切刃
 			PhantomCleaver2_Spawner.DisplayName: 幻影斩切刃
-			RedPrism.DisplayName: 幻影斩切刃
-			RedPrism_F.DisplayName: 幻影斩切刃
+			RedPrism.DisplayName: 赤红棱镜
+			RedPrism_F.DisplayName: 赤红棱镜
 			WielderOrb.DisplayName: 屏蔽球体
 			Bible_Ray.DisplayName: 灼热光束
 			Bible_Seed.DisplayName: 美德之种
@@ -10073,7 +10073,7 @@ Mods: {
 			CorpseWalkerSkull_Proj.DisplayName: 救赎火花
 			Cystling.DisplayName: 囊肿
 			Forret.DisplayName: 鹿角雪貂
-			GirusDischarge.DisplayName: Discharge
+			GirusDischarge.DisplayName: 放电
 			GolemGuardian.DisplayName: 石巨人守卫
 			GraniteGuardian.DisplayName: 花岗岩守卫
 			Hardlight_Magnet.DisplayName: 磁能无人机Mk.I
@@ -10178,7 +10178,7 @@ Mods: {
 			XeniumElectrolaser_Beam2.DisplayName: 精金长矛
 			BolineFlower.DisplayName: 芽体花朵
 			CursedThornVileF.DisplayName: 诅咒荆棘
-			HellfireCharge_Proj.DisplayName: Hellfire Charge
+			HellfireCharge_Proj.DisplayName: 地狱之火冲击
 			CirclePulse_Visual.DisplayName: Pulse
 			Explosion_Visual.DisplayName: Explosion
 			Ring_Visual.DisplayName: Ring
@@ -10816,7 +10816,7 @@ Mods: {
 			GathicCryoFurnaceTile.MapEntry: 加苏寒炉
 			GathuramPortalTile.MapEntry: 加苏拉姆传送门
 			GoldenGatewayTile.MapEntry: 黄金大门
-			HangingTiedTile.MapEntry: 用绳悬挂的遗骸
+			HangingTiedTile.MapEntry: 悬挂Tied
 			KingChessPieceTile.MapEntry: 大理石象棋“王”
 			NirinCogBigTile.MapEntry: 尼林齿轮
 			NirinCogMediumTile.MapEntry: 尼林齿轮
