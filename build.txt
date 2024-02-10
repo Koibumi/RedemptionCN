@@ -1,6 +1,6 @@
-displayName = 救赎汉化补丁
-author = ziyi&终子星&super_ego
-version = 0.2
+displayName = 救赎Mod-汉化补丁
+author = 灾厄维基汉化组
+version = 1.0
 translationMod = true
 side = Client
 hideCode = true
