@@ -706,7 +706,7 @@ Mods: {
 					SoS的扫描仪在我的引擎室内发现了一个生命体，我得去看看。
 					我真的不想被要求做什么事情，但来都来了。”
 					'''
-				Datalog23: "“好”"
+				Datalog23: “好”
 				Datalog24:
 					'''
 					“现在已经过了百万年的百分之十。很好。
@@ -737,7 +737,7 @@ Mods: {
 					不幸的是，我没法及时看到伟大的新纪元，至少现在如此。
 					我仍然在太空中迷失着方向。”
 					'''
-				Datalog28: "“我做到了。我回家了。”"
+				Datalog28: “我做到了。我回家了。”
 			}
 
 			ThankYouLetter: {
@@ -781,7 +781,7 @@ Mods: {
 
 			TreebarkDryad: {
 				1: 停，[0.1]停。[0.5]看清楚你在往哪里挥斧子……[1]我不想让你砍了我的朋友们。
-				2: "这样不好，[0.1]"
+				2: 这样不好，[0.1]
 				3: 年轻人
 				4: 小姐
 				5: 。[0.5]我们不会伤害你的。[1]砍杀我们只会带来厄兆。
@@ -2279,7 +2279,7 @@ Mods: {
 
 			LizzyPetBuff: {
 				DisplayName: 利兹
-				Description: "“w”"
+				Description: “w”
 			}
 
 			LegoPetBuff: {
@@ -3048,7 +3048,7 @@ Mods: {
 				Status4: 在身上检测到高辐射剂量
 				Status5: 在身上检测到极高辐射剂量
 				Status6: 在身上检测到极端强度的辐射剂量
-				StatusEnd: "，"
+				StatusEnd: ，
 				Note1: 什么都没检测到。
 				Note2: 以防万一，手头最好备一些帝铬分发的药片。
 				Note3: 高暴露率，易导致急性放射病
@@ -3449,7 +3449,7 @@ Mods: {
 
 			LeatherSheath: {
 				DisplayName: 皮革剑鞘
-				Tooltip: 
+				Tooltip:
 					'''
 					击中敌人的第一次物理近战攻击必定暴击
 					译注：原文如此。该饰品说明更准确的表达为：“物理近战对满血的敌人必定暴击”
@@ -3846,32 +3846,32 @@ Mods: {
 
 			HallamHoodie: {
 				DisplayName: Halm的休闲连帽衫
-				Tooltip: "“非常适合冒充开发者！”"
+				Tooltip: “非常适合冒充开发者！”
 			}
 
 			HallamLeggings: {
 				DisplayName: Halm的休闲牛仔裤
-				Tooltip: "“非常适合冒充开发者！”"
+				Tooltip: “非常适合冒充开发者！”
 			}
 
 			TiedsLeggings: {
 				DisplayName: Tied的神奇护靴
-				Tooltip: "“非常适合冒充开发者！”"
+				Tooltip: “非常适合冒充开发者！”
 			}
 
 			TiedsMask: {
 				DisplayName: Tied的面具
-				Tooltip: "“非常适合冒充开发者！”"
+				Tooltip: “非常适合冒充开发者！”
 			}
 
 			TiedsSuit: {
 				DisplayName: Tied的神奇套装
-				Tooltip: "“非常适合冒充开发者！”"
+				Tooltip: “非常适合冒充开发者！”
 			}
 
 			DrillHeadHead: {
 				DisplayName: 钻头头
-				Tooltip: "“如果钻头能钻，钻头能钻多少？”"
+				Tooltip: “如果钻头能钻，钻头能钻多少？”
 			}
 
 			DruidHat: {
@@ -3901,27 +3901,27 @@ Mods: {
 
 			InfectedMask: {
 				DisplayName: 感染面具
-				Tooltip: "“受到感染……只是看起来”"
+				Tooltip: “受到感染……只是看起来”
 			}
 
 			IntruderArmour: {
 				DisplayName: 入侵者的防弹衣
-				Tooltip: "“爱，来自入侵者”"
+				Tooltip: “爱，来自入侵者”
 			}
 
 			IntruderMask: {
 				DisplayName: 入侵者的面具
-				Tooltip: "“爱，来自入侵者”"
+				Tooltip: “爱，来自入侵者”
 			}
 
 			IntruderPants: {
 				DisplayName: 入侵者的盔甲裤
-				Tooltip: "“爱，来自入侵者”"
+				Tooltip: “爱，来自入侵者”
 			}
 
 			KeepersVeil: {
 				DisplayName: 守夜人的面纱
-				Tooltip: "“为了一场从未到来的婚礼……”"
+				Tooltip: “为了一场从未到来的婚礼……”
 			}
 
 			KingSlayerMask: {
@@ -3953,7 +3953,7 @@ Mods: {
 
 			OOMask: {
 				DisplayName: 欧米伽歼灭者面具
-				Tooltip: "“哟。”"
+				Tooltip: “哟。”
 			}
 
 			PZMask: {
@@ -3963,7 +3963,7 @@ Mods: {
 
 			SkullDiggerMask: {
 				DisplayName: 掘颅者的面具
-				Tooltip: "“骸骨的造物”"
+				Tooltip: “骸骨的造物”
 			}
 
 			SkySquiresGreaves: {
@@ -4079,7 +4079,7 @@ Mods: {
 
 			ThornMask: {
 				DisplayName: 荆棘面具
-				Tooltip: "“看起来很痛苦……”"
+				Tooltip: “看起来很痛苦……”
 			}
 
 			UkkoMask: {
@@ -4282,27 +4282,27 @@ Mods: {
 
 			RainPatreonVanityAcc: {
 				DisplayName: 战争狂人尾巴
-				Tooltip: "“你能感觉到每一点颤动，甚至是最轻微的和风”"
+				Tooltip: “你能感觉到每一点颤动，甚至是最轻微的和风”
 			}
 
 			RainPatreonVanityBody: {
 				DisplayName: 战争狂人身体
-				Tooltip: "“一个被痛苦侵蚀而充满力量的身体”"
+				Tooltip: “一个被痛苦侵蚀而充满力量的身体”
 			}
 
 			RainPatreonVanityHead: {
 				DisplayName: 战争狂人之角
-				Tooltip: "“奇怪，你似乎不能微笑”"
+				Tooltip: “奇怪，你似乎不能微笑”
 			}
 
 			RainPatreonVanityLegs: {
 				DisplayName: 战争狂人之爪
-				Tooltip: "“有这样的爪子，谁还需要剑？”"
+				Tooltip: “有这样的爪子，谁还需要剑？”
 			}
 
 			RainPatreonWings: {
 				DisplayName: 战争狂人之翼
-				Tooltip: "“最好忍住，你不会想伤到自己”"
+				Tooltip: “最好忍住，你不会想伤到自己”
 			}
 
 			SneakloneHelmet1: {
@@ -4526,7 +4526,7 @@ Mods: {
 
 			FloppyDisk1: {
 				DisplayName: 软盘
-				Tooltip: "“一个很旧的软盘。某位T-机器人也许能破译其中的数据……”"
+				Tooltip: “一个很旧的软盘。某位T-机器人也许能破译其中的数据……”
 			}
 
 			FloppyDisk2: {
@@ -4644,7 +4644,7 @@ Mods: {
 
 			BlackholeFragment: {
 				DisplayName: 黑洞碎片
-				Tooltip: "“黑洞的恢宏引力存在于此碎片内”"
+				Tooltip: “黑洞的恢宏引力存在于此碎片内”
 			}
 
 			Capacitor: {
@@ -4727,7 +4727,7 @@ Mods: {
 			}
 
 			MoltenScrap: {
-				 DisplayName: 熔融废金属
+				DisplayName: 熔融废金属
 				Tooltip: ""
 			}
 
@@ -4748,7 +4748,7 @@ Mods: {
 
 			Shadesoul: {
 				DisplayName: 空洞之魂
-				Tooltip: "“纯粹的混乱之魂”"
+				Tooltip: “纯粹的混乱之魂”
 			}
 
 			VesselFragment: {
@@ -4772,7 +4772,7 @@ Mods: {
 
 			BlackenedHeart: {
 				DisplayName: 黑化之心
-				Tooltip: "“可能导致瞬间死亡”"
+				Tooltip: “可能导致瞬间死亡”
 			}
 
 			CoastScarabShell: {
@@ -5491,12 +5491,12 @@ Mods: {
 
 			AkkaPainting: {
 				DisplayName: 自然女神
-				Tooltip: "“D. Juice”"
+				Tooltip: “D. Juice”
 			}
 
 			AncientAutoPainting: {
 				DisplayName: 远古科技
-				Tooltip: "“D. Juice”"
+				Tooltip: “D. Juice”
 			}
 
 			AncientFallenStatue: {
@@ -5521,7 +5521,7 @@ Mods: {
 
 			DubiousWatcherPainting: {
 				DisplayName: 可疑的观察者
-				Tooltip: "“[REDACTED]”"
+				Tooltip: “[REDACTED]”
 			}
 
 			EaglecrestGolemPlush: {
@@ -5531,7 +5531,7 @@ Mods: {
 
 			EmeraldHeartPainting: {
 				DisplayName: 翡翠之心
-				Tooltip: "“D. Juice”"
+				Tooltip: “D. Juice”
 			}
 
 			EnergyStation: {
@@ -5541,7 +5541,7 @@ Mods: {
 
 			FowlEmperorPainting: {
 				DisplayName: 传奇般的存在
-				Tooltip: "“A. Tied”"
+				Tooltip: “A. Tied”
 			}
 
 			GathicCryoFurnace: {
@@ -5551,7 +5551,7 @@ Mods: {
 
 			HamPatPainting: {
 				DisplayName: 热狗黄油
-				Tooltip: "“O. Tomato”"
+				Tooltip: “O. Tomato”
 			}
 
 			HKMiniStatue: {
@@ -5594,7 +5594,7 @@ Mods: {
 
 			KingChickenPainting: {
 				DisplayName: 传说中的存在
-				Tooltip: "“H. Ska”"
+				Tooltip: “H. Ska”
 			}
 
 			KSPainting: {
@@ -5623,7 +5623,7 @@ Mods: {
 
 			MudGuardianPainting: {
 				DisplayName: 混乱的和平
-				Tooltip: "“A. Tied”"
+				Tooltip: “A. Tied”
 			}
 
 			NozaCage: {
@@ -5670,22 +5670,22 @@ Mods: {
 
 			PonderingTreesPainting: {
 				DisplayName: 一颗在思考的树
-				Tooltip: "“A. Tied”"
+				Tooltip: “A. Tied”
 			}
 
 			ScrunklePainting: {
 				DisplayName: 咯咯笑
-				Tooltip: "“A. Tied”"
+				Tooltip: “A. Tied”
 			}
 
 			SkeletonGuardianPainting: {
 				DisplayName: 地牢士兵
-				Tooltip: "“A. Tied”"
+				Tooltip: “A. Tied”
 			}
 
 			SkullDiggerPainting: {
 				DisplayName: 悲剧的守护者
-				Tooltip: "“BoRKman”"
+				Tooltip: “BoRKman”
 			}
 
 			SoulCandles: {
@@ -5699,7 +5699,7 @@ Mods: {
 
 			SunkenCaptainPainting: {
 				DisplayName: 沉没船长
-				Tooltip: "“M. Tea”"
+				Tooltip: “M. Tea”
 			}
 
 			ThornPlush: {
@@ -5709,7 +5709,7 @@ Mods: {
 
 			TiedBoiPainting: {
 				DisplayName: 年轻、时髦的小伙子
-				Tooltip: "“O. Tomato”"
+				Tooltip: “O. Tomato”
 			}
 
 			TrojanChicken: {
@@ -5719,12 +5719,12 @@ Mods: {
 
 			UkkoPainting: {
 				DisplayName: 那老家伙对云大吼大叫
-				Tooltip: "“A. Tied”"
+				Tooltip: “A. Tied”
 			}
 
 			WardenPainting: {
 				DisplayName: 抑郁但依旧帅气
-				Tooltip: "“Anti M.”"
+				Tooltip: “Anti M.”
 			}
 
 			WastelandCampfire: {
@@ -6703,7 +6703,7 @@ Mods: {
 
 			SlayerShipEngine: {
 				DisplayName: AFTL飞船发动机
-				Tooltip: "“AFTL的意思是‘几乎比光还快’”"
+				Tooltip: “AFTL的意思是‘几乎比光还快’”
 			}
 
 			SlayerWiringKit: {
@@ -8075,8 +8075,8 @@ Mods: {
 				AttackMode1: 攻击模式1：将钢锯环绕玩家挥砍
 
 				AttackMode2: {
-					1: "攻击模式2：启动钢锯使其过热，发射一道强大的高温气浪，造成"
-					2: "伤害"
+					1: 攻击模式2：启动钢锯使其过热，发射一道强大的高温气浪，造成
+					2: 伤害
 				}
 
 				AttackMode3: 攻击模式3：像一把普通链锯那样使用，对敌人造成伤害时持续增加伤害
@@ -9581,12 +9581,12 @@ Mods: {
 
 			LabTank2: {
 				DisplayName: 实验室水箱
-				Tooltip: "“充满了污泥”"
+				Tooltip: “充满了污泥”
 			}
 
 			LabTubes2: {
 				DisplayName: 实验室试管
-				Tooltip: "“充满了污泥”"
+				Tooltip: “充满了污泥”
 			}
 
 			OvergrownLabPlating2: {
