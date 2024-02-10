@@ -191,7 +191,7 @@ Mods: {
 			CraneOperator: 一个胆小的机器人，但是有着远大的目标。她在实验室被安排做一些琐碎的工作，通常来说是当一个操纵员。
 			OozeBlob: 一团恶臭的无定形烂泥。在它令人作呕的黏液下面是一些生物质，永无休止地在排出液体……天那！这真是一团糟！
 			OozingScientist: 一名不幸的科学家，被异辉感染折磨得面目全非。它极具攻击性，渗出奇怪的液态物质……天哪，闻起来太恶心了。
-			SpacePaladin: 太空守护者之后的第四代弑君者机型。这个机型使用了比弑君者的“万用原型机”更加先进的护盾技术，能够承受更重的冲击。此外还有厚重耐用的护板与赛博战刃，完全为战争而生。
+			SpacePaladin: 太空维护者之后的第四代弑君者机型。这个机型使用了比弑君者的“万用原型机”更加先进的护盾技术，能够承受更重的冲击。此外还有厚重耐用的护板与赛博战刃，完全为战争而生。
 			PrototypeSilver: 白银原型机是第二代弑君者机型，内置了护盾生成器与耐用的护板。在亚舍拉的一场异星战争中被打造出来。这场战争很快就结束了。虽然名字里带“银”，它其实是由阿尔科诺斯特多余的钛打造而成。
 			Basan: 传闻中一种生活在破碎高地的传奇鸟类。 据说这种辛辣的美味在鸡肉鉴赏家中前所未闻，它的鲜嫩鸡翅和多汁鸡腿让其他鸡肉都相形见绌。只有在Arby's，你才能找到更好的辣鸡肉食材。Arby's，We Have The Meats.（译注：Arby's是美国的一家快餐品牌。“We Have The Meats”是他们的宣传口号，意为“我们有肉”。）
 			ChickenBomber: 爆。
@@ -203,6 +203,11 @@ Mods: {
 			Chickadier: 鸡皇的士兵。不要问它们的炸弹是从哪来的。
 			Chickenvoy: 鸡皇忠诚的信使。不要问它们的帽子是从哪来的。
 			CoopCrate: 为特别想弄到一个爆蛋的人准备的战利品箱。鸡们还没有意识到让它们装的东西更具随机性才能更加刺激。
+			KS3Magnet: 这种无人机会将吸收的弹幕转化为能量，并以此进行反击。
+			KS3MissileDrone: 弑君者在他的百万年航行中设计的导弹无人机。
+			KS3ScannerDrone: 用于收集数据并将其储存到SoS中的无人机。
+			SpaceKeeper: 弑君者在他的百万年航行中设计的第三批机器人，这批机器人专门用于用纳米机器修复其他机器人。它们在一场异星战争完结后被打造出来，这场战争使弑君者的大部分机器人遭到受损或损毁。
+			Shadesoul: 一种意志力存在于埃庇多特——你越快乐，对生活的渴求越是热烈，你的灵魂就可以变得越宏伟越强大。反之，如果一个人失去了活下去的意志，他的灵魂会变得极其渺小，甚至走向另一面，失去灵魂成为空魂者。空魂者直到伪神时代结束后才开始出现。
 		}
 
 		Bestiary.Android: Api机械战士是用一个遥远恒星系的一种高度耐用金属制造的实验品。这种金属被弑君者III称为“玫瑰钛”——在银河系中发现的最坚固的材料之一。然而弑君者III讨厌它的粉红色调，所以在用它制作了几个机器人之后，他顽固地拒绝使用它。
@@ -1397,7 +1402,8 @@ Mods: {
 				Description:
 					'''
 					允许你不受限制地与灵魂互动，可以使用任何武器攻击处于灵域内的敌人。
-					当你在灵域中时，会产生灵魂之河，这提供了一种将你传送至带灵魂的遗骸附近的方法。用[i:Redemption/DeadRinger]死亡之铃右键带灵魂的遗骸以召唤灵魂。
+					当你在灵域中时，会产生灵魂之河，这提供了一种将你传送至带灵魂的遗骸附近的方法。
+					用[i:Redemption/DeadRinger]死亡之铃右键带灵魂的遗骸以召唤灵魂。
 					'''
 			}
 		}
@@ -6039,22 +6045,22 @@ Mods: {
 
 			ErhanBox: {
 				DisplayName: 音乐盒（埃尔罕）
-				Tooltip: Sc0p3r - Holy Inquisition
+				Tooltip: Sc0p3r - Holy Inquisition（神圣的宗教审判）
 			}
 
 			ForestBossBox: {
 				DisplayName: 音乐盒（森林中的诅咒之物）
-				Tooltip: Peritune - Dramatic4
+				Tooltip: Peritune - Dramatic4（戏剧性4）
 			}
 
 			ForestBossBox2: {
 				DisplayName: 音乐盒（远古双神）
-				Tooltip: Peritune - Havoc
+				Tooltip: Peritune - Havoc（大破坏）
 			}
 
 			FowlMorningBox: {
 				DisplayName: 音乐盒（鸡晓）
-				Tooltip: Sc0p3r - Dawn of the Coop
+				Tooltip: Sc0p3r - Dawn of the Coop（群鸡黎明）
 			}
 
 			HallOfHeroesBox: {
@@ -6064,62 +6070,62 @@ Mods: {
 
 			KeeperBox: {
 				DisplayName: 音乐盒（守夜人）
-				Tooltip: SpectralAves - Haunting Loneliness
+				Tooltip: SpectralAves - Haunting Loneliness（挥之不去的孤独）
 			}
 
 			KSBox: {
 				DisplayName: 音乐盒（弑君者III）
-				Tooltip: William 'GoukisanNG' Prevett - Betrayal of Fear
+				Tooltip: William 'GoukisanNG' Prevett - Betrayal of Fear（恐惧的背叛）
 			}
 
 			LabBossMusicBox: {
 				DisplayName: 音乐盒（实验室小boss）
-				Tooltip: inSignia - Safety Violation
+				Tooltip: inSignia - Safety Violation（安全事故）
 			}
 
 			LabMusicBox: {
 				DisplayName: 音乐盒（实验室）
-				Tooltip: inSignia - Facility of Contagion
+				Tooltip: inSignia - Facility of Contagion（感染之处）
 			}
 
 			NebBox: {
 				DisplayName: 音乐盒（涅布琉斯）
-				Tooltip: musicman - Interstellar Isolation
+				Tooltip: musicman - Interstellar Isolation（星空中的孤独）
 			}
 
 			NebBox2: {
 				DisplayName: 音乐盒（涅布琉斯终极形态）
-				Tooltip: musicman - Hypernova
+				Tooltip: musicman - Hypernova（极超新星）
 			}
 
 			OmegaBox: {
 				DisplayName: 音乐盒（欧米伽原型机）
-				Tooltip: musicman - Armageddon Interface
+				Tooltip: musicman - Armageddon Interface（末日程序）
 			}
 
 			OmegaBox2: {
 				DisplayName: 音乐盒（欧米伽歼灭者）
-				Tooltip: Universe - Hailfire
+				Tooltip: Universe - Hailfire（火焰风暴）
 			}
 
 			PZMusicBox: {
 				DisplayName: 音乐盒（零号病患）
-				Tooltip: Universe - Xenostate
+				Tooltip: Universe - Xenostate（异辉态）
 			}
 
 			SlayerShipBox: {
 				DisplayName: 音乐盒（弑君者的失事飞船）
-				Tooltip: PeriTune - Suspense3
+				Tooltip: PeriTune - Suspense3（紧张3）
 			}
 
 			SoIBox: {
 				DisplayName: 音乐盒（感染之种）
-				Tooltip: musicman - Virogenesis
+				Tooltip: musicman - Virogenesis（病毒之源）
 			}
 
 			WastelandBox: {
 				DisplayName: 音乐盒（废土）
-				Tooltip: Musearys - The Wastelands
+				Tooltip: Musearys - The Wastelands（废土）
 			}
 
 			AncientGrassSeeds: {
@@ -6811,7 +6817,7 @@ Mods: {
 				Tooltip:
 					'''
 					告诉你当前的调谐值
-					[c/ffea9b:A sentient treasure, cursed to judge those who wield it]
+					[c/ffea9b:一件有自我意识的宝藏,被诅咒来审判使用它的人]
 					'''
 			}
 
@@ -10324,7 +10330,7 @@ Mods: {
 			KS3_Magnet.DisplayName: 磁能无人机Mk.I
 			KS3_MissileDrone.DisplayName: 导弹无人机Mk.I
 			KS3_ScannerDrone.DisplayName: 扫描无人机Mk.I
-			SpaceKeeper.DisplayName: 太空守护者
+			SpaceKeeper.DisplayName: 太空维护者
 			Nebuleus_Clone.DisplayName: 涅布琉斯的幻象
 			Nebuleus2_Clone.DisplayName: 涅布琉斯的幻象
 
