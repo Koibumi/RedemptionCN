@@ -1,0 +1,26 @@
+[h1]This is a Chinese-translation Mod for[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2893332653]Mod of Redemption[/url][/h1]
+
+[h1]=[介绍]=[/h1]
+本Mod是由灾厄维基汉化组出品的救赎mod汉化补丁
+目前汉化已基本完工，如果有没汉化或汉化错误的部分也请留言指出
+欢迎加入救赎讨论群：946487295
+
+[h1]=[使用方法]=[/h1]
+1.同时订阅救赎Mod和本Mod
+2.进入tml，在模组管理中同时启用救赎Mod和本Mod
+3.安装完成，进行游戏
+
+[h1]=[帮助]=[/h1]
+Q1：找不到Mod在哪？本地模组文件夹无？
+A1：尝试验证游戏完整性
+
+Q2：联机加入房间出现问题？
+A2：救赎目前不支持多人游玩
+
+Q3：加载了没汉化/版本不匹配/报错？
+A3：检查Mod版本是否为最新版，语言选择中文，注意TML版本选择无，尝试验证游戏完整性，删除本地旧版本模组，重新订阅模组等等
+
+Q4：有一些奇怪的BUG?
+A4：先排除是其他Mod冲突引起的，或者是救赎原版的Bug，可进讨论群反馈。不要加载和本补丁包含内容重复的翻译包，游戏内重新加载模组如果出现BUG，尝试重启游戏加载
+
+Tips：描述如有错误，结合[url=https://modofredemption.wiki.gg/wiki/Mod_of_Redemption_Wiki]救赎wiki[/url]使用.

@@ -12,7 +12,7 @@ namespace RedemptionCN.Patch
         /// </summary>
         public virtual Dictionary<Type, Tuple<string, BindingFlags, bool, Delegate>> MethodInfos => null;
 
-        protected static bool LoadWithFargoSouls() => ModLoader.TryGetMod("FargowiltasSouls", out _);
+        protected static bool LoadWithRedemption() => ModLoader.TryGetMod("Redemption", out _);
 
         public virtual bool IsLoadingEnabled() => true;
 
