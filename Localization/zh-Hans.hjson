@@ -1858,8 +1858,8 @@ Mods: {
 			}
 
 			NaturePixieBuff: {
-				DisplayName: 自然精灵
-				Description: 一只自然精灵为你干扰敌人
+				DisplayName: 自然仙灵
+				Description: 一只自然仙灵为你干扰敌人
 			}
 
 			JyrinaMountBuff: {
@@ -2597,15 +2597,15 @@ Mods: {
 				HerbBagDialogueJolly: 这袋花朵真是太可爱了。好高兴，我会收下这份礼物的。这个给你作为回礼吧。
 				HerbBagDialogueAggressive: 想用鲜花赢取我的信任吗？行吧，我收下了。如果你想要回礼的话，拿走这个吧。
 				HerbBagDialogue: 这是友谊的象征吗？有意思。我会收下这些可爱的花朵的，送你这个作为回礼。
-				MysticBlossomDialogueCalm: 太令人震惊了，你竟然能把这个送给我。我无论回赠什么都无法与这稀世珍宝媲美。T
-				MysticBlossomDialogueShy: 这是……给我的吗？真的吗？这么珍贵的东西，我不能把它当一份简单的礼物看待呢。好紧张啊——这么直率主动地赠与我，你一定有一颗金色的心灵吧。但是我不知道我要回赠什么了！原谅我，t
-				MysticBlossomDialogueJolly: 哇！天哪！把这么珍贵的东西送给我，太慷慨了，太惊讶了。但是，我完全没有能媲美这个礼物的东西啊，太遗憾了。 T
-				MysticBlossomDialogueAggressive: 你这是……天哪。你为什么会给我如此珍贵的东西！我不禁感到其中的恶意。不过，世界说你是个好人，世界从不会说谎。这个送你当回礼吧，t
-				MysticBlossomDialogue: 这个是……你能送我这个真是令人费解，毫不夸张地说。我能回赠什么呢？什么都无法与其媲美吧？我的所有之物是有限的，但我的祝福是无限的。T
+				MysticBlossomDialogueCalm: 太令人震惊了，你竟然能把这个送给我。我无论回赠什么都无法与这稀世珍宝媲美。
+				MysticBlossomDialogueShy: 这是……给我的吗？真的吗？这么珍贵的东西，我不能把它当一份简单的礼物看待呢。好紧张啊——这么直率主动地赠与我，你一定有一颗金色的心灵吧。但是我不知道我要回赠什么了！原谅我，
+				MysticBlossomDialogueJolly: 哇！天哪！把这么珍贵的东西送给我，太慷慨了，太惊讶了。但是，我完全没有能媲美这个礼物的东西啊，太遗憾了。 
+				MysticBlossomDialogueAggressive: 你这是……天哪。你为什么会给我如此珍贵的东西！我不禁感到其中的恶意。不过，世界说你是个好人，世界从不会说谎。这个送你当回礼吧，
+				MysticBlossomDialogue: 这个是……你能送我这个真是令人费解，毫不夸张地说。我能回赠什么呢？什么都无法与其媲美吧？我的所有之物是有限的，但我的祝福是无限的。
 				MysticBlossomDialogueCont: 拿走我的武器吧，这是我唯一有价值的礼物了。
-				HomeDialogue1: 我们通常住在水源附近的大空心树里。这种树木只适合躲藏，但是树周围的水源对我们的生存至关重要，没有水我们就不能繁茂生长。在这个岛上，与传送门另一侧世界中巨型橡木最相似的东西是生命树，不过需要再打扮整理一下。这些树并不是非常宜居。
-				HomeDialogue2: 你的精灵如实介绍了你。如果不是很费事的话，我可以接受你为我建造一个居所。但是，我有要求。首先，房子要是生命木做的——如果你愿意的话，可以翻新现有的生命木，不过只要是生命木做我就很满意。其次，我需要附近有一片水源。一小片就好，只要能把我的根浸入就可以。
-				HomeDialogue3: 房子要是生命木做的——如果你愿意的话，可以翻新现有的生命木，不过只要是生命木做我就很满意。其次，我需要附近有一片水源。一小片就好，只要能把我的根浸入就可以。
+				HomeDialogue1: 我们通常住在水源附近的大空心树里。这种树木只适合躲藏，但是树周围的水源对我们的生存至关重要，没有水我们就不能繁茂生长。在这个岛上，与传送门另一侧世界中巨型橡木最相似的东西是生命树，不过需要再装修一下。这些树并不是非常宜居。
+				HomeDialogue2: 你的仙灵如实介绍了你。如果不是很费事的话，我可以接受你为我建造一个居所。但是，我有要求。首先，房子要是生命木做的——如果你愿意的话，可以翻新现有的生命木，不过只要是生命木做我就很满意。其次，我需要附近有一片水源。一小片就好，只要够我的根浸入就可以。
+				HomeDialogue3: 房子要是用生命木做的——如果你愿意的话，可以翻新现有的生命木，不过只要是生命木做我就很满意。其次，我需要附近有一片水源。一小片就好，只要够我的根浸入就可以。
 				HomeNeedWaterDialogueCalm: 再在这周围安置一片宜人的水源，我能就把这里当成新家了。
 				HomeNeedWaterDialogueShy: 如果不麻烦的话，能在我的新家旁边安置一片水源吗。
 				HomeNeedWaterDialogueJolly: 一个小湖或者水池对于我们森林仙女而言是很重要的。如果能有一个在附近的话，我会很高兴的。
@@ -2646,17 +2646,17 @@ Mods: {
 				Dialogue12: 我看你对花哨与实用的衣服都不感兴趣。
 				Dialogue13: 我看到你头上戴了各种各样的花，这是在模仿我还是在取笑我？我不大明白。
 				Dialogue13ContCalm: 不过，它们真的很可爱。
-				Dialogue13ContShy: 我把这个作为对你的一种赞赏。
+				Dialogue13ContShy: 我会当作你是在赞美我……
 				Dialogue13ContJolly: 不管怎么说，很适合你！。
 				Dialogue13ContAggressive: 我想可能是后者吧。
 				Dialogue13Cont: 对你来说还挺合适。
-				DialogueDistrust: 离远点。这些精灵竟然会信任你，这真是愚蠢，世界都把你视作威胁了。
+				DialogueDistrust: 离远点。这些仙灵竟然会信任你，这真是愚蠢，世界都把你视作威胁了。
 				Dialogue14: 唉，真是粗俗。你能观察另一个领域，看到我的空灵形态？或是，你没能完全进入其中，无法看到全貌？不得而知。
 				Dialogue15: 你没有染上枯萎诅咒，没有吧？额，这只是个面具啊。
 				Dialogue16: 我希望你身上的木头不是我家的。
 				Dialogue17: 你在用生命木的木头。我要是发现你是从我家拿的，我会不高兴的。
 				Dialogue18: 当心。
-				Dialogue19: 不要太放肆了，我之所以信任你只是因为你的精灵对你的赞美之词。
+				Dialogue19: 不要太放肆了，我之所以信任你只是因为你的仙灵对你的赞美之词。
 				Dialogue20: 你送我的花通常被作为好运与长寿的祝礼赠与他人。对于你所说的这位森林仙女也就是我而言，我可以用这些花赋予我更崇高的灵魂，来与这个世界取得联系；人们一般叫这个世界埃庇多特。
 				Dialogue21: 来和我说说话吗？我不介意你的陪伴，只要大自然认为你是善良的。
 				Dialogue22: 你要干嘛？我只想自己一个人待着。
@@ -8542,7 +8542,7 @@ Mods: {
 					右键在近战模式与魔法模式间切换
 					'''
 				MeleeText: 直接用镰刀击中敌人时，汲取1/20造成伤害以恢复生命
-				MagicText: 旋转镰刀，召唤向敌人俯冲的自然精灵
+				MagicText: 旋转镰刀，召唤向敌人俯冲的自然仙灵
 			}
 
 			ForgottenSword: {
@@ -8933,7 +8933,7 @@ Mods: {
 				DisplayName: 国王橡树法杖
 				Tooltip:
 					'''
-					召唤一只自然精灵为你而战
+					召唤一只自然仙灵为你而战
 					偶尔会对敌人大喊，造成{0}伤害
 					'''
 				Lore:
@@ -8942,7 +8942,7 @@ Mods: {
 					橡树与国王的幸福连为一体，将他们的情感和活力根植于王国的根基之中，
 					为所有行走和成长的人提供无穷的力量。
 					人们经常看到跳舞的光球从树上飞来飞去，据说是大自然和人之间热情的化身。
-					它们有很多名字——精灵、仙女、小妖精——它们是森林仙女的伴侣。”
+					它们有很多名字——仙灵、仙女、小妖精——它们是森林仙女的伴侣。”
 					'''
 			}
 
@@ -10021,7 +10021,7 @@ Mods: {
 			LightOrbRay_Proj.DisplayName: 光线
 			MagnifyingGlassRay.DisplayName: 灼热射线
 			Nanite_Proj.DisplayName: 纳米机器蜂
-			NaturePixie_Magic.DisplayName: 自然精灵_魔法
+			NaturePixie_Magic.DisplayName: 自然仙灵（魔法）
 			NoidanNuoli.DisplayName: Noidan Nuoli
 			NoitaBombBlast.DisplayName: Explosion
 			Petridish_Proj.DisplayName: 有丝分裂
@@ -10095,7 +10095,7 @@ Mods: {
 			MicroshieldDrone.DisplayName: 微盾无人机
 			MoonflareGuardian.DisplayName: 月辉护卫
 			MoonflareGuardian_Proj.DisplayName: 月辉弹
-			NaturePixie.DisplayName: 自然精灵
+			NaturePixie.DisplayName: 自然仙灵
 			NaturePixie_Yell.DisplayName: 大喊
 			NestWand_Proj.DisplayName: 鸡窝
 			RowanTreeSummon.DisplayName: 花楸树
