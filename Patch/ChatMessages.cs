@@ -13,6 +13,7 @@ namespace RedemptionCN.Patch
         private static void NewText_string_byte_byte_byte(Terraria.On_Main.orig_NewText_string_byte_byte_byte orig, string newText, byte R = byte.MaxValue, byte G = byte.MaxValue, byte B = byte.MaxValue)
         {
             if (newText == null)
+            else orig
             {
                 return;
             }
