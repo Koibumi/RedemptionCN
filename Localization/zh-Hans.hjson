@@ -5565,7 +5565,7 @@ Mods: {
 					[c/ffea9b:我们众志成城，]
 					[c/ffea9b:压制永世长眠的命运，]
 					[c/ffea9b:我愿俟你身旁，助你坚强，]
-					[c/ffea9b:缪力同心是你我的归属……]
+					[c/ffea9b:戮力同心是你我的归属……]
 					[c/ff0000:难以破坏(1000%镐力)]
 					'''
 			}
@@ -9488,7 +9488,7 @@ Mods: {
 			}
 
 			CuckooCloak: {
-				DisplayName: 疯狂斗篷
+				DisplayName: 雄鸡斗篷
 				Tooltip: ""
 			}
 
