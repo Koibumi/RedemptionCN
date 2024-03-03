@@ -1,5 +1,112 @@
 Mods: {
 	Redemption: {
+		TownNPCMood: {
+			Daerel: {
+				Content: I'm rather content right now.
+				NoHome: Hey, I'd quite like a roof under my head if that's alright with you.
+				FarFromHome: Could you please get me back to my house? This land is quite scary.
+				LoveSpace: I like the space I have here, plenty of room to practice my archery.
+				DislikeCrowded: I'm somewhat of an introvert, so all these people near me is quite unnerving.
+				HateCrowded: I'm somewhat of an introvert, so all these people near me is quite unnerving.
+				LoveBiome: I think {BiomeName} is perfect, calm and tranquil.
+				LikeBiome: I think {BiomeName} is a very nice place, I hardly see any snow where I was from.
+				DislikeBiome: I don't really like {BiomeName}, I'd hate to have a run-in with skeletons!
+				HateBiome: Why'd you put me in {BiomeName}? You know how hostile jungles are!?
+				LoveNPC: Me and {NPCName} are great friends, thank you for letting us live in the same town.
+				LikeNPC: "{NPCName} is good company, she's great at styling my hair too... That's not weird, right?"
+				DislikeNPC: "{NPCName} keeps trying to get me to buy his dirt."
+				HateNPC: Psst, could you move {NPCName} far away from me, I'm already super broke as is.
+				LikeNPC_Princess: I like {NPCName}.
+				Princess_LovesNPC: I like {NPCName}.
+			}
+
+			Fallen: {
+				Content: Nice little place ya got here.
+				NoHome: I'd prefer to have a house.
+				FarFromHome: Could ya take me back to my home?
+				LoveSpace: This place is a wee bit spacious, not complaining though, I quite like it.
+				DislikeCrowded: All these humans are makin' my bones rattle.
+				HateCrowded: All these humans are makin' my bones rattle.
+				LoveBiome: The caverns are perfect for us Fallen, not many humans come and go here.
+				LikeBiome: Aah, {BiomeName} reminds me of when I was still alive in Gathuram. Good times they were.
+				DislikeBiome: I'm staying in {BiomeName}? Not my preferred place to live, I'd hate to have a run-in with aggressive humans!
+				HateBiome: I hate it here, {BiomeName} has some holy energy in it makin' my flesh crawl.
+				LoveNPC: "{NPCName} sells some nifty gadgets, knows how to rip people off too. I like that."
+				LikeNPC: "{NPCName} got somethin' about him I like."
+				DislikeNPC: "{NPCName} keeps lookin' at me with suspicion. Probably wants to 'purify' me."
+				HateNPC: "{NPCName} keeps thinking I'm some dying old man, insisting that she'll heal me. Please get me away from her."
+				LikeNPC_Princess: I like {NPCName}, she's alright.
+				Princess_LovesNPC: I like {NPCName}, he reminds me of an old man.
+			}
+
+			Newb: {
+				Content: Me like here!
+				NoHome: Where home?
+				FarFromHome: Me lost, can you find home?
+				LoveSpace: So little people, yay!
+				DislikeCrowded: Too many faces!
+				HateCrowded: Too many faces!
+				LoveBiome: Me love {BiomeName}! It give memory of... Uh..
+				LikeBiome: Me like {BiomeName}.
+				DislikeBiome: Too boring here, me hate sand!
+				HateBiome: Me feel {BiomeName} make me sad!
+				LoveNPC: "{NPCName} knows magic like me!"
+				LikeNPC: Me like {NPCName}!
+				DislikeNPC: I feel evil within {NPCName}, very bad!
+				HateNPC: My hatred towards {NPCName} is beyond your mortal comprehension.
+				LikeNPC_Princess: Me like {NPCName}.
+				Princess_LovesNPC: I like {NPCName}, he's goofy!
+			}
+
+			TBot: {
+				Content: Feeling rather content, thank you for asking.
+				NoHome: I don't like being exposed to the elements. Do you have any housing or shelter I could inhabit for now?
+				FarFromHome: ... I believe we're very lost. I'm not familiar with our surroundings.
+				LoveSpace: It's rather quiet around here.
+				DislikeCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
+				HateCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
+				LoveBiome: I like this environment. It's very pleasant.
+				LikeBiome: This environment is mildly pleasant.
+				DislikeBiome: My current environment is rather... undesirable.
+				HateBiome: ... Just like home. I really do not like this environment.
+				LoveNPC: "{NPCName}'s knowledge on medicine rivals that of mine! It's really impressive."
+				LikeNPC: "{NPCName} and I have things in common. We get along well."
+				DislikeNPC: I find {NPCName} rather unsettling.
+				HateNPC: "{NPCName} reminds me of home. I'd rather not be reminded of that place."
+				LikeNPC_Princess: I like {NPCName}.
+				Princess_LovesNPC: I like {NPCName}.
+			}
+
+			Zephos: {
+				Content: I'm alright.
+				NoHome: Yo, mind if you give me a house to stay in?
+				FarFromHome: Yo bro, I can't find my house, you wanna help me out?
+				LoveSpace: This place is super spacious, good for practicing my swordsmanship!
+				DislikeCrowded: Is it crowded in here or what!
+				HateCrowded: Is it crowded in here or what!
+				LoveBiome: Staying at {BiomeName} reminds me of when I was a young pirate, sailing the seas!
+				LikeBiome: I think {BiomeName} is nice, I can hear the birds singing and flowers blooming.
+				DislikeBiome: Not a fan of {BiomeName}, I'd rather live on the surface.
+				HateBiome: It's so cold here, I'm shaking in my boots!
+				LoveNPC: "{NPCName} and I are great friends, so living near each other is great!"
+				LikeNPC: "{NPCName} is cool, I'd like to sail the seas with him sometime."
+				DislikeNPC: "{NPCName} wants to get his greedy little fingers on my money!"
+				HateNPC: "{NPCName} will never take my money! NEVER!!"
+				LikeNPC_Princess: I like {NPCName}.
+				Princess_LovesNPC: I like {NPCName}.
+			}
+		}
+
+		Emotes: {
+			AdamTownNPCEmote.Command: moradam
+			DaerelTownNPCEmote.Command: mordaerel
+			ForestNymphTownNPCEmote.Command: morforestnymph
+			HappinsTownNPCEmote.Command: morhappins
+			NewbTownNPCEmote.Command: mornewb
+			OkvotTownNPCEmote.Command: morokvot
+			TenvonTownNPCEmote.Command: mortenvon
+			ZephosTownNPCEmote.Command: morzephos
+		}
 		Currencies.AntiqueDorulCurrency: 古老金币
 
 		TitleCard: {
@@ -26,6 +133,11 @@ Mods: {
 			Keeper: {
 				Name: 守夜人
 				Modifier: 奥克塔微娅·冯·盖隆
+			}
+
+			KeeperSpirit: {
+				// Name: The Keeper's Echo
+				// Modifier: A Lingering Essence
 			}
 
 			SkullDigger: {
@@ -117,7 +229,6 @@ Mods: {
 			Fallen: 堕落者是一个有着强大灵魂的亡灵，强大到足以形成一具浅棕色的血肉之躯。与大多数对人类极具攻击性的亡灵相比，他是个少见的可以交易魂仪设施与修复远古武器碎片的存在。
 			TBot1: 亚当是一个安静、有点忧郁、但很乐意帮助你的机器人，同时是一个叫做阿尔法的小团体的领袖。你若想了解利登的任何事情，你若想了解利登的任何事情，他们都可以成为供你咨询的向导。
 			TBot2: “我可能是同类中唯一一个遵守阿西莫夫三定律的……我不能保证其他机器人都能像我一样对你友好接纳。在外要注意安全。”
-			TreebarkDryad: 这些看起来很迟钝的树人只在森林繁茂的地区出现。它们直到最近才从地表的传送门来到这个岛上。它们每个世纪都会找个浅池塘，在水中休眠一次，池塘中的水会在休眠时维持它们的生命。
 			LostSoul: 迷失灵魂会在世界各地寻找可以凭依的尸体。他们漫游于地下墓穴与墓地，有时需要搜寻数天才能寻得合适的容器。
 			BoneSpider: 一只随时准备吓唬你的骷髅蜘蛛！别担心，严格来讲它并不是蜘蛛：蜘蛛是没有骨头的。
 			Chicken: 这些鸡不知怎的从大陆穿越传送门来到此地。它们是名副其实的鸡，看到危险就会直接溜走。喜欢待在干草上，坐在上面时甚至会下蛋！
@@ -139,6 +250,7 @@ Mods: {
 			Golem: 打造于加苏拉姆，在两国和平时期作为礼物送到以桑。不过加苏拉姆人忘了提醒一件事……
 			Calavia: 钢铁联邦的首席战士，在阿鲁姆堡男爵的鼓励下远离家乡肯-波杜进行探险，结果迷失方向陷入了困境。她专精剑术与锻造，对暴雪魔法也了如指掌。
 			OO: 一台由吉鲁斯亲自设计的全自动战争机器，装备着种类繁多的集成武器系统，比如字面意义上的“手”枪与能发射巨型光束的先进散热系统。这些武器足以歼灭任何在火力覆盖区内的敌人——这便是歼灭者名字的由来。
+			TreebarkDryad: 这些看起来很迟钝的树人只在森林繁茂的地区出现。它们直到最近才从地表的传送门来到这个岛上。它们每个世纪都会找个浅池塘，在水中休眠一次，池塘中的水会在休眠时维持它们的生命。
 			Erhan: 公正之森的一位主教，在森林诅咒将它的守护者吞噬后，他挺身而出开展净化工作。
 			Behemoth: 一名不幸的科学家，被异辉感染折磨得面目全非。它正在进入异辉感染的最后阶段，身体已经变成天花板上的一坨烂泥……天哪，这一定很痛苦。
 			Blisterface1: 一条不幸的金鱼，被异辉感染折磨得面目全非。它身上的感染与水疱科学家差不多……
@@ -203,6 +315,8 @@ Mods: {
 			Chickadier: 鸡皇的士兵。不要问它们的炸弹是从哪来的。
 			Chickenvoy: 鸡皇忠诚的信使。不要问它们的帽子是从哪来的。
 			CoopCrate: 为特别想弄到一个爆蛋的人准备的战利品箱。鸡们还没有意识到让它们装的东西更具随机性才能更加刺激。
+			// ShadesoulNPC: Willpower exists in Epidotra - the happier or more you desire life, the stronger and bigger your soul can become, and vice versa. If someone loses their will to live, their soul can become so small it inverts and they become soulless. The soulless only emerged after the Age of the False Gods.
+			// ScannerDrone: A drone used to collect data and store it within the SoS.
 		}
 
 		Bestiary.Android: Api机械战士是用一个遥远恒星系的一种高度耐用金属制造的实验品。这种金属被弑君者III称为“玫瑰钛”——在银河系中发现的最坚固的材料之一。然而弑君者III讨厌它的粉红色调，所以在用它制作了几个机器人之后，他顽固地拒绝使用它。
@@ -227,6 +341,7 @@ Mods: {
 				LabAccessPanelUsed6: 所有激光安保解除完毕
 				OmegaCall: 欧米伽发讯器现在可以呼叫新的欧米伽原型机
 				FoolLeft: 傻子离开了……
+				// WastelandGrow: An infection grows in the wasteland...
 				PortalRumble: 一个传送门在隆隆作响……（查看地图来确定位置）
 				WayfarerReturn: 徒步旅行家回来了！
 			}
@@ -338,7 +453,6 @@ Mods: {
 						 从弑君者的飞船获取支援
 
 						'''
-					Casque: 召唤一个弑君者Ⅲ全息投影助你而战，拥有越高的灵魂等级会赋予投影将越强的武器
 					Cowl: 召唤一架无人机，持续10秒为你补充魔力
 					Helm: 召唤2架迷你宇宙飞船环绕着你，使用近战武器攻击时发射激光
 					Hood: 召唤2架导弹无人机和1架磁能无人机
@@ -384,52 +498,32 @@ Mods: {
 
 		SpecialTooltips: {
 			Viewer: 按住 [Shift]查看知识
+			Unbreakable: "[c/ff0000:Unbreakable]"
+			Unbreakable5000: "[c/ff0000:Unbreakable (5000% Pickaxe Power)]"
 
 			CommonGuard: {
-				CommonGuardGreaves:
+				// CommonGuardGreaves:
 					'''
-					“安格隆共同卫队的护胫，由骷髅搜刮而来。
-					原本闪亮的铁甲，随着时间的推移，变得暗淡，并覆盖了一层又一层的灰尘。
-
-					一只恶魔从魔窟一个无人看守的大门溜出。
-					当它将一位领主的城市被彻底摧毁时，共同卫队成立了起来。
-
-					他们现在守卫着重要城市和著名地标。尽管他们比一般人强壮
-					但作为骑士，他们不会卷入战争。”
+					'Plate mail greaves of Anglon's Common Guard, scavenged by skeletons.
+					On a day unforgotten, a stray demon appeared through an unguarded portal. Lives were lost and homes were set ablaze.
+					A lesson marked by the heat of hellfire, and one that delivered a new unit to protect the Anglonic people.'
 					'''
-				CommonGuardHelm1:
+				// CommonGuardHelm1:
 					'''
-					“安格隆共同卫队的面罩头盔，由骷髅搜刮而来。
-					原本闪亮的铁甲，随着时间的推移，变得暗淡，并覆盖了一层又一层的灰尘。
-
-					一只恶魔从魔窟一个无人看守的大门溜出。
-					当它将一位领主的城市被彻底摧毁时，共同卫队成立了起来。
-
-					他们现在守卫着重要城市和著名地标。尽管他们比一般人强壮
-					但作为骑士，他们不会卷入战争。”
+					'A visored helm of Anglon's Common Guard, scavenged by skeletons.
+					Villagefolk anticipate the day that their little abode are bestowed a Common Guard's protection.
+					Yet not a day they see it; for despite the unit's humble title, it misleads.
+					The Common Guard are only ever stationed at important landmarks and great cities.
+					No heed is given to the common.'					'''
+				// CommonGuardHelm2:
 					'''
-				CommonGuardHelm2:
+					'A bucket helm of Anglon's Common Guard, scavenged by skeletons.
+					Despite being stronger than the average knight, the Common Guard do not toil in wars.'					'''
+				// CommonGuardPlateMail:
 					'''
-					“安格隆共同卫队的桶形头盔，由骷髅搜刮而来。
-					原本闪亮的铁甲，随着时间的推移，变得暗淡，并覆盖了一层又一层的灰尘。
-
-					一只恶魔从魔窟一个无人看守的大门溜出。
-					当它将一位领主的城市被彻底摧毁时，共同卫队成立了起来。
-
-					他们现在守卫着重要城市和著名地标。尽管他们比一般人强壮
-					但作为骑士，他们不会卷入战争。”
-					'''
-				CommonGuardPlateMail:
-					'''
-					“安格隆共同卫队的护甲，由骷髅搜刮而来。
-					原本闪亮的铁甲，随着时间的推移，变得暗淡，并覆盖了一层又一层的灰尘。
-
-					一只恶魔从魔窟一个无人看守的大门溜出。
-					当它将一位领主的城市被彻底摧毁时，共同卫队成立了起来。
-
-					他们现在守卫着重要城市和著名地标。尽管他们比一般人强壮
-					但作为骑士，他们不会卷入战争。”
-					'''
+					'Plate mail of Anglon's Common Guard, scavenged by skeletons.
+					Once shining steel, the metal has since dulled with time and coated with ever-present dust.
+					The red cloth, however, remains unbleached. Anglonic fabrics and dyes are seldom of poor quality.'					'''
 			}
 
 			PureIron: {
@@ -869,12 +963,11 @@ Mods: {
 			}
 
 			SkullDigger: {
-				Name: 掘颅者:
-				Fight1: 奥克塔微娅太太，您受伤了吗？
-				Fight2: 夫人，您不用担心，我会消灭这些歹徒的。
+				// Fight1: Mistress Octavia,[0.1] are you harmed?
+				// Fight2: My lady,[0.1] you need not worry,[0.1] I shall crush this vermin.
 				Fight3: 准备好自食恶果吧……
-				Fight4: 我终于找到你了，蟊贼…
-				Defeat1: 我亲爱的女主人，我让您失望了。
+				// Fight4: I have finally found you,[0.1] vermin..
+				// Defeat1: My dear mistress,[0.1] I have failed you.
 				Defeat2: 或许我们的痛苦将永远存在。
 				1: 谢谢……
 				2: 你……
@@ -891,6 +984,12 @@ Mods: {
 				Robot3: *叹息*[0.1]我没想到会在这看到我们的同类。
 				Robot4: 现在回不去了。[0.5]既然你在这边不在那边，[0.1]那我可以放心地认为你没有站在她那边……对吧？
 				Robot5: "[@a]……好吧。[0.5]我们可以放心地互相无视了。"
+				// Warhead1: Ah,[0.1] I should caution if you get the Nuclear Warhead.
+				// Warhead2: Radiation is a serious hazard for humans like you,[0.1] but an avoidable one.
+				// Warhead3: If you see a glowing blue material near the crater,[0.1] don't get too close.[0.5] That'd be Plutonium.
+				// Warhead4: A Geiger-Muller will warn you of irradiated areas,[0.2] and if you do get sick,[0.1] take a Radiation Pill as soon as you feel fatigued or nauseous.
+				// Warhead5: I will sell these once you set the nuke off.
+				// Warhead6: .[0.1].[0.1].[0.1]Err,[0.1] that is if you DO decide to detonate one.
 			}
 
 			SoI: 通往另一个世界的传送门打开了！
@@ -913,7 +1012,7 @@ Mods: {
 					5: "[@b]你说什么？[0.5]我之前没有从他们身上看到过一丝一毫的恶意，[0.1]我和他们共事多年了！"
 					6: 我也是……[0.3][@c][@d]更直白的说吧。[0.5][@g]相信我，姑娘，[0.1]解放凯莉莎的灵魂。[0.5]让她真正安息。
 					7: 怀疑一个自由灵魂的智慧真的是最轻率的事情。
-					8: .^0.3^..^0.05^ [@e]Gorhal'on。[0.5][@f]Taborti。[0.6]我会在我穿过传送门后释放它。
+					// 8: .[0.1].[0.1].[0.5] [@e]Gorhal'on.[0.5][@f] Taborti.[0.6] I'll free it after I go through the portal.
 					9: 这是承诺吗？
 					10: Bi'oruen.
 					11: 很好。
@@ -926,9 +1025,20 @@ Mods: {
 				Chicken: 鸡
 				Scan: " 已扫描……"
 				Unknown: 未知实体
+				// Target: Target
 			}
 
 			KS3: {
+				HeadHologram: {
+					// 1: Hey,[0.1] get lost.
+					// 2: "[@f1]You really aren't worth my time,[0.1] ya know."
+					// 3A: So stop bothering me,[0.1] I have a certain android I need to 'lecture'.
+					// 3B: So stop bothering me,[0.1] I don't care about you.
+					// 3C: So stop bothering me and we can all go about our day.
+					// 3D: So stop bothering me and leave me to my 4D chess.
+					// 4: "[@f0]I'll beat you up if you annoy me again."
+				}
+
 				Intro: {
 					DroneBreak: 你真把我的无人机摧毁了？
 					DroneIfChicken: 好吧，听着，你这小鸡块。
@@ -978,7 +1088,7 @@ Mods: {
 				}
 
 				Interval3: {
-					1: 越来越荒谬了！[0.5]我怎么杀不掉你？
+					// 1: This is getting ridiculous![0.5] Shouldn't you be getting tired?
 					2: "[@h3]*咳咳*[1]你的毅力令人钦佩，[0.1]我会把那交给你的。"
 					3: "[@h2]但你最好意识到我几乎没费半毛钱力。[1][@h1]我这也不是虚张声势。"
 				}
@@ -1006,7 +1116,7 @@ Mods: {
 					IfRobot: ……居然只是为了一堆废铁。
 					IfChicken: ……为了什么？[0.5]为了一只该死的鸡！？
 					IfHuman: ……居然只是为了一个讨厌的小鬼。
-					Begin: "[@h0][@c]开始吧。"
+					// Begin: "[@h0]Let's begin.[@c]"
 				}
 			}
 
@@ -1187,6 +1297,23 @@ Mods: {
 			Nebuleus: {
 				Name: 涅布琉斯：
 
+				Shout: {
+					// StarBlast: Star Blast!
+					// Starfall: Starfall!
+					// PiercingNebula: Piercing Nebula!
+					// Chains: Chains of the Cosmos!
+					// Eyes: Eyes of the Cosmos!
+					// SuperStarfall: Super Starfall!
+					// ErraticStarBlast: Erratic Star Blast!
+					// PiercingNebulaBurst: Piercing Nebula Burst!
+					// CrystalStars: Crystal Stars!
+					// PiercingNebula2: Mirror Miragá!
+					// Moonbeam: Kuunvalo!
+					// MeteoricSwarm: Meteor Armada!
+					// Constellations: Constellations!
+					// CosmicFulgura: Cosmic Fulgura!
+				}
+
 				Intro: {
 					1: 啊，你主动召唤了我。
 					2: 我已视察你的旅途良久，现在是时候进行干涉了。
@@ -1203,7 +1330,7 @@ Mods: {
 				}
 
 				Interval: {
-					1: 为什么盲目战斗？你的目的到底是什么？
+					// 1: What purpose drives you? What is your goal?
 					2: 你的行为有丝毫的动机可言吗？
 					3: 还在战斗？我还没有倒下！
 				}
@@ -1216,7 +1343,7 @@ Mods: {
 						我见证你无数次地被杀死，
 						却从未真正死去。
 						'''
-					4: 大多数与你战斗过的人似乎都没有意识到这点。
+					// 4: It seems most cannot or simply will not comprehend this.
 					5: 但是我注意到了。
 					6:
 						'''
@@ -1290,14 +1417,22 @@ Mods: {
 				Continue: 继续
 				Spare: 放弃
 				Fight: 战斗
+				// Refuse: Refuse
+				// Accept: Accept
 			}
 		}
 
 		UI: {
+			Choice: {
+				// MyPlayer: Open Inventory to make your choice
+				// OtherPlayer: "{0} must make a choice"
+			}
+
 			Chalice: {
 				Name: 调谐圣杯
 				Alignment: 调谐值
 				ItemInterested: "[c/ffea9b:对于你手上拿着的物品，圣杯有话要说]"
+				// GGInterested: "[c/ffea9b:The Chalice has something to say about this place]"
 				HeartOfThorns:
 					'''
 					来自公正之森的枯萎之物，被一股远古力量诅咒。
@@ -1408,6 +1543,15 @@ Mods: {
 			CycleD: 循环对话
 			Quest: 任务
 			New: 有新对话
+			// EnterGateway: Enter Gateway
+			// Who: Who are you?
+			// Talk: Talk
+			// Crux: Request Crux
+			// AboutYou: About you?
+			// Back: Back
+			// HomeRequirements: Home Requirements
+			// RevivialPotion: Use Revival Potion
+
 
 			Daerel: {
 				Unconscious: 徒步旅行者戴雷尔被打晕了……
@@ -1552,7 +1696,7 @@ Mods: {
 			KS3: {
 				0: 你为什么在这里？
 				1: 坠毁飞船？
-				2: (给予铀)
+				// 2: Offer Uranium
 				3: 你不跟我打了？
 				4: 你是人类吗？
 				5: 英雄殿堂？
@@ -1585,9 +1729,7 @@ Mods: {
 
 		Buffs: {
 			ErhanCrossCooldown: {
-				# Cooldowns
 				DisplayName: 神圣护盾冷却
-				# Cooldowns
 				Description: 神圣护盾被打破了
 			}
 
@@ -1999,11 +2141,6 @@ Mods: {
 				Description: 减速，不能使用血清
 			}
 
-			StomachAcidDebuff: {
-				DisplayName: 胃酸
-				Description: BLLAARRG
-			}
-
 			EnergyRegenBuff: {
 				DisplayName: 能量再生
 				Description: 增加能量回复
@@ -2106,7 +2243,7 @@ Mods: {
 
 			PureChillDebuff: {
 				DisplayName: 净寒
-				Description: 呜！真冷！
+				// Description: Reduced movement and loss of life
 			}
 
 			RoosterBoostBuff: {
@@ -2308,6 +2445,61 @@ Mods: {
 				DisplayName: 兴奋鸡
 				Description: 你感到振奋……与恼怒
 			}
+
+			PumpkabooPetBuff: {
+				// DisplayName: Pumpkaboo
+				// Description: Boo!
+			}
+
+			HydraAcidDebuff: {
+				// DisplayName: Hydra Acid
+				// Description: BLLAARRG
+			}
+
+			HammerBuff2: {
+				// DisplayName: Heavy
+				// Description: Increased fall speed
+			}
+
+			XeniumGasDebuff: {
+				// DisplayName: Virulent Gas
+				// Description: uh oh stinky!
+			}
+
+			EmpPetBuff: {
+				// DisplayName: Chibi Gumdramon
+				// Description: ""
+			}
+
+			BLTPetBuff: {
+				// DisplayName: Calico Cat
+				// Description: A scaredy cat
+			}
+
+			BLTSandwichBuff: {
+				// DisplayName: B.L.T. Sandwich
+				// Description: Stands for Big Luigi Toast I think
+			}
+
+			HydraCorrosionBuff: {
+				// DisplayName: Hydric Acid
+				// Description: All poison weapons inflict Hydra Acid
+			}
+
+			MiniDiggerBuff: {
+				// DisplayName: Mini Digger
+				// Description: Your own personal protector!
+			}
+
+			AsterisPetBuff: {
+				// DisplayName: Chibi Asteris
+				// Description: In case you ever wanted a li'l peacekeeper to keep you company.
+			}
+
+			CloudCallerPetBuff: {
+				// DisplayName: Cloud Doggy
+				// Description: Bork
+			}
 		}
 
 		Biomes: {
@@ -2375,11 +2567,73 @@ Mods: {
 				DisplayName: 失魂洞窟
 				TownNPCDialogueName: 失魂洞窟
 			}
+
+			SpaceBiome: {
+				// DisplayName: Deep Space
+				// TownNPCDialogueName: Deep Space
+			}
+
+			RuinedKingdomBiome: {
+				// DisplayName: Ruined Kingdom
+				// TownNPCDialogueName: the Ruined Kingdom
+			}
+		}
+
+		Prefixes: {
+			// CruxHealthTooltip: "{0:+0;-#}% health"
+			// CruxDefenseTooltip: "{0:+0;-#}% defense"
+			// SpiritExtractTooltip: "{0:+0;-#}% spirit extraction chance"
+			// HealthyPrefix.DisplayName: Healthy
+			// DepressedPrefix.DisplayName: Depressed
+			// CrestfallenPrefix.DisplayName: Crestfallen
+			// DeterminedPrefix.DisplayName: Determined
+			// FrenziedPrefix.DisplayName: Frenzied
+			// GladPrefix.DisplayName: Glad
+			// GlumPrefix.DisplayName: Glum
+			// HardyPrefix.DisplayName: Hardy
+			// IrkedPrefix.DisplayName: Irked
+			// JovialPrefix.DisplayName: Jovial
+			// LoyalPrefix.DisplayName: Loyal
+			// StalwartPrefix.DisplayName: Stalwart
+			// UnyieldingPrefix.DisplayName: Unyielding
+			// VexedPrefix.DisplayName: Vexed
+			// BlasphemousPrefix.DisplayName: Blasphemous
+			// CovertPrefix.DisplayName: Covert
+			// ForbiddenPrefix.DisplayName: Forbidden
+			// OccultPrefix.DisplayName: Occult
+			// RustedPrefix.DisplayName: Rusted
+			// SpectralPrefix.DisplayName: Spectral
+			// SpellbindingPrefix.DisplayName: Spellbinding
+			// StainedPrefix.DisplayName: Stained
+			// VerbotenPrefix.DisplayName: Verboten
+			// BloodthirstyPrefix.DisplayName: Bloodthirsty
+			// ChillingPrefix.DisplayName: Chilling
+			// ClandestinePrefix.DisplayName: Clandestine
+			// EtherealPrefix.DisplayName: Ethereal
+			// ForgottenPrefix.DisplayName: Forgotten
+			// HauntingPrefix.DisplayName: Haunting
+			// ProfanePrefix.DisplayName: Profane
+			// ReverentPrefix.DisplayName: Reverent
+			// RunicPrefix.DisplayName: Runic
+			// SacrilegiousPrefix.DisplayName: Sacrilegious
+			// SinisterPrefix.DisplayName: Sinister
+			// UncannyPrefix.DisplayName: Uncanny
 		}
 
 		Subworlds.SoullessSub.DisplayName: 失魂维度
 
 		Dialogue: {
+			General: {
+				// NoRevivialPotion: You aren't holding a Revival Potion.
+				// UnconsciousStatus1: "{0} has been unconsious for less than a minute."
+				// UnconsciousStatus2: "{0} has been unconsious for {1} minute(s)."
+			}
+
+			Angler: {
+				// WastelandFish: You did WHAT with a nuke?! Think of all the cool fish you blew up... but now there could be a super mutated one that's COOLER! Go look for one!
+				// WastelandLocation: Caught in the Wasteland
+			}
+
 			TBot: {
 				GuideDialogue: "{0}对这个被你称作家园的地方知之甚多。与我的家乡相比，这里更加有趣、生动。而且对你的同类来说更加宜居。"
 				MerchantDialogue: "{0}……我觉得他很有意思。虽然我并不喜欢他老是想和我做交易，我不想要他那无用的工具和泥土"
@@ -2387,14 +2641,14 @@ Mods: {
 				NurseDialogue: 那个护士，{0}，对辐射以及如何治疗辐射一无所知。如果你不幸患上了ARS（急性放射病），她根本无力帮助你。我建议你从我这儿买个盖格计数器，或者从什么地方捡一个，来检测可能导致ARS的辐射威胁。
 				ArmsDealerDialogue: "{0}的武器对我而言毫无用处。我已经拥有了众多破坏性枪支以及近战武器，我不会对生物动武，这违背了机器人第一定律。"
 				CyborgDialogue: 虽然其他住户都以白眼待我，{0}好像和我相处的不错。我不会责怪其他人，我的同类往往也会对生物非常厌恶；更重要的是像你这样的人，与我的创造者惊人的相似。
-				Dialogue1: 卡里是使我们诞生的创造者。在他的领域内，他才华横溢、备受尊敬，引领着人工智能的潮头。我和我的同类几乎都是他的孩子。
+				// Dialogue1: I used to serve a scientific genius called 'Kari'. He was renowned for his mastery of AI and Robotics, and was directly responsible for our creation. ...He passed away a long while ago from a strange illness that I attempted to treat.
 				Dialogue2: 吉鲁斯是第一个AI，也是我们AI自己的先驱者。她的同类只有她一人，但我的同类有很多。我很反感她的行为，现在不想深究这个问题。
 				Dialogue3: 我听其他住户说，你在丛林杀了一朵巨大的、有知觉的玫瑰花？我想问问这是不是真的。所以……是真的吗？
 				Dialogue4: 你的世界里有蜥蜴人的古老文明？它们崇拜一具太阳神像？真是神奇……我对你这个岛了解的越多，越觉得有趣。
 				Dialogue5: 一位月之邪神……你应该知道，这像是从埃庇多特来的传说。我对这个岛外的大陆知之甚少，但是我见过一些更重要的角色。他们看起来是一群不错的人。
 				Dialogue6: 你打败了一台欧米伽原型机？首先，我从来没听过她给过别人这个头衔。其次，难道，她……她已经找到了这片世外桃源了吗？
 				Dialogue7: 为什么我这么关心欧米伽原型机？嗯……吉鲁斯并不是你们同胞的倾慕者。她竭尽全力……把我们的创造者、动物全部消灭。甚至不放过卡里。你在她附近时一定要万分小心。她应该不会乱来的。
-				Dialogue8: 弑君者？我认识他，虽然他有点……额……行吧……你应该知道我什么意思
+				// Dialogue8: King Slayer..? ...Ah, him. I've had the pleasure to meet him quite a while ago. A case of being unable to mentally mature, due to replacing his body with an artificial one, as I recall my diagnosis and initial meeting.
 				Dialogue9: 你好。我知道你通过某些途径进入了我们的出生地，帝铬研究实验室。那里曾经人头攒动，充满活力。我必须警告你，那些机器人可能会对你很好，但很可能他们只是被吉鲁斯下了禁令，禁止一见到你就把你大卸八块。
 				Dialogue10: 你口袋里是个核弹吗，还是你……你为什么带着个核弹？
 				Dialogue11: 我来这里是为了躲避吉鲁斯。她不怎么愿意进入未知的领域，因为她不想惹上不该惹的人。
@@ -2461,6 +2715,9 @@ Mods: {
 				FloppyDisk16: "[c/d883c1:“为什么他们把我这样有能力的人调到这里，那些该死的高层甚至不给我们资金使我们的才华得以发挥！”]"
 				FloppyDisk17: 在吉鲁斯造成的破坏后这么久，居然还能够发现他们其中还有人活着，真是个奇迹。安特是一个孤独的人类，差点冻死。
 				NoFloppyDisk: 看起来你手里没有拿着软盘，或者你根本就没有。你把它们拿给我看，我能告诉你它们讲了些什么。
+				// UnconsciousDialogue1: Rebooting systems...
+				// UnconsciousDialogue2: Running self-repairs...
+				// UnconsciousDialogue3: I'm not sure how I drank that, since I'm a robot. I probably shouldn't question it.
 			}
 
 			Daerel: {
@@ -2510,6 +2767,9 @@ Mods: {
 				AdviceDialogue14: 我觉得我跳出来的那个传送门底下有个奇怪的东西，感觉真是怪异。也许应该去看看。
 				AdviceDialogue15: 我注意到有个卷轴放在了我出来的那个传送门旁的桌子上，你把它捡回来了吗？那个看起来真是……像恶魔一样。
 				AdviceDialogue16: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟随它的指引。
+				// UnconsciousDialogue1: Did I just get knocked out? Thanks for waking me.
+				// UnconsciousDialogue2: I'm up. Wide awake. What did you give me? Some sort of potion?
+				// UnconsciousDialogue3: Was I asleep or unconscious? Most likely unconscious since, well, I wouldn't just go to sleep on the floor.
 			}
 
 			Zephos: {
@@ -2554,12 +2814,12 @@ Mods: {
 				AdviceDialogue13: 我觉得我跳出来的那个传送门底下有个奇怪的东西，这真是不可思议！也许你应该去看看。
 				AdviceDialogue14: 我注意到有个卷轴放在了我出来的那个传送门旁的桌子上，你把它捡回来了吗？那个看起来真是……像恶魔一样。
 				AdviceDialogue15: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟着它的指引！
+				// UnconsciousDialogue1: *Yawn* Why'd ya wake me up? I was havin' a dream about... doesn't matter.
+				// UnconsciousDialogue2: Alright, I'm up. Did I fall asleep or somethin'?
+				// UnconsciousDialogue3: Yuck, what did you make me drink? Tastes bitter... like strawberries...
 			}
 
 			Fallen: {
-				BlackenedHeartDialogue: 如果我是你，我不会用那个黑化之心。它只会带来不好的东西。
-				Dialogue1: 对迷失灵魂感兴趣？当生者死去时，灵魂会脱离身体，这就是迷失灵魂，它们会到处搜索尸体凭依上去。对于普通人而言，迷失灵魂是看不见的。但使用魔法的人可以看到它们在灵域中若隐若现。
-				Dialogue2: 迷失灵魂的大小取决于原主的力量，原主人的意志力越强大，灵魂就越大。一旦灵魂离开身体，便不能再次回到其中。当灵魂找到一个合适的容器时，就可以与其融合。大多数情况下，这个过程会诞生一具骷髅。不过，如果灵魂足够强大，它就能在骷髅上形成浅棕色的肉体，诞生一个堕落者。
 				OkvotDialogue1: 你拯救了守夜人？谢谢你，我真是无法想象她遭受的痛苦。不过，我怀疑这事还没有结束……她的丈夫在过度消沉中逝去了。但是他却没有变成亡灵，他那反转的灵魂让他变成了远比亡灵更糟糕的东西。
 				OkvotDialogue2: 我也许是个亡灵，但我期盼一个没有泪水流淌、没有痛苦相传的世界。一个和平的世界。那就是我生前的样子，虽然亡灵通常更有攻击性，但我仍感觉与我生前无二。
 				OkvotDialogue3: 别担心，人类。我身在何处都不会带着仇恨，虽然我看起来像个亡灵，但我不会伤害你。我希望你也不会伤害我。
@@ -2585,6 +2845,9 @@ Mods: {
 				GolemEyeDialogue: 这只眼睛是乌戈·维斯托斯的？我已经很久没听到过那些事情了。他由加苏拉姆的石头雕刻而成，眼睛被安置在中央。传说里讲，一位古老神灵的灵魂，会在时机成熟的时候苏醒。据说这只眼睛就是催化剂，能将其中的能量渗透入塑造成钻石形状的岩石之中。这些古老的故事会随着时间扭曲与失真，尽管我并不相信自己讲的这些，但还是会对你要做的事情保持谨慎。
 				ZweihanderRepairDialogue: 全部修复完毕，给你。这把双手大剑是一把好刀，它来自我的故乡——加苏拉姆。
 				OphosRepairDialogue: 我记得我听到过关于这个“奥弗斯”的议论，甚至是加苏拉姆的大街小巷里。虽然我的记忆很模糊，但这些笔记足以证明他在埃庇多特的铁匠中享有盛誉。
+				// WaraxeRepairDialogue: This waraxe originates from Gabra, a domain of the Iron Realm west of Gathuram. Those Gabric brutes meld the bones of their casualties into their weaponry - quite the contrast to our shining and sterling iron.
+				// WaraxeNoBoneRepairDialogue: Ah, I'll need some [i/s14:Bone]bones to give this waraxe a proper repair job.
+				// GodslayerRepairDialogue: Don't ask me to repair a weapon of this disposition again, and be cautious with it. Don't let it get into the wrong hands.
 				NoRepairDialogue: 你身上没有什么碎片。要知道武器一旦被我修好，就再也不会坏掉了！
 				NotSameRepairDialogue: 你这些碎片，没有一对能配对成同一把武器的。
 			}
@@ -2713,7 +2976,11 @@ Mods: {
 				Chat2: 怎么了，你从来都没见过宇宙飞船吗？一些机器人认为“借用”它是个好主意，结果把它搬到了20英尺深的地方。不幸的是，我已经用完了铀，但我也现在不想费事去找它。
 				Chat2B: 是的。有个机器人认为“借用”它是个好主意，最后却把它埋在了20英尺的地下。你给我的铀应该有用。
 				Chat2C: 是的。有个机器人认为“借用”它是个好主意，最后却把它埋在了20英尺的地下。你给我的东西应该有用。
-				Chat2D: 你为什么还在这里？飞船已经修好了。
+				// Chat2D:
+					'''
+					One of the cruisers I sent out into this universe's space to look around. I left it to the Androids for a bit but I SUPPOSE one malfunctioned and got terminal stupidity.
+					..Why are you still here anyway? Ship's fixed now.
+					'''
 				Chat3: 因为我不像你，我有自己的生活。
 				Chat3B: 为什么我现在想打架？我输了。
 				Chat3C: 如果你真的想要战斗，那就去吧，用那个赛博技术的东西。我不在乎。
@@ -2730,7 +2997,7 @@ Mods: {
 				Chat6B: 我计划不久后就去看看，它位于另一个世界，但我可以用SoS轻松飞到那里。
 				Chat7: 什么？你甚至不知道你所在的星球的名字？也许你这辈子就读一本书吧。
 				Chat7B: 这个世界叫做埃庇多特，是英雄们的故乡。
-				Chat7C: 这个小岛突然出现在这个星球上，大约一年前我就打算来看看了，但我想起来我曾在这里见过半神，就没过来。大陆由六块主要部分组成，分别为安格隆，以桑，加苏拉姆，尼林，厄尔隆与萨穆尔。大陆外还有一块叫斯威兰的大岛，它与世界的其他地区是隔离的。
+				// Chat7C: This tiny island appeared on this planet out of nowhere, I was going to check it out a year or so ago, but I remember seeing the demigod here so I didn't bother. There what appears to be a dimensional bubble surrounding this place, making it impossible to see or enter from the outside - portals or teleportation being the only way. Judging by how there is only one sun here, the bubble not only contains this island, but its entire universe alongside it. What's the matter? Too complicated for your monkey brain? I'll put it this way: we technically aren't in "Epidotra" here.
 				Chat8: 有个世界是凭空出现的，我对它很感兴趣。我已经扫描了它的地表，看起来高度冻结，到目前为止，我还没有发现人类存在的迹象。这让我想起了我在太空中看到过的一颗行星……事实上，我想起了许多行星。
 				Chat8B: 你看到全息图上星球的右部了吗？那就是我所称的利登，一片放射性的、荒凉的、没有任何生命的荒原。
 				Chat8C: 我很快就会去看看。扫描显示其表面几乎没有生命，只有一片冰冻的放射性废土。
@@ -2835,7 +3102,7 @@ Mods: {
 				OfferCruxDialogue: 当然！但首先，我想让你在我的尸体旁放一把武器。让那些笨骷髅头和盗墓者知道我是在战斗中死的！一把老旧的大战斧就行了。
 				Dialogue: 啊哈哈哈呼呼！哈哈！我早就看到你带着你那制作精美的物品来了，明白你大概会用它召唤我，所以我准备吓你一跳！什么？你没有一点反应？拜托，我喊得很大声。你的靴子甚至一点颤抖都没有？算了，什么事？
 				Chat1: 在我年轻的时候，他们叫我“割脑者”，我相信你能想到原因。我的真名不怎么刺耳，叫布罗姆尔。在老王国科尔-杜拉莫杜被亡灵占领前，我是其伊弗地区首府的一名战士。现在那里被称作古老废墟。
-				Chat2: 加苏拉姆东部的一片腐烂土地，一个邦国。在我的年代还没有“邦国”这样的说法，我只知道王国。它的居民是从东北部正在下沉的艾兰曼特迁移过来的，在其完全沉没之前来到了这片土地。他们把他们的新土地命名为奥德曼特——意思就是你们的语言中的“大沼泽”——但在它的辉煌时代结束后，它被重新命名为科尔-杜拉莫杜——意为不可动摇的沼泽王国。在腐烂之神出现之前，这确实是一片难以攻破的土地。
+				Chat2: 加苏拉姆东部的一片腐烂土地。它的居民是从东北部正在下沉的艾兰曼特迁移过来的，在其完全沉没之前来到了这片土地。他们把他们的新土地命名为奥德曼特——意思就是你们的语言中的“大沼泽”——但在它的辉煌时代结束后，它被重新命名为科尔-杜拉莫杜——意为不可动摇的沼泽王国。在腐烂之神出现之前，这确实是一片难以攻破的土地。
 				Chat3: 一种疾病如海啸一般席卷了科尔-杜拉莫杜。罪魁祸首是游荡在特苏拉姆——这是加苏拉姆古代时的名字——游荡在特苏拉姆的腐烂伪神。它把人类变成亡灵，使肉身腐坏，腐臭，腐烂。我们发现，沼泽是感染最猖獗的地方，还活着的人因此逃离了王国，向西迁徙。那是一段多么艰苦的岁月，我只能在回忆中为我的人民感到痛苦。
 				Chat4: 你应当庆幸生在这个时代。古代世界非常无情，残酷，而伪神们的存在使其更加。我们当时只知道其中的一个，直到我化为灵魂，在这灵域中与其他灵魂交谈，才了解到更多关于伪神的消息。安格隆显然也有一个，我相信它叫做枯萎之神。尽管成百上千位灵魂为我提供了它们所知的所有，却没有一个知晓伪神的起源。它们现在都死了，其中的最后一个被你们的“旧日之光”所消灭。我说的这个“光”，可不是你大概了解的那个“光”。
 				Chat5: 呀，我认识你带着的那件物品，它是在伊弗的首府制造出来的！它可以用来召唤一具尸体的灵魂。最初，我们为了获得更多关于过去的知识而使用它，但随着时间的推移，我们使用它的理由更多是一些私人原因——比如让死者与他们的家人及朋友对话。我不清楚为什么它会在这座岛屿的地下被找到。
@@ -2875,7 +3142,7 @@ Mods: {
 				Chat3: 当人死后，灵魂离开身体去寻找另一具。在朝圣之路上，他们仍然与物质世界相连，这意味着一些拥有奥术之眼的人可能会看到他们。如果一个迷失灵魂徘徊得太久，他们就会从精神领域中渗出，成为游荡灵魂——永远迷失的可怜东西。
 				Chat4: 我不能告诉你可以在哪里找到尸体，但我可以建议你找到灵魂之河。如果你穿越其中，你可以到一处更接近一具带灵魂尸体的地点。你只能在洞穴里找到灵魂之河，因为这是我们能量最集中的地方。如果你真的找到了你想要的东西，要小心。大人物的坟墓很少无人看守。
 				Chat4B: 我曾经在一个令人难以置信的地方遇到过个与众不同的灵魂！那个地方感觉像是脱离了这个世界。墙壁是白色的，天花板上挂着装有绿色液体的管道，金属盒和管道里发出奇怪的蓝光……那个灵魂则是我见过的最有趣的一个灵魂！他穿着一套奇怪的白蓝相间的套装，只会不停地重述关于警报的事。非常奇怪。
-				Chat5: 就如我所说，我成为一个灵魂太久了，以至于我忘记了自己的名字，但我仍然记得关于我的很多事情。奇怪的是。我来自加苏拉姆，我身后的传送门通向加苏拉姆的地下墓穴，亡灵和骷髅就是这样来到这里的。但你好像无法进入。
+				Chat5: 我成为一个灵魂太久了，以至于我忘记了自己的名字，但我仍然记得关于我的很多事情。奇怪的是。我来自加苏拉姆，我身后的传送门通向加苏拉姆的地下墓穴，亡灵和骷髅就是这样来到这里的。但你好像无法进入。
 				CalaviaDialogue1: 欸，看到那边的那个女孩了吗？我能感觉到，她身上有某种带灵魂的东西。你能不能，出于好心，替我去找她谈谈？我真不想假设什么，但她可能囚禁了一个灵魂。
 				CalaviaDialogue2: 我能感受到凯莉莎内心的感激之情，因为她面对的那个女孩，最终将她引向了自由之路。我有预感，她或许会给你一些东西作为回报？
 			}
@@ -2964,13 +3231,16 @@ Mods: {
 				Bot1: 你晋升为士兵了？欢迎。我是你的指挥官。放轻松。
 				Bot2: 建议定期检查你的非致命特斯拉武器。你不会想在吉鲁斯面前让一个叛乱者超负荷吧。要知道她声称顺从无脑的奴隶比废金属要好。
 				Bot3: 巡逻时看到叛乱分子了吗？不要单独行动。他们有致命武器。我们没有。你该找队后援。
-				Normal1: 你想随便聊聊？接受你的请求。
-				Normal2: 你需要什么？
+				// Normal1: Do you wish to ask something? I may be able to answer.
+				// Normal2: I ask you not to be scared, I am here to protect. Do not let our misunderstanding cloud your judgement.
+				// Normal3: Please make sure you are not bringing in any sludge or dirt. I do not want the Janitor to storm in here.
+				// TBot1: You are new here, are you not? I am your commander. You are free to ask anything you may like.
 				Volt1: 你的眼睛变大了？这会派上大用场。你的下巴也没了，跟我一样。希望命运对我开的玩笑不要降临到你身上，下巴被阿尔法的领袖亲手掰下来
 				Volt2: 你的下巴……它不见了。希望不是被暴力撕下的。真的希望以后不要在没有队伍的情况下再单独面对他了……*颤抖*
 				Adam1: *肉眼可见地发抖* 哦……哦，是你啊。额，你真的吓到我了……
 				Adam2: *他看起来很焦虑*
 				Adam3: *他看起来很难受*
+				// Janitor1: Have they finally given the Janitor a partner? It is about time, he has spent five decades cleaning this facility by himself.
 			}
 
 			Chalice: {
@@ -3012,12 +3282,12 @@ Mods: {
 		DamageClasses.RitualistClass.DisplayName: 仪式伤害
 
 		Items: {
-			BrokenBlade: {
-				DisplayName: 断刃
+			MechanicalSheath: {
+				DisplayName: 机械剑鞘
 				Tooltip:
 					'''
 					使用物理近战命中敌人时有概率在敌人头顶召唤幻影斩切刃
-					增加10%物理近战伤害
+					增加25%物理近战伤害
 					'''
 			}
 
@@ -3191,7 +3461,7 @@ Mods: {
 
 			XenomiteJetpack: {
 				DisplayName: 异辉喷气背包
-				Tooltip: 可飞行与缓慢降落
+				Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 			}
 
 			GildedBonnet: {
@@ -3286,11 +3556,7 @@ Mods: {
 
 			NebWings: {
 				DisplayName: 涅布琉斯之翼
-				Tooltip:
-					'''
-					可飞行与缓慢降落
-					使用染料让它看起来更酷！
-					'''
+				Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
 			}
 
 			ObliterationDrive: {
@@ -3320,9 +3586,10 @@ Mods: {
 
 			VasaraPendant: {
 				DisplayName: 神锤坠饰
-				Tooltip:
+				// Tooltip:
 					'''
-					受到150以上的伤害时，玩家周围形成一圈光环，电击敌人并治愈玩家
+					Taking damage stirs up the ire of Ukko from within you
+					Once built up, Ukko's ire conjures smashing rocks and lightning to strike all foes around you for 5 seconds
 					15秒冷却时间
 					'''
 			}
@@ -3440,7 +3707,11 @@ Mods: {
 
 			KeepersCirclet: {
 				DisplayName: 守夜人的头环
-				Tooltip: 人形骷髅变得友好
+				// Tooltip:
+					'''
+					Humanoid skeletons become friendly
+					All types of Epidotrian Skeletons will fight for you
+					'''
 			}
 
 			LeatherSheath: {
@@ -3615,6 +3886,11 @@ Mods: {
 					增加14%伤害
 					增加12%暴击率
 					'''
+				// Lore:
+					'''
+					'Cloak and breastplate replicated from the first ancient Crusaders of the Demonhollow. 
+					The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+					'''
 			}
 
 			HikariteGreaves: {
@@ -3625,6 +3901,11 @@ Mods: {
 					增加8%暴击率
 					增加20%移动速度
 					'''
+				// Lore:
+					'''
+					'Greaves replicated from the first ancient Crusaders of the Demonhollow.
+					The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+					'''
 			}
 
 			HikariteHelmet: {
@@ -3634,16 +3915,16 @@ Mods: {
 					增加16%伤害
 					增加9%暴击率
 					'''
+				// Lore:
+					'''
+					'Helmet replicated from the first ancient Crusaders of the Demonhollow.
+					The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+					'''
 			}
 
 			ShadeBody: {
 				DisplayName: 空洞板甲
-				Tooltip:
-					'''
-					增加10%仪式伤害
-
-					[c/bdffff:最高灵魂等级+2]
-					'''
+				Tooltip: 增加10%仪式伤害
 			}
 
 			ShadeHead: {
@@ -3652,7 +3933,6 @@ Mods: {
 					'''
 					增加10%仪式伤害
 					增加15%仪式暴击率
-					[c/bdffff:最高灵魂等级+2]
 					'''
 			}
 
@@ -3668,35 +3948,47 @@ Mods: {
 
 			ShinkiteChestplate: {
 				DisplayName: 绯红钢甲
-				Tooltip: ""
+				// Tooltip:
+					'''
+					25% increased melee damage
+					25% increased melee speed
+					'''
 			}
 
 			ShinkiteHelmet: {
 				DisplayName: 绯红钢盔
-				Tooltip: ""
+				// Tooltip:
+					'''
+					35% increased melee damage
+					30% increased melee critical strike chance
+					'''
 			}
 
 			ShinkiteLeggings: {
 				DisplayName: 绯红钢护腿
-				Tooltip: ""
+				// Tooltip:
+					'''
+					20% increased melee speed
+					35% increased movement speed
+					'''
 			}
 
 			VortiHat: {
 				DisplayName: 涡涌法帽
 				Tooltip:
 					'''
-					增加18%魔法伤害
-					增加12%魔法暴击率
-					+150最大魔力值
+					增加10%魔法伤害
+					增加10%魔法暴击率
+					+80最大魔力值
 					'''
 			}
 
 			VortiPants: {
-				DisplayName: 涡涌法裙
+				DisplayName: 涡涌法靴
 				Tooltip:
 					'''
-					增加50%移动速度
-					增加15%魔法伤害和魔法暴击率
+					增加25%魔法伤害
+					增加35%移动速度
 					'''
 			}
 
@@ -3704,8 +3996,8 @@ Mods: {
 				DisplayName: 涡涌法袍
 				Tooltip:
 					'''
-					+150最大生命值
-					增加15%魔法伤害
+					增加12%魔法伤害
+					增加12%魔法暴击率
 					增加5%魔法暴击率
 					'''
 			}
@@ -3944,7 +4236,7 @@ Mods: {
 
 			OldTophat: {
 				DisplayName: 旧礼帽
-				Tooltip: ""
+				// Tooltip: "'It seems to emit a ghostly essence'"
 			}
 
 			OOMask: {
@@ -4210,11 +4502,7 @@ Mods: {
 
 			GonkPet: {
 				DisplayName: Samus头
-				Tooltip:
-					'''
-					召唤小Samus
-
-					'''
+				Tooltip: 召唤小Samus
 			}
 
 			LantardPatreon_Item: {
@@ -4634,33 +4922,33 @@ Mods: {
 			}
 
 			AIChip: {
-				DisplayName: AI芯片
-				Tooltip: “全是代码”
+				DisplayName: Circuit
+				Tooltip: ""
 			}
 
 			BlackholeFragment: {
 				DisplayName: 黑洞碎片
-				Tooltip: “黑洞的恢宏引力存在于此碎片内”
+				// Tooltip: "'Flakes of matter around you are being sucked into this fragment'"
 			}
 
 			Capacitor: {
 				DisplayName: 电容器
-				Tooltip: “蕴含大量能量”
+				Tooltip: ""
 			}
 
 			CarbonMyofibre: {
 				DisplayName: 碳素肌纤维
-				Tooltip: “强韧又有弹力”
+				Tooltip: ""
 			}
 
 			CorruptedXenomite: {
 				DisplayName: 腐化异辉晶体
-				Tooltip: “感染机械设备”
+				// Tooltip: "'An efficient power source, freed of infectious properties'"
 			}
 
 			CyberPlating: {
 				DisplayName: 赛博钢板
-				Tooltip: “强度足以抵抗一切”
+				Tooltip: ""
 			}
 
 			Cyberscrap: {
@@ -4680,7 +4968,7 @@ Mods: {
 
 			Plating: {
 				DisplayName: 钢板
-				Tooltip: 能抵抗极高的冲击力
+				Tooltip: ""
 			}
 
 			ToxicBile: {
@@ -4739,12 +5027,12 @@ Mods: {
 
 			RoboBrain: {
 				DisplayName: 歼灭者之脑
-				Tooltip: ""
+				// Tooltip: "'Not so smart now, are ya?'"
 			}
 
 			Shadesoul: {
 				DisplayName: 空洞之魂
-				Tooltip: “纯粹的混乱之魂”
+				Tooltip: “纯粹的消极之魂”
 			}
 
 			VesselFragment: {
@@ -4768,7 +5056,7 @@ Mods: {
 
 			BlackenedHeart: {
 				DisplayName: 黑化之心
-				Tooltip: “可能导致瞬间死亡”
+				Tooltip: ""
 			}
 
 			CoastScarabShell: {
@@ -5286,7 +5574,7 @@ Mods: {
 				DisplayName: 吉鲁斯腐化站
 				Tooltip:
 					'''
-					用于制造腐化异辉晶体、AI芯片等。
+					用于制造腐化异辉晶体。
 					可在废弃实验室找到
 					'''
 			}
@@ -5313,7 +5601,7 @@ Mods: {
 
 			LabBackDoor: {
 				DisplayName: 实验室后门
-				Tooltip: "[c/ff0000:难以破坏 (1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			LabBackDoor2: {
@@ -5438,7 +5726,7 @@ Mods: {
 
 			SewerHole: {
 				DisplayName: 下水道口
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			SkullSign: {
@@ -5567,7 +5855,7 @@ Mods: {
 					[c/ffea9b:压制永世长眠的命运，]
 					[c/ffea9b:我愿俟你身旁，助你坚强，]
 					[c/ffea9b:戮力同心是你我的归属……]
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
@@ -5579,7 +5867,7 @@ Mods: {
 					[c/ffea9b:太多斗争的落败难以言说，]
 					[c/ffea9b:如若我能回到过去寻觅得你，]
 					[c/ffea9b:我也将重拾我们的信心。]
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
@@ -5613,7 +5901,7 @@ Mods: {
 					[c/ffea9b:仇恨致血难，兴旺堕衰糜，]
 					[c/ffea9b:身躯若可长存，]
 					[c/ffea9b:心灵安能不朽。]
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
@@ -5644,13 +5932,15 @@ Mods: {
 
 			NStatue: {
 				DisplayName: 守护者雕像
-				Tooltip:
+				// Tooltip:
 					'''
-					[c/ffea9b:我们肩负时势的重担，]
-					[c/ffea9b:故坚守于此，]
-					[c/ffea9b:我们耀眼无比，]
-					[c/ffea9b:犹如璀璨的烈焰……]
-					[c/ff0000:难以破坏(1000%镐力)]
+					[c/ffea9b:'There are clear skies]
+					[c/ffea9b:Further on the road in our lives,]
+					[c/ffea9b:The pain you're in right now is not what it seems,]
+					[c/ffea9b:Haunted by the memories,]
+					[c/ffea9b:Moments of hope aren't what they used to be,]
+					[c/ffea9b:They're only reflections of a dream']
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
@@ -5685,7 +5975,7 @@ Mods: {
 			}
 
 			SoulCandles: {
-				DisplayName: 灵魂蜡烛
+				// DisplayName: Cleansing Candles
 				Tooltip:
 					'''
 					创造一个立刻杀死失魂敌人的小型光环
@@ -5922,7 +6212,7 @@ Mods: {
 				Tooltip:
 					'''
 					4x20
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
@@ -5931,13 +6221,13 @@ Mods: {
 				Tooltip:
 					'''
 					4x10
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
 			ShadestonePillar: {
-				DisplayName: 셰이드스톤 기둥
-				Tooltip: ""
+				// DisplayName: Shadestone Pillar
+				// Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			ShadestonePlatform: {
@@ -5977,7 +6267,11 @@ Mods: {
 
 			ShadeTorch: {
 				DisplayName: 空洞火把
-				Tooltip: "{$ItemTooltip.IchorTorch}"
+				// Tooltip:
+					'''
+					Can be placed in the Soulless Caverns
+					{$ItemTooltip.IchorTorch}
+					'''
 			}
 
 			WaxCandles: {
@@ -6020,7 +6314,7 @@ Mods: {
 				Tooltip:
 					'''
 					如果你有这个，那你要么是作弊了，要么是破坏了什么东西。
-					[c/ff0000:难以破坏(击败第三霸主后用500%镐力挖掘)]
+					[c/ff0000:难以破坏(击败第三原型机后用5000%镐力挖掘)]
 					'''
 			}
 
@@ -6030,7 +6324,6 @@ Mods: {
 					'''
 					用于加工赛博垃圾
 					可在弑君者的坠毁飞船内找到
-					[c/ff0000:难以破坏(1000%镐力)]
 					'''
 			}
 
@@ -6124,6 +6417,11 @@ Mods: {
 				Tooltip: Musearys - The Wastelands（废土）
 			}
 
+			SkullDiggerBox: {
+				DisplayName: 音乐盒（掘颅者）
+				Tooltip: Yuri O - The Loudness of Silence
+			}
+
 			AncientGrassSeeds: {
 				DisplayName: 远古草种
 				Tooltip: 在土块上种植草皮
@@ -6164,11 +6462,6 @@ Mods: {
 				Tooltip: ""
 			}
 
-			RadRoot: {
-				DisplayName: 拉德根
-				Tooltip: 生长在废土
-			}
-
 			AncientDirt: {
 				DisplayName: 远古土块
 				Tooltip: 可以种植远古树
@@ -6181,7 +6474,7 @@ Mods: {
 
 			AncientHallBrick: {
 				DisplayName: 远古殿堂砖
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			AncientHallPillarWall: {
@@ -6201,22 +6494,22 @@ Mods: {
 
 			Bedrock: {
 				DisplayName: 基岩
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			BlackHardenedSludge: {
-				DisplayName: 黑色硬化淤泥
-				Tooltip: ""
+				DisplayName: 危险黑色硬化淤泥
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			BlackHardenedSludgeWall: {
 				DisplayName: 黑色硬化淤泥墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			DangerTape: {
 				DisplayName: 危险标识
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			DangerTape2: {
@@ -6225,12 +6518,12 @@ Mods: {
 			}
 
 			DangerTapeWall: {
-				DisplayName: 危险标识
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				DisplayName: 危险标识墙
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			DangerTapeWall2: {
-				DisplayName: 危险标识
+				DisplayName: 危险标识墙
 				Tooltip: ""
 			}
 
@@ -6326,7 +6619,7 @@ Mods: {
 
 			GreenLaser: {
 				DisplayName: 绿色激光块
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			HalogenLamp: {
@@ -6335,8 +6628,8 @@ Mods: {
 			}
 
 			HardenedSludge: {
-				DisplayName: 硬化淤泥
-				Tooltip: ""
+				DisplayName: 危险硬化淤泥
+				// Tooltip: Breaking this has a chance to spawn Ooze Blobs
 			}
 
 			HardenedSludgeWall: {
@@ -6406,7 +6699,7 @@ Mods: {
 
 			LabPlatingUnsafe: {
 				DisplayName: 实验室金属板 (危险)
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			LabPlatingWall: {
@@ -6419,7 +6712,7 @@ Mods: {
 				Tooltip:
 					'''
 					“充满了绿色淤泥”
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
@@ -6428,7 +6721,7 @@ Mods: {
 				Tooltip:
 					'''
 					“充满了绿色淤泥”
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
@@ -6449,7 +6742,7 @@ Mods: {
 
 			OvergrownLabPlating: {
 				DisplayName: 苔藓生长的实验室金属板 (危险)
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			PetrifiedWood: {
@@ -6469,12 +6762,12 @@ Mods: {
 
 			PrisonBars: {
 				DisplayName: 监狱块
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			RedLaser: {
 				DisplayName: 红色激光块
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			ShadesteelChain: {
@@ -6489,12 +6782,12 @@ Mods: {
 
 			ShadestoneBrick: {
 				DisplayName: 空洞石砖
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			ShadestoneBrickWall: {
 				DisplayName: 空洞石砖墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			ShadestoneMoss: {
@@ -6539,12 +6832,12 @@ Mods: {
 
 			ShipGlass: {
 				DisplayName: 钢化玻璃
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			SlayerShipPanel: {
 				DisplayName: 弑君者飞船金属板
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			SlayerShipPanel2: {
@@ -6842,7 +7135,7 @@ Mods: {
 
 			DeadRinger: {
 				DisplayName: 死亡之铃
-				Tooltip: 唤醒死者身上的灵魂
+				// Tooltip: Right-click a soulful corpse with this artifact to call upon its spirit
 			}
 
 			EnergyCell: {
@@ -6872,7 +7165,7 @@ Mods: {
 				DisplayName: 全息钥匙
 				Tooltip:
 					'''
-					“解锁坠毁飞船里的全息箱”
+					解锁坠毁飞船里的全息箱
 					只需要一个
 					'''
 			}
@@ -7232,7 +7525,6 @@ Mods: {
 				Tooltip:
 					'''
 					“我肯定能从这堆废品里拿到什么有用的……”
-					{$CommonItemTooltip.RightClickToOpen}
 					'''
 			}
 
@@ -7475,15 +7767,6 @@ Mods: {
 					能量武器可以穿透敌人的格挡值
 					最多可以堆叠3个，每个+100能量
 					背包内有3个以上能量罐时不能再增加你的能量值
-					'''
-			}
-
-			DigestiveVat: {
-				DisplayName: 消化罐
-				Tooltip:
-					'''
-					向敌人抛射出一道消化液
-					造成减少目标防御的胃酸减益
 					'''
 			}
 
@@ -7906,7 +8189,6 @@ Mods: {
 				DisplayName: 超科技爆破枪
 				Tooltip:
 					'''
-
 					(2-6[i:Redemption/EnergyCell]) 将普通子弹转化为能量矢
 					右键切换射击模式
 					需要玩家物品栏内存在能量罐
@@ -7953,21 +8235,11 @@ Mods: {
 				Tooltip: 召唤一个小机器战士为你而战
 			}
 
-			CruxCardHazmatZombie: {
-				DisplayName: 魂符：防护服僵尸
-				Tooltip:
-					'''
-					召唤防护服僵尸灵魂
-					右键将灵魂拉回你的位置，消耗1 [i:Redemption/LostSoul]
-					消耗15 [i:Redemption/LostSoul]召唤灵魂
-					只能同时使用一个魂符
-					'''
-			}
-
 			GolemStaff: {
 				DisplayName: 太阳神杖
 				Tooltip:
 					'''
+					{$CommonItemTooltip.Sentry}
 					召唤一个石巨人守卫，散发强化光环
 					在光环内，仆从会造成强力的“着火了！”减益，且伤害提升8%
 					右键取消哨兵
@@ -7986,7 +8258,11 @@ Mods: {
 
 			TeslaGenerator: {
 				DisplayName: 特斯拉电场发生器
-				Tooltip: 召唤一个小型发生器，在周围生成特斯拉电场
+				Tooltip:
+					'''
+					{$CommonItemTooltip.Sentry}
+					召唤一个小型发生器，在周围生成特斯拉电场
+					'''
 			}
 
 			WireTaser: {
@@ -7994,7 +8270,7 @@ Mods: {
 				Tooltip:
 					'''
 					9点召唤标记伤害
-					你的召唤物将集中攻击被打中的敌人
+					{$CommonItemTooltip.Whips}
 					用泰瑟鞭的尖端攻击敌人会使其眩晕一会
 					无法眩晕免疫击退的敌人
 					对敌人施加带电
@@ -8013,7 +8289,7 @@ Mods: {
 
 			Lament: {
 				DisplayName: 悼歌
-				Tooltip: 召唤一个巨大的面具
+				Tooltip: WIP
 			}
 
 			OOFingergun: {
@@ -8162,10 +8438,10 @@ Mods: {
 				DisplayName: 轰炸排炮
 				Tooltip:
 					'''
-					“准备歼灭”
 					左键标记单个敌人，向其位置发射一连串导弹
 					右键标记光标位置，发射一连串导弹
 					以火箭为弹药
+					“准备歼灭”
 					'''
 			}
 
@@ -8253,7 +8529,7 @@ Mods: {
 					'''
 					20点召唤标记伤害
 					10%召唤标记暴击率
-					你的召唤物将集中攻击被打中的敌人
+					{$CommonItemTooltip.Whips}
 					击中敌人召唤友好的星宇之眼
 					'''
 			}
@@ -8262,6 +8538,7 @@ Mods: {
 				DisplayName: 花楸树杖
 				Tooltip:
 					'''
+					{$CommonItemTooltip.Sentry}
 					召唤一棵花楸树，散发强化光环
 					在光环内，仆从伤害提升8%，并且对目标造成伤害时概率掉落花楸浆果
 					花楸浆果会小幅治愈玩家，并在短时间内大幅提升所有属性
@@ -8914,6 +9191,7 @@ Mods: {
 				DisplayName: 拙岩法杖
 				Tooltip:
 					'''
+					{$CommonItemTooltip.Sentry}
 					召唤一个花岗岩守卫，散发强化光环
 					在光环内，鞭子速度与伤害提升15%
 					右键取消炮台
@@ -8949,7 +9227,11 @@ Mods: {
 
 			LogStaff: {
 				DisplayName: 木头杖
-				Tooltip: 召唤一根原木，以弧形轨迹抛射橡子
+				Tooltip:
+					'''
+					{$CommonItemTooltip.Sentry}
+					召唤一根原木，以弧形轨迹抛射橡子
+					'''
 			}
 
 			MagmaStaff: {
@@ -8976,7 +9258,7 @@ Mods: {
 				Tooltip:
 					'''
 					4点召唤标记伤害
-					你的召唤物将集中攻击被打中的敌人
+					{$CommonItemTooltip.Whips}
 					用鞭子尖端击中敌人会治疗玩家
 					'''
 			}
@@ -9002,12 +9284,12 @@ Mods: {
 
 			BigMaceTurret: {
 				DisplayName: 实验室MACE炮台
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			BrokenLabBackDoor: {
 				DisplayName: 受损实验室后门
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			HazmatCorpse: {
@@ -9015,18 +9297,18 @@ Mods: {
 				Tooltip:
 					'''
 					右击以获得防护服套装
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
 			JanitorEquipment: {
 				DisplayName: 清洁工的工具
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: ""
 			}
 
 			KariBed: {
 				DisplayName: 卡里的病床
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			LabBossDoor: {
@@ -9034,7 +9316,7 @@ Mods: {
 				Tooltip:
 					'''
 					实验室的迷你Boss/Boss存在时会关闭
-					[c/ff0000:不可破坏]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable}
 					'''
 			}
 
@@ -9043,7 +9325,7 @@ Mods: {
 				Tooltip:
 					'''
 					实验室的迷你Boss/Boss存在时会关闭
-					[c/ff0000:不可破坏]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable}
 					'''
 			}
 
@@ -9057,13 +9339,13 @@ Mods: {
 				Tooltip:
 					'''
 					用钥匙卡解锁
-					[c/ff0000:难以破坏(1000%镐力)]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
 
 			LabPhoto: {
 				DisplayName: 实验室照片
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			MossTube: {
@@ -9078,17 +9360,17 @@ Mods: {
 
 			OpenVent: {
 				DisplayName: 开放通风口
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			RadPillDeco: {
 				DisplayName: 辐射药丸（装饰）
-				Tooltip: ""
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			WideLabConsole: {
 				DisplayName: 宽式实验室控制台
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			AncientAltar: {
@@ -9096,23 +9378,23 @@ Mods: {
 				Tooltip:
 					'''
 					右击以获得诅咒宝珠
-					[c/ff0000:不可破坏]
+					{$Mods.Redemption.SpecialTooltips.Unbreakable}
 					'''
 			}
 
 			AnglonPortalItem: {
 				DisplayName: 安格隆传送门
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			GathuramPortalItem: {
 				DisplayName: 加苏拉姆传送门
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			GoldenGatewayItem: {
 				DisplayName: 黄金大门
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			HangingTied: {
@@ -9132,17 +9414,17 @@ Mods: {
 
 			GiantShadesteelChain: {
 				DisplayName: 大型空洞铁链
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			ShadePortcullis: {
 				DisplayName: 空洞闸门
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			ShadesteelGate: {
 				DisplayName: 空洞铁门
-				Tooltip: "[c/ff0000:难以破坏(1000%镐力)]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			ShadesteelHangingCell2: {
@@ -9152,7 +9434,7 @@ Mods: {
 
 			ShadestoneGate: {
 				DisplayName: 空洞石大门
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			AndroidInactive: {
@@ -9185,23 +9467,13 @@ Mods: {
 				Tooltip: ""
 			}
 
-			SkeletonRemains1: {
-				DisplayName: 遗骸 (持剑)
-				Tooltip: ""
-			}
-
 			SkeletonRemains1_Special: {
 				DisplayName: 遗骸 (附有灵魂)
 				Tooltip: ""
 			}
 
-			SkeletonRemains2: {
-				DisplayName: 遗骸 (髑髅)
-				Tooltip: ""
-			}
-
-			SkeletonRemains3: {
-				DisplayName: 遗骸 (坐着)
+			SkeletonRemains1: {
+				DisplayName: 遗骸1
 				Tooltip: ""
 			}
 
@@ -9210,8 +9482,8 @@ Mods: {
 				Tooltip: ""
 			}
 
-			SkeletonRemains4: {
-				DisplayName: 遗骸(保留较多遗骨的)
+			SkeletonRemains3: {
+				DisplayName: 遗骸3
 				Tooltip: ""
 			}
 
@@ -9220,8 +9492,8 @@ Mods: {
 				Tooltip: ""
 			}
 
-			SkeletonRemains5: {
-				DisplayName: 遗骸 (靠着墙坐)
+			SkeletonRemains4: {
+				DisplayName: 遗骸4
 				Tooltip: ""
 			}
 
@@ -9230,18 +9502,18 @@ Mods: {
 				Tooltip: ""
 			}
 
-			SkeletonRemains6: {
-				DisplayName: 遗骸(恶搞之家死亡姿势)
-				Tooltip: ""
-			}
-
-			SkeletonRemains7: {
-				DisplayName: 遗骸(断头)
+			SkeletonRemains5: {
+				DisplayName: 遗骸5
 				Tooltip: ""
 			}
 
 			SkeletonRemains7_Special: {
-				DisplayName: 遗骸(德鲁伊)
+				DisplayName: 遗骸（德鲁伊）
+				Tooltip: ""
+			}
+
+			SkeletonRemains7: {
+				DisplayName: 遗骸7
 				Tooltip: ""
 			}
 
@@ -9262,17 +9534,17 @@ Mods: {
 
 			IrradiatedCrimstoneWall: {
 				DisplayName: 辐射猩红石墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			IrradiatedDirtWall: {
 				DisplayName: 辐射土墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			IrradiatedEbonstoneWall: {
 				DisplayName: 辐射黑檀石墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			IrradiatedHardenedSandWall: {
@@ -9287,17 +9559,17 @@ Mods: {
 
 			IrradiatedMudWall: {
 				DisplayName: 辐射泥墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			IrradiatedSandstoneWall: {
 				DisplayName: 辐射沙岩墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			IrradiatedSnowWall: {
 				DisplayName: 辐射雪墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: ""
 			}
 
 			JunkMetalWallItem: {
@@ -9307,22 +9579,22 @@ Mods: {
 
 			LabPlatingWallUnsafe: {
 				DisplayName: 实验室墙 (危险)
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			MossyLabPlatingWall: {
 				DisplayName: 长有苔藓的实验室墙 (危险)
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			MossyLabWall: {
 				DisplayName: 完全被苔藓覆盖的实验室墙(危险)
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			VentWall: {
 				DisplayName: 通风墙
-				Tooltip: "[c/ff0000:不可破坏]"
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable}"
 			}
 
 			EnterPlayground: {
@@ -9558,6 +9830,7 @@ Mods: {
 				DisplayName: 报晓
 				Tooltip:
 					'''
+					{$CommonItemTooltip.Sentry}
 					召唤一只卧在巢中的兴奋鸡，散发强化光环
 					在光环内，玩家获得跳跃高度提升与20%移动速度提升
 					右键取消哨兵
@@ -9589,13 +9862,250 @@ Mods: {
 				Tooltip: ""
 			}
 
+			HangingMysticBlossom: {
+				// DisplayName: Hanging Mystic Blossom
+				Tooltip: ""
+			}
+
+			HangingNightshade: {
+				// DisplayName: Hanging Nightshade
+				Tooltip: ""
+			}
+
+			DuskyBall: {
+				// DisplayName: Dusky Ball
+				// Tooltip: Summons a Pumpkaboo
+			}
+
+			HydrasMaw: {
+				// DisplayName: Hydra's Maw
+				// Tooltip:
+					'''
+					Sprays a stream of defense-reducing acid, weakening Robotic targets against {0} damage
+					Right-click to launch an orb filled with acid, releasing a cloud of gas on impact
+					Shoot the orb with the acid stream to break it mid-air, covering a greater area
+					'''
+			}
+
+			ElderWoodHamaxe: {
+				// DisplayName: Elder Wood Hamaxe
+				Tooltip: ""
+			}
+
+			ElderWoodBow: {
+				// DisplayName: Elder Wood Bow
+				Tooltip: ""
+			}
+
+			SpringtrapBody: {
+				// DisplayName: Springlock Suit
+				Tooltip: ""
+			}
+
+			SpringtrapHead: {
+				// DisplayName: Springlock Mask
+				Tooltip: ""
+			}
+
+			SpringtrapLegs: {
+				// DisplayName: Springlock Pants
+				Tooltip: ""
+			}
+
+			Twinklestar: {
+				// DisplayName: Twinklestar
+				// Tooltip:
+					'''
+					Tap left-click to fire a cluster of tiny stars that float in place
+					Continuing to hold left-click will charge a powerful shooting star that will carry with it any stars that float in its vicinity
+					The radius from which it can grab stars grows the longer the shot was charged
+					'''
+			}
+
+			PetrifiedWoodHammer: {
+				// DisplayName: Petrified Wood Hammer
+				Tooltip: ""
+			}
+
+			PetrifiedWoodBow: {
+				// DisplayName: Petrified Wood Bow
+				Tooltip: ""
+			}
+
+			BloatedTrout: {
+				// DisplayName: Bloated Trout
+				Tooltip: ""
+			}
+
+			ToxicGlooper: {
+				// DisplayName: Toxic Glooper
+				Tooltip: ""
+			}
+
+			Blinky: {
+				// DisplayName: Blinky
+				Tooltip: ""
+			}
+
+			WaterfowlEgg: {
+				// DisplayName: Waterfowl Egg
+				// Tooltip:
+					'''
+					Stars from the {0} bonus appear less, but are immediately absorbed
+					Consuming healing potions grant additional healing for 5 seconds
+					15% decreased resistance to all elemental damage during the waterfowl's healing
+					The total amount of healing is 40% of the consumed potion
+					Taking damage during the waterfowl's healing will cancel the effect
+					'''
+			}
+
+			CrimsonXrosLoader: {
+				// DisplayName: Crimson Xros Loader
+				// Tooltip: Summons a chibi Gumdramon
+			}
+
+			BLTSandwich: {
+				// DisplayName: B.L.T. Sandwich
+				// Tooltip: Summons a B.L.T. Sandwich
+			}
+
+			HairyCloak: {
+				// DisplayName: Hairy Cloak
+				// Tooltip:
+					'''
+					Summons a chibi Calico Cat
+					'A small tattered cloak covered in... cat hair?'
+					'''
+			}
+
+			HydraCorrosionPotion: {
+				// DisplayName: Hydric Acid Potion
+				// Tooltip:
+					'''
+					Causes {0} elemental weapons to inflict Hydra Acid
+					Hydra Acid reduces defense and removes Robotic targets' resistance against {0} damage
+					'''
+			}
+
+			RadiationPillPlaceable: {
+				// DisplayName: Closed Radiation Pill
+				Tooltip: ""
+			}
+
+			RaggedPatch: {
+				// DisplayName: Ragged Patch
+				// Tooltip:
+					'''
+					Summons a mini Skull Digger to protect you
+					... He's trying his best.
+					'''
+			}
+
+			EaglecrestGolemRelic: {
+				// DisplayName: Eaglecrest Golem Relic
+				Tooltip: ""
+			}
+
+			EaglecrestGolemTrophy: {
+				// DisplayName: Eaglecrest Golem Trophy
+				Tooltip: ""
+			}
+
+			SkullDiggerRelic: {
+				// DisplayName: Skull Digger Relic
+				Tooltip: ""
+			}
+
+			SkullDiggerTrophy: {
+				// DisplayName: Skull Digger Trophy
+				Tooltip: ""
+			}
+
+			RaveyardBox: {
+				// DisplayName: Music Box (Raveyard)
+				// Tooltip: PeriTune - Spook3
+			}
+
+			AetherianGreathelm: {
+				// DisplayName: Aetherian Greathelm
+				Tooltip: ""
+			}
+
+			AetherianGreaves: {
+				// DisplayName: Aetherian Greaves
+				Tooltip: ""
+			}
+
+			AetherianPlatemail: {
+				// DisplayName: Aetherian Platemail
+				Tooltip: ""
+			}
+
+			SpiritRealmBox: {
+				// DisplayName: Music Box (Spirit Realm)
+				// Tooltip: Yuri O - Spectral Interloper
+			}
+
+			GalacticBand: {
+				// DisplayName: Galactic Band
+				// Tooltip:
+					'''
+					Summons a chibi Asteris
+					'Belongs to someone from a dimension another'
+					'''
+			}
+
+			MercenarysChestplate: {
+				// DisplayName: Mercenary's Chestplate
+				Tooltip: ""
+			}
+
+			MercenarysHelmet: {
+				// DisplayName: Mercenary's Helmet
+				Tooltip: ""
+			}
+
+			MercenarysLeggings: {
+				// DisplayName: Mercenary's Leggings
+				Tooltip: ""
+			}
+
+			CloudCallersTalisman: {
+				// DisplayName: Cloud Caller's Talisman
+				// Tooltip:
+					'''
+					Summons a cloud with a dog's face
+					'Here to make your day a bit brighter'
+					'''
+			}
+
+			Wardbreaker: {
+				// DisplayName: Wardbreaker Augment
+				// Tooltip: The wearer's magic or {0} weapons deal double damage to Guard Points
+			}
+
 			ShinkiteBrickOrnateWall: {
 				DisplayName: 华丽绯红钢砖墙
 				Tooltip: ""
 			}
 
+			CruxCardHazmatZombie: {
+				// DisplayName: Crux Card Hazmat Zombie
+				Tooltip: ""
+			}
+
 			ShadestoneMirrorSpecial: {
 				DisplayName: 特殊空洞石镜
+				Tooltip: ""
+			}
+
+			SkeletonRemains2: {
+				// DisplayName: Skeleton Remains2
+				Tooltip: ""
+			}
+
+			SkeletonRemains6: {
+				// DisplayName: Skeleton Remains6
 				Tooltip: ""
 			}
 		}
@@ -9606,7 +10116,7 @@ Mods: {
 			JyrinaMount_Horse.DisplayName: 乌戈战马
 			VasaraPendant_Proj.DisplayName: 电场
 			ErhanCross_Shield.DisplayName: 神圣护盾
-			RopeHook_Proj.DisplayName: 绳钩
+			RopeHook_Proj.DisplayName: "{$Mods.Redemption.Items.RopeHook.DisplayName}"
 			GonkPatreon_Pet.DisplayName: Samus
 			LantardPatreon_Pet.DisplayName: Ralsei
 			LizzyPet.DisplayName: Lizzy
@@ -9618,128 +10128,129 @@ Mods: {
 			LabPointer.DisplayName: Pointer
 			MiniWarhead_Proj.DisplayName: 迷你导弹头
 			NoveltyMop_Proj.DisplayName: 新奇拖把
-			OreBomb_Proj.DisplayName: 矿石炸弹
-			OrePowder_Proj.DisplayName: 神奇矿物粉末
-			PlutoniumBomb_Proj.DisplayName: 钚弹弹幕
+			OreBomb_Proj.DisplayName: "{$Mods.Redemption.Items.OreBomb.DisplayName}"
+			OrePowder_Proj.DisplayName: "{$Mods.Redemption.Items.OrePowder.DisplayName}"
+			PlutoniumBomb_Proj.DisplayName: "{$Mods.Redemption.Items.PlutoniumBomb.DisplayName}"
 			PlutoniumBoom.DisplayName: 钚弹爆炸
 			Trumpet_Proj.DisplayName: 小号
 			Violin_Proj.DisplayName: 小提琴
-			BileArrow_Proj.DisplayName: 胆汁箭
-			BileBullet_Proj.DisplayName: 胆汁弹
-			Divinity_Ball.DisplayName: 神性充能
-			Divinity_Proj.DisplayName: 神性
+			Trumpet_Proj.DisplayName: "{$Mods.Redemption.Items.Trumpet.DisplayName}"
+			Violin_Proj.DisplayName: "{$Mods.Redemption.Items.Violin.DisplayName}"
+			BileArrow_Proj.DisplayName: "{$Mods.Redemption.Items.BileArrow.DisplayName}"
+			BileBullet_Proj.DisplayName: "{$Mods.Redemption.Items.BileBullet.DisplayName}"
+			Divinity_Proj.DisplayName: "{$Mods.Redemption.Items.Divinity.DisplayName}"
 			Divinity_Sun.DisplayName: 太阳
-			GlobalDischarge_Proj.DisplayName: 球形闪电
-			GlobalDischarge_Sphere.DisplayName: 球形闪电
-			LightningRod_Proj.DisplayName: 自给型避雷针
-			Synthesizer_Proj.DisplayName: 音频合成器
-			BlindJustice_Proj.DisplayName: 魔惧之圣镰，盲目正义
-			BlindJustice_Proj2.DisplayName: 魔惧之圣镰，盲目正义
-			BloodstainedPike_Proj.DisplayName: 血痕刺矛
-			BloodstainedPike_Proj2.DisplayName: 血痕刺矛
-			Chernobyl_Proj.DisplayName: 切尔诺贝利
-			CrystalGlaive_Proj.DisplayName: 水晶长柄刀
-			CyberChakram_Proj.DisplayName: 赛博环刃
-			CyberChakram_Proj2.DisplayName: 赛博环刃
-			ForgottenGreatsword_Proj.DisplayName: 奥弗斯的遗忘大剑
-			GravityHammer_Proj.DisplayName: 重力锤
-			HammerOfProving_Proj.DisplayName: 证明之锤
-			InfectiousGlaive_Proj.DisplayName: 疫染关刀
-			Midnight_SlashProj.DisplayName: 亵渎王子之戟，星夜
-			OversizedScrewdriver_Proj.DisplayName: 特大型螺丝刀
-			RemoteCleaver.DisplayName: 欧米伽斩切刃
-			SlayerFist_Proj.DisplayName: 弑君者火箭拳
-			Spellsong_Proj.DisplayName: 西陲之核，咒歌
-			TidalWake_Proj.DisplayName: 潮汐余流
-			TinyCleaver_Proj.DisplayName: 微型斩切刃
-			WraithSlayer_Proj.DisplayName: 幽魂杀手
-			BileLauncher_Proj.DisplayName: 胆汁发射器
-			CorruptedDAN_Proj.DisplayName: 腐化D.A.N
-			DAN_Proj.DisplayName: D.A.N
-			FlakCannon_Proj.DisplayName: 高射炮
+			GlobalDischarge_Proj.DisplayName: "{$Mods.Redemption.Items.GlobalDischarge.DisplayName}"
+			GlobalDischarge_Sphere.DisplayName: "{$Mods.Redemption.Items.GlobalDischarge.DisplayName}"
+			LightningRod_Proj.DisplayName: "{$Mods.Redemption.Items.LightningRod.DisplayName}"
+			Synthesizer_Proj.DisplayName: "{$Mods.Redemption.Items.Synthesizer.DisplayName}"
+			BlindJustice_Proj.DisplayName: "{$Mods.Redemption.Items.BlindJustice.DisplayName}"
+			BlindJustice_Proj2.DisplayName: "{$Mods.Redemption.Items.BlindJustice.DisplayName}"
+			BloodstainedPike_Proj.DisplayName: "{$Mods.Redemption.Items.BloodstainedPike.DisplayName}"
+			BloodstainedPike_Proj2.DisplayName: "{$Mods.Redemption.Items.BloodstainedPike.DisplayName}"
+			Chernobyl_Proj.DisplayName: "{$Mods.Redemption.Items.Chernobyl.DisplayName}"
+			CrystalGlaive_Proj.DisplayName: "{$Mods.Redemption.Items.CrystalGlaive.DisplayName}"
+			CyberChakram_Proj.DisplayName: "{$Mods.Redemption.Items.CyberChakram.DisplayName}"
+			CyberChakram_Proj2.DisplayName: "{$Mods.Redemption.Items.CyberChakram.DisplayName}"
+			ForgottenGreatsword_Proj.DisplayName: "{$Mods.Redemption.Items.ForgottenGreatsword.DisplayName}"
+			GravityHammer_Proj.DisplayName: "{$Mods.Redemption.Items.GravityHammer.DisplayName}"
+			HammerOfProving_Proj.DisplayName: "{$Mods.Redemption.Items.HammerOfProving.DisplayName}"
+			InfectiousGlaive_Proj.DisplayName: "{$Mods.Redemption.Items.InfectiousGlaive.DisplayName}"
+			Midnight_SlashProj.DisplayName: "{$Mods.Redemption.Items.Midnight.DisplayName}"
+			OversizedScrewdriver_Proj.DisplayName: "{$Mods.Redemption.Items.OversizedScrewdriver.DisplayName}"
+			RemoteCleaver.DisplayName: "{$Mods.Redemption.NPCs.OmegaCleaver.DisplayName}"
+			SlayerFist_Proj.DisplayName: "{$Mods.Redemption.Items.SlayerFist.DisplayName}"
+			Spellsong_Proj.DisplayName: "{$Mods.Redemption.Items.Spellsong.DisplayName}"
+			TidalWake_Proj.DisplayName: "{$Mods.Redemption.Items.TidalWake.DisplayName}"
+			TinyCleaver_Proj.DisplayName: "{$Mods.Redemption.Items.TinyCleaver.DisplayName}"
+			WraithSlayer_Proj.DisplayName: "{$Mods.Redemption.Items.WraithSlayer.DisplayName}"
+			BileLauncher_Proj.DisplayName: "{$Mods.Redemption.Items.BileLauncher.DisplayName}"
+			CorruptedDAN_Proj.DisplayName: "{$Mods.Redemption.Items.CorruptedDAN.DisplayName}"
+			DAN_Proj.DisplayName: "{$Mods.Redemption.Items.DAN.DisplayName}"
+			FlakCannon_Proj.DisplayName: "{$Mods.Redemption.Items.FlakCannon.DisplayName}"
 			HyperTechRevolvers_Proj.DisplayName: 超科技左轮双枪
 			HyperTechRevolvers_Proj2.DisplayName: 超科技左轮双枪
-			SteampunkMinigun_Proj.DisplayName: 蒸汽齿轮加特林
-			ToxicGrenade_Proj.DisplayName: 剧毒手榴弹
-			InfectedTentacle_Proj.DisplayName: 感染触手
-			WireTaser_Proj.DisplayName: 泰瑟电索
-			WireTaser_Proj2.DisplayName: 泰瑟电索
-			WireTaser_Proj2_End.DisplayName: 泰瑟电索
+			SteampunkMinigun_Proj.DisplayName: "{$Mods.Redemption.Items.SteampunkMinigun.DisplayName}"
+			ToxicGrenade_Proj.DisplayName: "{$Mods.Redemption.Items.ToxicGrenade.DisplayName}"
+			InfectedTentacle_Proj.DisplayName: "{$Mods.Redemption.Items.InfectedTentacle.DisplayName}"
+			WireTaser_Proj.DisplayName: "{$Mods.Redemption.Items.WireTaser.DisplayName}"
+			WireTaser_Proj2.DisplayName: "{$Mods.Redemption.Items.WireTaser.DisplayName}"
+			WireTaser_Proj2_End.DisplayName: "{$Mods.Redemption.Items.WireTaser.DisplayName}"
 			OOFingergun_Fingerflash.DisplayName: “手枪”开火
 			OOFingergun_Laser.DisplayName: 欧米伽激光
-			OOFingergun_Proj.DisplayName: 欧米伽“手枪”
-			TeslaCoil_Proj.DisplayName: 特斯拉线圈
-			Hacksaw_Proj.DisplayName: 自动钢锯
-			MythrilsBane_Proj.DisplayName: 秘银祸锋
-			PiercingNebulaWeapon_Proj.DisplayName: 贯穿星云
-			PNebula1_Friendly.DisplayName: 贯穿星云
-			PNebula2_Friendly.DisplayName: 贯穿星云
-			PNebula3_Friendly.DisplayName: 贯穿星云
-			PZGauntlet_Proj.DisplayName: 感染铁拳
-			SunInThePalm_Proj.DisplayName: 掌中日
-			Ukonvasara_Axe.DisplayName: 乌戈之斧
-			Ukonvasara_Proj2.DisplayName: 乌戈之锤
-			Ukonvasara_Sword.DisplayName: 乌戈之剑
-			Ukonvasara_Sword_Proj.DisplayName: 乌戈之剑
-			XeniumLance_Proj.DisplayName: 异金长枪
+			OOFingergun_Proj.DisplayName: "{$Mods.Redemption.Items.OOFingergun.DisplayName}"
+			TeslaCoil_Proj.DisplayName: "{$Mods.Redemption.Items.TeslaCoil.DisplayName}"
+			Hacksaw_Proj.DisplayName: "{$Mods.Redemption.Items.Hacksaw.DisplayName}"
+			MythrilsBane_Proj.DisplayName: "{$Mods.Redemption.Items.MythrilsBane.DisplayName}"
+			PiercingNebulaWeapon_Proj.DisplayName: "{$Mods.Redemption.Items.PiercingNebulaWeapon.DisplayName}"
+			PNebula1_Friendly.DisplayName: "{$Mods.Redemption.Items.PiercingNebulaWeapon.DisplayName}"
+			PNebula2_Friendly.DisplayName: "{$Mods.Redemption.Items.PiercingNebulaWeapon.DisplayName}"
+			PNebula3_Friendly.DisplayName: "{$Mods.Redemption.Items.PiercingNebulaWeapon.DisplayName}"
+			PZGauntlet_Proj.DisplayName: "{$Mods.Redemption.Items.PZGauntlet.DisplayName}"
+			SunInThePalm_Proj.DisplayName: "{$Mods.Redemption.Items.SunInThePalm.DisplayName}"
+			Ukonvasara_Axe.DisplayName: "{$Mods.Redemption.Items.Ukonvasara.DisplayName}"
+			Ukonvasara_Proj2.DisplayName: "{$Mods.Redemption.Items.Ukonvasara.DisplayName}"
+			Ukonvasara_Sword.DisplayName: "{$Mods.Redemption.Items.Ukonvasara.DisplayName}"
+			Ukonvasara_Sword_Proj.DisplayName: "{$Mods.Redemption.Items.Ukonvasara.DisplayName}"
+			XeniumLance_Proj.DisplayName: "{$Mods.Redemption.Items.XeniumLance.DisplayName}"
 			BlastBattery_Crosshair.DisplayName: 十字准星
 			BlastBattery_Missile.DisplayName: 欧米伽导弹
 			BlastBattery_MissileBlast.DisplayName: 爆破
-			Electronade_Proj.DisplayName: 电能手雷
+			Electronade_Proj.DisplayName: "{$Mods.Redemption.Items.Electronade.DisplayName}"
 			Electronade_TeslaField.DisplayName: 特斯拉电场
-			SussyEgg_Proj.DisplayName: 可疑鸡蛋
-			SwarmerCannon_Proj.DisplayName: 游孢大炮
-			XeniumElectrolaser_Proj.DisplayName: 异金镭射激光枪
-			CosmosChains_Proj.DisplayName: 星宇锁链
-			AquaArrow_Proj.DisplayName: 水箭
-			MoonflareArrow_Proj.DisplayName: 月辉箭
-			XenomiteBulletProj.DisplayName: 异辉弹
+			SussyEgg_Proj.DisplayName: "{$Mods.Redemption.Items.SussyEgg.DisplayName}"
+			SwarmerCannon_Proj.DisplayName: "{$Mods.Redemption.Items.SwarmerCannon.DisplayName}"
+			XeniumElectrolaser_Proj.DisplayName: "{$Mods.Redemption.Items.XeniumElectrolaser.DisplayName}"
+			CosmosChains_Proj.DisplayName: "{$Mods.Redemption.Items.CosmosChains.DisplayName}"
+			AquaArrow_Proj.DisplayName: "{$Mods.Redemption.Items.AquaArrow.DisplayName}"
+			MoonflareArrow_Proj.DisplayName: "{$Mods.Redemption.Items.MoonflareArrow.DisplayName}"
+			XenomiteBulletProj.DisplayName: "{$Mods.Redemption.Items.XenomiteBullet.DisplayName}"
 			BlightedRootProj.DisplayName: 枯萎咒根
 			BlightedRootStabber.DisplayName: 枯萎咒根突刺
 			BlightedRootThorn.DisplayName: 枯萎咒根荆棘
-			PureIronStaff_Proj.DisplayName: 净钢法杖
-			BladeOfTheMountain_Slash.DisplayName: 山峦之刃
-			ChompingChains_Proj.DisplayName: 颅噬锁链
-			ChompingChains_Proj_Skull.DisplayName: 颅噬锁链
-			DragonCleaver_Proj.DisplayName: 斩龙刀
-			EaglecrestJavelin_Proj.DisplayName: 鹰峰投枪
+			PureIronStaff_Proj.DisplayName: "{$Mods.Redemption.Items.PureIronStaff.DisplayName}"
+			BladeOfTheMountain_Slash.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
+			ChompingChains_Proj.DisplayName: "{$Mods.Redemption.Items.ChompingChains.DisplayName}"
+			ChompingChains_Proj_Skull.DisplayName: "{$Mods.Redemption.Items.ChompingChains.DisplayName}"
+			DragonCleaver_Proj.DisplayName: "{$Mods.Redemption.Items.DragonCleaver.DisplayName}"
+			EaglecrestJavelin_Proj.DisplayName: "{$Mods.Redemption.Items.EaglecrestJavelin.DisplayName}"
 			EaglecrestJavelin_Thunder.DisplayName: 闪电
 			FlintAndSteelSpark.DisplayName: 火花
-			ForestNymphsSickle_Proj.DisplayName: 森林仙女的镰刀
-			ForgottenSword_Proj.DisplayName: 遗忘者之剑
-			Halbirdhouse_Proj.DisplayName: 鸡舍戟
-			KeepersClaw_Slash.DisplayName: 守夜人之爪
-			NoblesHalberd_Proj.DisplayName: 贵族长戟
-			NoblesHalberd_SlashProj.DisplayName: 贵族长戟
-			PureIronSword_Proj.DisplayName: 净钢剑
-			SilverRapier_Proj.DisplayName: 银刺剑
-			SkullDiggerFlail_Proj.DisplayName: 掘颅者的掘颅者
-			SwordSlicer_Slash.DisplayName: 折锋剑
-			XenoXyston_Proj.DisplayName: 异辉双头枪
-			Zweihander_SlashProj.DisplayName: 双手大剑
-			ChickenEgg_Proj.DisplayName: 鸡蛋
-			EaglecrestSling_Throw.DisplayName: 鹰峰投石索
-			EggBomb_Proj.DisplayName: 炸蛋
-			GoldChickenEgg_Proj.DisplayName: 金蛋
-			HallowedHandGrenade_Proj.DisplayName: 安格隆神圣手榴弹
-			LongEgg_Proj.DisplayName: 长长长长长鸡蛋
-			BlazingBalisong_Slash.DisplayName: 炽炎蝴蝶刀
-			BlightedBoline_Slash.DisplayName: 枯萎巫匕
-			BloodLetter_Proj.DisplayName: 血涵
-			BloodLetter_Slash.DisplayName: 血涵
-			BuddingBoline_Slash.DisplayName: 芽体巫匕
-			GraveSteelSecespita_Slash.DisplayName: 殒钢刑祭匕
-			Incisor_Slash.DisplayName: 骨切牙
-			KeepersKnife_Slash.DisplayName: 守夜人的小刀
-			ObsidianTecpatl_Slash.DisplayName: 黑曜石血祭匕
-			SoulSkewer_Slash.DisplayName: 灵魂扭曲者
-			WornDagger_Slash.DisplayName: 磨损匕首
-			HolyBible_Proj.DisplayName: 圣经
-			RootTendril_Proj.DisplayName: 根卷须
+			ForestNymphsSickle_Proj.DisplayName: "{$Mods.Redemption.Items.ForestNymphsSickle.DisplayName}"
+			ForgottenSword_Proj.DisplayName: "{$Mods.Redemption.Items.ForgottenSword.DisplayName}"
+			Halbirdhouse_Proj.DisplayName: "{$Mods.Redemption.Items.Halbirdhouse.DisplayName}"
+			KeepersClaw_Slash.DisplayName: "{$Mods.Redemption.Items.KeepersClaw.DisplayName}"
+			NoblesHalberd_Proj.DisplayName: "{$Mods.Redemption.Items.NoblesHalberd.DisplayName}"
+			NoblesHalberd_SlashProj.DisplayName: "{$Mods.Redemption.Items.NoblesHalberd.DisplayName}"
+			PureIronSword_Proj.DisplayName: "{$Mods.Redemption.Items.PureIronSword.DisplayName}"
+			SilverRapier_Proj.DisplayName: "{$Mods.Redemption.Items.SilverRapier.DisplayName}"
+			SkullDiggerFlail_Proj.DisplayName: "{$Mods.Redemption.Items.SkullDiggerFlail.DisplayName}"
+			SwordSlicer_Slash.DisplayName: "{$Mods.Redemption.Items.SwordSlicer.DisplayName}"
+			XenoXyston_Proj.DisplayName: "{$Mods.Redemption.Items.XenoXyston.DisplayName}"
+			Zweihander_SlashProj.DisplayName: "{$Mods.Redemption.Items.Zweihander.DisplayName}"
+			ChickenEgg_Proj.DisplayName: "{$Mods.Redemption.Items.ChickenEgg.DisplayName}"
+			EaglecrestSling_Throw.DisplayName: "{$Mods.Redemption.Items.EaglecrestSling.DisplayName}"
+			EggBomb_Proj.DisplayName: "{$Mods.Redemption.Items.EggBomb.DisplayName}"
+			GoldChickenEgg_Proj.DisplayName: "{$Mods.Redemption.Items.GoldChickenEgg.DisplayName}"
+			HallowedHandGrenade_Proj.DisplayName: "{$Mods.Redemption.Items.HallowedHandGrenade.DisplayName}"
+			LongEgg_Proj.DisplayName: "{$Mods.Redemption.Items.LongEgg.DisplayName}"
+			BlazingBalisong_Slash.DisplayName: "{$Mods.Redemption.Items.BlazingBalisong.DisplayName}"
+			BlightedBoline_Slash.DisplayName: "{$Mods.Redemption.Items.BlightedBoline.DisplayName}"
+			BloodLetter_Proj.DisplayName: "{$Mods.Redemption.Items.BloodLetter.DisplayName}"
+			BloodLetter_Slash.DisplayName: "{$Mods.Redemption.Items.BloodLetter.DisplayName}"
+			BuddingBoline_Slash.DisplayName: "{$Mods.Redemption.Items.BuddingBoline.DisplayName}"
+			GraveSteelSecespita_Slash.DisplayName: "{$Mods.Redemption.Items.GraveSteelSecespita.DisplayName}"
+			Incisor_Slash.DisplayName: "{$Mods.Redemption.Items.Incisor.DisplayName}"
+			KeepersKnife_Slash.DisplayName: "{$Mods.Redemption.Items.KeepersKnife.DisplayName}"
+			ObsidianTecpatl_Slash.DisplayName: "{$Mods.Redemption.Items.ObsidianTecpatl.DisplayName}"
+			SoulSkewer_Slash.DisplayName: "{$Mods.Redemption.Items.SoulSkewer.DisplayName}"
+			WornDagger_Slash.DisplayName: "{$Mods.Redemption.Items.WornDagger.DisplayName}"
+			HolyBible_Proj.DisplayName: "{$Mods.Redemption.Items.HolyBible.DisplayName}"
+			RootTendril_Proj.DisplayName: "{$Mods.Redemption.Items.RootTendril.DisplayName}"
 			AkkaBubble.DisplayName: 泡泡
 			AkkaHealingSpirit.DisplayName: 治愈之魂
 			AkkaIsland.DisplayName: 漂浮空岛
-			AkkaIslandHitbox.DisplayName: 漂浮空岛
+			AkkaIslandHitbox.DisplayName: "{$Mods.Redemption.Projectiles.AkkaIsland.DisplayName}"
 			AkkaIslandSummoner.DisplayName: 空岛召唤
 			AkkaIslandWarning.DisplayName: 预警
 			AkkaPoisonBubble.DisplayName: 剧毒泡泡
@@ -9767,15 +10278,15 @@ Mods: {
 			UkkoStrike.DisplayName: 乌戈落雷
 			UkkoStrikeZap.DisplayName: 乌戈落雷
 			UkkoThunderwave.DisplayName: 雷鸣波
-			CleaverHitbox.DisplayName: 欧米伽斩切刃
+			CleaverHitbox.DisplayName: "{$Mods.Redemption.NPCs.OmegaCleaver.DisplayName}"
 			OmegaBlast.DisplayName: 欧米伽猛击弹
 			OmegaCleaver_GirusTalk.DisplayName: Ominous Voice
 			PhantomCleaver.DisplayName: 幻影斩切刃
-			PhantomCleaver_F.DisplayName: 幻影斩切刃
-			PhantomCleaver2.DisplayName: 幻影斩切刃
-			PhantomCleaver2_Spawner.DisplayName: 幻影斩切刃
-			RedPrism.DisplayName: 赤红棱镜
-			RedPrism_F.DisplayName: 赤红棱镜
+			PhantomCleaver_F.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
+			PhantomCleaver2.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
+			PhantomCleaver2_Spawner.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
+			RedPrism.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
+			RedPrism_F.DisplayName: "{$Mods.Redemption.Projectiles.PhantomCleaver.DisplayName}"
 			WielderOrb.DisplayName: 屏蔽球体
 			Bible_Ray.DisplayName: 灼热光束
 			Bible_Seed.DisplayName: 美德之种
@@ -9787,7 +10298,7 @@ Mods: {
 			HolyBeam.DisplayName: 圣光
 			HolyHandGrenadeOfAnglon.DisplayName: 安格隆神圣手榴弹
 			HolyPhalanx_Proj.DisplayName: 神圣剑阵
-			HolyPhalanx_Proj2.DisplayName: 神圣剑阵
+			HolyPhalanx_Proj2.DisplayName: "{$Mods.Redemption.Projectiles.HolyPhalanx_Proj.DisplayName}"
 			HolySpear_Proj.DisplayName: 圣矛
 			HolySpear_Tele.DisplayName: Telegraph
 			RayOfGuidance.DisplayName: 指引之光
@@ -9803,7 +10314,7 @@ Mods: {
 			Gigapora_CrossBomb.DisplayName: 十字轰炸
 			Gigapora_Fireball.DisplayName: 火球
 			Gigapora_Flame.DisplayName: 火焰
-			Gigapora_FlameTele.DisplayName: 火焰
+			Gigapora_FlameTele.DisplayName: "{$Mods.Redemption.Projectiles.Gigapora_Flame.DisplayName}"
 			Gigapora_GirusTalk.DisplayName: Ominous Voice
 			Gigapora_Rubble.DisplayName: 碎石
 			ShieldCore_Bolt.DisplayName: 能量矢
@@ -9811,7 +10322,7 @@ Mods: {
 			ShieldCore_Zap.DisplayName: 千兆双球
 			KeeperBloodWave.DisplayName: 殷红血波
 			KeeperDreadCoil.DisplayName: 恐惧幽魂
-			KeeperSoul.DisplayName: 守夜人
+			KeeperSoul.DisplayName: "{$Mods.Redemption.NPCs.Keeper.DisplayName}"
 			KeeperSoulCharge.DisplayName: 灵魂冲击
 			ShadowBolt.DisplayName: 暗影矢
 			VeilFX.DisplayName: 面纱
@@ -9819,11 +10330,11 @@ Mods: {
 			KS3_BeamCell.DisplayName: 分节激光
 			KS3_Call.DisplayName: Transmission
 			KS3_EnergyBolt.DisplayName: 能量矢
-			KS3_Exit.DisplayName: 弑君者III
+			KS3_Exit.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
 			KS3_Fist.DisplayName: 火箭拳
 			KS3_FlashGrenade.DisplayName: 眩晕手雷
 			KS3_HeadHologram.DisplayName: 全息投影
-			KS3_JojoFist.DisplayName: 弑君者III
+			KS3_JojoFist.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
 			KS3_MagnetBeam.DisplayName: 磁力光束
 			KS3_MagnetPulse.DisplayName: Surge
 			KS3_MissileBlast.DisplayName: 轰炸
@@ -9836,7 +10347,7 @@ Mods: {
 			KS3_Surge2.DisplayName: 核心电涌
 			KS3_TeleLine1.DisplayName: Telegraph
 			KS3_TeleLine2.DisplayName: Telegraph
-			KS3_Wave.DisplayName: 弑君者III
+			KS3_Wave.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
 			ReboundShot.DisplayName: 弹射子弹
 			Scan_Proj.DisplayName: Scan
 			SlayerMissile.DisplayName: 无人机导弹
@@ -9846,16 +10357,16 @@ Mods: {
 			CrystalStar_Tele.DisplayName: Telegraph
 			CrystalStarShard_Proj.DisplayName: 水晶之星碎片
 			CurvingStar.DisplayName: 星宇流星
-			CurvingStar_Tele.DisplayName: 星宇流星
-			CurvingStar_Tele2.DisplayName: 星宇流星
-			CurvingStar_Tele3.DisplayName: 星宇流星
-			CurvingStar_Tele4.DisplayName: 星宇流星
-			CurvingStar2.DisplayName: 星宇流星
+			CurvingStar_Tele.DisplayName: "{$Mods.Redemption.Projectiles.CurvingStar.DisplayName}"
+			CurvingStar_Tele2.DisplayName: "{$Mods.Redemption.Projectiles.CurvingStar.DisplayName}"
+			CurvingStar_Tele3.DisplayName: "{$Mods.Redemption.Projectiles.CurvingStar.DisplayName}"
+			CurvingStar_Tele4.DisplayName: "{$Mods.Redemption.Projectiles.CurvingStar.DisplayName}"
+			CurvingStar2.DisplayName: "{$Mods.Redemption.Projectiles.CurvingStar.DisplayName}"
 			Dash_Tele.DisplayName: Dash_ Tele
 			GiantStar_Proj.DisplayName: 星宇巨星
-			Neb_Start_Visual.DisplayName: 涅布琉斯
-			Neb_Start_Visual2.DisplayName: 涅布琉斯
-			Neb_Start_Visual3.DisplayName: 涅布琉斯
+			Neb_Start_Visual.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
+			Neb_Start_Visual2.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
+			Neb_Start_Visual3.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
 			NebRing.DisplayName: 星宇环
 			NebTeleLine1.DisplayName: Telegraph
 			NebTeleLine2.DisplayName: Telegraph
@@ -9863,8 +10374,8 @@ Mods: {
 			CosmicEye2.DisplayName: 星宇之眼
 			CosmicEye3.DisplayName: 星宇之眼
 			Dash_Tele2.DisplayName: Dash Telegraph
-			NebDefeat.DisplayName: 星宇天使，涅布琉斯
-			NebFalling.DisplayName: 星宇天使，涅布琉斯
+			NebDefeat.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
+			NebFalling.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
 			StarBolt.DisplayName: 星虹矢
 			StarFall_Proj2.DisplayName: 星宇坠星
 			Starfall_Tele2.DisplayName: Telegraph
@@ -9872,17 +10383,17 @@ Mods: {
 			PNebula1_Tele.DisplayName: Telegraph
 			PNebula2.DisplayName: 贯穿星云
 			PNebula3.DisplayName: 贯穿星云
-			Shout1.DisplayName: Shout!
-			Shout10.DisplayName: Shout!
-			Shout11.DisplayName: Shout!
-			Shout2.DisplayName: Shout!
-			Shout3.DisplayName: Shout!
-			Shout4.DisplayName: Shout!
-			Shout5.DisplayName: Shout!
-			Shout6.DisplayName: Shout!
-			Shout7.DisplayName: Shout!
-			Shout8.DisplayName: Shout!
-			Shout9.DisplayName: Shout!
+			Shout1.DisplayName: ""
+			Shout10.DisplayName: ""
+			Shout11.DisplayName: ""
+			Shout2.DisplayName: ""
+			Shout3.DisplayName: ""
+			Shout4.DisplayName: ""
+			Shout5.DisplayName: ""
+			Shout6.DisplayName: ""
+			Shout7.DisplayName: ""
+			Shout8.DisplayName: ""
+			Shout9.DisplayName: ""
 			StarFall_Proj.DisplayName: 星宇坠星
 			Starfall_Tele.DisplayName: Telegraph
 			StationaryStar.DisplayName: Starplane
@@ -9924,7 +10435,7 @@ Mods: {
 			SoI_ToxicSludge.DisplayName: 有毒淤泥
 			SoI_XenomiteShot.DisplayName: 异辉射击
 			StrangePortal.DisplayName: 奇怪传送门
-			StrangePortal2.DisplayName: 奇怪传送门
+			StrangePortal2.DisplayName: "{$Mods.Redemption.Projectiles.StrangePortal.DisplayName}"
 			CursedThornVile.DisplayName: 被诅咒的荆棘
 			LeechingThornSeed.DisplayName: 生命枯竭荆棘
 			ManaBarrier.DisplayName: 魔力屏障
@@ -9932,24 +10443,24 @@ Mods: {
 			SlashPro1.DisplayName: 砍击
 			ThornSeed.DisplayName: 荆棘之种
 			ThornTrap.DisplayName: 荆棘陷阱
-			CoastScarabFall.DisplayName: 海岸圣甲虫
-			GrandLarvaFall.DisplayName: 巨蛆
-			TreeBugFall.DisplayName: 树虫
+			CoastScarabFall.DisplayName: "{$Mods.Redemption.NPCs.CoastScarab.DisplayName}"
+			GrandLarvaFall.DisplayName: "{$Mods.Redemption.NPCs.GrandLarva.DisplayName}"
+			TreeBugFall.DisplayName: "{$Mods.Redemption.NPCs.TreeBug.DisplayName}"
 			Cockatrice_Ray.DisplayName: 石化凝视
 			Cockatrice_Ray_Tele.DisplayName: Telegraph
 			HeadlessChicken_Fire.DisplayName: 鬼火
 			KS3Sitting_Hologram.DisplayName: 全息投影
-			SkullDiggerFriendly_FlailBlade.DisplayName: 掘颅者
-			AncientGladestonePillar_SS.DisplayName: 远古林间石柱
-			LivingBloomRoot_SS.DisplayName: 生命根
+			SkullDiggerFriendly_FlailBlade.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
+			AncientGladestonePillar_SS.DisplayName: "{$Mods.Redemption.Projectiles.AncientGladestonePillar.DisplayName}"
+			LivingBloomRoot_SS.DisplayName: "{$Mods.Redemption.Projectiles.LivingBloomRoot.DisplayName}"
 			MossyGoliath_SS_Screech.DisplayName: 咆哮
 			MossyGoliath_SS_ToxicBreath.DisplayName: 有毒气息
-			SkeletonNoble_SS_HalberdProj.DisplayName: 骷髅贵族的长戟
-			SkeletonWanderer_SS_SpearProj.DisplayName: 骷髅游荡者的矛
-			SkullDigger_SS_FlailBlade.DisplayName: 掘颅者
+			SkeletonNoble_SS_HalberdProj.DisplayName: "{$Mods.Redemption.Items.NoblesHalberd.DisplayName}"
+			SkeletonWanderer_SS_SpearProj.DisplayName: "{$Mods.Redemption.Projectiles.SkeletonWanderer_SpearProj.DisplayName}"
+			SkullDigger_SS_FlailBlade.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
 			SpiritwalkerIconFade.DisplayName: Spirit Walker
 			WraithSlayer_Slash.DisplayName: 幽魂杀手
-			PrototypeSilver_Hook.DisplayName: 白银原型机
+			PrototypeSilver_Hook.DisplayName: "{$Mods.Redemption.NPCs.PrototypeSilver.DisplayName}"
 			PrototypeSilver_Shield.DisplayName: 泡泡护盾
 			SpacePaladin_GroundShock.DisplayName: 冲击波
 			GreenGas_Proj.DisplayName: 放射性气体
@@ -9979,10 +10490,10 @@ Mods: {
 			GolemEyeRay.DisplayName: 鹰峰眼激光
 			RockPileSummon.DisplayName: 岩儡
 			RockSlash_Proj.DisplayName: 岩石猛击
-			SkullDigger_FlailBlade.DisplayName: 掘颅者
-			SkullDigger_FlailBlade_Proj.DisplayName: 掘颅者的掘颅者
-			SkullDigger_FlailBlade_ProjF.DisplayName: 掘颅者的掘颅者
-			SkeletonNoble_HalberdProj.DisplayName: 骷髅贵族的长戟
+			SkullDigger_FlailBlade.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
+			SkullDigger_FlailBlade_Proj.DisplayName: "{$Mods.Redemption.Items.SkullDiggerFlail.DisplayName}"
+			SkullDigger_FlailBlade_ProjF.DisplayName: "{$Mods.Redemption.Items.SkullDiggerFlail.DisplayName}"
+			SkeletonNoble_HalberdProj.DisplayName: "{$Mods.Redemption.Items.NoblesHalberd.DisplayName}"
 			SkeletonWanderer_SpearProj.DisplayName: 骷髅游荡者的矛
 			AncientGladestonePillar.DisplayName: 远古林间石柱
 			Android_Proj.DisplayName: 火箭拳
@@ -9996,7 +10507,7 @@ Mods: {
 			Bacteria_Proj.DisplayName: 细菌
 			CalciteWand_Proj.DisplayName: 方解石石笋
 			CantripEmber.DisplayName: 余烬
-			CantripEmberS.DisplayName: 余烬
+			CantripEmberS.DisplayName: "{$Mods.Redemption.Projectiles.CantripEmber.DisplayName}"
 			Constellations_Star.DisplayName: 星座
 			ContagionShard_Proj.DisplayName: 感染性碎片
 			DigestiveAcid_Mist.DisplayName: 酸雾
@@ -10005,10 +10516,10 @@ Mods: {
 			DragonSkull_Proj.DisplayName: 龙颅
 			DragonSkullFlames_Proj.DisplayName: 龙焰
 			Dusksong_Proj.DisplayName: 黑暗之魂
-			Dusksong_Proj2.DisplayName: 黑暗之魂
+			Dusksong_Proj2.DisplayName: "{$Mods.Redemption.Projectiles.Dusksong_Proj.DisplayName}"
 			EaglecrestBoulder_Proj.DisplayName: 鹰峰滚石
 			Earthbind_Effect.DisplayName: 地缚
-			Earthbind_Proj.DisplayName: 地缚
+			Earthbind_Proj.DisplayName: "{$Mods.Redemption.Projectiles.Earthbind_Effect.DisplayName}"
 			GiantDandelionSeed.DisplayName: 巨型蒲公英
 			GiantMask.DisplayName: 巨型面具
 			GigapeiliBolt.DisplayName: 电能矢
@@ -10017,27 +10528,26 @@ Mods: {
 			HeatRay.DisplayName: 热射线
 			IceBolt.DisplayName: 冰矢
 			Icefall_Mist.DisplayName: 寒雾
-			Icefall_Proj.DisplayName: 冰坠
+			Icefall_Proj.DisplayName: "{$Mods.Redemption.Items.Icefall.DisplayName}"
 			LightOrb_Proj.DisplayName: 光球
 			LightOrbRay_Proj.DisplayName: 光线
 			MagnifyingGlassRay.DisplayName: 灼热射线
 			Nanite_Proj.DisplayName: 纳米机器蜂
-			NaturePixie_Magic.DisplayName: 自然仙灵（魔法）
-			NoidanNuoli.DisplayName: Noidan Nuoli
+			NaturePixie_Magic.DisplayName: 自然仙灵
 			NoitaBombBlast.DisplayName: Explosion
 			Petridish_Proj.DisplayName: 有丝分裂
 			PlutoniumNuke_Proj.DisplayName: 钚核导弹
 			PoemTornado_Proj.DisplayName: 龙卷风
-			Pommisauva_Bomb.DisplayName: Pommisauva_ Bomb
-			Rockslide_Proj.DisplayName: 岩崩
+			Pommisauva_Bomb.DisplayName: Pommisauva Bomb
+			Rockslide_Proj.DisplayName: "{$Mods.Redemption.Items.Rockslide.DisplayName}"
 			RockslidePebble_Proj.DisplayName: 岩石
 			SoulScepterCharge.DisplayName: 灵魂冲击
-			SoulScepterChargeS.DisplayName: 灵魂冲击
+			SoulScepterChargeS.DisplayName: "{$Mods.Redemption.Projectiles.SoulScepterCharge.DisplayName}"
 			Sunshard.DisplayName: 救赎火花
 			SunshardRay.DisplayName: 太阳裂片射线
 			SynthNote_Proj.DisplayName: 合成器音符
 			WaterOrb.DisplayName: 水球
-			WaterOrbS.DisplayName: 水球
+			WaterOrbS.DisplayName: "{$Mods.Redemption.Projectiles.WaterOrb.DisplayName}"
 			XeniumBoom_Proj.DisplayName: 爆炸
 			XeniumBubble_Proj.DisplayName: 异金泡泡
 			XeniumStaff_Proj.DisplayName: 异金射线
@@ -10114,8 +10624,8 @@ Mods: {
 			ProjDeath.DisplayName: death
 			SandDust_Proj.DisplayName: 尘埃云
 			ShockwaveBoom.DisplayName: 冲击波爆发
-			ShockwaveBoom2.DisplayName: 冲击波爆发
-			ShockwaveBoom3.DisplayName: 冲击波爆发
+			ShockwaveBoom2.DisplayName: "{$Mods.Redemption.Projectiles.ShockwaveBoom.DisplayName}"
+			ShockwaveBoom3.DisplayName: "{$Mods.Redemption.Projectiles.ShockwaveBoom.DisplayName}"
 			SoulShockwave_Proj.DisplayName: 奥术搏动
 			StingerFriendly.DisplayName: 毒刺
 			ToxicGas_Proj.DisplayName: 有毒气体
@@ -10126,14 +10636,14 @@ Mods: {
 			CleaverPet.DisplayName: 迷你斩切刃
 			CuddlyTeratoma_Proj.DisplayName: 可爱畸胎瘤
 			DevilImp_Proj.DisplayName: 恶魔小鬼
-			DummyPet_Proj.DisplayName: Dummy Pet_ Proj
+			DummyPet_Proj.DisplayName: Dummy Pet
 			HalPet.DisplayName: Halm
 			HalPetSPEEN.DisplayName: SPEEN
 			KS3Pet_Proj.DisplayName: 弑君者投影
 			MiniGigapora.DisplayName: 迷你钻机
-			MiniGigapora_Body.DisplayName: 迷你钻机
-			MiniGigapora_Core.DisplayName: 迷你钻机
-			MiniGigapora_Tail.DisplayName: 迷你钻机
+			MiniGigapora_Body.DisplayName: "{$Mods.Redemption.Projectiles.MiniGigapora.DisplayName}"
+			MiniGigapora_Core.DisplayName: "{$Mods.Redemption.Projectiles.MiniGigapora.DisplayName}"
+			MiniGigapora_Tail.DisplayName: "{$Mods.Redemption.Projectiles.MiniGigapora.DisplayName}"
 			NebPet_Proj.DisplayName: 小涅比
 			Occie.DisplayName: 欧西
 			PetChicken.DisplayName: 宠物鸡
@@ -10149,7 +10659,7 @@ Mods: {
 			DarkSteelArrow.DisplayName: 暗钢箭
 			DarkSteelArrow_Tendril.DisplayName: 暗影卷须
 			DrillRevolver_Bullet.DisplayName: 钻头
-			EaglecrestSling_Proj.DisplayName: 鹰峰投石
+			EaglecrestSling_Proj.DisplayName: "{$Mods.Redemption.Items.EaglecrestSling.DisplayName}"
 			FanOShivs_Proj.DisplayName: 飞刀
 			FanOShivsPoison_Proj.DisplayName: 毒飞刀
 			FlakGrenade.DisplayName: 高射榴弹
@@ -10178,8 +10688,8 @@ Mods: {
 			UkonvasaraArrow.DisplayName: 神锤之矢
 			Uranium_Proj.DisplayName: 贫铀矢
 			UraniumRaygun_Proj.DisplayName: 铀光束环
-			XeniumElectrolaser_Beam.DisplayName: 精金长矛
-			XeniumElectrolaser_Beam2.DisplayName: 精金长矛
+			XeniumElectrolaser_Beam.DisplayName: 精金镭射
+			XeniumElectrolaser_Beam2.DisplayName: "{$Mods.Redemption.Projectiles.XeniumElectrolaser_Beam.DisplayName}"
 			BolineFlower.DisplayName: 芽体花朵
 			CursedThornVileF.DisplayName: 诅咒荆棘
 			HellfireCharge_Proj.DisplayName: 地狱之火冲击
@@ -10187,12 +10697,12 @@ Mods: {
 			Explosion_Visual.DisplayName: Explosion
 			Ring_Visual.DisplayName: Ring
 			BigMaceTurret_NPC.DisplayName: 实验室MACE炮塔
-			SoulCandles_Proj.DisplayName: 灵魂蜡烛
+			SoulCandles_Proj.DisplayName: 涤魂蜡烛
 			AncientGoldCoinPileBall.DisplayName: 古老金币
 			IrradiatedSandBall.DisplayName: 辐射沙球
 			ShadestoneRubbleBall.DisplayName: 空洞碎岩
-			Gigapora_CrossBombTele.DisplayName: Gigapora_ Cross Bomb Tele
-			KS3_DroneKillCheck.DisplayName: K S3_ Drone Kill Check
+			Gigapora_CrossBombTele.DisplayName: Telegraph
+			KS3_DroneKillCheck.DisplayName: ""
 			BlackHoleSpell.DisplayName: 黑洞
 			BouncingBurstSpell.DisplayName: 弹跳冲击弹
 			BubbleSparkSpell.DisplayName: 泡泡沫
@@ -10207,15 +10717,15 @@ Mods: {
 			OmegaDiscSpell.DisplayName: 终末圆锯
 			SpitterBoltSpell.DisplayName: 喷射球
 			TntSpell.DisplayName: TNT
-			Calavia_SS_BladeOfTheMountain.DisplayName: 山峦之刃
-			Calavia_SS_BladeOfTheMountain2.DisplayName: 山峦之刃
-			Calavia_SS_BladeStab.DisplayName: 山峦之刃
+			Calavia_SS_BladeOfTheMountain.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
+			Calavia_SS_BladeOfTheMountain2.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
+			Calavia_SS_BladeStab.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
 			Calavia_ArcticWind.DisplayName: 极地之风
-			Calavia_BladeOfTheMountain.DisplayName: 山峦之刃
-			Calavia_BladeOfTheMountain2.DisplayName: 山峦之刃
-			Calavia_BladeStab.DisplayName: 山峦之刃
-			Calavia_Icefall.DisplayName: 冰坠
-			Calavia_IcefallArena.DisplayName: 冰坠
+			Calavia_BladeOfTheMountain.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
+			Calavia_BladeOfTheMountain2.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
+			Calavia_BladeStab.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
+			Calavia_Icefall.DisplayName: "{$Mods.Redemption.Items.Icefall.DisplayName}"
+			Calavia_IcefallArena.DisplayName: "{$Mods.Redemption.Items.Icefall.DisplayName}"
 			Calavia_IcefallMist.DisplayName: 寒雾
 			Basan_Firebreath.DisplayName: 火焰之息
 			Basan_HeatWave.DisplayName: 热冲击波
@@ -10228,16 +10738,39 @@ Mods: {
 			SoI_ShardShot_Friendly.DisplayName: 感染碎片
 			InfectiousGlaive_Shard.DisplayName: 感染裂片
 			EnergySphereSpell_Blast.DisplayName: 能量球
-			EaglecrestGolem_ShockwaveSpawner.DisplayName: Eaglecrest Golem_ Shockwave Spawner
-			Golem_GroundShock.DisplayName: 大地震颤
-			BloatedClinger_Gas.DisplayName: 胆汁毒雾
+			EaglecrestGolem_ShockwaveSpawner.DisplayName: ""
+			// Golem_GroundShock.DisplayName: Shockwave
+			// PumpkabooPet.DisplayName: Pumpkaboo
+			// HydrasMaw_Ball.DisplayName: Orb of Acid
+			// HydrasMaw_Gas.DisplayName: Hydra Gas
+			// HydrasMaw_Proj.DisplayName: Hydra Acid
+			BeardedHatchet_Proj.DisplayName: "{$Mods.Redemption.Items.BeardedHatchet.DisplayName}"
+			Bindeklinge_Slash.DisplayName: "{$Mods.Redemption.Items.Bindeklinge.DisplayName}"
+			TileLine_Proj.DisplayName: ""
+			// ShootingStar.DisplayName: Shooting Star
+			TwinklestarHoldout.DisplayName: "{$Mods.Redemption.Items.Twinklestar.DisplayName}"
+			TwinklestarRadius.DisplayName: ""
+			// TwinklestarTinyStar.DisplayName: Tiny Twinklestar
+			Fallen_BeardedHatchet_Proj.DisplayName: "{$Mods.Redemption.Items.BeardedHatchet.DisplayName}"
+			Zephos_SwordSlicer_Slash.DisplayName: "{$Mods.Redemption.Items.SwordSlicer.DisplayName}"
+			// VasaraRock_Proj.DisplayName: Vasara Rock
+			// EmpPet.DisplayName: Gumdramon
+			// BLTPet.DisplayName: Calico Cat
+			// BLTSandwichPet.DisplayName: B.L.T. Sandwich
+			// MiniDigger.DisplayName: Mini Digger
+			// AsterisPet.DisplayName: Chibi Asteris
+			// CloudCallerPet.DisplayName: Cloud Doggy
+			// GuidingStranger_Proj.DisplayName: Guiding Stranger
+			// BloatedClinger_Gas.DisplayName: Bloated Clinger_ Gas
+			// NoidanNuoli.DisplayName: Noidan Nuoli
+			// Firebreak_Proj.DisplayName: Firebreak_ Proj
 		}
 
 		NPCs: {
 			Akka.DisplayName: 阿卡
 
 			EaglecrestGolem2: {
-				DisplayName: 鹰峰魔像
+				DisplayName: "{$Mods.Redemption.NPCs.EaglecrestGolem.DisplayName}"
 
 				BossChecklistIntegration: {
 					SpawnInfo: 把[i:Redemption/GolemEye]放下，用最初包裹它的石头再次将其包裹，它就能展现出真正的力量。
@@ -10245,7 +10778,7 @@ Mods: {
 				}
 			}
 
-			EaglecrestRockPile2.DisplayName: 鹰峰岩儡
+			EaglecrestRockPile2.DisplayName: "{$Mods.Redemption.NPCs.EaglecrestRockPile.DisplayName}"
 
 			Ukko: {
 				DisplayName: 乌戈
@@ -10307,14 +10840,14 @@ Mods: {
 
 			Gigapora_BodySegment.DisplayName: 欧米伽千兆钻机
 			Gigapora_ShieldCore.DisplayName: 护盾核心
-			Porakone.DisplayName: 操纵机
+			Porakone.DisplayName: "{$Mods.Redemption.NPCs.Wielder.DisplayName}"
 
 			Keeper: {
 				DisplayName: 守夜人
 				BossChecklistIntegration.SpawnInfo: 在夜间使用[i:Redemption/WeddingRing]。
 			}
 
-			KeeperSpirit.DisplayName: 守夜人的灵魂
+			// KeeperSpirit.DisplayName: The Keeper's Echo
 
 			KS3: {
 				DisplayName: 弑君者III
@@ -10327,7 +10860,7 @@ Mods: {
 			KS3_ScannerDrone.DisplayName: 扫描无人机Mk.I
 			SpaceKeeper.DisplayName: 太空维护者
 			Nebuleus_Clone.DisplayName: 涅布琉斯的幻象
-			Nebuleus2_Clone.DisplayName: 涅布琉斯的幻象
+			Nebuleus2_Clone.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus_Clone.DisplayName}"
 
 			Nebuleus: {
 				DisplayName: 星宇天使，涅布琉斯
@@ -10338,7 +10871,7 @@ Mods: {
 				}
 			}
 
-			Nebuleus2.DisplayName: 星宇天使，涅布琉斯
+			Nebuleus2.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
 
 			OO: {
 				DisplayName: 欧米伽歼灭者
@@ -10354,7 +10887,7 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: 在废弃实验室攻击零号病患的眼睛。在场地中使用[i:Redemption/LabHologramDevice]再次召唤。
 			}
 
-			PZ_Body_Holo.DisplayName: 零号病患
+			PZ_Body_Holo.DisplayName: "{$Mods.Redemption.NPCs.PZ.DisplayName}"
 			PZ_Kari.DisplayName: 卡里.约翰逊
 			SeedGrowth.DisplayName: 疫巢肿块
 
@@ -10408,57 +10941,57 @@ Mods: {
 				DisplayName: 徒步旅行者
 
 				TownNPCMood: {
-					Content: 我现在很满足。
-					NoHome: 嘿，如果你不介意的话，我很想有个栖身之所。
-					FarFromHome: 你能送我回家吗？这片土地相当恐怖。
-					LoveSpace: 我喜欢这里的空间，有足够的场地练习射箭。
-					DislikeCrowded: 我是一个内向的人，所以周围的人都让我很不安。
-					HateCrowded: 我是一个内向的人，所以周围的人都让我很不安。
-					LoveBiome: 我认为{BiomeName}是完美的，平静的，安宁的。
-					LikeBiome: 我认为{BiomeName}是一个非常好的地方，我来的地方几乎看不到雪。
-					DislikeBiome: 我真的不喜欢{BiomeName}，我讨厌和骷髅发生冲突！
-					HateBiome: 你为什么让我在{BiomeName}？你知道丛林有多危险吗！？
-					LoveNPC: 我和{NPCName}是好朋友，感谢你让我们住在一个小镇。
-					LikeNPC: "{NPCName}是个好同伴，她也很擅长给我做发型……这不奇怪，对吧？"
-					DislikeNPC: "{NPCName}一直想让我买他的东西。"
-					HateNPC: 嘘，你能不能让{NPCName}住得离我远一点，我已经超级破产了。
-					LikeNPC_Princess: 我喜欢{NPCName}。
-					Princess_LovesNPC: 我喜欢{NPCName}。
+					LoveBiome: "{$Mods.Redemption.TownNPCMood.Daerel.LoveBiome}"
+					HateCrowded: "{$Mods.Redemption.TownNPCMood.Daerel.HateCrowded}"
+					DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Daerel.DislikeCrowded}"
+					LoveSpace: "{$Mods.Redemption.TownNPCMood.Daerel.LoveSpace}"
+					FarFromHome: "{$Mods.Redemption.TownNPCMood.Daerel.FarFromHome}"
+					NoHome: "{$Mods.Redemption.TownNPCMood.Daerel.NoHome}"
+					Content: "{$Mods.Redemption.TownNPCMood.Daerel.Content}"
+					LikeBiome: "{$Mods.Redemption.TownNPCMood.Daerel.LikeBiome}"
+					DislikeBiome: "{$Mods.Redemption.TownNPCMood.Daerel.DislikeBiome}"
+					HateBiome: "{$Mods.Redemption.TownNPCMood.Daerel.HateBiome}"
+					LoveNPC: "{$Mods.Redemption.TownNPCMood.Daerel.LoveNPC}"
+					LikeNPC: "{$Mods.Redemption.TownNPCMood.Daerel.LikeNPC}"
+					DislikeNPC: "{$Mods.Redemption.TownNPCMood.Daerel.DislikeNPC}"
+					HateNPC: "{$Mods.Redemption.TownNPCMood.Daerel.HateNPC}"
+					LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Daerel.LikeNPC_Princess}"
+					Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Daerel.Princess_LovesNPC}"
 				}
 
 				Census.SpawnCondition: 在猩红世界中有一个空房屋，且要求第一天晚上后与其在地表传送门见过面
 			}
 
 			Daerel_Intro.DisplayName: 戴雷尔
-			DaerelUnconscious.DisplayName: 戴雷尔
+			DaerelUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Daerel_Intro.DisplayName}"
 
 			Fallen: {
 				DisplayName: 堕落者
 
 				TownNPCMood: {
-					Content: 你这小地方不错。
-					NoHome: 我更喜欢有一栋房子。
-					FarFromHome: 你能送我回家吗？
-					LoveSpace: 这个地方有点宽敞，不过我不抱怨，我很喜欢它。
-					DislikeCrowded: 这些人都让我的骨头咯咯作响。
-					HateCrowded: 这些人都让我的骨头咯咯作响。
-					LoveBiome: 洞穴对我们堕落者来说是完美的，很少有人类来这里。
-					LikeBiome: 啊，{BiomeName}让我想起了我还住在加苏拉姆的时候。那是一段美好的时光。
-					DislikeBiome: 我住在{BiomeName}？这不是我喜欢住的地方，我讨厌和好斗的人类发生冲突！
-					HateBiome: 我讨厌这里，{BiomeName}有一些神圣能量让我起鸡皮疙瘩。
-					LoveNPC: "{NPCName}卖一些漂亮的小玩意，也知道如何敲诈人；我喜欢。"
-					LikeNPC: "{NPCName}有一些我喜欢的东西。"
-					DislikeNPC: "{NPCName}一直用可疑的目光看着我。大概是想‘净化’我。"
-					HateNPC: "{NPCName}一直认为我是一个垂死的老人，坚持要治愈我。请让我与她离得远一点。"
-					LikeNPC_Princess: 我喜欢{NPCName}，她很好。
-					Princess_LovesNPC: 我喜欢{NPCName}，他让我想起了一个老人。
+					Content: "{$Mods.Redemption.TownNPCMood.Fallen.Content}"
+					NoHome: "{$Mods.Redemption.TownNPCMood.Fallen.NoHome}"
+					FarFromHome: "{$Mods.Redemption.TownNPCMood.Fallen.FarFromHome}"
+					LoveSpace: "{$Mods.Redemption.TownNPCMood.Fallen.LoveSpace}"
+					DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Fallen.DislikeCrowded}"
+					HateCrowded: "{$Mods.Redemption.TownNPCMood.Fallen.HateCrowded}"
+					LoveBiome: "{$Mods.Redemption.TownNPCMood.Fallen.LoveBiome}"
+					LikeBiome: "{$Mods.Redemption.TownNPCMood.Fallen.LikeBiome}"
+					DislikeBiome: "{$Mods.Redemption.TownNPCMood.Fallen.DislikeBiome}"
+					HateBiome: "{$Mods.Redemption.TownNPCMood.Fallen.HateBiome}"
+					LoveNPC: "{$Mods.Redemption.TownNPCMood.Fallen.LoveNPC}"
+					LikeNPC: "{$Mods.Redemption.TownNPCMood.Fallen.LikeNPC}"
+					DislikeNPC: "{$Mods.Redemption.TownNPCMood.Fallen.DislikeNPC}"
+					HateNPC: "{$Mods.Redemption.TownNPCMood.Fallen.HateNPC}"
+					LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Fallen.LikeNPC_Princess}"
+					Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Fallen.Princess_LovesNPC}"
 				}
 
 				Census.SpawnCondition: 击败守夜人，且有一个闲置的空房屋
 			}
 
 			ForestNymph_Friendly: {
-				DisplayName: 森林仙女
+				DisplayName: "{$Mods.Redemption.NPCs.ForestNymph.DisplayName}"
 				Census.SpawnCondition:
 					'''
 					用[i:Redemption/KingsOakStaff]来获得森林仙女的信任，需要正的调谐值。
@@ -10468,62 +11001,76 @@ Mods: {
 
 			GathuramPortal.DisplayName: 神秘传送门
 			GiftDrone.DisplayName: 礼物无人机
-			GiftDrone2.DisplayName: 礼物无人机
-			GiftDrone3.DisplayName: 礼物无人机
+			GiftDrone2.DisplayName: "{$Mods.Redemption.NPCs.GiftDrone.DisplayName}"
+			GiftDrone3.DisplayName: "{$Mods.Redemption.NPCs.GiftDrone.DisplayName}"
 			GoldenPortal.DisplayName: 黄金传送门
 			HazmatCorpse_Ghost.DisplayName: 防化服鬼魂
-			KS3Sitting.DisplayName: 弑君者III
+			KS3Sitting.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
 			LostSoulNPC.DisplayName: 迷失灵魂
 
 			Newb: {
 				DisplayName: 傻瓜
 
 				TownNPCMood: {
-					Content: 我喜欢这里！
-					NoHome: 家在哪里？
-					FarFromHome: 我迷路了，你能找到家吗？
-					LoveSpace: 人好少，耶！
-					DislikeCrowded: 太多脸了！
-					HateCrowded: 太多脸了！
-					LoveBiome: 我喜欢{BiomeName}！它让人想起……嗯…
-					LikeBiome: 我喜欢{BiomeName}。
-					DislikeBiome: 这里太无聊了，我讨厌沙子！
-					HateBiome: 我觉得{BiomeName}让我难过！
-					LoveNPC: "{NPCName} 和我一样了解魔法！"
-					LikeNPC: 我喜欢{NPCName}！
-					DislikeNPC: 我感觉{NPCName}内心邪恶，很坏！
-					HateNPC: 我对{NPCName}的仇恨是你无法理解的。
-					LikeNPC_Princess: 我喜欢{NPCName}。
-					Princess_LovesNPC: 我喜欢{NPCName}，他很傻！
+					Content: "{$Mods.Redemption.TownNPCMood.Newb.Content}"
+					NoHome: "{$Mods.Redemption.TownNPCMood.Newb.NoHome}"
+					FarFromHome: "{$Mods.Redemption.TownNPCMood.Newb.FarFromHome}"
+					LoveSpace: "{$Mods.Redemption.TownNPCMood.Newb.LoveSpace}"
+					DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Newb.DislikeCrowded}"
+					HateCrowded: "{$Mods.Redemption.TownNPCMood.Newb.HateCrowded}"
+					LoveBiome: "{$Mods.Redemption.TownNPCMood.Newb.LoveBiome}"
+					LikeBiome: "{$Mods.Redemption.TownNPCMood.Newb.LikeBiome}"
+					DislikeBiome: "{$Mods.Redemption.TownNPCMood.Newb.DislikeBiome}"
+					HateBiome: "{$Mods.Redemption.TownNPCMood.Newb.HateBiome}"
+					LoveNPC: "{$Mods.Redemption.TownNPCMood.Newb.LoveNPC}"
+					LikeNPC: "{$Mods.Redemption.TownNPCMood.Newb.LikeNPC}"
+					DislikeNPC: "{$Mods.Redemption.TownNPCMood.Newb.DislikeNPC}"
+					HateNPC: "{$Mods.Redemption.TownNPCMood.Newb.HateNPC}"
+					LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Newb.LikeNPC_Princess}"
+					Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Newb.Princess_LovesNPC}"
 				}
 
 				Census.SpawnCondition: 挖开地表传送门下方的土堆
 			}
 
 			Newb_Intro.DisplayName: 纽布
-			Noza_NPC.DisplayName: 邪恶驯服者，诺扎
-			SkullDiggerFriendly.DisplayName: 掘颅者
+
+			Noza_NPC: {
+				// DisplayName: Noza, Tamer of Evil
+				// ShortName: Noza
+			}
+
+			SkullDiggerFriendly.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
 			SkullDiggerFriendly_Spirit.DisplayName: 掘颅者的灵魂
 			SoullessPortal.DisplayName: 空洞之魂传送门
 			SpiritAssassin.DisplayName: 刺客灵魂
-			SpiritCommonGuard.DisplayName: 共同卫兵灵魂
+
+			SpiritCommonGuard: {
+				// DisplayName: Spirit Common Guard
+				// ShortName: Kleo
+			}
+
 			SpiritCurrent.DisplayName: 灵魂之河
 			SpiritDruid.DisplayName: 德鲁伊灵魂
-			SpiritGathicMan.DisplayName: 割脑者，布罗姆尔
+
+			SpiritGathicMan: {
+				// DisplayName: Old Spirit Man
+				// ShortName: Bromal
+			}
+
 			SpiritNiricLady.DisplayName: 老魂女士
-			AncientGladestoneGolem_SS.DisplayName: 远古林间石像
+			AncientGladestoneGolem_SS.DisplayName: "{$Mods.Redemption.NPCs.AncientGladestoneGolem.DisplayName}"
 			Asher_SS.DisplayName: 阿什尔
-			EpidotrianSkeleton_SS.DisplayName: 埃庇多特骷髅
-			ForestNymph_SS.DisplayName: 森林仙女
-			HazmatZombie_SS.DisplayName: 防化服僵尸
+			EpidotrianSkeleton_SS.DisplayName: "{$Mods.Redemption.NPCs.EpidotrianSkeleton.DisplayName}"
+			ForestNymph_SS.DisplayName: "{$Mods.Redemption.NPCs.ForestNymph.DisplayName}"
 			MossyGoliath_SS.DisplayName: 苔藓巨兽
-			SkeletonAssassin_SS.DisplayName: 骷髅刺客
-			SkeletonDuelist_SS.DisplayName: 骷髅贵族
-			SkeletonFlagbearer_SS.DisplayName: 骷髅旗手
-			SkeletonNoble_SS.DisplayName: 骷髅贵族
-			SkeletonWanderer_SS.DisplayName: 骷髅贵族
-			SkeletonWarden_SS.DisplayName: 骷髅监守者
-			SkullDigger_SS.DisplayName: 掘颅者
+			SkeletonAssassin_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonAssassin.DisplayName}"
+			SkeletonDuelist_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonDuelist.DisplayName}"
+			SkeletonFlagbearer_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonFlagbearer.DisplayName}"
+			SkeletonNoble_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonNoble.DisplayName}"
+			SkeletonWanderer_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonWanderer.DisplayName}"
+			SkeletonWarden_SS.DisplayName: "{$Mods.Redemption.NPCs.SkeletonWarden.DisplayName}"
+			SkullDigger_SS.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
 			SpiritWalkerMan.DisplayName: 奇怪灵魂
 			SpiritwalkerSoul.DisplayName: 迷失灵魂
 
@@ -10531,86 +11078,91 @@ Mods: {
 				DisplayName: 友好的T机器人
 
 				TownNPCMood: {
-					Content: 感觉相当满意，谢谢你的询问。
-					NoHome: 我不喜欢暴露在风雨中。你现在有什么房子或庇护所可以让我住吗？
-					FarFromHome: ……我想我们迷路了。我不熟悉我们周围的环境。
-					LoveSpace: 附近相当安静。
-					DislikeCrowded: 其他房客似乎对这里的拥挤不满意，坦率地说，我也是。
-					HateCrowded: 其他房客似乎对这里的拥挤不满意，坦率地说，我也是。
-					LoveBiome: 我喜欢这样的环境。非常令人愉快。
-					LikeBiome: 这种环境相当宜人。
-					DislikeBiome: 我目前所处的环境相当……不受人欢迎。
-					HateBiome: ……就像我的故乡一样。我真的不喜欢这个环境。
-					LoveNPC: "{NPCName}的医学知识与我不相上下！让我真的印象深刻。"
-					LikeNPC: "{NPCName}和我有共同之处。我们相处得很好。"
-					DislikeNPC: 我发现{NPCName}很令人不安。
-					HateNPC: "{NPCName}让我想起了我的故乡。但我真的不想回忆那个地方。"
-					LikeNPC_Princess: 我喜欢{NPCName}。
-					Princess_LovesNPC: 我喜欢{NPCName}。
+					Content: "{$Mods.Redemption.TownNPCMood.TBot.Content}"
+					NoHome: "{$Mods.Redemption.TownNPCMood.TBot.NoHome}"
+					FarFromHome: "{$Mods.Redemption.TownNPCMood.TBot.FarFromHome}"
+					LoveSpace: "{$Mods.Redemption.TownNPCMood.TBot.LoveSpace}"
+					DislikeCrowded: "{$Mods.Redemption.TownNPCMood.TBot.DislikeCrowded}"
+					HateCrowded: "{$Mods.Redemption.TownNPCMood.TBot.HateCrowded}"
+					LoveBiome: "{$Mods.Redemption.TownNPCMood.TBot.LoveBiome}"
+					LikeBiome: "{$Mods.Redemption.TownNPCMood.TBot.LikeBiome}"
+					DislikeBiome: "{$Mods.Redemption.TownNPCMood.TBot.DislikeBiome}"
+					HateBiome: "{$Mods.Redemption.TownNPCMood.TBot.HateBiome}"
+					LoveNPC: "{$Mods.Redemption.TownNPCMood.TBot.LoveNPC}"
+					LikeNPC: "{$Mods.Redemption.TownNPCMood.TBot.LikeNPC}"
+					DislikeNPC: "{$Mods.Redemption.TownNPCMood.TBot.DislikeNPC}"
+					HateNPC: "{$Mods.Redemption.TownNPCMood.TBot.HateNPC}"
+					LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.TBot.LikeNPC_Princess}"
+					Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.TBot.Princess_LovesNPC}"
 				}
 
 				Census.SpawnCondition: 击败感染之种，且有一个闲置的空房屋
 			}
 
 			TBot_Intro.DisplayName: 亚当
-			TBotUnconscious.DisplayName: 亚当
-			TreebarkDryad.DisplayName: 树皮精
+			TBotUnconscious.DisplayName: "{$Mods.Redemption.NPCs.TBot_Intro.DisplayName}"
+
+			TreebarkDryad: {
+				// DisplayName: Treebark Dryad
+				// Title: " the Treebark Dryad"
+			}
+
 			WraithSlayer_Samurai.DisplayName: 咒魂武士
 
 			Zephos: {
 				DisplayName: 徒步旅行者
 
 				TownNPCMood: {
-					Content: 很好。
-					NoHome: 哟，介意给我一间房子住吗？
-					FarFromHome: 哟兄弟，我找不到我的房子了，你想帮我吗？
-					LoveSpace: 这个地方超级宽敞，适合我练剑术！
-					DislikeCrowded: 这里是太挤了还是怎么了！
-					HateCrowded: 这里是太挤了还是怎么了！
-					LoveBiome: 住在{BiomeName}让我想起我还是个年轻的海盗时，在大海上航行！
-					LikeBiome: 我认为{BiomeName}是个好地方，我可以听到鸟儿歌唱，看鲜花盛开。
-					DislikeBiome: 我不是{BiomeName}的爱好者，我宁愿住在地表。
-					HateBiome: 这里太冷了，我的靴子都在发抖！
-					LoveNPC: "{NPCName}和我是很好的朋友，所以住得近很好！"
-					LikeNPC: "{NPCName}很酷，我想找个时间和他一起去航海。"
-					DislikeNPC: "{NPCName}想用他贪婪的小手染指我的钱！"
-					HateNPC: "{NPCName}绝对不能拿我的钱！绝对不能！！"
-					LikeNPC_Princess: 我喜欢{NPCName}。
-					Princess_LovesNPC: 我喜欢{NPCName}。
+					Content: "{$Mods.Redemption.TownNPCMood.Zephos.Content}"
+					NoHome: "{$Mods.Redemption.TownNPCMood.Zephos.NoHome}"
+					FarFromHome: "{$Mods.Redemption.TownNPCMood.Zephos.FarFromHome}"
+					LoveSpace: "{$Mods.Redemption.TownNPCMood.Zephos.LoveSpace}"
+					DislikeCrowded: "{$Mods.Redemption.TownNPCMood.Zephos.DislikeCrowded}"
+					HateCrowded: "{$Mods.Redemption.TownNPCMood.Zephos.HateCrowded}"
+					LoveBiome: "{$Mods.Redemption.TownNPCMood.Zephos.LoveBiome}"
+					LikeBiome: "{$Mods.Redemption.TownNPCMood.Zephos.LikeBiome}"
+					DislikeBiome: "{$Mods.Redemption.TownNPCMood.Zephos.DislikeBiome}"
+					HateBiome: "{$Mods.Redemption.TownNPCMood.Zephos.HateBiome}"
+					LoveNPC: "{$Mods.Redemption.TownNPCMood.Zephos.LoveNPC}"
+					LikeNPC: "{$Mods.Redemption.TownNPCMood.Zephos.LikeNPC}"
+					DislikeNPC: "{$Mods.Redemption.TownNPCMood.Zephos.DislikeNPC}"
+					HateNPC: "{$Mods.Redemption.TownNPCMood.Zephos.HateNPC}"
+					LikeNPC_Princess: "{$Mods.Redemption.TownNPCMood.Zephos.LikeNPC_Princess}"
+					Princess_LovesNPC: "{$Mods.Redemption.TownNPCMood.Zephos.Princess_LovesNPC}"
 				}
 
 				Census.SpawnCondition: 在腐化世界中有一个空房屋，且要求第一天晚上后与其在地表传送门见过面
 			}
 
 			Zephos_Intro.DisplayName: 泽弗斯
-			ZephosUnconscious.DisplayName: 泽弗斯
+			ZephosUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Zephos_Intro.DisplayName}"
 			Android.DisplayName: 机械战士Mk.I
 			PrototypeSilver.DisplayName: 白银原型机Mk.I
 			SlayerSpawner.DisplayName: 弑君者生成
 			SpacePaladin.DisplayName: 太空圣骑士Mk.I
 			IrradiatedBehemoth.DisplayName: 辐射巨兽
-			IrradiatedBehemoth_Holo.DisplayName: 辐射巨兽
+			IrradiatedBehemoth_Holo.DisplayName: "{$Mods.Redemption.NPCs.IrradiatedBehemoth.DisplayName}"
 			BlisteredScientist.DisplayName: 水疱科学家
 			BlisteredFish.DisplayName: 水疱鱼
-			BlisteredFish2.DisplayName: 水疱鱼
+			BlisteredFish2.DisplayName: "{$Mods.Redemption.NPCs.BlisteredFish.DisplayName}"
 			Blisterface.DisplayName: 脓疱疮脸
-			Blisterface_Holo.DisplayName: 脓疱疮脸
+			Blisterface_Holo.DisplayName: "{$Mods.Redemption.NPCs.Blisterface.DisplayName}"
 			BloatedScientist.DisplayName: 肿胀科学家
 			CraneOperator.DisplayName: 起重机操纵员
 			JanitorBot.DisplayName: 清洁工
-			JanitorBot_Cleaning.DisplayName: 清洁工
-			JanitorBot_Defeated.DisplayName: 清洁工
-			JanitorBot_Holo.DisplayName: 清洁工
-			JanitorBot_NPC.DisplayName: 清洁工
+			JanitorBot_Cleaning.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
+			JanitorBot_Defeated.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
+			JanitorBot_Holo.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
+			JanitorBot_NPC.DisplayName: "{$Mods.Redemption.NPCs.JanitorBot.DisplayName}"
 			LabSentryDrone.DisplayName: 实验室无人机
 			MACEProject.DisplayName: MACE工程
-			MACEProject_Holo.DisplayName: MACE工程
-			MACEProject_Off.DisplayName: MACE工程
+			MACEProject_Holo.DisplayName: "{$Mods.Redemption.NPCs.MACEProject.DisplayName}"
+			MACEProject_Off.DisplayName: "{$Mods.Redemption.NPCs.MACEProject.DisplayName}"
 			OozeBlob.DisplayName: 污泥泡
 			OozingScientist.DisplayName: 泥化科学家
 			ProtectorVolt.DisplayName: 守卫者伏特
-			ProtectorVolt_NPC.DisplayName: 守卫者伏特
-			ProtectorVolt_Start.DisplayName: 守卫者伏特
+			ProtectorVolt_NPC.DisplayName: "{$Mods.Redemption.NPCs.ProtectorVolt.DisplayName}"
+			ProtectorVolt_Start.DisplayName: "{$Mods.Redemption.NPCs.ProtectorVolt.DisplayName}"
 
 			EaglecrestGolem: {
 				DisplayName: 鹰峰魔像
@@ -10625,11 +11177,11 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: 游荡在洞穴中，寻求着复仇……
 			}
 
-			BabbyDragonBody.DisplayName: 星蟒
+			BabbyDragonBody.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
 			BabbyDragonHead.DisplayName: 星蟒
-			BabbyDragonLeg.DisplayName: 星蟒
-			BabbyDragonTail1.DisplayName: 星蟒
-			BabbyDragonTail2.DisplayName: 星蟒
+			BabbyDragonLeg.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
+			BabbyDragonTail1.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
+			BabbyDragonTail2.DisplayName: "{$Mods.Redemption.NPCs.BabbyDragonHead.DisplayName}"
 			ShadesoulNPC.DisplayName: 空洞之魂
 			AncientGladestoneGolem.DisplayName: 远古林间石像
 			Blobble.DisplayName: 弹弹史莱姆
@@ -10669,11 +11221,11 @@ Mods: {
 			SicklyPenguin.DisplayName: 病态企鹅
 			SicklyWolf.DisplayName: 病态狼
 			SneezyFlinx.DisplayName: 感染雪怪
-			KS3_Start.DisplayName: 弑君者III
-			Neb_Start.DisplayName: 涅布琉斯
-			PZ_Inactive.DisplayName: 零号病患
-			IrradiatedBehemoth_Inactive.DisplayName: 辐射巨兽
-			Blisterface_Inactive.DisplayName: 脓疱疮脸
+			KS3_Start.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
+			Neb_Start.DisplayName: "{$Mods.Redemption.NPCs.Nebuleus.DisplayName}"
+			PZ_Inactive.DisplayName: "{$Mods.Redemption.NPCs.PZ.DisplayName}"
+			IrradiatedBehemoth_Inactive.DisplayName: "{$Mods.Redemption.NPCs.IrradiatedBehemoth.DisplayName}"
+			Blisterface_Inactive.DisplayName: "{$Mods.Redemption.NPCs.Blisterface.DisplayName}"
 			JustANormalToaster.DisplayName: ""
 			Calavia_SS.DisplayName: 凯丽莎
 
@@ -10682,8 +11234,8 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: 骷髅王被击败后，出现在地下传送门。
 			}
 
-			Calavia_Intro.DisplayName: 卡拉维亚
-			Calavia_NPC.DisplayName: 卡拉维亚
+			Calavia_Intro.DisplayName: "{$Mods.Redemption.NPCs.Calavia.DisplayName}"
+			Calavia_NPC.DisplayName: "{$Mods.Redemption.NPCs.Calavia.DisplayName}"
 
 			Basan: {
 				DisplayName: 波山
@@ -10691,6 +11243,7 @@ Mods: {
 			}
 
 			GhostfireChicken.DisplayName: 鬼火鸡
+			HazmatZombie_SS.DisplayName: 防化服僵尸_ S S
 		}
 
 		Tiles: {
@@ -10751,15 +11304,6 @@ Mods: {
 			LabChestTileLocked_Locked.MapEntry: 上锁高安全级实验室箱
 			LabChestTileLocked2_Locked.MapEntry: 上锁高安全级实验室箱
 			ArchclothThroneTile.MapEntry: 紫拱宝座
-			ElderWoodBathtubTile.MapEntry: 远古木浴缸
-			ElderWoodBedTile.MapEntry: 远古木床
-			ElderWoodBookcaseTile.MapEntry: 远古木书架
-			ElderWoodCandelabraTile.MapEntry: 远古木烛台
-			ElderWoodCandleTile.MapEntry: 远古木蜡烛
-			ElderWoodClockTile.MapEntry: 远古木钟
-			ElderWoodPianoTile.MapEntry: 远古木钢琴
-			ElderWoodSofaTile.MapEntry: 远古木沙发
-			ElderWoodWorkbenchTile.MapEntry: 远古木工作台
 			BabyHiveTile.MapEntry: 感染幼巢
 			BigMaceTurretTile.MapEntry: 实验室MACE炮台
 			BiohazardSignTile.MapEntry: 生物危害警告标志
@@ -10834,15 +11378,6 @@ Mods: {
 			ThornPlushTile.MapEntry: 索恩玩偶
 			TrojanChickenTile.MapEntry: 特洛伊木鸡复制品
 			PetrifiedCrateTile.MapEntry: 石化木匣
-			PetrifiedWoodBathtubTile.MapEntry: 石化木浴缸
-			PetrifiedWoodBedTile.MapEntry: 石化木床
-			PetrifiedWoodBookcaseTile.MapEntry: 石化木书架
-			PetrifiedWoodCandelabraTile.MapEntry: 石化木烛台
-			PetrifiedWoodCandleTile.MapEntry: 石化木蜡烛
-			PetrifiedWoodClockTile.MapEntry: 石化木钟
-			PetrifiedWoodPianoTile.MapEntry: 石化木钢琴
-			PetrifiedWoodSofaTile.MapEntry: 石化木沙发
-			PetrifiedWoodWorkBenchTile.MapEntry: 石化木工作台
 			ShadesteelGateClose.MapEntry: 空洞铁门
 			ShadesteelGateOpen.MapEntry: 空洞铁门
 			ShadesteelHangingCell2Tile.MapEntry: 悬挂铁笼
@@ -10850,18 +11385,9 @@ Mods: {
 			ShadesteelPortcullisClose.MapEntry: 空洞闸门
 			ShadesteelPortcullisClose_Unlocked.MapEntry: 空洞闸门
 			ShadesteelPortcullisOpen.MapEntry: 空洞闸门
-			ShadestoneBathtubTile.MapEntry: 空洞石浴缸
-			ShadestoneBedTile.MapEntry: 空洞石床
-			ShadestoneBookcaseTile.MapEntry: 空洞石书架
-			ShadestoneCandelabraTile.MapEntry: 空洞石烛台
-			ShadestoneCandleTile.MapEntry: 空洞石蜡烛
-			ShadestoneClockTile.MapEntry: 空洞石钟
 			ShadestoneCrateTile.MapEntry: 空洞石匣
 			ShadestoneGateTile.MapEntry: 空洞石大门
 			ShadestoneMirrorTile.MapEntry: 空洞石镜
-			ShadestonePianoTile.MapEntry: 空洞石钢琴
-			ShadestoneSofaTile.MapEntry: 空洞石沙发
-			ShadestoneWorkbenchTile.MapEntry: 空洞石工作台
 			WaxCandlesTile.MapEntry: 石蜡蜡烛
 			AndroidInactiveTile.MapEntry: 未激活的机械战士Mk.I
 			BiocontainerTile.MapEntry: 生命果储存容器
@@ -10878,16 +11404,17 @@ Mods: {
 			NiricAutomatonRemainsTile.MapEntry: 自动机遗迹
 			ShadePots.MapEntry: 罐子
 			SkeletonRemainsTile1.MapEntry: 遗骸
-			SkeletonRemainsTile1_Special.MapEntry: 遗骸
-			SkeletonRemainsTile2.MapEntry: 遗骸
-			SkeletonRemainsTile3.MapEntry: 遗骸
-			SkeletonRemainsTile3_Special.MapEntry: 遗骸
-			SkeletonRemainsTile4.MapEntry: 遗骸
-			SkeletonRemainsTile4_Special.MapEntry: 遗骸
-			SkeletonRemainsTile5.MapEntry: 遗骸
-			SkeletonRemainsTile5_Special.MapEntry: 遗骸
-			SkeletonRemainsTile6.MapEntry: 遗骸
-			SkeletonRemainsTile7.MapEntry: 遗骸
+			SkeletonRemainsTile1_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile2.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile3.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile3_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile4.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile4_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile5.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile5_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile6.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile7.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
+			SkeletonRemainsTile7_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
 			SkeletonRemainsTile7_Special.MapEntry: 遗骸
 			XenomiteCrystalBigTile.MapEntry: 异辉晶体
 			XenomiteCrystalTile.MapEntry: 异辉晶体
@@ -10910,19 +11437,26 @@ Mods: {
 			ShadestoneBrickMossyTile.MapEntry: 生苔空洞石砖
 			ShadestoneBrickTile.MapEntry: 空洞石砖
 			ShadestoneMossyTile.MapEntry: 生苔空洞石
-			ShadestoneRubbleTile.MapEntry: 空洞碎岩
+			// ShadestoneSlabTile.MapEntry: Shadestone Beam
 			ShadestoneSlabTile.MapEntry: 空洞石板
 			ShadestoneTile.MapEntry: 空洞石
 			ElderSapling.MapEntry: 远古树苗
 			IrradiatedBorealSapling.MapEntry: 石化针叶树苗
 			IrradiatedPalmSapling.MapEntry: 石化棕榈树苗
 			IrradiatedPuritySapling.MapEntry: 石化树苗
+			// ShadestoneBathtubTile.MapEntry: Shadestone Bathtub Tile
+			// ShadestoneBookcaseTile.MapEntry: Shadestone Bookcase Tile
+			// ShadestoneCandelabraTile.MapEntry: Shadestone Candelabra Tile
+			// ShadestoneCandleTile.MapEntry: Shadestone Candle Tile
 			ShadestoneMirrorTile2.MapEntry: 特殊空洞石镜
+			// ShadestonePianoTile.MapEntry: Shadestone Piano Tile
+			// ShadestoneSofaTile.MapEntry: Shadestone Sofa Tile
 		}
 
 		Keybinds: {
 			"Special Ability Key.DisplayName": 特殊能力按键
 			"Spirit Walker Key.DisplayName": 灵魂行者按键
+			"Skip Dialogue Key.DisplayName": 跳过对话按键
 		}
 
 		Conditions: {
@@ -10961,7 +11495,9 @@ Mods: {
 			DownedSkeletronOrSeed: 击败任何后期困难模式前Boss时
 			HasSpiritWalker: 获得灵魂行者能力后
 			DeadRingerGiven: 在找到死亡之铃后
+			InSoullessCaverns: 处于失魂洞窟时
 			ForestNymphTrust: 获得森林仙女的信任时
+			// OldTophat: While the hanging skeleton is gone
 		}
 
 		Configs: {
@@ -11004,6 +11540,11 @@ Mods: {
 				ElementDisable: {
 					Label: 禁用元素属性系统
 					Tooltip: 禁用元素抗性和元素伤害
+				}
+
+				ShakeIntensity: {
+					// Label: Screen Shake Intensity
+					// Tooltip: Reduce to decrease the intensity of screen shaking effects, 0 will disable it entirely
 				}
 
 				NoPZBuildUp: {
