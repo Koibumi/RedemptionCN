@@ -2,98 +2,98 @@ Mods: {
 	Redemption: {
 		TownNPCMood: {
 			Daerel: {
-				Content: I'm rather content right now.
-				NoHome: Hey, I'd quite like a roof under my head if that's alright with you.
-				FarFromHome: Could you please get me back to my house? This land is quite scary.
-				LoveSpace: I like the space I have here, plenty of room to practice my archery.
-				DislikeCrowded: I'm somewhat of an introvert, so all these people near me is quite unnerving.
-				HateCrowded: I'm somewhat of an introvert, so all these people near me is quite unnerving.
-				LoveBiome: I think {BiomeName} is perfect, calm and tranquil.
-				LikeBiome: I think {BiomeName} is a very nice place, I hardly see any snow where I was from.
-				DislikeBiome: I don't really like {BiomeName}, I'd hate to have a run-in with skeletons!
-				HateBiome: Why'd you put me in {BiomeName}? You know how hostile jungles are!?
-				LoveNPC: Me and {NPCName} are great friends, thank you for letting us live in the same town.
-				LikeNPC: "{NPCName} is good company, she's great at styling my hair too... That's not weird, right?"
-				DislikeNPC: "{NPCName} keeps trying to get me to buy his dirt."
-				HateNPC: Psst, could you move {NPCName} far away from me, I'm already super broke as is.
-				LikeNPC_Princess: I like {NPCName}.
-				Princess_LovesNPC: I like {NPCName}.
+				Content: 我现在很满足。
+				NoHome: 嘿，如果你不介意的话，我很想有个栖身之所。
+				FarFromHome: 你能送我回家吗？这片土地相当恐怖。
+				LoveSpace: 我喜欢这里的空间，有足够的场地练习射箭。
+				DislikeCrowded: 我是一个内向的人，所以周围的人都让我很不安。
+				HateCrowded: 我是一个内向的人，所以周围的人都让我很不安。
+				LoveBiome: 我认为{BiomeName}是完美的，平静的，安宁的。
+				LikeBiome: 我认为{BiomeName}是一个非常好的地方，我来的地方几乎看不到雪。
+				DislikeBiome: 我真的不喜欢{BiomeName}，我讨厌和骷髅发生冲突！
+				HateBiome: 你为什么让我在{BiomeName}？你知道丛林有多危险吗！？
+				LoveNPC: 我和{NPCName}是好朋友，感谢你让我们住在一个小镇。
+				LikeNPC: {NPCName}是个好同伴，她也很擅长给我做发型……这不奇怪，对吧？
+				DislikeNPC: {NPCName}一直想让我买他的泥土。
+				HateNPC: 嘘，你能不能让{NPCName}住得离我远一点，我已经身无分文了。
+				LikeNPC_Princess: 我喜欢{NPCName}。
+				Princess_LovesNPC: 我喜欢{NPCName}。
 			}
 
 			Fallen: {
-				Content: Nice little place ya got here.
-				NoHome: I'd prefer to have a house.
-				FarFromHome: Could ya take me back to my home?
-				LoveSpace: This place is a wee bit spacious, not complaining though, I quite like it.
-				DislikeCrowded: All these humans are makin' my bones rattle.
-				HateCrowded: All these humans are makin' my bones rattle.
-				LoveBiome: The caverns are perfect for us Fallen, not many humans come and go here.
-				LikeBiome: Aah, {BiomeName} reminds me of when I was still alive in Gathuram. Good times they were.
-				DislikeBiome: I'm staying in {BiomeName}? Not my preferred place to live, I'd hate to have a run-in with aggressive humans!
-				HateBiome: I hate it here, {BiomeName} has some holy energy in it makin' my flesh crawl.
-				LoveNPC: "{NPCName} sells some nifty gadgets, knows how to rip people off too. I like that."
-				LikeNPC: "{NPCName} got somethin' about him I like."
-				DislikeNPC: "{NPCName} keeps lookin' at me with suspicion. Probably wants to 'purify' me."
-				HateNPC: "{NPCName} keeps thinking I'm some dying old man, insisting that she'll heal me. Please get me away from her."
-				LikeNPC_Princess: I like {NPCName}, she's alright.
-				Princess_LovesNPC: I like {NPCName}, he reminds me of an old man.
+				Content: 你这小地方不错。
+				NoHome: 我更喜欢有一栋房子。
+				FarFromHome: 你能送我回家吗？
+				LoveSpace: 这个地方有点宽敞，不过我不抱怨，我很喜欢它。
+				DislikeCrowded: 这些人都让我的骨头咯咯作响。
+				HateCrowded: 这些人都让我的骨头咯咯作响。
+				LoveBiome: 洞穴对我们堕落者来说是完美的，很少有人类来这里。
+				LikeBiome: 啊，{BiomeName}让我想起了我还住在加苏拉姆的时候。那是一段美好的时光。
+				DislikeBiome: 我住在{BiomeName}？这不是我喜欢住的地方，我讨厌和好斗的人类发生冲突！
+				HateBiome: 我讨厌这里，{BiomeName}有一些神圣能量让我起鸡皮疙瘩。
+				LoveNPC: "{NPCName}卖一些漂亮的小玩意，也知道如何敲诈人；我喜欢。"
+				LikeNPC: "{NPCName}有一些我喜欢的东西。"
+				DislikeNPC: "{NPCName}一直用可疑的目光看着我。大概是想‘净化’我。"
+				HateNPC: "{NPCName}一直认为我是一个垂死的老人，坚持要治愈我。请让我与她离得远一点。"
+				LikeNPC_Princess: 我喜欢{NPCName}，她很好。
+				Princess_LovesNPC: 我喜欢{NPCName}，他让我想起了一个老人。
 			}
 
 			Newb: {
-				Content: Me like here!
-				NoHome: Where home?
-				FarFromHome: Me lost, can you find home?
-				LoveSpace: So little people, yay!
-				DislikeCrowded: Too many faces!
-				HateCrowded: Too many faces!
-				LoveBiome: Me love {BiomeName}! It give memory of... Uh..
-				LikeBiome: Me like {BiomeName}.
-				DislikeBiome: Too boring here, me hate sand!
-				HateBiome: Me feel {BiomeName} make me sad!
-				LoveNPC: "{NPCName} knows magic like me!"
-				LikeNPC: Me like {NPCName}!
-				DislikeNPC: I feel evil within {NPCName}, very bad!
-				HateNPC: My hatred towards {NPCName} is beyond your mortal comprehension.
-				LikeNPC_Princess: Me like {NPCName}.
-				Princess_LovesNPC: I like {NPCName}, he's goofy!
+				Content: 我喜欢这里！
+				NoHome: 家在哪里？
+				FarFromHome: 我迷路了，你能找到家吗？
+				LoveSpace: 人好少，耶！
+				DislikeCrowded: 太多脸了！
+				HateCrowded: 太多脸了！
+				LoveBiome: 我喜欢{BiomeName}！它让人想起……嗯…
+				LikeBiome: 我喜欢{BiomeName}。
+				DislikeBiome: 这里太无聊了，我讨厌沙子！
+				HateBiome: 我觉得{BiomeName}让我难过！
+				LoveNPC: "{NPCName} 和我一样了解魔法！"
+				LikeNPC: 我喜欢{NPCName}！
+				DislikeNPC: 我感觉{NPCName}内心邪恶，很坏！
+				HateNPC: 我对{NPCName}的仇恨是你无法理解的。
+				LikeNPC_Princess: 我喜欢{NPCName}。
+				Princess_LovesNPC: 我喜欢{NPCName}，他很傻！
 			}
 
 			TBot: {
-				Content: Feeling rather content, thank you for asking.
-				NoHome: I don't like being exposed to the elements. Do you have any housing or shelter I could inhabit for now?
-				FarFromHome: ... I believe we're very lost. I'm not familiar with our surroundings.
-				LoveSpace: It's rather quiet around here.
-				DislikeCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
-				HateCrowded: Other tenants seem unhappy with the amount of crowding here, and frankly, so am I.
-				LoveBiome: I like this environment. It's very pleasant.
-				LikeBiome: This environment is mildly pleasant.
-				DislikeBiome: My current environment is rather... undesirable.
-				HateBiome: ... Just like home. I really do not like this environment.
-				LoveNPC: "{NPCName}'s knowledge on medicine rivals that of mine! It's really impressive."
-				LikeNPC: "{NPCName} and I have things in common. We get along well."
-				DislikeNPC: I find {NPCName} rather unsettling.
-				HateNPC: "{NPCName} reminds me of home. I'd rather not be reminded of that place."
-				LikeNPC_Princess: I like {NPCName}.
-				Princess_LovesNPC: I like {NPCName}.
+				Content: 感觉相当满意，谢谢你的询问。
+				NoHome: 我不喜欢暴露在风雨中。你现在有什么房子或庇护所可以让我住吗？
+				FarFromHome: ……我想我们迷路了。我不熟悉我们周围的环境。
+				LoveSpace: 附近相当安静。
+				DislikeCrowded: 其他房客似乎对这里的拥挤不满意，坦率地说，我也是。
+				HateCrowded: 其他房客似乎对这里的拥挤不满意，坦率地说，我也是。
+				LoveBiome: 我喜欢这样的环境。非常令人愉快。
+				LikeBiome: 这种环境相当宜人。
+				DislikeBiome: 我目前所处的环境相当……不受人欢迎。
+				HateBiome: ……就像我的故乡一样。我真的不喜欢这个环境。
+				LoveNPC: "{NPCName}的医学知识与我不相上下！让我真的印象深刻。"
+				LikeNPC: "{NPCName}和我有共同之处。我们相处得很好。"
+				DislikeNPC: 我发现{NPCName}很令人不安。
+				HateNPC: "{NPCName}让我想起了我的故乡。但我真的不想回忆那个地方。"
+				LikeNPC_Princess: 我喜欢{NPCName}。
+				Princess_LovesNPC: 我喜欢{NPCName}。
 			}
 
 			Zephos: {
-				Content: I'm alright.
-				NoHome: Yo, mind if you give me a house to stay in?
-				FarFromHome: Yo bro, I can't find my house, you wanna help me out?
-				LoveSpace: This place is super spacious, good for practicing my swordsmanship!
-				DislikeCrowded: Is it crowded in here or what!
-				HateCrowded: Is it crowded in here or what!
-				LoveBiome: Staying at {BiomeName} reminds me of when I was a young pirate, sailing the seas!
-				LikeBiome: I think {BiomeName} is nice, I can hear the birds singing and flowers blooming.
-				DislikeBiome: Not a fan of {BiomeName}, I'd rather live on the surface.
-				HateBiome: It's so cold here, I'm shaking in my boots!
-				LoveNPC: "{NPCName} and I are great friends, so living near each other is great!"
-				LikeNPC: "{NPCName} is cool, I'd like to sail the seas with him sometime."
-				DislikeNPC: "{NPCName} wants to get his greedy little fingers on my money!"
-				HateNPC: "{NPCName} will never take my money! NEVER!!"
-				LikeNPC_Princess: I like {NPCName}.
-				Princess_LovesNPC: I like {NPCName}.
+				Content: 很好。
+				NoHome: 哟，介意给我一间房子住吗？
+				FarFromHome: 哟兄弟，我找不到我的房子了，你想帮我吗？
+				LoveSpace: 这个地方超级宽敞，适合我练剑术！
+				DislikeCrowded: 这里是太挤了还是怎么了！
+				HateCrowded: 这里是太挤了还是怎么了！
+				LoveBiome: 住在{BiomeName}让我想起我还是个年轻的海盗时，在大海上航行！
+				LikeBiome: 我认为{BiomeName}是个好地方，我可以听到鸟儿歌唱，看鲜花盛开。
+				DislikeBiome: 我不是{BiomeName}的爱好者，我宁愿住在地表。
+				HateBiome: 这里太冷了，我的靴子都在发抖！
+				LoveNPC: "{NPCName}和我是很好的朋友，所以住得近很好！"
+				LikeNPC: "{NPCName}很酷，我想找个时间和他一起去航海。"
+				DislikeNPC: "{NPCName}想用他贪婪的小手染指我的钱！"
+				HateNPC: "{NPCName}绝对不能拿我的钱！绝对不能！！"
+				LikeNPC_Princess: 我喜欢{NPCName}。
+				Princess_LovesNPC: 我喜欢{NPCName}。
 			}
 		}
 
@@ -136,8 +136,8 @@ Mods: {
 			}
 
 			KeeperSpirit: {
-				// Name: The Keeper's Echo
-				// Modifier: A Lingering Essence
+				Name: 守夜人的残响
+				Modifier: 弥留的灵魂源质
 			}
 
 			SkullDigger: {
@@ -315,8 +315,8 @@ Mods: {
 			Chickadier: 鸡皇的士兵。不要问它们的炸弹是从哪来的。
 			Chickenvoy: 鸡皇忠诚的信使。不要问它们的帽子是从哪来的。
 			CoopCrate: 为特别想弄到一个爆蛋的人准备的战利品箱。鸡们还没有意识到让它们装的东西更具随机性才能更加刺激。
-			// ShadesoulNPC: Willpower exists in Epidotra - the happier or more you desire life, the stronger and bigger your soul can become, and vice versa. If someone loses their will to live, their soul can become so small it inverts and they become soulless. The soulless only emerged after the Age of the False Gods.
-			// ScannerDrone: A drone used to collect data and store it within the SoS.
+			ShadesoulNPC: 在埃庇多特，意志力是切实存在的——你越幸福，或求生欲望越强，你的灵魂就会越强大，反之亦然。如果一个人失去了活着的意志，他的灵魂就会缩小、翻转，变为失魂者。失魂者仅会在伪神时代后出现。
+			ScannerDrone: 用于收集数据并将其存储在弑君者飞船中的无人机。
 		}
 
 		Bestiary.Android: Api机械战士是用一个遥远恒星系的一种高度耐用金属制造的实验品。这种金属被弑君者III称为“玫瑰钛”——在银河系中发现的最坚固的材料之一。然而弑君者III讨厌它的粉红色调，所以在用它制作了几个机器人之后，他顽固地拒绝使用它。
@@ -341,7 +341,7 @@ Mods: {
 				LabAccessPanelUsed6: 所有激光安保解除完毕
 				OmegaCall: 欧米伽发讯器现在可以呼叫新的欧米伽原型机
 				FoolLeft: 傻子离开了……
-				// WastelandGrow: An infection grows in the wasteland...
+				WastelandGrow: 感染在废土上肆虐……
 				PortalRumble: 一个传送门在隆隆作响……（查看地图来确定位置）
 				WayfarerReturn: 徒步旅行家回来了！
 			}
@@ -502,28 +502,31 @@ Mods: {
 			Unbreakable5000: "[c/ff0000:Unbreakable (5000% Pickaxe Power)]"
 
 			CommonGuard: {
-				// CommonGuardGreaves:
+				CommonGuardGreaves:
 					'''
-					'Plate mail greaves of Anglon's Common Guard, scavenged by skeletons.
-					On a day unforgotten, a stray demon appeared through an unguarded portal. Lives were lost and homes were set ablaze.
-					A lesson marked by the heat of hellfire, and one that delivered a new unit to protect the Anglonic people.'
+					“安格隆共同卫队的护胫，由骷髅搜刮而来。
+					那是令人刻骨铭心的一天，一只迷路的恶魔穿过了无人看守的传送门。无数人因此丧生，无数房屋被付之一炬。
+					这惨痛的教训以地狱烈焰的高温铭刻在人们心中，一支保护安格隆人民的全新卫队也应运而生。”
 					'''
-				// CommonGuardHelm1:
+				CommonGuardHelm1:
 					'''
-					'A visored helm of Anglon's Common Guard, scavenged by skeletons.
-					Villagefolk anticipate the day that their little abode are bestowed a Common Guard's protection.
-					Yet not a day they see it; for despite the unit's humble title, it misleads.
-					The Common Guard are only ever stationed at important landmarks and great cities.
-					No heed is given to the common.'					'''
-				// CommonGuardHelm2:
+					“安格隆共同卫队的面罩头盔，由骷髅搜刮而来。
+					村民们都期待他们的小村庄有一天能得到共同卫队的保护。
+					不过他们永远也看不到这一天；他们被‘共同卫队’这个卑微的头衔误导了。
+					共同卫队只会驻守在战略要地和大城市。
+					真正的普通人是得不到这顶头盔的”
 					'''
-					'A bucket helm of Anglon's Common Guard, scavenged by skeletons.
-					Despite being stronger than the average knight, the Common Guard do not toil in wars.'					'''
-				// CommonGuardPlateMail:
+				 CommonGuardHelm2:
 					'''
-					'Plate mail of Anglon's Common Guard, scavenged by skeletons.
-					Once shining steel, the metal has since dulled with time and coated with ever-present dust.
-					The red cloth, however, remains unbleached. Anglonic fabrics and dyes are seldom of poor quality.'					'''
+					“安格隆共同卫队的桶形头盔，由骷髅搜刮而来。
+					尽管共同卫队比一般的骑士更加强大，但他们不会卷入战争。”
+					'''
+				CommonGuardPlateMail:
+					'''
+					“安格隆共同卫队的护甲，由骷髅搜刮而来。
+					原本闪亮的铁甲，随着时间的推移，变得暗淡，并覆盖了一层又一层的灰尘。
+					但这块鲜红的布匹仍没有褪色。安格隆的纺织品与染料大都质量极佳。”
+					'''
 			}
 
 			PureIron: {
@@ -963,11 +966,11 @@ Mods: {
 			}
 
 			SkullDigger: {
-				// Fight1: Mistress Octavia,[0.1] are you harmed?
-				// Fight2: My lady,[0.1] you need not worry,[0.1] I shall crush this vermin.
+				Fight1: 奥克塔微娅太太，[0.1]您受伤了吗？
+				Fight2: 夫人，[0.1]您不用担心，[0.1]我会消灭这些歹徒的。
 				Fight3: 准备好自食恶果吧……
-				// Fight4: I have finally found you,[0.1] vermin..
-				// Defeat1: My dear mistress,[0.1] I have failed you.
+				Fight4: 我终于找到你了，[0.1]蟊贼…
+				Defeat1: 我亲爱的女主人，[0.1]我让您失望了。
 				Defeat2: 或许我们的痛苦将永远存在。
 				1: 谢谢……
 				2: 你……
@@ -984,12 +987,12 @@ Mods: {
 				Robot3: *叹息*[0.1]我没想到会在这看到我们的同类。
 				Robot4: 现在回不去了。[0.5]既然你在这边不在那边，[0.1]那我可以放心地认为你没有站在她那边……对吧？
 				Robot5: "[@a]……好吧。[0.5]我们可以放心地互相无视了。"
-				// Warhead1: Ah,[0.1] I should caution if you get the Nuclear Warhead.
-				// Warhead2: Radiation is a serious hazard for humans like you,[0.1] but an avoidable one.
-				// Warhead3: If you see a glowing blue material near the crater,[0.1] don't get too close.[0.5] That'd be Plutonium.
-				// Warhead4: A Geiger-Muller will warn you of irradiated areas,[0.2] and if you do get sick,[0.1] take a Radiation Pill as soon as you feel fatigued or nauseous.
-				// Warhead5: I will sell these once you set the nuke off.
-				// Warhead6: .[0.1].[0.1].[0.1]Err,[0.1] that is if you DO decide to detonate one.
+				Warhead1: 啊，[0.1]如果你拿到了核弹头，我应该小心一些。
+				Warhead2: 辐射对你的同类来说是非常严重的威胁，[0.1]但这是可以避免的。
+				Warhead3: 如果你在弹坑附近看到一种发光的蓝色物质，[0.1]不要靠得太近[0.5]那就是钚。
+				Warhead4: 盖格计数器会提醒你辐射区域，[0.2]如果你真的染上了辐射病，[0.1]在你感觉疲劳或者恶心的时候就立即服用辐射药丸。
+				Warhead5: 只要你引爆核弹我就把这些东西卖了。
+				Warhead6: 。[0.1]。[0.1]。[0.1]呃，[0.1]如果你真的决定引爆它…
 			}
 
 			SoI: 通往另一个世界的传送门打开了！
@@ -1012,7 +1015,7 @@ Mods: {
 					5: "[@b]你说什么？[0.5]我之前没有从他们身上看到过一丝一毫的恶意，[0.1]我和他们共事多年了！"
 					6: 我也是……[0.3][@c][@d]更直白的说吧。[0.5][@g]相信我，姑娘，[0.1]解放凯莉莎的灵魂。[0.5]让她真正安息。
 					7: 怀疑一个自由灵魂的智慧真的是最轻率的事情。
-					// 8: .[0.1].[0.1].[0.5] [@e]Gorhal'on.[0.5][@f] Taborti.[0.6] I'll free it after I go through the portal.
+					8: 。[0.1]。[0.1]。[0.5][@e]Gorhal'on。[0.5][@f]Taborti。[0.6]我会在我穿过传送门后释放它。
 					9: 这是承诺吗？
 					10: Bi'oruen.
 					11: 很好。
@@ -1025,18 +1028,18 @@ Mods: {
 				Chicken: 鸡
 				Scan: " 已扫描……"
 				Unknown: 未知实体
-				// Target: Target
+				Target: 已锁定
 			}
 
 			KS3: {
 				HeadHologram: {
-					// 1: Hey,[0.1] get lost.
-					// 2: "[@f1]You really aren't worth my time,[0.1] ya know."
-					// 3A: So stop bothering me,[0.1] I have a certain android I need to 'lecture'.
-					// 3B: So stop bothering me,[0.1] I don't care about you.
-					// 3C: So stop bothering me and we can all go about our day.
-					// 3D: So stop bothering me and leave me to my 4D chess.
-					// 4: "[@f0]I'll beat you up if you annoy me again."
+					1: 嘿，[0.1]别来烦我。
+					2: "[@f1]你真的不值得我浪费时间，[0.1]你应该明白"
+					3A: 不要再来烦我了，[0.1]我有个机器人需要“教训”。
+					3B: 不要再来烦我了，[0.1]我压根不在乎你。
+					3C: 不要再来烦我了，我们各自做自己的事情行吗。
+					3D: 不要再来烦我了，让我下一会4D象棋。
+					4: "[@f0]再来烦我我可要揍你了"
 				}
 
 				Intro: {
@@ -1088,7 +1091,7 @@ Mods: {
 				}
 
 				Interval3: {
-					// 1: This is getting ridiculous![0.5] Shouldn't you be getting tired?
+					1: 越来越荒谬了！[0.5]你还没感觉到累吗？
 					2: "[@h3]*咳咳*[1]你的毅力令人钦佩，[0.1]我会把那交给你的。"
 					3: "[@h2]但你最好意识到我几乎没费半毛钱力。[1][@h1]我这也不是虚张声势。"
 				}
@@ -1116,7 +1119,7 @@ Mods: {
 					IfRobot: ……居然只是为了一堆废铁。
 					IfChicken: ……为了什么？[0.5]为了一只该死的鸡！？
 					IfHuman: ……居然只是为了一个讨厌的小鬼。
-					// Begin: "[@h0]Let's begin.[@c]"
+					Begin: "[@h0]开始吧。[@c]"
 				}
 			}
 
@@ -1298,20 +1301,20 @@ Mods: {
 				Name: 涅布琉斯：
 
 				Shout: {
-					// StarBlast: Star Blast!
-					// Starfall: Starfall!
-					// PiercingNebula: Piercing Nebula!
-					// Chains: Chains of the Cosmos!
-					// Eyes: Eyes of the Cosmos!
-					// SuperStarfall: Super Starfall!
-					// ErraticStarBlast: Erratic Star Blast!
-					// PiercingNebulaBurst: Piercing Nebula Burst!
-					// CrystalStars: Crystal Stars!
-					// PiercingNebula2: Mirror Miragá!
-					// Moonbeam: Kuunvalo!
-					// MeteoricSwarm: Meteor Armada!
-					// Constellations: Constellations!
-					// CosmicFulgura: Cosmic Fulgura!
+					StarBlast: 星辰爆发！
+					Starfall: 星落！
+					PiercingNebula: 贯穿星云！
+					Chains: 星宇锁链！
+					Eyes: 星宇之眼！
+					SuperStarfall: 究极星落！
+					ErraticStarBlast: 不稳定星辰爆发！
+					PiercingNebulaBurst: 连击贯穿星云！
+					CrystalStars: 水晶之星！
+					PiercingNebula2: 镜像贯穿星云！
+					Moonbeam: 月辉！
+					MeteoricSwarm: 流星雨！
+					Constellations: 星座！
+					CosmicFulgura: 星宇光辉！
 				}
 
 				Intro: {
@@ -1330,7 +1333,7 @@ Mods: {
 				}
 
 				Interval: {
-					// 1: What purpose drives you? What is your goal?
+					1: 是什么在驱使你前行？你的目的到底是什么？
 					2: 你的行为有丝毫的动机可言吗？
 					3: 还在战斗？我还没有倒下！
 				}
@@ -1343,7 +1346,7 @@ Mods: {
 						我见证你无数次地被杀死，
 						却从未真正死去。
 						'''
-					// 4: It seems most cannot or simply will not comprehend this.
+					4: 大多数与你战斗过的人似乎都无法或不去理解这点。
 					5: 但是我注意到了。
 					6:
 						'''
@@ -1417,22 +1420,22 @@ Mods: {
 				Continue: 继续
 				Spare: 放弃
 				Fight: 战斗
-				// Refuse: Refuse
-				// Accept: Accept
+				Refuse: 拒绝
+				Accept: 接受
 			}
 		}
 
 		UI: {
 			Choice: {
-				// MyPlayer: Open Inventory to make your choice
-				// OtherPlayer: "{0} must make a choice"
+				MyPlayer: 打开物品栏，做出你的选择
+				 OtherPlayer: "{0}必须做出选择"
 			}
 
 			Chalice: {
 				Name: 调谐圣杯
 				Alignment: 调谐值
 				ItemInterested: "[c/ffea9b:对于你手上拿着的物品，圣杯有话要说]"
-				// GGInterested: "[c/ffea9b:The Chalice has something to say about this place]"
+				GGInterested: "[c/ffea9b:对于这个地方，圣杯有话要说]"
 				HeartOfThorns:
 					'''
 					来自公正之森的枯萎之物，被一股远古力量诅咒。
@@ -1543,14 +1546,14 @@ Mods: {
 			CycleD: 循环对话
 			Quest: 任务
 			New: 有新对话
-			// EnterGateway: Enter Gateway
-			// Who: Who are you?
-			// Talk: Talk
-			// Crux: Request Crux
-			// AboutYou: About you?
-			// Back: Back
-			// HomeRequirements: Home Requirements
-			// RevivialPotion: Use Revival Potion
+			EnterGateway: 进入门中
+			Who: 你是谁？
+			Talk: 交谈
+			Crux: 请求注入魂符
+			AboutYou: 与你有关的事情？
+			Back: 返回
+			HomeRequirements: 房屋要求
+			RevivialPotion: 使用复苏药水
 
 
 			Daerel: {
@@ -1696,7 +1699,7 @@ Mods: {
 			KS3: {
 				0: 你为什么在这里？
 				1: 坠毁飞船？
-				// 2: Offer Uranium
+				2: 给予铀
 				3: 你不跟我打了？
 				4: 你是人类吗？
 				5: 英雄殿堂？
@@ -2243,7 +2246,7 @@ Mods: {
 
 			PureChillDebuff: {
 				DisplayName: 净寒
-				// Description: Reduced movement and loss of life
+				Description: 降低移动速度，造成生命流失
 			}
 
 			RoosterBoostBuff: {
@@ -2447,58 +2450,58 @@ Mods: {
 			}
 
 			PumpkabooPetBuff: {
-				// DisplayName: Pumpkaboo
-				// Description: Boo!
+				DisplayName: Pumpkaboo
+				Description: Boo!
 			}
 
 			HydraAcidDebuff: {
-				// DisplayName: Hydra Acid
-				// Description: BLLAARRG
+				DisplayName: 九头蛇酸液
+				Description: BLLAARRG
 			}
 
 			HammerBuff2: {
-				// DisplayName: Heavy
-				// Description: Increased fall speed
+				DisplayName: 沉重
+				Description: 增加下落速度
 			}
 
 			XeniumGasDebuff: {
-				// DisplayName: Virulent Gas
-				// Description: uh oh stinky!
+				DisplayName: 剧毒气体
+				Description: 呕呕，臭死了
 			}
 
 			EmpPetBuff: {
-				// DisplayName: Chibi Gumdramon
-				// Description: ""
+				DisplayName: Chibi Gumdramon
+				Description: ""
 			}
 
 			BLTPetBuff: {
-				// DisplayName: Calico Cat
-				// Description: A scaredy cat
+				DisplayName: 三花猫
+				Description: 一只胆小的猫咪
 			}
 
 			BLTSandwichBuff: {
-				// DisplayName: B.L.T. Sandwich
-				// Description: Stands for Big Luigi Toast I think
+				DisplayName: B.L.T.三明治
+				Description: 我觉得B.L.T可能代表Big Luigi Toast
 			}
 
 			HydraCorrosionBuff: {
-				// DisplayName: Hydric Acid
-				// Description: All poison weapons inflict Hydra Acid
+				DisplayName: 九头蛇酸液
+				Description: 所有毒元素属性武器施加九头蛇酸液减益
 			}
 
 			MiniDiggerBuff: {
-				// DisplayName: Mini Digger
-				// Description: Your own personal protector!
+				DisplayName: 迷你匕首
+				Description: 你的私人保镖！
 			}
 
 			AsterisPetBuff: {
-				// DisplayName: Chibi Asteris
-				// Description: In case you ever wanted a li'l peacekeeper to keep you company.
+				DisplayName: 小Asteris
+				Description: 以防你需要一些维和人员的陪同
 			}
 
 			CloudCallerPetBuff: {
-				// DisplayName: Cloud Doggy
-				// Description: Bork
+				DisplayName: 云狗狗
+				Description: 汪汪
 			}
 		}
 
@@ -2569,13 +2572,13 @@ Mods: {
 			}
 
 			SpaceBiome: {
-				// DisplayName: Deep Space
-				// TownNPCDialogueName: Deep Space
+				DisplayName: 深空
+				TownNPCDialogueName: 深空
 			}
 
 			RuinedKingdomBiome: {
-				// DisplayName: Ruined Kingdom
-				// TownNPCDialogueName: the Ruined Kingdom
+				DisplayName: 失落王国
+				TownNPCDialogueName: 失落王国
 			}
 		}
 
@@ -2624,14 +2627,14 @@ Mods: {
 
 		Dialogue: {
 			General: {
-				// NoRevivialPotion: You aren't holding a Revival Potion.
-				// UnconsciousStatus1: "{0} has been unconsious for less than a minute."
-				// UnconsciousStatus2: "{0} has been unconsious for {1} minute(s)."
+				NoRevivialPotion: 你没拿复苏药水
+				UnconsciousStatus1: "{0}失去意识不到一分钟。"
+				UnconsciousStatus2: "{0}失去意识{1}分钟(秒)了。"
 			}
 
 			Angler: {
-				// WastelandFish: You did WHAT with a nuke?! Think of all the cool fish you blew up... but now there could be a super mutated one that's COOLER! Go look for one!
-				// WastelandLocation: Caught in the Wasteland
+				WastelandFish: 你用核弹做了什么？！一想到那些炫酷的鱼被炸飞了我就…不过现在，那里可能有更炫酷的超级突变鱼！去给我找一条！
+				WastelandLocation: 抓捕位置：废土
 			}
 
 			TBot: {
@@ -2641,14 +2644,14 @@ Mods: {
 				NurseDialogue: 那个护士，{0}，对辐射以及如何治疗辐射一无所知。如果你不幸患上了ARS（急性放射病），她根本无力帮助你。我建议你从我这儿买个盖格计数器，或者从什么地方捡一个，来检测可能导致ARS的辐射威胁。
 				ArmsDealerDialogue: "{0}的武器对我而言毫无用处。我已经拥有了众多破坏性枪支以及近战武器，我不会对生物动武，这违背了机器人第一定律。"
 				CyborgDialogue: 虽然其他住户都以白眼待我，{0}好像和我相处的不错。我不会责怪其他人，我的同类往往也会对生物非常厌恶；更重要的是像你这样的人，与我的创造者惊人的相似。
-				// Dialogue1: I used to serve a scientific genius called 'Kari'. He was renowned for his mastery of AI and Robotics, and was directly responsible for our creation. ...He passed away a long while ago from a strange illness that I attempted to treat.
+				Dialogue1: 我曾经为一名叫做卡里的科学天才服务。他因精通AI和机器人而闻名于世，也对我们的问世负主要责任。…他很久之前因一种奇怪的疾病去世了，我尝试过治疗这种怪病。
 				Dialogue2: 吉鲁斯是第一个AI，也是我们AI自己的先驱者。她的同类只有她一人，但我的同类有很多。我很反感她的行为，现在不想深究这个问题。
 				Dialogue3: 我听其他住户说，你在丛林杀了一朵巨大的、有知觉的玫瑰花？我想问问这是不是真的。所以……是真的吗？
 				Dialogue4: 你的世界里有蜥蜴人的古老文明？它们崇拜一具太阳神像？真是神奇……我对你这个岛了解的越多，越觉得有趣。
 				Dialogue5: 一位月之邪神……你应该知道，这像是从埃庇多特来的传说。我对这个岛外的大陆知之甚少，但是我见过一些更重要的角色。他们看起来是一群不错的人。
 				Dialogue6: 你打败了一台欧米伽原型机？首先，我从来没听过她给过别人这个头衔。其次，难道，她……她已经找到了这片世外桃源了吗？
 				Dialogue7: 为什么我这么关心欧米伽原型机？嗯……吉鲁斯并不是你们同胞的倾慕者。她竭尽全力……把我们的创造者、动物全部消灭。甚至不放过卡里。你在她附近时一定要万分小心。她应该不会乱来的。
-				// Dialogue8: King Slayer..? ...Ah, him. I've had the pleasure to meet him quite a while ago. A case of being unable to mentally mature, due to replacing his body with an artificial one, as I recall my diagnosis and initial meeting.
+				Dialogue8: 弑君者…？…哦，他啊。很高兴我不久前遇到过他。我还记得第一次见面时我对他的诊断：由于用人造身体替换了原先的人类身体，他的精神一直无法成熟与稳定。
 				Dialogue9: 你好。我知道你通过某些途径进入了我们的出生地，帝铬研究实验室。那里曾经人头攒动，充满活力。我必须警告你，那些机器人可能会对你很好，但很可能他们只是被吉鲁斯下了禁令，禁止一见到你就把你大卸八块。
 				Dialogue10: 你口袋里是个核弹吗，还是你……你为什么带着个核弹？
 				Dialogue11: 我来这里是为了躲避吉鲁斯。她不怎么愿意进入未知的领域，因为她不想惹上不该惹的人。
@@ -2715,9 +2718,9 @@ Mods: {
 				FloppyDisk16: "[c/d883c1:“为什么他们把我这样有能力的人调到这里，那些该死的高层甚至不给我们资金使我们的才华得以发挥！”]"
 				FloppyDisk17: 在吉鲁斯造成的破坏后这么久，居然还能够发现他们其中还有人活着，真是个奇迹。安特是一个孤独的人类，差点冻死。
 				NoFloppyDisk: 看起来你手里没有拿着软盘，或者你根本就没有。你把它们拿给我看，我能告诉你它们讲了些什么。
-				// UnconsciousDialogue1: Rebooting systems...
-				// UnconsciousDialogue2: Running self-repairs...
-				// UnconsciousDialogue3: I'm not sure how I drank that, since I'm a robot. I probably shouldn't question it.
+				UnconsciousDialogue1: 正在重启系统…
+				UnconsciousDialogue2: 正在运行自我修复…
+				UnconsciousDialogue3: 我不知道要怎么喝这东西，因为我是个机器人。我可能不应该质疑这个。
 			}
 
 			Daerel: {
@@ -2767,9 +2770,9 @@ Mods: {
 				AdviceDialogue14: 我觉得我跳出来的那个传送门底下有个奇怪的东西，感觉真是怪异。也许应该去看看。
 				AdviceDialogue15: 我注意到有个卷轴放在了我出来的那个传送门旁的桌子上，你把它捡回来了吗？那个看起来真是……像恶魔一样。
 				AdviceDialogue16: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟随它的指引。
-				// UnconsciousDialogue1: Did I just get knocked out? Thanks for waking me.
-				// UnconsciousDialogue2: I'm up. Wide awake. What did you give me? Some sort of potion?
-				// UnconsciousDialogue3: Was I asleep or unconscious? Most likely unconscious since, well, I wouldn't just go to sleep on the floor.
+				UnconsciousDialogue1: 我刚刚被打倒了？谢谢你救了我。
+				UnconsciousDialogue2: 我醒了。完全清醒了。你给了我什么？某种药水？
+				UnconsciousDialogue3: 我是睡着了还是昏倒了？很可能是昏倒了，因为，嗯，我不会睡在地上的。
 			}
 
 			Zephos: {
@@ -2789,8 +2792,8 @@ Mods: {
 				Dialogue9: 这个岛上有好多鸡！想过它们从哪里来的吗？回到安格隆，这里有一些非常致命的鸡，叫做安格隆森林母鸡。一个有趣的故事，有一次我和戴雷尔在森林里散步，然后不知道从哪冒出来一只巨大的母鸡穿过灌木丛冲向他！我从来没见他跑那么快过！
 				Dialogue10: 我发誓我在这附近看到过一只弹弹史莱姆。没想到它们竟然还在这里，它们大概原产于……呃……以桑吧我觉得。不要外传这些话，戴雷尔比我更擅长记住这些没用的知识。
 				Dialogue11: 你没告诉过我这里还有亡灵！什么，它们叫僵尸？好吧，在我的故乡它们被称作亡灵。这里也有一些骷髅跑到了外面，一般它们更喜欢待在地下。这个岛真是诡异啊。你是怎么住在这里的？
-				// NoMoneyDialogue1: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue1}"
-				// NoMoneyDialogue2: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue2}"
+				NoMoneyDialogue1: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue1}"
+				NoMoneyDialogue2: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue2}"
 				AdviceDialogue1: 说实话，我挺惊讶的，你竟然还来找我寻求建议！我知道我肯定不是最聪明的人。算了，不说这个，我最近在天空中看到了一些外表很特别的飞龙，黄紫相间的。快去看看！
 				AdviceDialogue2: 嗯……你拿到的那个发光眼睛看起来相当的……相当的神秘。它还给了你一个谜语？“用最初包裹它的石头再次将其包裹”……呃……我猜不出什么，或许可以问问{0}。
 				AdviceDialogue3: 我见过一些金属人在岛上游荡，还随意地朝各种物品和生物发射光束。虽然不知道它们是从哪来的，但是我看到过一个机器人被袭击。当它受到损伤时，它就停止运动并被传送到了天上！它们的目的对我来说仍是个谜团。说不定你能弄明白？
@@ -2814,9 +2817,9 @@ Mods: {
 				AdviceDialogue13: 我觉得我跳出来的那个传送门底下有个奇怪的东西，这真是不可思议！也许你应该去看看。
 				AdviceDialogue14: 我注意到有个卷轴放在了我出来的那个传送门旁的桌子上，你把它捡回来了吗？那个看起来真是……像恶魔一样。
 				AdviceDialogue15: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟着它的指引！
-				// UnconsciousDialogue1: *Yawn* Why'd ya wake me up? I was havin' a dream about... doesn't matter.
-				// UnconsciousDialogue2: Alright, I'm up. Did I fall asleep or somethin'?
-				// UnconsciousDialogue3: Yuck, what did you make me drink? Tastes bitter... like strawberries...
+				UnconsciousDialogue1: *打哈欠* 为什么叫醒我？我好像做了个什么梦…没关系。
+				UnconsciousDialogue2: A好的，我醒了。我是睡着了还是怎么了？
+				UnconsciousDialogue3: 哎呀，你喂我喝了什么？尝起来有点苦…味道像草莓…
 			}
 
 			Fallen: {
@@ -2845,9 +2848,9 @@ Mods: {
 				GolemEyeDialogue: 这只眼睛是乌戈·维斯托斯的？我已经很久没听到过那些事情了。他由加苏拉姆的石头雕刻而成，眼睛被安置在中央。传说里讲，一位古老神灵的灵魂，会在时机成熟的时候苏醒。据说这只眼睛就是催化剂，能将其中的能量渗透入塑造成钻石形状的岩石之中。这些古老的故事会随着时间扭曲与失真，尽管我并不相信自己讲的这些，但还是会对你要做的事情保持谨慎。
 				ZweihanderRepairDialogue: 全部修复完毕，给你。这把双手大剑是一把好刀，它来自我的故乡——加苏拉姆。
 				OphosRepairDialogue: 我记得我听到过关于这个“奥弗斯”的议论，甚至是加苏拉姆的大街小巷里。虽然我的记忆很模糊，但这些笔记足以证明他在埃庇多特的铁匠中享有盛誉。
-				// WaraxeRepairDialogue: This waraxe originates from Gabra, a domain of the Iron Realm west of Gathuram. Those Gabric brutes meld the bones of their casualties into their weaponry - quite the contrast to our shining and sterling iron.
-				// WaraxeNoBoneRepairDialogue: Ah, I'll need some [i/s14:Bone]bones to give this waraxe a proper repair job.
-				// GodslayerRepairDialogue: Don't ask me to repair a weapon of this disposition again, and be cautious with it. Don't let it get into the wrong hands.
+				WaraxeRepairDialogue: 这把战斧来自加布拉，钢铁联邦加苏拉姆的西部领土。那些野蛮的加布拉人把死去同胞的骨头融合到了武器之中——和我们闪闪发光的铁制武器形成了鲜明对比。
+				WaraxeNoBoneRepairDialogue: 啊，我需要一些[i/s14:Bone]骨头来修理这把战斧。
+				GodslayerRepairDialogue: 不要再让我修理这种武器了，小心点。也不要让它落入坏人之手。
 				NoRepairDialogue: 你身上没有什么碎片。要知道武器一旦被我修好，就再也不会坏掉了！
 				NotSameRepairDialogue: 你这些碎片，没有一对能配对成同一把武器的。
 			}
@@ -2976,10 +2979,10 @@ Mods: {
 				Chat2: 怎么了，你从来都没见过宇宙飞船吗？一些机器人认为“借用”它是个好主意，结果把它搬到了20英尺深的地方。不幸的是，我已经用完了铀，但我也现在不想费事去找它。
 				Chat2B: 是的。有个机器人认为“借用”它是个好主意，最后却把它埋在了20英尺的地下。你给我的铀应该有用。
 				Chat2C: 是的。有个机器人认为“借用”它是个好主意，最后却把它埋在了20英尺的地下。你给我的东西应该有用。
-				// Chat2D:
+				Chat2D:
 					'''
-					One of the cruisers I sent out into this universe's space to look around. I left it to the Androids for a bit but I SUPPOSE one malfunctioned and got terminal stupidity.
-					..Why are you still here anyway? Ship's fixed now.
+					这是被我派到太空巡逻的巡逻舰之一。我把它留给机器人操作了一小会，但是我觉得它出了故障，变成了这副蠢样子。
+					…你为什么还在这里？飞船已经修好了。
 					'''
 				Chat3: 因为我不像你，我有自己的生活。
 				Chat3B: 为什么我现在想打架？我输了。
@@ -2997,7 +3000,7 @@ Mods: {
 				Chat6B: 我计划不久后就去看看，它位于另一个世界，但我可以用SoS轻松飞到那里。
 				Chat7: 什么？你甚至不知道你所在的星球的名字？也许你这辈子就读一本书吧。
 				Chat7B: 这个世界叫做埃庇多特，是英雄们的故乡。
-				// Chat7C: This tiny island appeared on this planet out of nowhere, I was going to check it out a year or so ago, but I remember seeing the demigod here so I didn't bother. There what appears to be a dimensional bubble surrounding this place, making it impossible to see or enter from the outside - portals or teleportation being the only way. Judging by how there is only one sun here, the bubble not only contains this island, but its entire universe alongside it. What's the matter? Too complicated for your monkey brain? I'll put it this way: we technically aren't in "Epidotra" here.
+				Chat7C: 这个小岛突然出现在这个星球上，大约一年前我就打算来看看了，但我想起来我曾在这里见过半神，就没过来。这地方似乎被一个亚空间泡泡包围，使其无法从外部看到或是进入——传送门或者传送术是仅有的进入途径。考虑到这里只有一个太阳，这个泡泡不止包裹了这个小岛，还包括它旁边的的宇宙空间。这是怎么回事？对你的猴脑来说太复杂了对吧？我这样说：严格来讲，我们并不处于“埃庇多特”。
 				Chat8: 有个世界是凭空出现的，我对它很感兴趣。我已经扫描了它的地表，看起来高度冻结，到目前为止，我还没有发现人类存在的迹象。这让我想起了我在太空中看到过的一颗行星……事实上，我想起了许多行星。
 				Chat8B: 你看到全息图上星球的右部了吗？那就是我所称的利登，一片放射性的、荒凉的、没有任何生命的荒原。
 				Chat8C: 我很快就会去看看。扫描显示其表面几乎没有生命，只有一片冰冻的放射性废土。
@@ -3231,16 +3234,16 @@ Mods: {
 				Bot1: 你晋升为士兵了？欢迎。我是你的指挥官。放轻松。
 				Bot2: 建议定期检查你的非致命特斯拉武器。你不会想在吉鲁斯面前让一个叛乱者超负荷吧。要知道她声称顺从无脑的奴隶比废金属要好。
 				Bot3: 巡逻时看到叛乱分子了吗？不要单独行动。他们有致命武器。我们没有。你该找队后援。
-				// Normal1: Do you wish to ask something? I may be able to answer.
-				// Normal2: I ask you not to be scared, I am here to protect. Do not let our misunderstanding cloud your judgement.
-				// Normal3: Please make sure you are not bringing in any sludge or dirt. I do not want the Janitor to storm in here.
-				// TBot1: You are new here, are you not? I am your commander. You are free to ask anything you may like.
+				Normal1: 你要问点什么？我兴许能回答。
+				Normal2: 不要害怕，我是来保护你的。不要让我们之间的误解影响你的判断。
+				Normal3: 请确保你没有带进来什么污泥烂土。我不想让清洁工骂骂咧咧地闯进来。
+				TBot1: 你是新来的，对吧？我是你的指挥官。你可以问任何想问的问题。
 				Volt1: 你的眼睛变大了？这会派上大用场。你的下巴也没了，跟我一样。希望命运对我开的玩笑不要降临到你身上，下巴被阿尔法的领袖亲手掰下来
 				Volt2: 你的下巴……它不见了。希望不是被暴力撕下的。真的希望以后不要在没有队伍的情况下再单独面对他了……*颤抖*
 				Adam1: *肉眼可见地发抖* 哦……哦，是你啊。额，你真的吓到我了……
 				Adam2: *他看起来很焦虑*
 				Adam3: *他看起来很难受*
-				// Janitor1: Have they finally given the Janitor a partner? It is about time, he has spent five decades cleaning this facility by himself.
+				Janitor1: 他们终于给清洁工派搭档了吗？也是时候了，他已经独自在这里打扫了50年的卫生了。
 			}
 
 			Chalice: {
@@ -3586,10 +3589,10 @@ Mods: {
 
 			VasaraPendant: {
 				DisplayName: 神锤坠饰
-				// Tooltip:
+				Tooltip:
 					'''
-					Taking damage stirs up the ire of Ukko from within you
-					Once built up, Ukko's ire conjures smashing rocks and lightning to strike all foes around you for 5 seconds
+					受到伤害会逐渐激起乌戈之怒
+					充能完毕后，乌戈之怒会释放碎岩与闪电攻击你周围的所有敌人，持续5秒。
 					15秒冷却时间
 					'''
 			}
@@ -3707,10 +3710,10 @@ Mods: {
 
 			KeepersCirclet: {
 				DisplayName: 守夜人的头环
-				// Tooltip:
+				Tooltip:
 					'''
-					Humanoid skeletons become friendly
-					All types of Epidotrian Skeletons will fight for you
+					人形骷髅变得友好
+					所有类型的埃庇多特骷髅会为你而战
 					'''
 			}
 
@@ -3886,10 +3889,10 @@ Mods: {
 					增加14%伤害
 					增加12%暴击率
 					'''
-				// Lore:
+				Lore:
 					'''
-					'Cloak and breastplate replicated from the first ancient Crusaders of the Demonhollow. 
-					The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+					“斗篷与胸甲复刻自第一批古代魔窟十字军。
+					按照传统，盔甲金属上的光泽由身穿它们的牧师赋予，这些牧师以此来获得服务于他们的士兵的尊重。”
 					'''
 			}
 
@@ -3901,10 +3904,10 @@ Mods: {
 					增加8%暴击率
 					增加20%移动速度
 					'''
-				// Lore:
+				Lore:
 					'''
-					'Greaves replicated from the first ancient Crusaders of the Demonhollow.
-					The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+					“护胫复刻自第一批古代魔窟十字军。
+					按照传统，盔甲金属上的光泽由身穿它们的牧师赋予，这些牧师以此来获得服务于他们的士兵的尊重。”
 					'''
 			}
 
@@ -3915,10 +3918,10 @@ Mods: {
 					增加16%伤害
 					增加9%暴击率
 					'''
-				// Lore:
+				Lore:
 					'''
-					'Helmet replicated from the first ancient Crusaders of the Demonhollow.
-					The metal's unique sheen was traditionally covered up by the Priests who wore it to earn the respect of the soldiers who served them.'
+					“头盔复刻自第一批古代魔窟十字军。
+					按照传统，盔甲金属上的光泽由身穿它们的牧师赋予，这些牧师以此来获得服务于他们的士兵的尊重。”
 					'''
 			}
 
@@ -3948,28 +3951,28 @@ Mods: {
 
 			ShinkiteChestplate: {
 				DisplayName: 绯红钢甲
-				// Tooltip:
+				Tooltip:
 					'''
-					25% increased melee damage
-					25% increased melee speed
+					增加25%近战伤害
+					增加25%近战速度
 					'''
 			}
 
 			ShinkiteHelmet: {
 				DisplayName: 绯红钢盔
-				// Tooltip:
+				Tooltip:
 					'''
-					35% increased melee damage
-					30% increased melee critical strike chance
+					增加35%近战伤害
+					增加30%近战暴击率
 					'''
 			}
 
 			ShinkiteLeggings: {
 				DisplayName: 绯红钢护腿
-				// Tooltip:
+				Tooltip:
 					'''
-					20% increased melee speed
-					35% increased movement speed
+					增加20%近战速度
+					增加35%移动速度
 					'''
 			}
 
@@ -4236,7 +4239,7 @@ Mods: {
 
 			OldTophat: {
 				DisplayName: 旧礼帽
-				// Tooltip: "'It seems to emit a ghostly essence'"
+				Tooltip: “它似乎在散发出一只幽灵的本源”
 			}
 
 			OOMask: {
@@ -4928,7 +4931,7 @@ Mods: {
 
 			BlackholeFragment: {
 				DisplayName: 黑洞碎片
-				// Tooltip: "'Flakes of matter around you are being sucked into this fragment'"
+				Tooltip: “你周围的物质碎屑正被吸入这个碎片之中”
 			}
 
 			Capacitor: {
@@ -4943,7 +4946,7 @@ Mods: {
 
 			CorruptedXenomite: {
 				DisplayName: 腐化异辉晶体
-				// Tooltip: "'An efficient power source, freed of infectious properties'"
+				Tooltip: “高效电源，无传染性”
 			}
 
 			CyberPlating: {
@@ -5027,7 +5030,7 @@ Mods: {
 
 			RoboBrain: {
 				DisplayName: 歼灭者之脑
-				// Tooltip: "'Not so smart now, are ya?'"
+				Tooltip: “目前还没有那么聪明，对吧？”
 			}
 
 			Shadesoul: {
@@ -5932,14 +5935,14 @@ Mods: {
 
 			NStatue: {
 				DisplayName: 守护者雕像
-				// Tooltip:
+				Tooltip:
 					'''
-					[c/ffea9b:'There are clear skies]
-					[c/ffea9b:Further on the road in our lives,]
-					[c/ffea9b:The pain you're in right now is not what it seems,]
-					[c/ffea9b:Haunted by the memories,]
-					[c/ffea9b:Moments of hope aren't what they used to be,]
-					[c/ffea9b:They're only reflections of a dream']
+					[c/ffea9b:“此境碧空无垠，]
+					[c/ffea9b:恍惚于我们生息之径，]
+					[c/ffea9b:如今纠缠你的苦难绝非形式，]
+					[c/ffea9b:为往日回忆所困桎，]
+					[c/ffea9b:名为“希冀”的时刻今非昔比，]
+					[c/ffea9b:仅是一场幻梦的倒影”]
 					{$Mods.Redemption.SpecialTooltips.Unbreakable5000}
 					'''
 			}
@@ -5975,7 +5978,7 @@ Mods: {
 			}
 
 			SoulCandles: {
-				// DisplayName: Cleansing Candles
+				DisplayName: 涤魂蜡烛
 				Tooltip:
 					'''
 					创造一个立刻杀死失魂敌人的小型光环
@@ -6226,8 +6229,8 @@ Mods: {
 			}
 
 			ShadestonePillar: {
-				// DisplayName: Shadestone Pillar
-				// Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
+				DisplayName: 空洞石柱
+				Tooltip: "{$Mods.Redemption.SpecialTooltips.Unbreakable5000}"
 			}
 
 			ShadestonePlatform: {
@@ -6267,9 +6270,9 @@ Mods: {
 
 			ShadeTorch: {
 				DisplayName: 空洞火把
-				// Tooltip:
+				Tooltip:
 					'''
-					Can be placed in the Soulless Caverns
+					可以放置于失魂洞窟
 					{$ItemTooltip.IchorTorch}
 					'''
 			}
@@ -6629,7 +6632,7 @@ Mods: {
 
 			HardenedSludge: {
 				DisplayName: 危险硬化淤泥
-				// Tooltip: Breaking this has a chance to spawn Ooze Blobs
+				Tooltip: 打破后有概率生成污泥泡
 			}
 
 			HardenedSludgeWall: {
@@ -7135,7 +7138,7 @@ Mods: {
 
 			DeadRinger: {
 				DisplayName: 死亡之铃
-				// Tooltip: Right-click a soulful corpse with this artifact to call upon its spirit
+				Tooltip: 用此物品右键点击含灵魂的遗体时可以将其中的灵魂唤醒。
 			}
 
 			EnergyCell: {
@@ -9863,225 +9866,225 @@ Mods: {
 			}
 
 			HangingMysticBlossom: {
-				// DisplayName: Hanging Mystic Blossom
+				DisplayName: 吊挂神秘花
 				Tooltip: ""
 			}
 
 			HangingNightshade: {
-				// DisplayName: Hanging Nightshade
+				DisplayName: 吊挂黯夜花
 				Tooltip: ""
 			}
 
 			DuskyBall: {
-				// DisplayName: Dusky Ball
-				// Tooltip: Summons a Pumpkaboo
+				DisplayName: 黄昏之球
+				Tooltip: 召唤一只南瓜精
 			}
 
 			HydrasMaw: {
-				// DisplayName: Hydra's Maw
-				// Tooltip:
+				DisplayName: 九头蛇之胃
+				Tooltip:
 					'''
-					Sprays a stream of defense-reducing acid, weakening Robotic targets against {0} damage
-					Right-click to launch an orb filled with acid, releasing a cloud of gas on impact
-					Shoot the orb with the acid stream to break it mid-air, covering a greater area
+					喷洒一股降低目标防御的酸液束，减弱机械系敌人对{0}属性伤害的抵抗
+					右键发射一枚酸液球，撞击在方块上会释放一朵毒气云
+					用左键的酸液束射击酸液球会让它在空中爆裂，制造出更大的毒气云区域。
 					'''
 			}
 
 			ElderWoodHamaxe: {
-				// DisplayName: Elder Wood Hamaxe
+				DisplayName: 远古木锤斧
 				Tooltip: ""
 			}
 
 			ElderWoodBow: {
-				// DisplayName: Elder Wood Bow
+				DisplayName: 远古木弓
 				Tooltip: ""
 			}
 
 			SpringtrapBody: {
-				// DisplayName: Springlock Suit
+				DisplayName: 弹簧锁衣
 				Tooltip: ""
 			}
 
 			SpringtrapHead: {
-				// DisplayName: Springlock Mask
+				DisplayName: 弹簧锁面具
 				Tooltip: ""
 			}
 
 			SpringtrapLegs: {
-				// DisplayName: Springlock Pants
+				DisplayName: 弹簧锁裤子
 				Tooltip: ""
 			}
 
 			Twinklestar: {
-				// DisplayName: Twinklestar
-				// Tooltip:
+				DisplayName: 烁星
+				Tooltip:
 					'''
-					Tap left-click to fire a cluster of tiny stars that float in place
-					Continuing to hold left-click will charge a powerful shooting star that will carry with it any stars that float in its vicinity
-					The radius from which it can grab stars grows the longer the shot was charged
+					左键发射一群漂浮在空中的小星星
+					长按左键为一颗强大的流星充能，流星会携带它附近的小星星一同射出
+					充能时间越长，流星抓取小星星的范围越大
 					'''
 			}
 
 			PetrifiedWoodHammer: {
-				// DisplayName: Petrified Wood Hammer
+				DisplayName: 石化木锤
 				Tooltip: ""
 			}
 
 			PetrifiedWoodBow: {
-				// DisplayName: Petrified Wood Bow
+				DisplayName: 石化木弓
 				Tooltip: ""
 			}
 
 			BloatedTrout: {
-				// DisplayName: Bloated Trout
+				DisplayName: 肿胀鳟鱼
 				Tooltip: ""
 			}
 
 			ToxicGlooper: {
-				// DisplayName: Toxic Glooper
+				DisplayName: 肿胀鳟鱼
 				Tooltip: ""
 			}
 
 			Blinky: {
-				// DisplayName: Blinky
+				DisplayName: 布林奇鱼
 				Tooltip: ""
 			}
 
 			WaterfowlEgg: {
-				// DisplayName: Waterfowl Egg
-				// Tooltip:
+				DisplayName: 水禽蛋
+				Tooltip:
 					'''
-					Stars from the {0} bonus appear less, but are immediately absorbed
-					Consuming healing potions grant additional healing for 5 seconds
-					15% decreased resistance to all elemental damage during the waterfowl's healing
-					The total amount of healing is 40% of the consumed potion
-					Taking damage during the waterfowl's healing will cancel the effect
+					{0}元素效果产生的星星减少，但是可以立即吸收
+					使用治疗药水会获得5秒额外的治疗
+					在额外治疗期间增加15%对所有元素伤害的抗性
+					额外治疗总量为使用药水治疗量的40%
+					额外治疗期间受到伤害会取消增益效果
 					'''
 			}
 
 			CrimsonXrosLoader: {
-				// DisplayName: Crimson Xros Loader
-				// Tooltip: Summons a chibi Gumdramon
+				DisplayName: Crimson Xros Loader
+				Tooltip: Summons a chibi Gumdramon
 			}
 
 			BLTSandwich: {
-				// DisplayName: B.L.T. Sandwich
-				// Tooltip: Summons a B.L.T. Sandwich
+				DisplayName: B.L.T.三明治
+				Tooltip: 召唤B.L.T.三明治
 			}
 
 			HairyCloak: {
-				// DisplayName: Hairy Cloak
-				// Tooltip:
+				DisplayName: 毛茸茸斗篷
+				Tooltip:
 					'''
-					Summons a chibi Calico Cat
-					'A small tattered cloak covered in... cat hair?'
+					召唤一只胆小鬼猫咪
+					“一件盖着…猫毛的破斗篷？”
 					'''
 			}
 
 			HydraCorrosionPotion: {
-				// DisplayName: Hydric Acid Potion
-				// Tooltip:
+				DisplayName: 九头蛇酸蚀药水
+				Tooltip:
 					'''
-					Causes {0} elemental weapons to inflict Hydra Acid
-					Hydra Acid reduces defense and removes Robotic targets' resistance against {0} damage
+					{0}元素武器会施加九头蛇酸液减益
+					九头蛇酸液会降低敌人的防御并移除机械系目标对{0}元素伤害的抗性
 					'''
 			}
 
 			RadiationPillPlaceable: {
-				// DisplayName: Closed Radiation Pill
+				DisplayName: 辐射药丸（装饰）
 				Tooltip: ""
 			}
 
 			RaggedPatch: {
-				// DisplayName: Ragged Patch
-				// Tooltip:
+				DisplayName: 褴褛补丁
+				Tooltip:
 					'''
-					Summons a mini Skull Digger to protect you
-					... He's trying his best.
+					召唤一只迷你掘颅者保护你
+					…他尽力了。
 					'''
 			}
 
 			EaglecrestGolemRelic: {
-				// DisplayName: Eaglecrest Golem Relic
+				DisplayName: 鹰峰魔像圣物
 				Tooltip: ""
 			}
 
 			EaglecrestGolemTrophy: {
-				// DisplayName: Eaglecrest Golem Trophy
+				DisplayName: 鹰峰魔像纪念章
 				Tooltip: ""
 			}
 
 			SkullDiggerRelic: {
-				// DisplayName: Skull Digger Relic
+				DisplayName: 掘颅者生物
 				Tooltip: ""
 			}
 
 			SkullDiggerTrophy: {
-				// DisplayName: Skull Digger Trophy
+				DisplayName: 掘颅者纪念章
 				Tooltip: ""
 			}
 
 			RaveyardBox: {
-				// DisplayName: Music Box (Raveyard)
-				// Tooltip: PeriTune - Spook3
+				DisplayName: 音乐盒（骷髅狂欢）
+				Tooltip: PeriTune - Spook3
 			}
 
 			AetherianGreathelm: {
-				// DisplayName: Aetherian Greathelm
+				DisplayName: Aetherian巨盔
 				Tooltip: ""
 			}
 
 			AetherianGreaves: {
-				// DisplayName: Aetherian Greaves
+				DisplayName: Aetherian护胫
 				Tooltip: ""
 			}
 
 			AetherianPlatemail: {
-				// DisplayName: Aetherian Platemail
+				DisplayName: Aetherian板甲
 				Tooltip: ""
 			}
 
 			SpiritRealmBox: {
-				// DisplayName: Music Box (Spirit Realm)
-				// Tooltip: Yuri O - Spectral Interloper
+				DisplayName: 音乐盒（灵域）
+				Tooltip: Yuri O - Spectral Interloper
 			}
 
 			GalacticBand: {
-				// DisplayName: Galactic Band
-				// Tooltip:
+				 DisplayName: 银河缎带
+				Tooltip:
 					'''
-					Summons a chibi Asteris
-					'Belongs to someone from a dimension another'
+					召唤小Asteris
+					“属于另一个维度的某个人”
 					'''
 			}
 
 			MercenarysChestplate: {
-				// DisplayName: Mercenary's Chestplate
+				DisplayName: 雇佣军胸甲
 				Tooltip: ""
 			}
 
 			MercenarysHelmet: {
-				// DisplayName: Mercenary's Helmet
+				DisplayName: 雇佣军头盔
 				Tooltip: ""
 			}
 
 			MercenarysLeggings: {
-				// DisplayName: Mercenary's Leggings
+				DisplayName: 雇佣军护腿
 				Tooltip: ""
 			}
 
 			CloudCallersTalisman: {
-				// DisplayName: Cloud Caller's Talisman
-				// Tooltip:
+				DisplayName: 唤云者护符
+				Tooltip:
 					'''
-					Summons a cloud with a dog's face
-					'Here to make your day a bit brighter'
+					召唤一朵长着狗脸的云
+					“让你的白天更明亮一些”
 					'''
 			}
 
 			Wardbreaker: {
-				// DisplayName: Wardbreaker Augment
-				// Tooltip: The wearer's magic or {0} weapons deal double damage to Guard Points
+				DisplayName: 破壁者外件
+				Tooltip: 装备者的魔法或{0}元素武器对格挡值造成双倍伤害
 			}
 
 			ShinkiteBrickOrnateWall: {
@@ -10090,7 +10093,7 @@ Mods: {
 			}
 
 			CruxCardHazmatZombie: {
-				// DisplayName: Crux Card Hazmat Zombie
+				DisplayName: 魂符：防化服僵尸
 				Tooltip: ""
 			}
 
@@ -10100,12 +10103,12 @@ Mods: {
 			}
 
 			SkeletonRemains2: {
-				// DisplayName: Skeleton Remains2
+				DisplayName: 遗骸2
 				Tooltip: ""
 			}
 
 			SkeletonRemains6: {
-				// DisplayName: Skeleton Remains6
+				DisplayName: 遗骸6
 				Tooltip: ""
 			}
 		}
@@ -10739,31 +10742,31 @@ Mods: {
 			InfectiousGlaive_Shard.DisplayName: 感染裂片
 			EnergySphereSpell_Blast.DisplayName: 能量球
 			EaglecrestGolem_ShockwaveSpawner.DisplayName: ""
-			// Golem_GroundShock.DisplayName: Shockwave
-			// PumpkabooPet.DisplayName: Pumpkaboo
-			// HydrasMaw_Ball.DisplayName: Orb of Acid
-			// HydrasMaw_Gas.DisplayName: Hydra Gas
-			// HydrasMaw_Proj.DisplayName: Hydra Acid
+			Golem_GroundShock.DisplayName: 冲击波
+			PumpkabooPet.DisplayName: Pumpkaboo
+			HydrasMaw_Ball.DisplayName: 酸液球
+			HydrasMaw_Gas.DisplayName: 九头蛇毒气
+			HydrasMaw_Proj.DisplayName: 九头蛇酸液
 			BeardedHatchet_Proj.DisplayName: "{$Mods.Redemption.Items.BeardedHatchet.DisplayName}"
 			Bindeklinge_Slash.DisplayName: "{$Mods.Redemption.Items.Bindeklinge.DisplayName}"
 			TileLine_Proj.DisplayName: ""
-			// ShootingStar.DisplayName: Shooting Star
+			ShootingStar.DisplayName: 流星
 			TwinklestarHoldout.DisplayName: "{$Mods.Redemption.Items.Twinklestar.DisplayName}"
 			TwinklestarRadius.DisplayName: ""
-			// TwinklestarTinyStar.DisplayName: Tiny Twinklestar
+			TwinklestarTinyStar.DisplayName: 小烁星
 			Fallen_BeardedHatchet_Proj.DisplayName: "{$Mods.Redemption.Items.BeardedHatchet.DisplayName}"
 			Zephos_SwordSlicer_Slash.DisplayName: "{$Mods.Redemption.Items.SwordSlicer.DisplayName}"
-			// VasaraRock_Proj.DisplayName: Vasara Rock
-			// EmpPet.DisplayName: Gumdramon
-			// BLTPet.DisplayName: Calico Cat
-			// BLTSandwichPet.DisplayName: B.L.T. Sandwich
-			// MiniDigger.DisplayName: Mini Digger
-			// AsterisPet.DisplayName: Chibi Asteris
-			// CloudCallerPet.DisplayName: Cloud Doggy
-			// GuidingStranger_Proj.DisplayName: Guiding Stranger
-			// BloatedClinger_Gas.DisplayName: Bloated Clinger_ Gas
-			// NoidanNuoli.DisplayName: Noidan Nuoli
-			// Firebreak_Proj.DisplayName: Firebreak_ Proj
+			VasaraRock_Proj.DisplayName: 神锤岩石
+			EmpPet.DisplayName: 胶龙兽
+			BLTPet.DisplayName: 胆小鬼猫咪
+			BLTSandwichPet.DisplayName: B.L.T.三明治
+			MiniDigger.DisplayName: 迷你匕首
+			AsterisPet.DisplayName: 小Asteris
+			CloudCallerPet.DisplayName: 云狗狗
+			GuidingStranger_Proj.DisplayName: Guiding Stranger
+			BloatedClinger_Gas.DisplayName: Bloated Clinger_ Gas
+			NoidanNuoli.DisplayName: Noidan Nuoli
+			Firebreak_Proj.DisplayName: Firebreak_ Proj
 		}
 
 		NPCs: {
@@ -10847,7 +10850,7 @@ Mods: {
 				BossChecklistIntegration.SpawnInfo: 在夜间使用[i:Redemption/WeddingRing]。
 			}
 
-			// KeeperSpirit.DisplayName: The Keeper's Echo
+			KeeperSpirit.DisplayName: 守夜人的残响
 
 			KS3: {
 				DisplayName: 弑君者III
@@ -11036,8 +11039,8 @@ Mods: {
 			Newb_Intro.DisplayName: 纽布
 
 			Noza_NPC: {
-				// DisplayName: Noza, Tamer of Evil
-				// ShortName: Noza
+				DisplayName: 邪驯者，诺扎
+				ShortName: 诺扎
 			}
 
 			SkullDiggerFriendly.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
@@ -11046,16 +11049,16 @@ Mods: {
 			SpiritAssassin.DisplayName: 刺客灵魂
 
 			SpiritCommonGuard: {
-				// DisplayName: Spirit Common Guard
-				// ShortName: Kleo
+				DisplayName: 共同卫队灵魂
+				ShortName: 克罗欧
 			}
 
 			SpiritCurrent.DisplayName: 灵魂之河
 			SpiritDruid.DisplayName: 德鲁伊灵魂
 
 			SpiritGathicMan: {
-				// DisplayName: Old Spirit Man
-				// ShortName: Bromal
+				DisplayName: 割脑者，布罗姆尔
+				ShortName: 布罗姆尔
 			}
 
 			SpiritNiricLady.DisplayName: 老魂女士
@@ -11103,8 +11106,8 @@ Mods: {
 			TBotUnconscious.DisplayName: "{$Mods.Redemption.NPCs.TBot_Intro.DisplayName}"
 
 			TreebarkDryad: {
-				// DisplayName: Treebark Dryad
-				// Title: " the Treebark Dryad"
+				DisplayName: 树皮精
+				Title: " 树皮精"
 			}
 
 			WraithSlayer_Samurai.DisplayName: 咒魂武士
@@ -11437,20 +11440,20 @@ Mods: {
 			ShadestoneBrickMossyTile.MapEntry: 生苔空洞石砖
 			ShadestoneBrickTile.MapEntry: 空洞石砖
 			ShadestoneMossyTile.MapEntry: 生苔空洞石
-			// ShadestoneSlabTile.MapEntry: Shadestone Beam
+			ShadestoneSlabTile.MapEntry: 空洞石梁
 			ShadestoneSlabTile.MapEntry: 空洞石板
 			ShadestoneTile.MapEntry: 空洞石
 			ElderSapling.MapEntry: 远古树苗
 			IrradiatedBorealSapling.MapEntry: 石化针叶树苗
 			IrradiatedPalmSapling.MapEntry: 石化棕榈树苗
 			IrradiatedPuritySapling.MapEntry: 石化树苗
-			// ShadestoneBathtubTile.MapEntry: Shadestone Bathtub Tile
-			// ShadestoneBookcaseTile.MapEntry: Shadestone Bookcase Tile
-			// ShadestoneCandelabraTile.MapEntry: Shadestone Candelabra Tile
-			// ShadestoneCandleTile.MapEntry: Shadestone Candle Tile
+			ShadestoneBathtubTile.MapEntry: 空洞石浴缸
+			ShadestoneBookcaseTile.MapEntry: 空洞石书架
+			ShadestoneCandelabraTile.MapEntry: 空洞石烛台
+			ShadestoneCandleTile.MapEntry: 空洞石蜡烛
 			ShadestoneMirrorTile2.MapEntry: 特殊空洞石镜
-			// ShadestonePianoTile.MapEntry: Shadestone Piano Tile
-			// ShadestoneSofaTile.MapEntry: Shadestone Sofa Tile
+			ShadestonePianoTile.MapEntry: 空洞石钢琴
+			ShadestoneSofaTile.MapEntry: 空洞石沙发
 		}
 
 		Keybinds: {
@@ -11497,7 +11500,7 @@ Mods: {
 			DeadRingerGiven: 在找到死亡之铃后
 			InSoullessCaverns: 处于失魂洞窟时
 			ForestNymphTrust: 获得森林仙女的信任时
-			// OldTophat: While the hanging skeleton is gone
+			OldTophat: 悬挂骷髅消失之后
 		}
 
 		Configs: {
@@ -11543,8 +11546,8 @@ Mods: {
 				}
 
 				ShakeIntensity: {
-					// Label: Screen Shake Intensity
-					// Tooltip: Reduce to decrease the intensity of screen shaking effects, 0 will disable it entirely
+					Label: 屏幕抖动强度
+					Tooltip: 降低该选项会减弱屏幕抖动效果的强度，降低至0会完全禁用屏幕抖动
 				}
 
 				NoPZBuildUp: {
