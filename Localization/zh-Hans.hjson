@@ -2503,6 +2503,11 @@ Mods: {
 				DisplayName: 云狗狗
 				Description: 汪汪
 			}
+
+			SkirmishBuff: {
+				DisplayName: 争斗
+				Description: 显著提高敌人生成速度
+			}
 		}
 
 		Biomes: {
@@ -10110,6 +10115,11 @@ Mods: {
 			SkeletonRemains6: {
 				DisplayName: 遗骸6
 				Tooltip: ""
+			}
+
+			SkirmishPotion: {
+				DisplayName: 争斗药水
+				Tooltip: 显著提高敌人生成速度
 			}
 		}
 
