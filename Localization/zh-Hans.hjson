@@ -10157,7 +10157,7 @@ Mods: {
 			Violin_Proj.DisplayName: "{$Mods.Redemption.Items.Violin.DisplayName}"
 			BileArrow_Proj.DisplayName: "{$Mods.Redemption.Items.BileArrow.DisplayName}"
 			BileBullet_Proj.DisplayName: "{$Mods.Redemption.Items.BileBullet.DisplayName}"
-			// Divinity_Ball.DisplayName: Divinity Charge
+			Divinity_Ball.DisplayName: 神性充能
 			Divinity_Proj.DisplayName: "{$Mods.Redemption.Items.Divinity.DisplayName}"
 			Divinity_Sun.DisplayName: 太阳
 			GlobalDischarge_Proj.DisplayName: "{$Mods.Redemption.Items.GlobalDischarge.DisplayName}"
@@ -11455,7 +11455,7 @@ Mods: {
 			ShadestoneBrickMossyTile.MapEntry: 生苔空洞石砖
 			ShadestoneBrickTile.MapEntry: 空洞石砖
 			ShadestoneMossyTile.MapEntry: 生苔空洞石
-			// ShadestoneRubbleTile.MapEntry: Shadestone Rubble
+			ShadestoneRubbleTile.MapEntry: 空洞砾石
 			ShadestoneSlabTile.MapEntry: 空洞石板
 			ShadestoneTile.MapEntry: 空洞石
 			ElderSapling.MapEntry: 远古树苗
