@@ -1,3 +1,14 @@
+# Hello translater people, some things to mention:
+# In Mods.Cutscene there are things in [] brackets, such as [0.1], [@a], [1] etc.
+# DON'T touch the stuff inside those brackets as they are for either pausing text or triggering an event
+#
+# Some NPCs say words in their own made-up language sometimes, these include Calavia and Spirit Assassin
+# You don't have to translate those made-up words (assuming you knew what they meant in the first place)
+#
+# Quite a lot of NPCs use rather obscure older English words, such as "alas", "thus", "thee", "thou", etc.
+# I'm not sure how other languages would interpret them, so you'd probably just convert them to their modern meaning,
+# However, Erhan speaks in a comically over-the-top Old English way, which is part of his character, so if your own language has an equivalent to his speech, I recommend using it
+
 Mods: {
 	Redemption: {
 		TownNPCMood: {
@@ -13,8 +24,8 @@ Mods: {
 				DislikeBiome: 我真的不喜欢{BiomeName}，我讨厌和骷髅发生冲突！
 				HateBiome: 你为什么让我在{BiomeName}？你知道丛林有多危险吗！？
 				LoveNPC: 我和{NPCName}是好朋友，感谢你让我们住在一个小镇。
-				LikeNPC: {NPCName}是个好同伴，她也很擅长给我做发型……这不奇怪，对吧？
-				DislikeNPC: {NPCName}一直想让我买他的泥土。
+				LikeNPC: "{NPCName}是个好同伴，她也很擅长给我做发型……这不奇怪，对吧？"
+				DislikeNPC: "{NPCName}一直想让我买他的泥土。"
 				HateNPC: 嘘，你能不能让{NPCName}住得离我远一点，我已经身无分文了。
 				LikeNPC_Princess: 我喜欢{NPCName}。
 				Princess_LovesNPC: 我喜欢{NPCName}。
@@ -107,6 +118,7 @@ Mods: {
 			TenvonTownNPCEmote.Command: mortenvon
 			ZephosTownNPCEmote.Command: morzephos
 		}
+
 		Currencies.AntiqueDorulCurrency: 古老金币
 
 		TitleCard: {
@@ -516,7 +528,7 @@ Mods: {
 					共同卫队只会驻守在战略要地和大城市。
 					真正的普通人是得不到这顶头盔的”
 					'''
-				 CommonGuardHelm2:
+				CommonGuardHelm2:
 					'''
 					“安格隆共同卫队的桶形头盔，由骷髅搜刮而来。
 					尽管共同卫队比一般的骑士更加强大，但他们不会卷入战争。”
@@ -1428,7 +1440,7 @@ Mods: {
 		UI: {
 			Choice: {
 				MyPlayer: 打开物品栏，做出你的选择
-				 OtherPlayer: "{0}必须做出选择"
+				OtherPlayer: "{0}必须做出选择"
 			}
 
 			Chalice: {
@@ -1554,7 +1566,6 @@ Mods: {
 			Back: 返回
 			HomeRequirements: 房屋要求
 			RevivialPotion: 使用复苏药水
-
 
 			Daerel: {
 				Unconscious: 徒步旅行者戴雷尔被打晕了……
@@ -3222,8 +3233,8 @@ Mods: {
 			Volt: {
 				CycleDialogue1: 目前只有少数机器人不隶属于欧米茄，阿尔法叛乱者和拾荒者就是这些少数派。阿尔法是我们的主要威胁，如果你看到了他们的成员，我会对此保持警觉。他们是由亚当——第一台T-机器人——领导的反叛团体。
 				CycleDialogue2: 他的实力不容小觑。虽然身材与普通机器人别无二致，但他残暴至极，还有着与吉鲁斯不相上下的智慧。不过请放心，他不会伤害人类。
-				CycleDialogue3: 
-				    '''
+				CycleDialogue3:
+					'''
 					叛乱者一共有五位。我对他们的了解也非常有限，只能告诉你他们的名字。狙击手希罗，已失踪。
 
 					拿锤子的机器人塔洛斯，以我从未见过的一种特殊异辉晶体为能源，他也失踪了。
@@ -7530,10 +7541,7 @@ Mods: {
 
 			ScrapMetal: {
 				DisplayName: 废弃金属
-				Tooltip:
-					'''
-					“我肯定能从这堆废品里拿到什么有用的……”
-					'''
+				Tooltip: “我肯定能从这堆废品里拿到什么有用的……”
 			}
 
 			ShadesoulGateway: {
@@ -10055,7 +10063,7 @@ Mods: {
 			}
 
 			GalacticBand: {
-				 DisplayName: 银河缎带
+				DisplayName: 银河缎带
 				Tooltip:
 					'''
 					召唤小Asteris
@@ -10145,12 +10153,11 @@ Mods: {
 			OrePowder_Proj.DisplayName: "{$Mods.Redemption.Items.OrePowder.DisplayName}"
 			PlutoniumBomb_Proj.DisplayName: "{$Mods.Redemption.Items.PlutoniumBomb.DisplayName}"
 			PlutoniumBoom.DisplayName: 钚弹爆炸
-			Trumpet_Proj.DisplayName: 小号
-			Violin_Proj.DisplayName: 小提琴
 			Trumpet_Proj.DisplayName: "{$Mods.Redemption.Items.Trumpet.DisplayName}"
 			Violin_Proj.DisplayName: "{$Mods.Redemption.Items.Violin.DisplayName}"
 			BileArrow_Proj.DisplayName: "{$Mods.Redemption.Items.BileArrow.DisplayName}"
 			BileBullet_Proj.DisplayName: "{$Mods.Redemption.Items.BileBullet.DisplayName}"
+			// Divinity_Ball.DisplayName: Divinity Charge
 			Divinity_Proj.DisplayName: "{$Mods.Redemption.Items.Divinity.DisplayName}"
 			Divinity_Sun.DisplayName: 太阳
 			GlobalDischarge_Proj.DisplayName: "{$Mods.Redemption.Items.GlobalDischarge.DisplayName}"
@@ -10567,7 +10574,6 @@ Mods: {
 			XenomiteScepter_Proj.DisplayName: 疫染螺旋矢
 			ArcticWind_Proj.DisplayName: 极地之风
 			BlindJustice_Aura.DisplayName: 圣洁灵光
-			Firebreak_Proj.DisplayName: 烈焰雨
 			FireSlash_Proj.DisplayName: 热风
 			Firestorm_Proj.DisplayName: 奥弗斯烈焰风暴
 			ForestSickle_Proj.DisplayName: 自然劈砍
@@ -11427,7 +11433,6 @@ Mods: {
 			SkeletonRemainsTile5_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
 			SkeletonRemainsTile6.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
 			SkeletonRemainsTile7.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
-			SkeletonRemainsTile7_Special.MapEntry: "{$Mods.Redemption.Tiles.SkeletonRemainsTile1.MapEntry}"
 			SkeletonRemainsTile7_Special.MapEntry: 遗骸
 			XenomiteCrystalBigTile.MapEntry: 异辉晶体
 			XenomiteCrystalTile.MapEntry: 异辉晶体
@@ -11450,7 +11455,7 @@ Mods: {
 			ShadestoneBrickMossyTile.MapEntry: 生苔空洞石砖
 			ShadestoneBrickTile.MapEntry: 空洞石砖
 			ShadestoneMossyTile.MapEntry: 生苔空洞石
-			ShadestoneSlabTile.MapEntry: 空洞石梁
+			// ShadestoneRubbleTile.MapEntry: Shadestone Rubble
 			ShadestoneSlabTile.MapEntry: 空洞石板
 			ShadestoneTile.MapEntry: 空洞石
 			ElderSapling.MapEntry: 远古树苗
