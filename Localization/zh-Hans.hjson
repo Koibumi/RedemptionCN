@@ -53,19 +53,19 @@ Mods: {
 			Newb: {
 				Content: 我喜欢这里！
 				NoHome: 家在哪里？
-				FarFromHome: 我迷路了，你能找到家吗？
+				FarFromHome: 我迷路了，你能帮我回去吗？
 				LoveSpace: 人好少，耶！
 				DislikeCrowded: 太多脸了！
 				HateCrowded: 太多脸了！
-				LoveBiome: 我喜欢{BiomeName}！它让人想起……嗯…
-				LikeBiome: 我喜欢{BiomeName}。
+				LoveBiome: 我喜欢{BiomeName}！它让我想起一些美好的回忆……嗯…
+				LikeBiome: 我喜欢{BiomeName}。绿色好棒。
 				DislikeBiome: 这里太无聊了，我讨厌沙子！
-				HateBiome: 我觉得{BiomeName}让我难过！
+				HateBiome: …{BiomeName}让我难过，因为某些原因。
 				LoveNPC: "{NPCName} 和我一样了解魔法！"
 				LikeNPC: 我喜欢{NPCName}！
 				DislikeNPC: 我感觉{NPCName}内心邪恶，很坏！
 				HateNPC: 我对{NPCName}的仇恨是你无法理解的。
-				LikeNPC_Princess: 我喜欢{NPCName}。
+				LikeNPC_Princess: "{NPCName}让我想起…我，不知道为什么！我喜欢她。"
 				Princess_LovesNPC: 我喜欢{NPCName}，他很傻！
 			}
 
@@ -232,6 +232,11 @@ Mods: {
 				Modifier: 星宇天使
 				Ultimate: 终极形态
 			}
+
+			Stage3Scientist: {
+				Name: 3级感染的科学家
+				Modifier: 结晶骇物
+			}
 		}
 
 		FlavorTextBestiary: {
@@ -317,7 +322,7 @@ Mods: {
 			OozingScientist: 一名不幸的科学家，被异辉感染折磨得面目全非。它极具攻击性，渗出奇怪的液态物质……天哪，闻起来太恶心了。
 			SpacePaladin: 太空维护者之后的第四代弑君者机型。这个机型使用了比弑君者的“万用原型机”更加先进的护盾技术，能够承受更重的冲击。此外还有厚重耐用的护板与赛博战刃，完全为战争而生。
 			PrototypeSilver: 白银原型机是第二代弑君者机型，内置了护盾生成器与耐用的护板。在亚舍拉的一场异星战争中被打造出来。这场战争很快就结束了。虽然名字里带“银”，它其实是由阿尔科诺斯特多余的钛打造而成。
-			Basan: 传闻中一种生活在破碎高地的传奇鸟类。据说这种辛辣的美味在鸡肉鉴赏家中前所未闻，它的鲜嫩鸡翅和多汁鸡腿让其他鸡肉都相形见绌。只有在Arby's，你才能找到更好的辣鸡肉食材。Arby's，We Have The Meats.（译注：Arby's是美国的一家快餐品牌。“We Have The Meats”是他们的宣传口号，意为“我们有肉”。）
+			Basan: 传闻中一种生活在破碎高地的传奇鸟类。它们真的将“火辣鸡翅”这个词铭记于心。
 			ChickenBomber: 爆。
 			ChickenScratcher: 鸡爪，很多鸡爪。它们永远不会停下来。刮扒，刮扒，鸡可以刮扒一整天。
 			Cockatrice: 由50%的鸡和50%的龙组成，然而不知为何，味道还是100%地像鸡。
@@ -329,6 +334,13 @@ Mods: {
 			CoopCrate: 为特别想弄到一个爆蛋的人准备的战利品箱。鸡们还没有意识到让它们装的东西更具随机性才能更加刺激。
 			ShadesoulNPC: 埃庇多特存在着意志力——你越快乐，对生活的渴求越热烈，你的灵魂就会越大越强。反之，如果一个人失去了活下去的意志，他的灵魂会变得极其渺小，甚至反转过去，成为空魂者。空魂者直到伪神时代结束后才出现。
 			ScannerDrone: 用于收集数据并将其存储在SoS中的无人机。
+			CorruptChicken: 一个如此纯净的存在怎么会变得如此肮脏？这就是生命的归宿。
+			ViciousChicken: "{$Mods.Redemption.FlavorTextBestiary.CorruptChicken}"
+			HeadlessChicken: *可怕的叫声*
+			GhostfireChicken: *幽灵般的叫声*
+			Gigapora_ShieldCore: 这些庞大却轻便的无人机在机体的下半部分装有实验性护盾生成器。无人机一旦损坏，护盾生成器就可能会发生故障，并向钻机本体释放剧烈的能量。
+			SeedGrowth: 从一个怪诞巨兽上长出来的丑陋怪物。
+			EaglecrestRockPile: 它在跳舞，因为它还不知道世间的险恶。
 		}
 
 		Bestiary.Android: Api机械战士是用一个遥远恒星系的一种高度耐用金属制造的实验品。这种金属被弑君者III称为“玫瑰钛”——在银河系中发现的最坚固的材料之一。然而弑君者III讨厌它的粉红色调，所以在用它制作了几个机器人之后，他顽固地拒绝使用它。
@@ -491,20 +503,13 @@ Mods: {
 					Bonus2: “在玩家周围释放有毒气体，造成沸腾酸液减益”
 				}
 
-				Xenium: {
-					Press:
-						'''
-
-						按住
-						'''
-					Keybind:
-						'''
-						物品栏内存在能量罐时增加能量回复速度
-						在控件中为[特殊能力]绑定按键
-						'''
-					Bonus1: 物品栏内存在能量罐时增加能量回复速度
-					Bonus2: “从肩炮中发射一颗剧毒榴弹”
-				}
+				Xenium.Bonus:
+					'''
+					物品栏内存在能量罐时增加能量回复速度
+					双击“下”键激活[c/BCF160:肩炮模式]:
+					在肩炮模式下，无法使用任何武器，攻击时发射可以辅助瞄准的炮弹
+					炮弹会给所有命中的敌人施加易伤效果
+					'''
 			}
 		}
 
@@ -1002,7 +1007,7 @@ Mods: {
 				Warhead1: 啊，[0.1]如果你拿到了核弹头，我应该小心一些。
 				Warhead2: 辐射对你的同类来说是非常严重的威胁，[0.1]但这是可以避免的。
 				Warhead3: 如果你在弹坑附近看到一种发光的蓝色物质，[0.1]不要靠得太近[0.5]那就是钚。
-				Warhead4: 盖格计数器会提醒你辐射区域，[0.2]如果你真的染上了辐射病，[0.1]在你感觉疲劳或者恶心的时候就立即服用辐射药丸。
+				Warhead4: 盖格计数器会提醒你辐射区域，[0.2]如果你真的染上了辐射病，[0.1]就立即服用辐射药丸。
 				Warhead5: 只要你引爆核弹我就把这些东西卖了。
 				Warhead6: 。[0.1]。[0.1]。[0.1]呃，[0.1]如果你真的决定引爆它…
 			}
@@ -2185,6 +2190,11 @@ Mods: {
 				Description: 增加下落速度
 			}
 
+			HammerBuff2: {
+				DisplayName: 沉重
+				Description: 增加下落速度
+			}
+
 			HeartInsigniaBuff: {
 				DisplayName: 心跳加速
 				Description: 生命回复大幅提升
@@ -2470,11 +2480,6 @@ Mods: {
 				Description: BLLAARRG
 			}
 
-			HammerBuff2: {
-				DisplayName: 沉重
-				Description: 增加下落速度
-			}
-
 			XeniumGasDebuff: {
 				DisplayName: 剧毒气体
 				Description: 呕呕，臭死了
@@ -2518,6 +2523,11 @@ Mods: {
 			SkirmishBuff: {
 				DisplayName: 争斗
 				Description: 显著提高敌人生成速度
+			}
+
+			UkkonenBuff: {
+				DisplayName: 乌戈雷云
+				Description: 一朵乌戈雷云为你而战！
 			}
 		}
 
@@ -2679,7 +2689,6 @@ Mods: {
 				Dialogue17: 你应该已经见到了这些已死之物的躯壳，上面晶体还发着绿光。当实验室的人员了解到它们的传染性时，为时晚矣。卡里是第一个被感染的人。
 				Dialogue18: 在你没有装备以防护电离辐射时，盖格计数器就是个方便的工具。当靠近危险的物品时，它就会发出滴答声，电离辐射越强滴答声越剧烈。安静而缓慢的滴答声无需担心，但迅速尖锐的滴答声会让你想要离开。至于刺耳的尖啸，你要尽可能避免。
 				Dialogue19: 如果你没有能抵抗威胁的装备，你会想躲避任何危险的环境。如果你想靠近有辐射残尘的地方，防毒面具几乎是必须的。这些地区的雨都是酸性的，还可能会让你患上ARS（急性放射病)，除非你有防化服，否则就老老实实躲雨。你可能还需要带一些抗结晶血清，因为感染者常常出于未知原因在放射性区域周围游荡。
-				Dialogue20: 辐射最致命之处在于，一开始，你甚至不知道你被辐射了。最初的症状一般会在几分钟后开始出现，刚开始可能是头痛，然后是头晕、疲倦、出血、皮肤烧伤、发烧、脱发，最后是死亡。
 				Dialogue21: 请不要害怕我。和我的同类不一样，我绝对不会伤害你的同类的。
 				AdamHeadDialogue1: 我在照镜子吗？哦，等等，那只是你而已。嘿。
 				AdamHeadDialogue2: 你看起来和第一个T机器人一模一样。
@@ -3032,22 +3041,15 @@ Mods: {
 				WokeDialogue4: 我能感受到我的记忆正在沉眠中复苏。我已经知晓，我有着一些必须完成的使命，但那究竟是什么，我还不确定。
 				KingSlayerMaskDialogue: 嘿嘿嘿！哈哇，弑君者先生！等等……那是谁？
 				ChickenDialogue: 是只鸡！！！来吧，鸡先生，该散步了！
-				Dialogue1: 鸡非常有趣！我喂着喂着它们饲料，突然换成了一个王冠，但鸡还是啄了它！……然后就，爆！炸！了！
+				Dialogue1: 鸡非常有趣！我正想喂一只，突然掉出来一个王冠，但鸡还是啄了它！……然后就，爆！炸！了！
 				Dialogue2: 我的鞋子上怎么没有泥巴！我的泥巴去哪了！？
 				Dialogue3: 这里的树有好多好有趣颜色！黄叶在哪里！他们怎么都是绿色的！……还好绿色也是个好颜色。
 				Dialogue4: 你叫什么名字？是加里吗？我打赌是加里！绅士加里现在是你的名字了！
-				Dialogue5: 这个岛不是吾的岛！我的人民在哪里！？
+				Dialogue5: 这个岛不是吾的岛！我的人民在哪里！？那个黄色的骑士把我带到了奇怪的地方…
 				Dialogue6: 他们来了，红色来了！不要停下！……噢哈哇！
-				Dialogue7: 我喜欢绿宝石，它们是绿色的！我讨厌红宝石！太红了！
+				Dialogue7: 我喜欢绿宝石，它们是绿色的！我讨厌红宝石，红色很吓人…
 				Dialogue8: 传送门之外是什么？乔尼，我们去看看吧！……等等，你不叫这个……
-				Dialogue9: 我真可爱！我和闪亮骑士一起去！
-				HuhDialogue: 你的野心是徒劳的，会腐朽。你不敢继续走在罪恶的道路上，以免因而直面你所走过的世间。死亡萦绕在你的灵魂之上，终会将你反噬，直至你化作一具连被惩戒都不值得的空壳。
-				Dialogue10: 你是谁啊？你是人类吗？
-				Dialogue11: 我发现了会发光的石头！
-				Dialogue12: 你看起来很蠢！哈哈！
-				Dialogue13: 我的土打九折！
-				Dialogue14: 哈哈呀！
-				Dialogue15: 啊哈哈！我是纽布！
+				Dialogue9: 快看，加里！我吹了个泡泡！一个时间泡泡！！…加里？
 			}
 
 			Noza: {
@@ -5171,7 +5173,7 @@ Mods: {
 
 			XenomiteShard: {
 				DisplayName: 异辉碎片
-				Tooltip: 持握时感染玩家
+				Tooltip: ""
 			}
 
 			ZweihanderFragment1: {
@@ -7444,11 +7446,11 @@ Mods: {
 					'''
 					治疗辐射病
 					说明书：
-					“辐射一般来说无法治愈，但有了这种新药，我们正逐渐将其攻克
 					—确保你已经得了辐射病，否则会弊大于利！
-					—这种药物仅能在患者处于辐射中毒阶段，且伴有以下症状时生效：
-					疲劳与恶心
-					—成功服用后，你会感觉虚弱与恶心，几分钟后这些症状就会消失。”
+					—这种药物见效较慢，且无法对抗极端剂量的辐射。如果你视野中已出现绿色迷雾，
+					我们建议你用铲子挖个洞放自己的棺材，因为马上就要用到了。
+					—成功服用后，你会感觉虚弱与恶心，几分钟后这些症状就会消失。
+					“辐射一般来说无法治愈，但有了这种新药，我们正逐渐将其攻克”
 					'''
 			}
 
@@ -8429,9 +8431,21 @@ Mods: {
 				Mode1: 乌戈之剑
 				Mode2: 乌戈之锤
 				Mode3: 乌戈之斧
-				SwordMode: 乌戈之剑：连续进行三次斩击，然后把剑掷向敌人
-				HammerMode: 乌戈之锤：向光标处冲刺，留下闪电尾迹，武器命中敌人时召唤雷击
-				AxeMode: 乌戈之斧：在空中使用时重击地面，并在该位置召唤雷击
+				SwordMode:
+					'''
+					乌戈之剑：长按左键丢出一把剑，剑会像回旋镖一样回到你手中。
+					松开左键会释放闪电并立即传送到乌戈之剑的位置，挥动剑刃造成大量伤害
+					'''
+				HammerMode:
+					'''
+					乌戈之锤：挥动锤子，击中敌人后在所有附近的敌人之间释放闪电链
+					击中最后一个敌人后，锤子会猛击附近的一个敌人造成大量伤害，然后返回玩家手中
+					'''
+				AxeMode:
+					'''
+					乌戈之斧：长按左键旋转斧头，松开后将玩家射向光标位置，飞行路径上留下闪电尾迹
+					飞行途中按住“下”键会猛击地面并释放闪电风暴
+					'''
 				Lore:
 					'''
 					“乌戈的锤子，锻造自他的先祖，改良于他本人。在他死后，
@@ -10095,7 +10109,7 @@ Mods: {
 			}
 
 			Wardbreaker: {
-				DisplayName: 破壁者外件
+				DisplayName: 破壁者戒指
 				Tooltip: 装备者的魔法或{0}元素武器对格挡值造成双倍伤害
 			}
 
@@ -10127,6 +10141,51 @@ Mods: {
 			SkirmishPotion: {
 				DisplayName: 争斗药水
 				Tooltip: 显著提高敌人生成速度
+			}
+
+			FowlEmperorBox: {
+				DisplayName: 音乐盒（鸡皇）
+				Tooltip: Sc0p3r - Fowl Play
+			}
+
+			UkonRuno: {
+				DisplayName: 乌戈之诗
+				Tooltip:
+					'''
+					召唤一朵乌戈雷云向敌人降下暴雨
+					用鞭子打击敌人时雷云会降下雷击
+					“一首古代的赞诗，赞颂乌戈带来的丰沛雨水和五谷丰登”
+					'''
+			}
+
+			ElderWoodCrossbow: {
+				DisplayName: 远古木弩
+				Tooltip: 发射弩箭，击中敌人后分裂成碎片
+			}
+
+			PureIronBow: {
+				DisplayName: 净钢弓
+				Tooltip: 箭矢飞行途中会留下冰雾尾迹，对敌人施加净寒
+			}
+
+			ElderWoodToilet: {
+				DisplayName: 远古木马桶
+				Tooltip: ""
+			}
+
+			WoodenBallista: {
+				DisplayName: 木制弩炮
+				Tooltip: ""
+			}
+
+			PetrifiedWoodToilet: {
+				DisplayName: 石化木马桶
+				Tooltip: ""
+			}
+
+			XeniumGrenadeCannon: {
+				DisplayName: 异金榴弹炮
+				Tooltip: ""
 			}
 		}
 
@@ -10782,6 +10841,14 @@ Mods: {
 			BloatedClinger_Gas.DisplayName: Bloated Clinger_ Gas
 			NoidanNuoli.DisplayName: Noidan Nuoli
 			Firebreak_Proj.DisplayName: Firebreak_ Proj
+			Ukonvasara_Hammer.DisplayName: 乌戈之锤
+			Ukkonen.DisplayName: 乌戈雷云
+			ElderWoodBolt.DisplayName: 远古木箭
+			ElderWoodBolt_Shard.DisplayName: 远古木箭碎片
+			Xenium_Gas.DisplayName: 异金毒气
+			Xenium_GasExplosion.DisplayName: 异金毒气爆炸
+			XeniumGrenade.DisplayName: 异金榴弹
+			XeniumTrajectory.DisplayName: 异金榴弹预瞄线
 		}
 
 		NPCs: {
@@ -11262,6 +11329,9 @@ Mods: {
 
 			GhostfireChicken.DisplayName: 鬼火鸡
 			HazmatZombie_SS.DisplayName: 防化服僵尸_ S S
+			CorruptChicken.DisplayName: 腐化鸡
+			ViciousChicken.DisplayName: 猩红鸡
+			Stage3Scientist.DisplayName: 3级感染的科学家
 		}
 
 		Tiles: {
@@ -11468,6 +11538,7 @@ Mods: {
 			ShadestoneMirrorTile2.MapEntry: 特殊空洞石镜
 			ShadestonePianoTile.MapEntry: 空洞石钢琴
 			ShadestoneSofaTile.MapEntry: 空洞石沙发
+			WoodenBallistaTile.MapEntry: 木制弩炮
 		}
 
 		Keybinds: {
