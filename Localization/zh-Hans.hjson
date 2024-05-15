@@ -163,8 +163,8 @@ Mods: {
 			}
 
 			Golem: {
-				Name: 鹰峰魔像
-				Modifier: 鹰峰草甸守卫
+				Name: 鹰冠魔像
+				Modifier: 鹰冠草甸守卫
 			}
 
 			KS3: {
@@ -875,7 +875,7 @@ Mods: {
 				KS3Quest: -帮助一位意志消沉的机器人修理飞船[c/bbf160:(好路线)]
 				Omega: -和三台致命机械战斗
 				PatientZero: -对抗实验室的终极挑战
-				ADD: -揭开鹰峰魔像的秘密
+				ADD: -揭开鹰冠魔像的秘密
 				UltimateNeb: -挑战星宇天使的最终形态[c/ff5533:(坏路线)]
 			}
 		}
@@ -4189,7 +4189,7 @@ Mods: {
 			}
 
 			EaglecrestHead: {
-				DisplayName: 鹰峰大兜帽
+				DisplayName: 鹰冠大兜帽
 				Tooltip: ""
 			}
 
@@ -5120,7 +5120,7 @@ Mods: {
 			}
 
 			GolemEye: {
-				DisplayName: 鹰峰魔像之眼
+				DisplayName: 鹰冠魔像之眼
 				Tooltip: ""
 				Tip1: 蕴含风暴般的能量，最好把它带在身边保管
 				Tip2: 把这颗眼睛放下，用最初包裹它的石头再次将其包裹，它便能展现出真正的力量
@@ -5830,7 +5830,7 @@ Mods: {
 			}
 
 			EaglecrestGolemPlush: {
-				DisplayName: 鹰峰魔像玩偶
+				DisplayName: 鹰冠魔像玩偶
 				Tooltip: ""
 			}
 
@@ -7611,10 +7611,10 @@ Mods: {
 			}
 
 			EaglecrestSpelltome: {
-				DisplayName: 鹰峰魔咒
+				DisplayName: 鹰冠魔咒
 				Tooltip:
 					'''
-					唤醒鹰峰魔像
+					唤醒鹰冠魔像
 					在世界吞噬怪/克苏鲁之脑被击败后由泽弗斯/戴雷尔出售
 					'''
 			}
@@ -8676,7 +8676,7 @@ Mods: {
 			}
 
 			EaglecrestGlove: {
-				DisplayName: 鹰峰手套
+				DisplayName: 鹰冠手套
 				Tooltip:
 					'''
 					投掷一颗巨石，巨石继承你的动能
@@ -8809,7 +8809,7 @@ Mods: {
 			}
 
 			EaglecrestJavelin: {
-				DisplayName: 鹰峰投枪
+				DisplayName: 鹰冠投枪
 				Tooltip:
 					'''
 					长按左键为投枪蓄力，松开时掷出
@@ -8962,7 +8962,7 @@ Mods: {
 			}
 
 			EaglecrestSling: {
-				DisplayName: 鹰峰投石索
+				DisplayName: 鹰冠投石索
 				Tooltip: 长按左键旋转投石索，松开时投掷石头
 			}
 
@@ -10031,12 +10031,12 @@ Mods: {
 			}
 
 			EaglecrestGolemRelic: {
-				DisplayName: 鹰峰魔像圣物
+				DisplayName: 鹰冠魔像圣物
 				Tooltip: ""
 			}
 
 			EaglecrestGolemTrophy: {
-				DisplayName: 鹰峰魔像纪念章
+				DisplayName: 鹰冠魔像纪念章
 				Tooltip: ""
 			}
 
@@ -10565,7 +10565,7 @@ Mods: {
 			TeslaBeam.DisplayName: 特斯拉电击
 			TeslaZapBeam.DisplayName: 特斯拉毁灭光束
 			Volt_OrbProj.DisplayName: 电能球
-			GolemEyeRay.DisplayName: 鹰峰眼激光
+			GolemEyeRay.DisplayName: 鹰冠眼激光
 			RockPileSummon.DisplayName: 岩儡
 			RockSlash_Proj.DisplayName: 岩石猛击
 			SkullDigger_FlailBlade.DisplayName: "{$Mods.Redemption.NPCs.SkullDigger.DisplayName}"
@@ -10595,7 +10595,7 @@ Mods: {
 			DragonSkullFlames_Proj.DisplayName: 龙焰
 			Dusksong_Proj.DisplayName: 黑暗之魂
 			Dusksong_Proj2.DisplayName: "{$Mods.Redemption.Projectiles.Dusksong_Proj.DisplayName}"
-			EaglecrestBoulder_Proj.DisplayName: 鹰峰滚石
+			EaglecrestBoulder_Proj.DisplayName: 鹰冠滚石
 			Earthbind_Effect.DisplayName: 地缚
 			Earthbind_Proj.DisplayName: "{$Mods.Redemption.Projectiles.Earthbind_Effect.DisplayName}"
 			GiantDandelionSeed.DisplayName: 巨型蒲公英
@@ -10859,7 +10859,7 @@ Mods: {
 
 				BossChecklistIntegration: {
 					SpawnInfo: 把[i:Redemption/GolemEye]放下，用最初包裹它的石头再次将其包裹，它就能展现出真正的力量。
-					EntryName: 再战，鹰峰魔像
+					EntryName: 再战，鹰冠魔像
 				}
 			}
 
@@ -11250,12 +11250,12 @@ Mods: {
 			ProtectorVolt_Start.DisplayName: "{$Mods.Redemption.NPCs.ProtectorVolt.DisplayName}"
 
 			EaglecrestGolem: {
-				DisplayName: 鹰峰魔像
+				DisplayName: 鹰冠魔像
 				BossChecklistIntegration.SpawnInfo: 世界吞噬怪/克苏鲁之脑被击败后在地表自然生成。
 			}
 
 			EaglecrestGolem_Sleep.DisplayName: 沉眠石像
-			EaglecrestRockPile.DisplayName: 鹰峰岩儡
+			EaglecrestRockPile.DisplayName: 鹰冠岩儡
 
 			SkullDigger: {
 				DisplayName: 掘颅者
@@ -11447,7 +11447,7 @@ Mods: {
 			BorealStatuetteTile.MapEntry: 北欧小木雕
 			ChickenCoopTile.MapEntry: 鸡舍
 			DoppelsSwordTile.MapEntry: 多佩尔的铁剑
-			EaglecrestGolemPlushTile.MapEntry: 鹰峰魔像玩偶
+			EaglecrestGolemPlushTile.MapEntry: 鹰冠魔像玩偶
 			EnergyStationTile.MapEntry: 能量站
 			GathicCryoFurnaceTile.MapEntry: 加苏寒炉
 			GathuramPortalTile.MapEntry: 加苏拉姆传送门
@@ -11553,7 +11553,7 @@ Mods: {
 			DownedADD: 击败远古双神掉落
 			DownedBehemoth: 击败辐射巨兽掉落
 			DownedBlisterface: 击败脓疱疮脸掉落
-			DownedEaglecrestGolem: 击败鹰峰魔像掉落
+			DownedEaglecrestGolem: 击败鹰冠魔像掉落
 			DownedFowlEmperor: 击败鸡皇掉落
 			DownedFowlMorning: 完成鸡晨事件掉落
 			DownedJanitor: 击败清洁工掉落
