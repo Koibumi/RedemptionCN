@@ -4943,7 +4943,7 @@ Mods: {
 			}
 
 			AIChip: {
-				DisplayName: Circuit
+				DisplayName: 电路板
 				Tooltip: ""
 			}
 
