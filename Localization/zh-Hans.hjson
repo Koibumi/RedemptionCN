@@ -2529,6 +2529,16 @@ Mods: {
 				DisplayName: 乌戈雷云
 				Description: 一朵乌戈雷云为你而战！
 			}
+
+			LightningStoneBuff: {
+				DisplayName: 闪电石
+				Description: 摇起来，兄弟！
+			}
+
+			MoonflareCandleBuff: {
+				DisplayName: 月辉蜡烛
+				Description: 抵抗墓地环境的影响
+			}
 		}
 
 		Biomes: {
@@ -3025,7 +3035,7 @@ Mods: {
 				Chat6B: 我计划不久后就去看看，它位于另一个世界，但我可以用SoS轻松飞到那里。
 				Chat7: 什么？你甚至不知道你所在的星球的名字？也许你这辈子就读一本书吧。
 				Chat7B: 这个世界叫做埃庇多特，是英雄们的故乡。
-				Chat7C: 这个小岛突然出现在这个星球上，大约一年前我就打算来看看了，但我想起来我曾在这里见过半神，就没过来。这地方似乎被一个亚空间泡泡包围，使其无法从外部看到或是进入——传送门或者传送术是仅有的进入途径。考虑到这里只有一个太阳，这个泡泡不止包裹了这个小岛，还包括它旁边的的宇宙空间。这是怎么回事？对你的猴脑来说太复杂了对吧？我这样说：严格来讲，我们并不处于“埃庇多特”。
+				Chat7C: 这个小岛突然出现在这个星球上，大约一年前我就打算来看看了，但我想起来我曾在这里见过半神，就没过来。这地方似乎被一个亚空间泡泡包围，使其无法从外部看到或是进入——传送门或者传送术是仅有的进入途径。考虑到这里只有一个太阳，这个泡泡不止包裹了这个小岛，还包括它旁边的的宇宙空间。这是怎么回事？对你的猴脑来说太复杂了对吧？
 				Chat8: 有个世界是凭空出现的，我对它很感兴趣。我已经扫描了它的地表，看起来高度冻结，到目前为止，我还没有发现人类存在的迹象。这让我想起了我在太空中看到过的一颗行星……事实上，我想起了许多行星。
 				Chat8B: 你看到全息图上星球的右部了吗？那就是我所称的利登，一片放射性的、荒凉的、没有任何生命的荒原。
 				Chat8C: 我很快就会去看看。扫描显示其表面几乎没有生命，只有一片冰冻的放射性废土。
@@ -3049,7 +3059,7 @@ Mods: {
 				Dialogue6: 他们来了，红色来了！不要停下！……噢哈哇！
 				Dialogue7: 我喜欢绿宝石，它们是绿色的！我讨厌红宝石，红色很吓人…
 				Dialogue8: 传送门之外是什么？乔尼，我们去看看吧！……等等，你不叫这个……
-				Dialogue9: 快看，加里！我吹了个泡泡！一个时间泡泡！！…加里？
+				HuhDialogue: 你的野心终是徒劳，你的意志已然腐朽，你不敢踏上罪恶之路，否则被你践踏过的这片焦土会一览无遗。徘徊在你灵魂深处的死亡会从内部将你啃噬殆尽，直到你仅余一具空洞的躯壳，徒受这漫长的罪罚。
 			}
 
 			Noza: {
@@ -8031,8 +8041,8 @@ Mods: {
 				DisplayName: 弑君者火箭拳
 				Tooltip:
 					'''
-					近距离猛击敌人
-					在空中击中敌人时，按住左键释放一发{0}火箭
+					发射一颗追踪的火箭拳
+					长按左键会向前冲刺，近距离猛击敌人
 					'''
 			}
 
@@ -8401,7 +8411,7 @@ Mods: {
 				Tooltip:
 					'''
 					近距离猛击敌人
-					在空中击中敌人时，按住左键释放一组飞拳
+					左键击中敌人会释放一组飞拳
 					'''
 			}
 
@@ -10187,6 +10197,60 @@ Mods: {
 				DisplayName: 异金榴弹炮
 				Tooltip: ""
 			}
+
+			BeelzebubConcoction: {
+				DisplayName: 魔鬼混合物
+				Tooltip:
+					'''
+					小动物们正被你吸引着
+					胆怯的小动物不再害怕你
+					{$Mods.Redemption.Items.ErleasFlower.Tooltip}
+					{$Mods.Redemption.Items.SpiderSerum.Tooltip}
+					'''
+			}
+
+			ErleasFlower: {
+				DisplayName: 厄莉亚之花
+				Tooltip: 蜜蜂变为被动生物
+				Lore:
+					'''
+					一种仅在茂密洞穴中生长的罕见花朵。洞穴探险者会寻找这些花朵，并带到市场上售卖以换取好运。
+					这种花曾被广泛用于香水之中。它的香气常被形容为“有趣”。
+					'''
+			}
+
+			SpiderSerum: {
+				DisplayName: 蜘蛛血清
+				Tooltip:
+					'''
+					蜘蛛蜂拥者变为被动生物
+					免疫“被网住”
+					'''
+			}
+
+			RoosterWinPainting: {
+				DisplayName: 荣耀鸡鸣
+				Tooltip: "'Dawn D. Ables'"
+			}
+
+			MoonflareCandle: {
+				DisplayName: 月辉蜡烛
+				Tooltip: 持握或放置时抵抗墓地环境的影响
+			}
+
+			ChickenMeshiPainting: {
+				DisplayName: 鸡蛇的凝视
+				Tooltip: "'A. Tied'"
+			}
+
+			LightningStone: {
+				DisplayName: 闪电石
+				Tooltip:
+					'''
+					召唤一颗超载卵石
+					鞭打敌人会使卵石电击敌人
+					'''
+			}
 		}
 
 		Projectiles: {
@@ -10849,6 +10913,9 @@ Mods: {
 			Xenium_GasExplosion.DisplayName: 异金毒气爆炸
 			XeniumGrenade.DisplayName: 异金榴弹
 			XeniumTrajectory.DisplayName: 异金榴弹预瞄线
+			LightningStoneMinion.DisplayName: 闪电石
+			PZGauntlet_Explosion.DisplayName: 爆炸
+			MagnifyingGlassRayRemain.DisplayName: 徘徊余烬
 		}
 
 		NPCs: {
@@ -11539,6 +11606,7 @@ Mods: {
 			ShadestonePianoTile.MapEntry: 空洞石钢琴
 			ShadestoneSofaTile.MapEntry: 空洞石沙发
 			WoodenBallistaTile.MapEntry: 木制弩炮
+			MoonflareCandleTile.MapEntry: 月辉蜡烛
 		}
 
 		Keybinds: {
