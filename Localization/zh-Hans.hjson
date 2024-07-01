@@ -283,9 +283,9 @@ Mods: {
 			PZ: 一名不幸的科学家，被异辉感染折磨得面目全非。这名科学家叫卡里·约翰逊，是所有T-机器人的父亲，也是异辉感染的零号病患。他已经被困在这里50年了，看看他周围的情况……天哪，这一定很痛苦。
 			Android: 被弑君者III派到岛上扫描的炮灰。是弑君者在他的百万年航行中设计的第一批机器人，也是机械战士单元的第一次应用。他们设计的最初目的是给SoS带来陪伴和生机，然而他们现在已经配备了更多的战斗向部件。受损时，他们会撤退回SoS并向网络发出警报。
 			BloatedGoldfish: 一种因充满放射性脓液而膨胀的金鱼。
-			BloatedGhoul: 受到放射性粒子辐射的食尸鬼，因为快速、不稳定的细胞增殖而面目全非。
+			BloatedGhoul: 受到放射性粒子辐射的食尸鬼，因为快速、不稳定的细胞增殖而变得面目全非。
 			BloatedGrub: 富含蛋白质！
-			BloatedSwarmer: 受到放射性粒子辐射的巨型昆虫，因为快速、不稳定的细胞增殖而面目全非。
+			BloatedSwarmer: 受到放射性粒子辐射的巨型昆虫，因为快速、不稳定的细胞增殖而变得面目全非。
 			BobTheBlob: 被一坨放射性污泥覆盖着的可怜骷髅。它看起来对自己的现状很不满。
 			HazmatBunny: 一只穿着I型防化服的兔兔。没有有害材料能伤害到这个小毛球！
 			HazmatZombie: 即使是亡灵也不喜欢核爆留下的辐射。但它们的防化服又没法起什么用，因为都破了。
@@ -334,13 +334,13 @@ Mods: {
 			CoopCrate: 为特别想弄到一个爆蛋的人准备的战利品箱。鸡们还没有意识到让它们装的东西更具随机性才能更加刺激。
 			ShadesoulNPC: 埃庇多特存在着意志力——你越快乐，对生活的渴求越热烈，你的灵魂就会越大越强。反之，如果一个人失去了活下去的意志，他的灵魂会变得极其渺小，甚至反转过去，成为空魂者。空魂者直到伪神时代结束后才出现。
 			ScannerDrone: 用于收集数据并将其存储在SoS中的无人机。
-			CorruptChicken: 一个如此纯净的存在怎么会变得如此肮脏？这就是生命的归宿。
+			CorruptChicken: 如此纯净的存在怎会变得如此肮脏？这就是生命的归宿。
 			ViciousChicken: "{$Mods.Redemption.FlavorTextBestiary.CorruptChicken}"
-			HeadlessChicken: *可怕的叫声*
+			HeadlessChicken: *骇人的叫声*
 			GhostfireChicken: *幽灵般的叫声*
 			Gigapora_ShieldCore: 这些庞大却轻便的无人机在机体的下半部分装有实验性护盾生成器。无人机一旦损坏，护盾生成器就可能会发生故障，并向钻机本体释放剧烈的能量。
 			SeedGrowth: 从一个怪诞巨兽上长出来的丑陋怪物。
-			EaglecrestRockPile: 它在跳舞，因为它还不知道世间的险恶。
+			EaglecrestRockPile: 它未染世间尘秽，它因而起舞。
 			BloatedDigger: 受到放射性粒子辐射的挖掘怪，因为快速、不稳定的细胞增殖而变得面目全非。
 			BloatedFaceMonster: 受到放射性粒子辐射的脸怪，因为快速、不稳定的细胞增殖而变得面目全非。
 			BloatedClinger: 受到放射性粒子辐射的爬藤怪，因为快速、不稳定的细胞增殖而变得面目全非。
@@ -382,7 +382,7 @@ Mods: {
 				Incandesence: 如此璀璨
 				Ensnared: 被荆棘吞噬
 				Nuclear1: 看到第二个太阳冉冉升起
-				Nuclear2: 被彻底抹除在
+				Nuclear2: 被彻底抹除于
 				Nuclear3: 遭受了审判日
 				Nuclear4: 变成了地上的黑影
 				Nuclear5: 砰的一声直冲云霄
