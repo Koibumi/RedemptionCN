@@ -8975,7 +8975,8 @@ Mods: {
 
 			DragonSlayersBow: {
 				DisplayName: 刑龙弓
-				Tooltip: 将木箭转化为狱炎箭
+				Tooltip: 将木箭转化为骨之箭
+如果所有箭矢都命中了一个目标，那么下次攻击会喷出一团火焰
 			}
 
 			EaglecrestSling: {
