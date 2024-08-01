@@ -3083,7 +3083,7 @@ Mods: {
 				OfferCruxDialogue: 我会的，只要你给我三朵黯夜花。我组织的每一个人都被那个邪恶的恶魔杀死了。
 				Dialogue1: 有什么需要我帮忙的吗？我也许不能和你交互，但我可以和你聊天。
 				Dialogue2: Gorhal'on! Mur ye bagaiha ta? Mudarok abo.
-				WhatDialogue:  嗯？啊，你一定不懂我们的语言。我早该想到，这岛上除了说安格隆语的人以外什么都没有。 算你走运，我们灵魂可是通晓所有的语言，我们就是为了聆听与认知永恒而漫游。你想要打听些什么？
+				WhatDialogue: 嗯？啊，你一定不懂我们的语言。我早该想到，这岛上除了说安格隆语的人以外什么都没有。 算你走运，我们灵魂可是通晓所有的语言，我们就是为了聆听与认知永恒而漫游。你想要打听些什么？
 				Chat1: 我？我曾经是哥德里昂的居民，那里是加苏拉姆的首都。 我在一个组织严密的组织里任职刺客。我当时自认为我们是最好的刺客，至少是当中的几个。对那个活着的自我，我也只能在追忆中报以戏谑了。
 				Chat2: 你不是从大陆上来的对吧？加苏拉姆是大陆上六个仍在建设的地域之一。在我还活着的时候，我很少走出歌德里昂的外野，我死去之后还是如此，所以我只能告诉你这些了。
 				Chat3: 哥德里昂是这地方的首都，是一个相当繁华的城市。但很难说它也有个同样优秀的统治者，那个人既固执又刻薄，事实上刺杀他正是我们的任务。巧合的是，一场入侵正好在执行任务那天开始了——太可怕了。在生命的最后一刻，我们只能仰头望天，看着那只令人恐惧的巨大恶魔。
@@ -7083,7 +7083,7 @@ Mods: {
 
 			PureIronHammer: {
 				DisplayName: 净钢锤
-				Tooltip: "猛击地面生成冰晶碎片"
+				Tooltip: 猛击地面生成冰晶碎片
 			}
 
 			PureIronPickaxe: {
@@ -8961,10 +8961,10 @@ Mods: {
 
 			DragonSlayersBow: {
 				DisplayName: 刑龙弓
-				Tooltip: 
-				    '''
-				    将木箭转化为骨之箭
-                    如果所有箭矢都命中了一个目标，那么下次攻击会喷出一团火焰
+				Tooltip:
+					'''
+					将木箭转化为骨之箭
+					            如果所有箭矢都命中了一个目标，那么下次攻击会喷出一团火焰
 					'''
 			}
 
@@ -11021,6 +11021,22 @@ Mods: {
 			FoldedShotgun_Proj.DisplayName: "{$Mods.Redemption.Items.FoldedShotgun.DisplayName}"
 			BloatedFaceMonster_Screech.DisplayName: 尖啸
 			DusksongWeak_Proj.DisplayName: 暮歌
+			// DragonSlayersBowHitcheck.DisplayName: ""
+			// DragonBreath.DisplayName: Dragon Breath
+			// DragonBreathStart.DisplayName: Dragon Breath
+			// PureIronHammer_IceSpike.DisplayName: Ice Spike
+			// PureIronHammer_Proj.DisplayName: "{$Mods.Redemption.Items.PureIronHammer.DisplayName}"
+			// PulseBlade_Proj.DisplayName: "{$Mods.Redemption.Items.PulseBlade.DisplayName}"
+			// KineticMine.DisplayName: Kinetic Plasma Mine
+			// KineticMine_Explosion.DisplayName: Kinetic Explosion
+			// KineticSlash.DisplayName: Kinetic Slash
+			// CorruptedDoubleRifleHitcheck.DisplayName: ""
+			// CorruptedDoubleRifleNotHitcheck.DisplayName: ""
+			// CorruptedDoubleRifle_Proj.DisplayName: "{$Mods.Redemption.Items.CorruptedDoubleRifle.DisplayName}"
+			// DeathMetal_Pulse.DisplayName: "{$Mods.Redemption.Items.DeathMetal.DisplayName}"
+			// DeathCoil_Proj.DisplayName: Death Coil
+			// IceSpikeShard.DisplayName: Ice Spike Shard
+			// IceSpike_Mist.DisplayName: Ice Mist
 		}
 
 		NPCs: {
