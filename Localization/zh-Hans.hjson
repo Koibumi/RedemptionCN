@@ -10330,28 +10330,28 @@ Mods: {
 			}
 
 			OmegaPickaxe: {
-				DisplayName: Omega Pickaxe
-				Tooltip: Can mine Uranium
+				DisplayName: 欧米伽镐
+				Tooltip: 可以挖掘铀
 			}
 
 			PulseBlade: {
-				DisplayName: Pulse Blade
+				DisplayName: 脉冲之刃
 				Tooltip:
 					'''
-					Hold left-click to charge a harmless kinetic slash, increasing the size the longer the charge
-					Right-click to fire Plasma Mines, can only have 8 out at a time
-					Hitting the Plasma Mines with a kinetic slash will launch them in the direction it was hit in
-					Speed and damage scales with the velocity of the mine
+					按住左键为没有伤害的脱身剑气充能，充能时间的越久，剑气的大小越大
+					右键发射等离子雷，最多有8个等离子雷同时存在
+					使用剑气命中等离子雷会将它们发射出去，方向与命中它们的剑气方向一致
+					速度与伤害随着的等离子雷的飞行速度增加而增加
 					'''
 			}
 
 			DeathMetal: {
-				DisplayName: Death Metal
+				DisplayName: 死亡金属
 				Tooltip:
 					'''
-					Shred the guitar to launch a Death Coil
-					Shred again before the coil returns to bounce it back out, increasing its power and velocity
-					Successful bounces restore mana
+					猛奏吉他发射一颗死亡飞颅
+					在飞颅回到身上前再次猛奏可以将它弹回，并提升它的力量与速度
+					成功弹回将会恢复魔力
 					'''
 			}
 		}
