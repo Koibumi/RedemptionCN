@@ -11021,22 +11021,22 @@ Mods: {
 			FoldedShotgun_Proj.DisplayName: "{$Mods.Redemption.Items.FoldedShotgun.DisplayName}"
 			BloatedFaceMonster_Screech.DisplayName: 尖啸
 			DusksongWeak_Proj.DisplayName: 暮歌
-			// DragonSlayersBowHitcheck.DisplayName: ""
-			// DragonBreath.DisplayName: Dragon Breath
-			// DragonBreathStart.DisplayName: Dragon Breath
-			// PureIronHammer_IceSpike.DisplayName: Ice Spike
-			// PureIronHammer_Proj.DisplayName: "{$Mods.Redemption.Items.PureIronHammer.DisplayName}"
-			// PulseBlade_Proj.DisplayName: "{$Mods.Redemption.Items.PulseBlade.DisplayName}"
-			// KineticMine.DisplayName: Kinetic Plasma Mine
-			// KineticMine_Explosion.DisplayName: Kinetic Explosion
-			// KineticSlash.DisplayName: Kinetic Slash
-			// CorruptedDoubleRifleHitcheck.DisplayName: ""
-			// CorruptedDoubleRifleNotHitcheck.DisplayName: ""
-			// CorruptedDoubleRifle_Proj.DisplayName: "{$Mods.Redemption.Items.CorruptedDoubleRifle.DisplayName}"
-			// DeathMetal_Pulse.DisplayName: "{$Mods.Redemption.Items.DeathMetal.DisplayName}"
-			// DeathCoil_Proj.DisplayName: Death Coil
-			// IceSpikeShard.DisplayName: Ice Spike Shard
-			// IceSpike_Mist.DisplayName: Ice Mist
+			DragonSlayersBowHitcheck.DisplayName: ""
+			DragonBreath.DisplayName: 龙息
+			DragonBreathStart.DisplayName: 龙息
+			PureIronHammer_IceSpike.DisplayName: 冰刺
+			PureIronHammer_Proj.DisplayName: "{$Mods.Redemption.Items.PureIronHammer.DisplayName}"
+			PulseBlade_Proj.DisplayName: "{$Mods.Redemption.Items.PulseBlade.DisplayName}"
+			KineticMine.DisplayName: 动能等离子雷
+			KineticMine_Explosion.DisplayName: 动能爆炸
+			KineticSlash.DisplayName: 动能斩切
+			CorruptedDoubleRifleHitcheck.DisplayName: ""
+			CorruptedDoubleRifleNotHitcheck.DisplayName: ""
+			CorruptedDoubleRifle_Proj.DisplayName: "{$Mods.Redemption.Items.CorruptedDoubleRifle.DisplayName}"
+			DeathMetal_Pulse.DisplayName: "{$Mods.Redemption.Items.DeathMetal.DisplayName}"
+			DeathCoil_Proj.DisplayName: 死亡飞颅
+			IceSpikeShard.DisplayName: 冰刺碎片
+			IceSpike_Mist.DisplayName: 冰霭
 		}
 
 		NPCs: {
