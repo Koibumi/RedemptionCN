@@ -6423,7 +6423,6 @@ Mods: {
 			SlayerShipBox: {
 				DisplayName: 音乐盒（弑君者的失事飞船）
 				Tooltip: Kweequ - Waiting for Slayer to Respond（等候弑君者的回应）
-
 			}
 
 			SoIBox: {
@@ -8224,7 +8223,7 @@ Mods: {
 					'''
 					长按左键为武器发动至多三次，松开后会在短时间内快速射击
 					射击时间的长短取决于发动次数的多少
-                    开火时按住左键会继续发动武器，不过玩家的移速将会降低
+					开火时按住左键会继续发动武器，不过玩家的移速将会降低
 					将普通子弹转化为高射速子弹
 					66%概率不消耗弹药
 					''' 
@@ -10355,6 +10354,7 @@ Mods: {
 					'''
 			}
 
+            ThornBox: {
 				DisplayName: 音乐盒 (荆棘)
 				Tooltip: musicman - Every Rose...（每一束玫瑰...）
 			}
