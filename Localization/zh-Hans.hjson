@@ -6422,7 +6422,11 @@ Mods: {
 
 			SlayerShipBox: {
 				DisplayName: 音乐盒（弑君者的失事飞船）
+<<<<<<< HEAD
+				//Tooltip: Kweequ - Waiting for Slayer to Respond
+=======
 				Tooltip: Kweequ - Waiting for Slayer to Respond（等候弑君者的回应）
+>>>>>>> 1c0ee4d10ecacc204c39ff22b9e012a729cccca8
 			}
 
 			SoIBox: {
@@ -8219,14 +8223,20 @@ Mods: {
 
 			SteampunkMinigun: {
 				DisplayName: 蒸汽齿轮加特林
-				Tooltip:
+				/* Tooltip:
 					'''
+<<<<<<< HEAD
+					Holding left-click will crank the weapon three times, causing it to shoot rapidly for a short duration
+					Shooting duration scales with the amount of time cranked
+					Holding left-click while firing will continue to crank, but reduces movement
+=======
 					长按左键为武器发动至多三次，松开后会在短时间内快速射击
 					射击时间的长短取决于发动次数的多少
 开火时按住左键会继续发动武器，不过玩家的移速将会降低
+>>>>>>> 1c0ee4d10ecacc204c39ff22b9e012a729cccca8
 					将普通子弹转化为高射速子弹
 					66%概率不消耗弹药
-					'''
+					''' */
 				Lore:
 					'''
 					“尼林古代黄铜技术的遗物，由一位有着生锈金属手臂的隐士首次发现并曝光。
@@ -8797,13 +8807,20 @@ Mods: {
 
 			DragonCleaver: {
 				DisplayName: 斩龙刀
-				Tooltip:
+				/* Tooltip:
 					'''
 					挥舞时可以格挡{0}弹幕
+<<<<<<< HEAD
+					Slashing enemies or blocking projectiles charge a Dragon Skull ability
+					Right-clicking once fully charged will launch a Dragon Skull out to bite enemies
+					对龙类敌人造成更高伤害
+					''' */
+=======
 					劈砍敌人或者格挡弹幕可以为龙颅猛击蓄势
 					蓄势完毕后，右键发射一颗龙颅撕咬敌人
 					对龙形敌人造成更高伤害
 					'''
+>>>>>>> 1c0ee4d10ecacc204c39ff22b9e012a729cccca8
 				Lore:
 					'''
 					“一把大剑，由融化的龙骨与龙铁打造而成。据说是龙栖之地古代军阀的装备。
@@ -10355,6 +10372,15 @@ Mods: {
 			}
 
 			ThornBox: {
+<<<<<<< HEAD
+				DisplayName: Music Box (Thorn)
+				Tooltip: musicman - Every Rose...
+			}
+
+			AldersStaff: {
+				DisplayName: Alder's Staff
+				Tooltip: Casts 4 random arcane bolts into the air
+=======
 				DisplayName: 音乐盒 (荆棘)
 				Tooltip: musicman - Every Rose...（每一束玫瑰...）
 			}
@@ -10362,6 +10388,7 @@ Mods: {
 			AldersStaff: {
 				DisplayName: 赤杨之杖
 				Tooltip: 像空中随机投掷4颗魔法飞弹
+>>>>>>> 1c0ee4d10ecacc204c39ff22b9e012a729cccca8
 			}
 		}
 
@@ -11049,12 +11076,21 @@ Mods: {
 			IceSpike_Mist.DisplayName: 冰霭
 			AldersStaff_Proj.DisplayName: "{$Mods.Redemption.Items.AldersStaff.DisplayName}"
 			ArcaneBolt.DisplayName: "{$Mods.Redemption.Projectiles.Thorn_ArcaneBolt.DisplayName}"
+<<<<<<< HEAD
+			Thorn_ArcaneBolt.DisplayName: Arcane Bolt
+			Thorn_ClawSlash.DisplayName: Claw Slash
+			Thorn_SlashFlash.DisplayName: Flash
+			Thorn_Splinter.DisplayName: Splinter
+			Thorn_SplinterBall.DisplayName: Splinter Ball
+			DragonCleaverSkull_Proj.DisplayName: Dragon Skull
+=======
 			Thorn_ArcaneBolt.DisplayName: 奥术飞弹
 			Thorn_ClawSlash.DisplayName: 爪裂
 			Thorn_SlashFlash.DisplayName: 闪光
 			Thorn_Splinter.DisplayName: 碎片
 			Thorn_SplinterBall.DisplayName: 球形碎片
 			DragonCleaverSkull_Proj.DisplayName: 龙颅
+>>>>>>> 1c0ee4d10ecacc204c39ff22b9e012a729cccca8
 		}
 
 		NPCs: {
@@ -11192,9 +11228,15 @@ Mods: {
 				XmasName: 节庆之祸，往昔荆棘
 
 				BossChecklistIntegration: {
+<<<<<<< HEAD
+					DespawnMessage: 索恩回到了他破败的森林里……
+					SpawnInfo: 使用[i:Redemption/HeartOfThorns]。可以在靠近出生点的地表找到。
+					EntryName: 索恩
+=======
 					DespawnMessage: 荆棘回到了他破败的森林里……
 					SpawnInfo: 使用[i:Redemption/HeartOfThorns]。也可以在靠近出生点的地表找到。
 					EntryName: 荆棘
+>>>>>>> 1c0ee4d10ecacc204c39ff22b9e012a729cccca8
 				}
 			}
 
@@ -11543,7 +11585,11 @@ Mods: {
 			BloatedDiggerHead.DisplayName: 肿胀挖掘者
 			BloatedDiggerTail.DisplayName: "{$Mods.Redemption.NPCs.BloatedDiggerHead.DisplayName}"
 			BloatedFaceMonster.DisplayName: 肿胀脸怪
+<<<<<<< HEAD
+            BrambleTrap.DisplayName: Bramble Trap
+=======
 			BrambleTrap.DisplayName: 蔷薇陷阱
+>>>>>>> 1c0ee4d10ecacc204c39ff22b9e012a729cccca8
 		}
 
 		Tiles: {
