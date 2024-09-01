@@ -6007,7 +6007,7 @@ Mods: {
 			}
 
 			ThornPlush: {
-				DisplayName: 索恩玩偶
+				DisplayName: 荆棘玩偶
 				Tooltip: ""
 			}
 
@@ -6422,7 +6422,7 @@ Mods: {
 
 			SlayerShipBox: {
 				DisplayName: 音乐盒（弑君者的失事飞船）
-				Tooltip: PeriTune - Suspense3（紧张3）
+				Tooltip: Kweequ - Waiting for Slayer to Respond（等候弑君者的回应）
 			}
 
 			SoIBox: {
@@ -6979,12 +6979,12 @@ Mods: {
 			}
 
 			ThornRelic: {
-				DisplayName: 索恩圣物
+				DisplayName: 荆棘圣物
 				Tooltip: ""
 			}
 
 			ThornTrophy: {
-				DisplayName: 索恩纪念章
+				DisplayName: 荆棘纪念章
 				Tooltip: ""
 			}
 
@@ -7639,7 +7639,6 @@ Mods: {
 				Tooltip:
 					'''
 					召唤一个不幸的被诅咒者
-					仅白天可用
 					不消耗
 					'''
 			}
@@ -7711,7 +7710,7 @@ Mods: {
 			}
 
 			ThornBag: {
-				DisplayName: 宝藏袋 (索恩)
+				DisplayName: 宝藏袋 (荆棘)
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
@@ -8222,8 +8221,9 @@ Mods: {
 				DisplayName: 蒸汽齿轮加特林
 				Tooltip:
 					'''
-					长按左键为武器充能，松开后会在短时间内快速射击
-					射击时间的长短取决于充能时长，最高5秒
+					长按左键为武器发动至多三次，松开后会在短时间内快速射击
+					射击时间的长短取决于发动次数的多少
+开火时按住左键会继续发动武器，不过玩家的移速将会降低
 					将普通子弹转化为高射速子弹
 					66%概率不消耗弹药
 					'''
@@ -8800,9 +8800,9 @@ Mods: {
 				Tooltip:
 					'''
 					挥舞时可以格挡{0}弹幕
-					长按左键为高温刃波充能，造成{1}伤害
-					持续按住左键会进行怒焰连斩
-					对龙类敌人造成更高伤害
+					劈砍敌人或者格挡弹幕可以为龙颅猛击蓄势
+					蓄势完毕后，右键发射一颗龙颅撕咬敌人
+					对龙形敌人造成更高伤害
 					'''
 				Lore:
 					'''
@@ -10353,6 +10353,16 @@ Mods: {
 					成功弹回将会恢复魔力
 					'''
 			}
+
+			ThornBox: {
+				DisplayName: 音乐盒 (荆棘)
+				Tooltip: musicman - Every Rose...（每一束玫瑰...）
+			}
+
+			AldersStaff: {
+				DisplayName: 赤杨之杖
+				Tooltip: 像空中随机投掷4颗魔法飞弹
+			}
 		}
 
 		Projectiles: {
@@ -11037,6 +11047,14 @@ Mods: {
 			DeathCoil_Proj.DisplayName: 死亡飞颅
 			IceSpikeShard.DisplayName: 冰刺碎片
 			IceSpike_Mist.DisplayName: 冰霭
+			AldersStaff_Proj.DisplayName: "{$Mods.Redemption.Items.AldersStaff.DisplayName}"
+			ArcaneBolt.DisplayName: "{$Mods.Redemption.Projectiles.Thorn_ArcaneBolt.DisplayName}"
+			Thorn_ArcaneBolt.DisplayName: 奥术飞弹
+			Thorn_ClawSlash.DisplayName: 爪裂
+			Thorn_SlashFlash.DisplayName: 闪光
+			Thorn_Splinter.DisplayName: 碎片
+			Thorn_SplinterBall.DisplayName: 球形碎片
+			DragonCleaverSkull_Proj.DisplayName: 龙颅
 		}
 
 		NPCs: {
@@ -11170,13 +11188,13 @@ Mods: {
 			}
 
 			Thorn: {
-				DisplayName: 森林之祸，索恩
-				XmasName: 节庆之祸，往昔索恩
+				DisplayName: 森林之祸，荆棘
+				XmasName: 节庆之祸，往昔荆棘
 
 				BossChecklistIntegration: {
-					DespawnMessage: 索恩回到了他破败的森林里……
-					SpawnInfo: 在白天使用[i:Redemption/HeartOfThorns]。可以在靠近出生点的地表找到。
-					EntryName: 索恩
+					DespawnMessage: 荆棘回到了他破败的森林里……
+					SpawnInfo: 使用[i:Redemption/HeartOfThorns]。也可以在靠近出生点的地表找到。
+					EntryName: 荆棘
 				}
 			}
 
@@ -11525,6 +11543,7 @@ Mods: {
 			BloatedDiggerHead.DisplayName: 肿胀挖掘者
 			BloatedDiggerTail.DisplayName: "{$Mods.Redemption.NPCs.BloatedDiggerHead.DisplayName}"
 			BloatedFaceMonster.DisplayName: 肿胀脸怪
+			BrambleTrap.DisplayName: 蔷薇陷阱
 		}
 
 		Tiles: {
@@ -11656,7 +11675,7 @@ Mods: {
 			NuclearWarheadTile.MapEntry: 核弹头
 			SlayerMedalTile.MapEntry: 勋章
 			SoulCandlesTile.MapEntry: 灵魂蜡烛
-			ThornPlushTile.MapEntry: 索恩玩偶
+			ThornPlushTile.MapEntry: 荆棘玩偶
 			TrojanChickenTile.MapEntry: 特洛伊木鸡复制品
 			PetrifiedCrateTile.MapEntry: 石化木匣
 			ShadesteelGateClose.MapEntry: 空洞铁门
@@ -11759,7 +11778,7 @@ Mods: {
 		}
 
 		Conditions: {
-			DownedThorn: 击败索恩掉落
+			DownedThorn: 击败荆棘掉落
 			DownedErhan: 击败埃尔罕掉落
 			DownedADD: 击败远古双神掉落
 			DownedBehemoth: 击败辐射巨兽掉落
