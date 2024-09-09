@@ -451,26 +451,20 @@ Mods: {
 				LivingWood: 免疫中毒，增加最大仆从栏位
 				CommonGuardHelm1: 增加12%近战速度
 				CommonGuardHelm2: 增加6%伤害减免
-
-				PureIron: {
-					20Increased: 增加20%
-					Bonus:
-						'''
-
-						武器有33%的概率施加净寒减益
-						所有净钢武器100%造成净寒减益
-						'''
-				}
-
-				DragonLead: {
-					20Increased: 增加20%
-					Bonus:
-						'''
-
-						武器有33%概率施加龙炎减益
-						所有龙铅武器100%造成龙炎减益
-						'''
-				}
+				PureIron.Bonus:
+					'''
+					增加20%{0}元素抗性
+					增加10%{1}元素伤害
+					武器有33%的概率施加净寒减益
+					所有净钢武器100%造成净寒减益
+					'''
+				DragonLead.Bonus:
+					'''
+					增加20%{0}元素抗性
+					增加10%{1}元素伤害
+					武器有33%概率施加龙炎减益
+					所有龙铅武器100%造成龙炎减益
+					'''
 
 				Hardlight: {
 					Keybind: 在控件中为[特殊能力]绑定按键
@@ -7976,9 +7970,9 @@ Mods: {
 				DisplayName: 证明之锤
 				Tooltip:
 					'''
-					在空中时长按左键保持出锤的姿势
+					在空中长按左键向下冲击
+					锤击地面会召唤神圣之锤，神圣之锤的数量取决于你之前击中敌人的次数
 					此时增加玩家的下落速度
-					根据玩家的下落速度增加伤害
 					在达到一定速度后能击晕敌人
 					'''
 			}
@@ -8354,6 +8348,7 @@ Mods: {
 					'''
 					左键释放两个无伤害的泡泡雷
 					右键发射一束{0}激光将攻击到的泡泡引爆
+					泡泡爆炸会引发连锁反应
 					'''
 			}
 
@@ -11060,6 +11055,7 @@ Mods: {
 			Thorn_Splinter.DisplayName: 碎片
 			Thorn_SplinterBall.DisplayName: 球形碎片
 			DragonCleaverSkull_Proj.DisplayName: 龙颅
+			HolyHammer.DisplayName: 神圣之锤
 		}
 
 		NPCs: {
