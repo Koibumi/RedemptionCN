@@ -6376,7 +6376,7 @@ Mods: {
 
 			KSBox: {
 				DisplayName: 音乐盒（弑君者III）
-				Tooltip: William 'GoukisanNG' Prevett - Betrayal of Fear（恐惧的背叛）
+				Tooltip: Sc0p3r - Titanium Will（钛坦意志）
 			}
 
 			LabBossMusicBox: {
@@ -7586,7 +7586,6 @@ Mods: {
 				Tooltip:
 					'''
 					向一艘巨大的宇宙飞船发送信号
-					仅白天可用
 					不消耗
 					'''
 			}
