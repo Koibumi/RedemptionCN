@@ -416,7 +416,7 @@ Mods: {
 			Bonuses: {
 				AxeBonus: "[i:Redemption/Axe]3倍暴击伤害，增加将人形敌人斩首的概率"
 				SlashBonus: "[i:Redemption/Slash]小概率将人形敌人斩首，直接杀死他们"
-				HammerBonus: "[i:Redemption/Hammer]对格挡值造成四倍伤害"
+				HammerBonus: "[i:Redemption/Hammer]对格挡值造成四倍伤害并且无视它们带来的击退抗性"
 				ChaliceLine: "[i:Redemption/RedemptionRoute]关于这个物品，圣杯有些话想和你说"
 				ExplodeBonus: "[i:Redemption/Explosive]对格挡值造成双倍伤害，穿透防御"
 				ArcaneBonus: "[i:Redemption/Arcane]可以攻击处于灵域的敌人"
@@ -8380,7 +8380,8 @@ Mods: {
 				Lore:
 					'''
 					“泽弗斯的大剑，获取于厄尔隆的首都阿尔加思。
-					和他之前的武器类似，剑中央有一条狭缝，可以卡住对手的刀将其折断。”
+					和他之前的武器类似，剑中央有一条狭缝，可以卡住对手的刀将其折断。
+这把剑由他的朋友戴雷尔命名。”
 					'''
 			}
 
@@ -11055,6 +11056,7 @@ Mods: {
 			Thorn_SplinterBall.DisplayName: 球形碎片
 			DragonCleaverSkull_Proj.DisplayName: 龙颅
 			HolyHammer.DisplayName: 神圣之锤
+Egg_Proj.DisplayName: 蛋幕
 		}
 
 		NPCs: {
