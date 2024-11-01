@@ -344,6 +344,8 @@ Mods: {
 			BloatedDigger: Diggers irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
 			BloatedFaceMonster: Face Monsters irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
 			BloatedClinger: Clingers irradiated by radioactive particles that have been disfigured by rapid, volatile cell growth.
+			Forret: A puckish animal from Gathuram's evergreen forests. Gathic folk from ages past brought these antlered ferrets through an underground gateway, where they found their way to this island's surface.
+			MoonflareSkeleton: Pilgrims with faith in the moon. They have mastered the specific class of magic designed to launch their enemies off of cliffs.
 		}
 
 		Bestiary.Android: Apidroids were an experiment with a highly durable metal from a distant star system. The metal - dubbed 'Rose Titanium' by King Slayer III - is one of the strongest materials discovered in the galaxy. However, King Slayer III hated its pink tinge, and so stubbornly refused to use it after making a few Androids out of it.
@@ -439,13 +441,19 @@ Mods: {
 
 			ArmorSetBonus: {
 				VanillaArmor: {
+					Resistance: " elemental resistance"
+					Damage: " elemental damage"
+					SolarCelestial:
+						'''
+
+						Stars from the {0} bonus burn more intensely, instead exploding in tiny bursts shortly after appearing
+						The bursts deal {1} damage based on the user's defense
+						'''
 					20Increased:
 						'''
 
 						20% increased
 						'''
-					Resistance: " elemental resistance"
-					Damage: " elemental damage"
 				}
 
 				LivingWood: Immune to poison, increases your max number of minions
@@ -7135,6 +7143,7 @@ Mods: {
 			DeadRinger: {
 				DisplayName: Dead Ringer
 				Tooltip: Right-click a soulful corpse with this artifact to call upon its spirit
+				SpiritWalkerTooltip: This item is usable from any inventory while Spirit Walking
 			}
 
 			EnergyCell: {
@@ -7917,8 +7926,12 @@ Mods: {
 			}
 
 			Chernobyl: {
-				DisplayName: Chernobyl
-				Tooltip: Enemies slain by this weapon explode into fireballs
+				DisplayName: Rad Throw
+				Tooltip:
+					'''
+					Enemies slain by this weapon explode into fireballs
+					'Totally radical!'
+					'''
 			}
 
 			CrystalGlaive: {
@@ -10355,6 +10368,86 @@ Mods: {
 				DisplayName: Viisaan Kantele
 				Tooltip: Playable Instrument
 			}
+
+			DAVEPainting: {
+				DisplayName: D A V E Painting
+				Tooltip: ""
+			}
+
+			AntiJohnSnailCage: {
+				DisplayName: Anti John Snail Cage
+				Tooltip: ""
+			}
+
+			BlackChickenCage: {
+				DisplayName: Black Chicken Cage
+				Tooltip: ""
+			}
+
+			ChickenCage: {
+				DisplayName: Chicken Cage
+				Tooltip: ""
+			}
+
+			FlyJar: {
+				DisplayName: Fly Jar
+				Tooltip: ""
+			}
+
+			GoldChickenCage: {
+				DisplayName: Gold Chicken Cage
+				Tooltip: ""
+			}
+
+			GrandLarvaCage: {
+				DisplayName: Grand Larva Cage
+				Tooltip: ""
+			}
+
+			HazmatBunnyCage: {
+				DisplayName: Hazmat Bunny Cage
+				Tooltip: ""
+			}
+
+			JohnSnailCage: {
+				DisplayName: John Snail Cage
+				Tooltip: ""
+			}
+
+			KabucraCage: {
+				DisplayName: Kabucra Cage
+				Tooltip: ""
+			}
+
+			LeghornChickenCage: {
+				DisplayName: Leghorn Chicken Cage
+				Tooltip: ""
+			}
+
+			MoonflareBatCage: {
+				DisplayName: Moonflare Bat Cage
+				Tooltip: ""
+			}
+
+			RedChickenCage: {
+				DisplayName: Red Chicken Cage
+				Tooltip: ""
+			}
+
+			ForretBanner: {
+				DisplayName: Forret Banner
+				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Forret.DisplayName}"
+			}
+
+			MoonflareSkeletonBanner: {
+				DisplayName: Moonflare Caster Banner
+				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.MoonflareSkeleton.DisplayName}"
+			}
+
+			ForretItem: {
+				DisplayName: Forret
+				Tooltip: ""
+			}
 		}
 
 		Projectiles: {
@@ -10831,7 +10924,7 @@ Mods: {
 			CorpseWalkerSkull.DisplayName: Corpse-Walker Skull
 			CorpseWalkerSkull_Proj.DisplayName: Redemptive Spark
 			Cystling.DisplayName: Cystling
-			Forret.DisplayName: Forret
+			Forret_Proj.DisplayName: Forret
 			GirusDischarge.DisplayName: Discharge
 			GolemGuardian.DisplayName: Golem Guardian
 			GraniteGuardian.DisplayName: Granite Guardian
@@ -11049,6 +11142,8 @@ Mods: {
 			DragonCleaverSkull_Proj.DisplayName: Dragon Skull
 			HolyHammer.DisplayName: Holy Hammer
 			Egg_Proj.DisplayName: Egg_ Proj
+			WickerManEmberExplosion_Visual.DisplayName: Wicker Man Ember Explosion_ Visual
+			MoonflareForce_Proj.DisplayName: Moonflare Force
 		}
 
 		NPCs: {
@@ -11538,6 +11633,8 @@ Mods: {
 			BloatedDiggerTail.DisplayName: "{$Mods.Redemption.NPCs.BloatedDiggerHead.DisplayName}"
 			BloatedFaceMonster.DisplayName: Bloated Face Monster
 			BrambleTrap.DisplayName: Bramble Trap
+			Forret.DisplayName: Forret
+			MoonflareSkeleton.DisplayName: Moonflare Caster
 		}
 
 		Tiles: {
@@ -11763,6 +11860,18 @@ Mods: {
 			XenomiteCrystalTileFake.MapEntry: Xenomite Crystal
 			BlackHardenedSludgeTileSafe.MapEntry: Black Hardened Sludge
 			HardenedSludgeTileSafe.MapEntry: Hardened Sludge
+			AntiJohnSnailCageTile.MapEntry: Anti John Snail Cage Tile
+			BlackChickenCageTile.MapEntry: Black Chicken Cage Tile
+			ChickenCageTile.MapEntry: Chicken Cage Tile
+			FlyJarTile.MapEntry: Fly Jar Tile
+			GoldChickenCageTile.MapEntry: Gold Chicken Cage Tile
+			GrandLarvaCageTile.MapEntry: Grand Larva Cage Tile
+			HazmatBunnyCageTile.MapEntry: Hazmat Bunny Cage Tile
+			JohnSnailCageTile.MapEntry: John Snail Cage Tile
+			KabucraCageTile.MapEntry: Kabucra Cage Tile
+			LeghornChickenCageTile.MapEntry: Leghorn Chicken Cage Tile
+			MoonflareBatCageTile.MapEntry: Moonflare Bat Cage Tile
+			RedChickenCageTile.MapEntry: Red Chicken Cage Tile
 		}
 
 		Keybinds: {
