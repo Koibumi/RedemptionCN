@@ -344,6 +344,8 @@ Mods: {
 			BloatedDigger: 受到放射性粒子辐射的挖掘怪，因为快速、不稳定的细胞增殖而变得面目全非。
 			BloatedFaceMonster: 受到放射性粒子辐射的脸怪，因为快速、不稳定的细胞增殖而变得面目全非。
 			BloatedClinger: 受到放射性粒子辐射的爬藤怪，因为快速、不稳定的细胞增殖而变得面目全非。
+			Forret: 加苏拉姆常绿森林里的一种顽皮动物。在很久以前，加苏人就把这些长着鹿角的雪貂从地下通道带到了这座小岛的地表。
+			MoonflareSkeleton: 信仰月亮的教徒。他们掌握着一种特殊魔法，能让敌人从悬崖上飞出去。
 		}
 
 		Bestiary.Android: Api机械战士是用一个遥远恒星系的一种高度耐用金属制造的实验品。这种金属被弑君者III称为“玫瑰钛”——在银河系中发现的最坚固的材料之一。然而弑君者III讨厌它的粉红色调，所以在用它制作了几个机器人之后，他顽固地拒绝使用它。
@@ -439,13 +441,19 @@ Mods: {
 
 			ArmorSetBonus: {
 				VanillaArmor: {
+					Resistance: "元素抗性"
+					Damage: "元素伤害"
+					SolarCelestial:
+						'''
+						将{0}元素生成的星星消失时的小爆炸替换为剧烈的燃烧
+						燃烧造成{1}元素伤害，伤害大小取决于玩家的防御值
+						'''
 					20Increased:
 						'''
 
 						增加20%
 						'''
-					Resistance: 元素抗性
-					Damage: 元素伤害
+
 				}
 
 				LivingWood: 免疫中毒，增加最大仆从栏位
@@ -4403,7 +4411,7 @@ Mods: {
 			}
 
 			AntiJohnSnailItem: {
-				DisplayName: 反 式 杰 克 蜗 牛
+				DisplayName: 反 式 约 翰 蜗 牛
 				Tooltip: ""
 			}
 
@@ -4448,7 +4456,7 @@ Mods: {
 			}
 
 			JohnSnailItem: {
-				DisplayName: 杰克蜗牛
+				DisplayName: 约翰蜗牛
 				Tooltip: ""
 			}
 
@@ -7148,6 +7156,7 @@ Mods: {
 			DeadRinger: {
 				DisplayName: 死亡之铃
 				Tooltip: 用此物品右键点击含灵魂的遗体时可以将其中的灵魂唤醒。
+				SpiritWalkerTooltip: 当处于灵魂行走状态时，此物品放置于任何物品栏（如存钱罐与保险箱）中都可以直接使用
 			}
 
 			EnergyCell: {
@@ -7925,8 +7934,12 @@ Mods: {
 			}
 
 			Chernobyl: {
-				DisplayName: 切尔诺贝利
-				Tooltip: 被杀死的敌人会爆出火球
+				DisplayName: 掷悠辐轮
+				Tooltip:
+					'''
+					被杀死的敌人会爆出火球
+					'太核逝了！'
+					'''
 			}
 
 			CrystalGlaive: {
@@ -10363,6 +10376,71 @@ Mods: {
 				DisplayName: 智者之琴
 				Tooltip: 可演奏的乐器
 			}
+
+			DAVEPainting: {
+				DisplayName: D A V E 之 画
+				Tooltip: ""
+			}
+			AntiJohnSnailCage: {
+				DisplayName: 反式约翰蜗牛笼
+				Tooltip: ""
+			}
+			BlackChickenCage: {
+				DisplayName: 黑鸡笼
+				Tooltip: ""
+			}
+			ChickenCage: {
+				DisplayName: 鸡笼
+				Tooltip: ""
+			}
+			FlyJar: {
+				DisplayName: 苍蝇罐
+				Tooltip: ""
+			}
+			GoldChickenCage: {
+				DisplayName: 金鸡笼
+				Tooltip: ""
+			}
+			GrandLarvaCage: {
+				DisplayName: 巨蛆笼
+				Tooltip: ""
+			}
+			HazmatBunnyCage: {
+				DisplayName: 防化服兔兔笼
+				Tooltip: ""
+			}
+			JohnSnailCage: {
+				DisplayName: 约翰蜗牛笼
+				Tooltip: ""
+			}
+			KabucraCage: {
+				DisplayName: 卡布拉寄居蟹笼
+				Tooltip: ""
+			}
+			LeghornChickenCage: {
+				DisplayName: 来亨鸡笼
+				Tooltip: ""
+			}
+			MoonflareBatCage: {
+				DisplayName: 月辉蝙蝠笼
+				Tooltip: ""
+			}
+			RedChickenCage: {
+				DisplayName: 红鸡笼
+				Tooltip: ""
+			}
+			ForretBanner: {
+				DisplayName: 鹿角雪貂旗
+				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Forret.DisplayName}"
+			}
+			MoonflareSkeletonBanner: {
+				DisplayName: 月辉投射者旗
+				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.MoonflareSkeleton.DisplayName}"
+			}
+			ForretItem: {
+				DisplayName: 鹿角雪貂
+				Tooltip: ""
+			}
 		}
 
 		Projectiles: {
@@ -10839,7 +10917,7 @@ Mods: {
 			CorpseWalkerSkull.DisplayName: 行骸祭司
 			CorpseWalkerSkull_Proj.DisplayName: 救赎火花
 			Cystling.DisplayName: 囊肿
-			Forret.DisplayName: 鹿角雪貂
+			Forret_Proj.DisplayName: 鹿角雪貂
 			GirusDischarge.DisplayName: 放电
 			GolemGuardian.DisplayName: 石巨人守卫
 			GraniteGuardian.DisplayName: 花岗岩守卫
@@ -11057,6 +11135,8 @@ Mods: {
 			DragonCleaverSkull_Proj.DisplayName: 龙颅
 			HolyHammer.DisplayName: 神圣之锤
 Egg_Proj.DisplayName: 蛋幕
+			WickerManEmberExplosion_Visual.DisplayName: Wicker Man Ember Explosion_ Visual
+			MoonflareForce_Proj.DisplayName: 月辉之力
 		}
 
 		NPCs: {
@@ -11546,6 +11626,8 @@ Egg_Proj.DisplayName: 蛋幕
 			BloatedDiggerTail.DisplayName: "{$Mods.Redemption.NPCs.BloatedDiggerHead.DisplayName}"
 			BloatedFaceMonster.DisplayName: 肿胀脸怪
 			BrambleTrap.DisplayName: 蔷薇陷阱
+			Forret.DisplayName: 鹿角雪貂
+			MoonflareSkeleton.DisplayName: 月辉投射者
 		}
 
 		Tiles: {
@@ -11771,6 +11853,18 @@ Egg_Proj.DisplayName: 蛋幕
 			XenomiteCrystalTileFake.MapEntry: 异辉晶体
 			BlackHardenedSludgeTileSafe.MapEntry: 黑色硬化淤泥
 			HardenedSludgeTileSafe.MapEntry: 硬化淤泥
+			AntiJohnSnailCageTile.MapEntry: 反式约翰蜗牛笼
+			BlackChickenCageTile.MapEntry: 黑鸡笼
+			ChickenCageTile.MapEntry: 鸡笼
+			FlyJarTile.MapEntry: 苍蝇罐
+			GoldChickenCageTile.MapEntry: 金鸡笼
+			GrandLarvaCageTile.MapEntry: 巨蛆笼
+			HazmatBunnyCageTile.MapEntry: 防化服兔兔笼
+			JohnSnailCageTile.MapEntry: 约翰蜗牛笼
+			KabucraCageTile.MapEntry: 卡布拉寄居蟹笼
+			LeghornChickenCageTile.MapEntry: 来亨鸡笼
+			MoonflareBatCageTile.MapEntry: M月辉蝙蝠笼
+			RedChickenCageTile.MapEntry: 红鸡笼
 		}
 
 		Keybinds: {
