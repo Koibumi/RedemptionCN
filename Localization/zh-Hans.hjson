@@ -10639,7 +10639,7 @@ Mods: {
 			EggCracker_Proj.DisplayName: 爆蛋
 			FowlEmperor_Crown_Proj.DisplayName: 鸡皇冠
 			FowlFeather_Proj.DisplayName: 鸡羽
-			Rooster_EggBomb.DisplayName: 炸弹
+			Rooster_EggBomb.DisplayName: 炸蛋
 			CrossBomb_Beam.DisplayName: 欧米伽射线
 			Gigabeam.DisplayName: 千兆钻机光束
 			Gigapora_BoltTele.DisplayName: 能量矢
@@ -10870,7 +10870,7 @@ Mods: {
 			Petridish_Proj.DisplayName: 有丝分裂
 			PlutoniumNuke_Proj.DisplayName: 钚核导弹
 			PoemTornado_Proj.DisplayName: 龙卷风
-			Pommisauva_Bomb.DisplayName: Pommisauva Bomb
+			Pommisauva_Bomb.DisplayName: 初始炸弹杖炸弹
 			Rockslide_Proj.DisplayName: "{$Mods.Redemption.Items.Rockslide.DisplayName}"
 			RockslidePebble_Proj.DisplayName: 岩石
 			SoulScepterCharge.DisplayName: 灵魂冲击
@@ -11035,19 +11035,19 @@ Mods: {
 			Gigapora_CrossBombTele.DisplayName: Telegraph
 			KS3_DroneKillCheck.DisplayName: ""
 			BlackHoleSpell.DisplayName: 黑洞
-			BouncingBurstSpell.DisplayName: 弹跳冲击弹
-			BubbleSparkSpell.DisplayName: 泡泡沫
-			ConcentratedLightSpell.DisplayName: 浓缩光芒
+			BouncingBurstSpell.DisplayName: 弹跳爆发
+			BubbleSparkSpell.DisplayName: 泡泡火花
+			ConcentratedLightSpell.DisplayName: 汇聚之光
 			DiscAfterimage.DisplayName: Disc Afterimage
-			DiscSpell.DisplayName: 圆锯
-			EnergySphereSpell.DisplayName: 能量球
-			GigaDiscSpell.DisplayName: 千兆圆锯
-			GlowingLanceSpell.DisplayName: 发光叉
-			LuminousDrillSpell.DisplayName: 光亮钻击
+			DiscSpell.DisplayName: 锯片
+			EnergySphereSpell.DisplayName: 能量球体
+			GigaDiscSpell.DisplayName: 巨型锯片
+			GlowingLanceSpell.DisplayName: 闪耀之枪
+			LuminousDrillSpell.DisplayName: 光明穿凿
 			MagicArrowSpell.DisplayName: 魔法箭
-			OmegaDiscSpell.DisplayName: 终末圆锯
-			SpitterBoltSpell.DisplayName: 喷射球
-			TntSpell.DisplayName: TNT
+			OmegaDiscSpell.DisplayName: 终极锯片
+			SpitterBoltSpell.DisplayName: 喷击魔法弹（分裂弹）
+			TntSpell.DisplayName: 炸药
 			Calavia_SS_BladeOfTheMountain.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
 			Calavia_SS_BladeOfTheMountain2.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
 			Calavia_SS_BladeStab.DisplayName: "{$Mods.Redemption.Items.BladeOfTheMountain.DisplayName}"
@@ -11134,7 +11134,7 @@ Mods: {
 			Thorn_SplinterBall.DisplayName: 球形碎片
 			DragonCleaverSkull_Proj.DisplayName: 龙颅
 			HolyHammer.DisplayName: 神圣之锤
-Egg_Proj.DisplayName: 蛋幕
+			Egg_Proj.DisplayName: 蛋幕
 			WickerManEmberExplosion_Visual.DisplayName: Wicker Man Ember Explosion_ Visual
 			MoonflareForce_Proj.DisplayName: 月辉之力
 		}
