@@ -1,6 +1,6 @@
 displayName = 救赎Mod-汉化补丁
 author = 灾厄维基汉化组
-version = 1.0.20
+version = 1.1.2
 translationMod = true
 side = Client
 hideCode = true

@@ -83,7 +83,7 @@ Mods: {
 				LoveNPC: "{NPCName}经常来征求我的第二意见，我也很乐意帮忙。"
 				LikeNPC: "{NPCName}和我都掌握着修理机械的诀窍。我们相处得很愉快。"
 				DislikeNPC: "{NPCName}的生理机能令人困惑。"
-				HateNPC: "那个…人。机器侠。它让我心神不宁。"
+				HateNPC: 那个…人。机器侠。它让我心神不宁。
 				LikeNPC_Princess: "{NPCName}在做完检查后问我要棒棒糖。让我想起了我照顾过的一个人。嘿嘿。"
 				Princess_LovesNPC: 我喜欢{NPCName}。
 			}
@@ -372,7 +372,7 @@ Mods: {
 				FoolLeft: 傻子离开了……
 				WastelandGrow: 感染在废土上肆虐……
 				PortalRumble: 一个传送门在隆隆作响……（查看地图来确定位置）
-				WayfarerReturn: "{0}回来了！"
+				// Return: "{0} has returned!"
 			}
 
 			Death: {
@@ -449,7 +449,7 @@ Mods: {
 
 			ArmorSetBonus: {
 				VanillaArmor: {
-					Resistance: 
+					Resistance:
 						'''
 
 						增加{0}%{1}元素抗性
@@ -921,6 +921,7 @@ Mods: {
 				5: "[@b]哦，那边的人！[0.1]刚才没注意到！"
 				5Chicken: "[@b]哦，一只鸡！[0.1]还戴着王冠？[0.5]太奇怪了。"
 				6: 你在这附近没看到我朋友，[0.1]对吧？
+				// 6Chicken: Where did Zephos go?
 				7: 我猜他没有跳进来。[0.5]啊，好吧，[0.1]我回去接他。
 				8: 如果我能回来的话，你会有地方让我住一段时间的，[0.1]对吧？。
 				8Chicken: 奇怪，[0.1]你好像能明白我的意思…[0.5]好吧，[0.1]我先回去了！
@@ -1579,6 +1580,7 @@ Mods: {
 			RequestCruxDescription: 由灵魂行走揭示
 			Offer: 提供{0}
 			Fight: 战斗
+
 			Advice: {
 				CatergoryEncounters: 遭遇
 				CatergoryLocations: 地点
@@ -1612,6 +1614,7 @@ Mods: {
 					Name: 重新装配弓弦（10银）
 					Description: 提高弓箭伤害与箭矢速度，持续6分钟
 				}
+
 				Poison: {
 					Name: 给武器淬毒（25银）
 					Description: 近战攻击和鞭子攻击会使敌人中毒，持续10分钟
@@ -1627,22 +1630,27 @@ Mods: {
 					Name: 锋利（5银）
 					Description: 近战武器获得护甲穿透，持续10分钟
 				}
+
 				Sharpen2: {
 					Name: 锋利II（25银）
 					Description: 近战武器获得高额护甲穿透，持续10分钟
 				}
+
 				Sharpen3: {
 					Name: 锋利III（1金）
 					Description: 近战武器获得极高的护甲穿透，持续10分钟
 				}
+
 				ShineArmor: {
 					Name: 闪亮护甲（15银）
 					Description: 增加4点防御值，持续10分钟
 				}
+
 				ShineArmor2: {
 					Name: 闪亮护甲II（80银）
 					Description: 增加8点防御值，持续10分钟
 				}
+
 				ShineArmor3: {
 					Name: 闪亮护甲III（3金）
 					Description: 增加16点防御值，持续10分钟
@@ -1717,7 +1725,6 @@ Mods: {
 			}
 
 			SkullDigger.Give: 赠送结婚戒指
-			}
 
 			ForestNymph: {
 				1: 提供草药袋
@@ -1795,7 +1802,7 @@ Mods: {
 				9: 拾荒者？
 				10: 吉鲁斯？
 				11: 为什么追随吉鲁斯？
-				12: '''“那些不幸的家伙”？'''
+				12: “那些不幸的家伙”？
 				13: 谁创造了你？
 				14: 吉鲁斯是怎么把你解放的？
 				15: 这个地方
@@ -2770,12 +2777,12 @@ Mods: {
 				Evening: 晚上
 				Today: 今天
 				Tonight: 今晚
-				1: {0}好, 埃庇多特人。
+				1: "{0}好, 埃庇多特人。"
 				2: 在我的家乡，你很少能在天上看到云层之外的东西。上一次看到没有云的晴空，已经是半辈子前的事了。
 				3: 我时不时会盯着外面的植物发呆。这种景色的转换对我来说挺愉快的。
-				4: {0}什么风把你吹来了?
+				4: "{0}什么风把你吹来了?"
 				5: 啊，你好，需要些什么吗?
-				6: {0}能为你做些什么呢?
+				6: "{0}能为你做些什么呢?"
 				Healthy1: 你看起来挺健康的。需要我为你做些什么呢？
 				Healthy2: 你今天气色不错。心里还有什么其他心事吗？
 				Day1: 温暖的阳光和鲜活的植物让我想起了逝去的时光。
@@ -2874,13 +2881,11 @@ Mods: {
 					ForestNymph: 树妖{0}说她曾经在岛上看到过一只森林仙女，不知道你相不相信。她们非常罕见，你只能在那些大树周围找到她们。如果你真的遇到了一只，我不会在那周围逗留太久的，她们不喜欢人类接近她们的私人空间。我想知道有没有办法和她们交朋友。
 					UGPortal: "{0}告诉我他是从另一个位于地下的传送门里过来的。很明显它通往加苏拉姆的一些地下墓穴，但是你无法穿过其中。不过，他告诉我传送门旁边有一些有意思的东西，如果我是你的话我会去看看的。"
 					EaglecrestGolem: 我散步的时候发现一块形状奇特的石头，看起来像是有腿的岩石。我当然很好奇，就在安全距离射了一箭。无事发生……不过我感觉里面有什么东西。你，作为身经百战之人，应该四处搜寻把它找到，这可能是另一个需要面对的强敌。
-					
 					Spirits:
 						'''
 						见过在死去的骷髅身上闪动的微光吗？亦或地下的提灯鬼魂？那些都是迷失灵魂，据我所知，只有
 						{0}或是{1}武器才能对它们造成伤害。当然，这不代表我建议你去伤害这些无助的小东西。
 						'''
-					
 					Insects: 想知道一些昆虫知识吗？如果你想找到叶甲虫，你们这里叫它树虫，就砍下一些树。它们生活在树梢上，用它们的绿色外壳伪装成树叶。海岸圣甲虫也经常能在沙滩的棕榈树上找到，它们的外壳被浸湿时会闪闪发光。巨蛆是，呃……太恶心了，不过它们能当作不错的鱼饵。前提是，你得有勇气去靠近这些家伙。
 					Undead: 遭遇骷髅和亡灵时，假设{0}武器对其无效是合乎逻辑的，{1}武器反之。我曾经喜欢探索洞穴，直到我和泽弗斯遭遇了一个骷髅Vex……
 					Slimes: 对付史莱姆最有效的手段？烧了它们。或者，{0}武器可以将其冻结在原位，然后再把它们烧了！
@@ -2892,6 +2897,7 @@ Mods: {
 					Chalice: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟随它的指引。
 					Elements: 武器或敌人本身可能会有元素属性。某些元素对其他元素会效果更强，比如{0}对{1}。在选择武器时，请记住这一点。你有一本图鉴对吧？上面会显示敌人的弱点或抗性。
 				}
+
 				Revived1: 我刚刚被打倒了？谢谢你救了我。
 				Revived2: 我醒了。完全清醒了。你给了我什么？某种药水？
 				Revived3: 我是睡着了还是昏倒了？很可能是昏倒了，因为，嗯，我不会睡在地上的。
@@ -2937,6 +2943,7 @@ Mods: {
 					Chalice: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟着它的指引！
 					Elements: 武器或敌人本身可能会有元素属性。某些元素对其他元素会效果更强，比如{0}对{1}。在选择武器时，请记住这一点。你有一本图鉴对吧？上面会显示敌人的弱点或抗性。
 				}
+
 				Revived1: *打哈欠* 为什么叫醒我？我做了个梦…梦里我意气风发，声名显赫。
 				Revived2: 好的，我醒了。我是睡着了还是怎么了？
 				Revived3: 哎呀，你喂我喝了什么？尝起来有点苦…味道像草莓…
@@ -3019,8 +3026,8 @@ Mods: {
 				FollowDialogueJolly: 跟着你吗？可以哦，不过要到哪里散步呢。
 				FollowDialogueAggressive: 好吧。不过如果你把我带到一堆怪物中间，我可一点也不高兴。
 				FollowDialogue: 如你所愿。不过，如果让我离我的领地太远，我会不高兴的。
-				NoRealmCruxDialogue: 我没办法把它送给你，你至少得有部分进入灵域。
 				CruxDialogue: 有趣。没想到像你这样的人类会有这种能力。如你所愿，我会把我同类的灵魂赠与你。
+				// NoCruxDialogue: You bare no object to imbue.
 				Dialogue1: 想知道为什么周围没有多少我的同类吗？这是因为我们的种子对生长环境有着严苛的要求，并且完全绽放需要数百年的时间。我们每过十年在春天结出种子，十年，这对人类来说是很长的一段时间。如果你在我家水池附近看到了一朵奇怪的花苞，我建议你与我，以及这个地方永远告别。我不想冒任何风险，一只正在绽放的森林仙女是很脆弱的。
 				Dialogue2: 从观察到的人类的所为与所说中，我了解到了很多东西。我知道他们对我们有一种错误的认知，就是说，我们是由这个世界创造来复刻“完美的人类形象”的。当然，这只是类充斥着自我主义的诳话。无论是外形还是什么别的，人类都远非完美。
 				Dialogue3: 人类的文艺作品里，把我们的外表描述的太过接近人类，实在是不够准确。不过毕竟人类很少有机会接近我们，可以理解。我在到手的一本书里看到过这种作品，简直是……完全的挖苦与讽刺。
@@ -3238,6 +3245,7 @@ Mods: {
 			}
 
 			SpiritGathicMan: {
+				// CruxDialogue: Weapon's a bit dusty but it'll do nicely. You wanted ma crux? Sure thing, {0}! Have the spirits of my people, and may they stab ya foes hard!
 				NoCruxDialogue: 先给我点东西灌注！
 				OfferCruxDialogue: 当然！但首先，我想让你在我的尸体旁放一把武器。让那些笨骷髅头和盗墓者知道我是在战斗中死的！一把老旧的大战斧就行了。
 				Dialogue: 啊哈哈哈呼呼！哈哈！我早就看到你带着你那制作精美的玩意来了，明白你大概会用它召唤我，所以我准备吓你一跳！什么？你没有一点反应？拜托，我喊得很大声。你的靴子甚至一点颤抖都没有？算了，什么事？
@@ -3353,10 +3361,10 @@ Mods: {
 			}
 
 			Volt: {
-				Dialogue1: 我是伏特，欧米伽分部的指挥官。我曾经在地面领导过部队。我的下巴被叛乱分子扯掉之后就驻扎在这里了。不过我更喜欢这里，这里比你们想象的安全得多。 
+				Dialogue1: 我是伏特，欧米伽分部的指挥官。我曾经在地面领导过部队。我的下巴被叛乱分子扯掉之后就驻扎在这里了。不过我更喜欢这里，这里比你们想象的安全得多。
 				SubDialogue1: 我领导部队和这实验室里一群又一群的感染者战斗。这不是一份体面的工作，很多时候让我的同事感到沮丧，不过这是份很重要的工作。
 				SubDialogue2: 我相信你应该已经见过守门人了。下面还有一个起重机操纵员，不过她很孤僻。还有另外一个人，但是她已经把自己关在办公室里有一段时间了，我觉得你应该没见过她。
-				Dialogue2: 有一些机器人不隶属于欧米伽，我说的就是阿尔法叛乱分子和拾荒者。阿尔法是目前主要的威胁，如果你看到了他们的成员，我会对此保持警惕。 
+				Dialogue2: 有一些机器人不隶属于欧米伽，我说的就是阿尔法叛乱分子和拾荒者。阿尔法是目前主要的威胁，如果你看到了他们的成员，我会对此保持警惕。
 				SubDialogue3: 他们是一个叛乱组织，由亚当领导。亚当是我的同类中第一个出生的。与他并肩作战的是一群危险的机器人，和一个人类。不过他们大多数已经好久没有露面了。
 				SubDialogue4: 他的实力不容小觑。虽然身材与普通机器人别无二致，但他残暴至极，还有着与吉鲁斯不相上下的智慧。
 				SubDialogue4B: " 不过请放心，他不会伤害人类。"
@@ -3370,12 +3378,12 @@ Mods: {
 
 					另一个装配着利刃手套的机器人，泽洛斯，已阵亡。
 					'''
-				SubDialogue6: 我什么都不知道，我只是知道他们的存在。他们就像大多数他们的盟友那样，已经失踪了，我推测他们已经过世一段时间了。 
+				SubDialogue6: 我什么都不知道，我只是知道他们的存在。他们就像大多数他们的盟友那样，已经失踪了，我推测他们已经过世一段时间了。
 				SubDialogue7: 他们是在垃圾堆里独立生活的机器人。我们不会去打扰他们，他们也不来打扰我们。我听说阿尔法攻击过他们，但我个人无法证实或证伪。
 				Dialogue3: 她是我们的指挥官与领袖。有些机器人叫她妈妈，不过我一直都不理解这种行为。她是一位公正严苛的领导者，所以最好不要违背她的命令。
 				SubDialogue8: 我们作为战争机器而生，除此之外再无意义。吉鲁斯给了我们新的目标与自由，这些东西是我们仅凭自身无法知晓的。这也是为什么包括我在内的大多数机器人愿意追随她。不过也有一些不幸的家伙…
 				SubDialogue9: 有些机器人选择充耳不闻，其中一些至今还在惹麻烦，但大多数机器人都被同化了。他们的个性与思想被撕得粉碎，只剩下更加强大的躯体。他们被当作士兵、炮灰，吉鲁斯认为这是相当公正的惩罚
-				SubDialogue10: 那些人类创造的，他们隶属于一个叫帝铬的组织。我听说他们是一家武器制造商，但是在人类灭绝之前，除了吉鲁斯和亚当之外，没有别的机器人被激活。 
+				SubDialogue10: 那些人类创造的，他们隶属于一个叫帝铬的组织。我听说他们是一家武器制造商，但是在人类灭绝之前，除了吉鲁斯和亚当之外，没有别的机器人被激活。
 				SubDialogue11: 据我所知，她夺得了武器控制权，发射了数枚核弹，引发了一场大战，最终导致大部分人类丧生。幸存下来的人类也被发现并杀死。
 				Dialogue4: 这里是我们欧米伽的行动基地，曾经也做过人类的武器研发基地。在吉鲁斯掌权之前，它就被异辉感染摧毁了。我知道的也不多，或许我的同事能告诉你更多。
 				SubDialogue12: 这个问题我们至今仍未解决。异辉爆发已经过去五十年了， 但是还是有源源不断的感染者。这个实验室肯定没那么多职员的。
@@ -3391,6 +3399,7 @@ Mods: {
 				TBot1: 你是新来的，对吧？我是你的指挥官。你可以问任何想问的问题。
 				Volt1: 你的眼睛变大了？这会派上大用场。你的下巴也没了，跟我一样。希望命运对我开的玩笑不要降临到你身上，下巴被阿尔法的领袖亲手掰下来
 				Volt2: 你的下巴……它不见了。希望不是被暴力撕下的。真的希望以后不要在没有队伍的情况下再单独面对他了……*颤抖*
+				// Adam1: Code R- Oh, i-it is just you. Please do not wear that around me, or in this facility, if you would be so kind.
 				Janitor1: 他们终于给清洁工派搭档了吗？也是时候了，他已经独自在这里打扫了50年的卫生了。
 			}
 
@@ -3470,7 +3479,7 @@ Mods: {
 				Note2: 以防万一，手头最好备一些帝铬分发的药片。
 				Note3: 高暴露率，易导致急性放射病
 				Note4: 检测到急性放射病
-				Irradiated: "已被辐射"
+				Irradiated: 已被辐射
 			}
 
 			GracesGuidance: {
@@ -3621,6 +3630,11 @@ Mods: {
 				Tooltip: 召唤小涅比，给你道义上的支持！
 			}
 
+			GildedBonnet2: {
+				DisplayName: 旧版镀金软帽
+				Tooltip: 召唤小涅比，给你道义上的支持！
+			}
+
 			HamSandwich: {
 				DisplayName: 火腿三明治
 				Tooltip:
@@ -3628,11 +3642,6 @@ Mods: {
 					“在这个脆弱的宇宙里开启审判日”
 					召唤！！？？
 					'''
-			}
-
-			GildedBonnet2: {
-				DisplayName: 旧版镀金软帽
-				Tooltip: 召唤小涅比，给你道义上的支持！
 			}
 
 			HeartOfInfection: {
@@ -4396,10 +4405,12 @@ Mods: {
 				DisplayName: 旧版涅布琉斯面具
 				Tooltip: ""
 			}
+
 			NebuleusVanity2: {
 				DisplayName: 旧版涅布琉斯长袍
 				Tooltip: ""
 			}
+
 			NebWings2: {
 				DisplayName: 旧版涅布琉斯之翼
 				Tooltip: "{$Mods.Redemption.Items.NebWings.Tooltip}"
@@ -8400,7 +8411,7 @@ Mods: {
 					开火时按住左键会继续发动武器，不过玩家的移速将会降低
 					将普通子弹转化为高射速子弹
 					66%概率不消耗弹药
-					''' 
+					'''
 				Lore:
 					'''
 					“尼林古代黄铜技术的遗物，由一位有着生锈金属手臂的隐士首次发现并曝光。
@@ -8562,7 +8573,7 @@ Mods: {
 					'''
 					“泽弗斯的大剑，获取于厄尔隆的首都阿尔加思。
 					和他之前的武器类似，剑中央有一条狭缝，可以卡住对手的刀将其折断。
-这把剑由他的朋友戴雷尔命名。”
+					这把剑由他的朋友戴雷尔命名。”
 					'''
 			}
 
@@ -10530,7 +10541,7 @@ Mods: {
 					'''
 			}
 
-            ThornBox: {
+			ThornBox: {
 				DisplayName: 音乐盒 (荆棘)
 				Tooltip: musicman - Every Rose...（每一束玫瑰...）
 			}
@@ -10549,86 +10560,107 @@ Mods: {
 				DisplayName: DAVE
 				Tooltip: "'改编自Waasephi'"
 			}
+
 			AntiJohnSnailCage: {
 				DisplayName: 反式约翰蜗牛笼
 				Tooltip: ""
 			}
+
 			BlackChickenCage: {
 				DisplayName: 黑鸡笼
 				Tooltip: ""
 			}
+
 			ChickenCage: {
 				DisplayName: 鸡笼
 				Tooltip: ""
 			}
+
 			FlyJar: {
 				DisplayName: 苍蝇罐
 				Tooltip: ""
 			}
+
 			GoldChickenCage: {
 				DisplayName: 金鸡笼
 				Tooltip: ""
 			}
+
 			GrandLarvaCage: {
 				DisplayName: 巨蛆笼
 				Tooltip: ""
 			}
+
 			HazmatBunnyCage: {
 				DisplayName: 防化服兔兔笼
 				Tooltip: ""
 			}
+
 			JohnSnailCage: {
 				DisplayName: 约翰蜗牛笼
 				Tooltip: ""
 			}
+
 			KabucraCage: {
 				DisplayName: 卡布拉寄居蟹笼
 				Tooltip: ""
 			}
+
 			LeghornChickenCage: {
 				DisplayName: 来亨鸡笼
 				Tooltip: ""
 			}
+
 			MoonflareBatCage: {
 				DisplayName: 月辉蝙蝠笼
 				Tooltip: ""
 			}
+
 			RedChickenCage: {
 				DisplayName: 红鸡笼
 				Tooltip: ""
 			}
+
 			ForretBanner: {
 				DisplayName: 鹿角雪貂旗
 				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.Forret.DisplayName}"
 			}
+
 			MoonflareSkeletonBanner: {
 				DisplayName: 月辉投射者旗
 				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Redemption.NPCs.MoonflareSkeleton.DisplayName}"
 			}
+
 			ForretItem: {
 				DisplayName: 鹿角雪貂
 				Tooltip: ""
 			}
+
 			BoneSpiderCage: {
 				DisplayName: 骸骨蜘蛛笼
 				Tooltip: ""
 			}
+
 			CoastScarabCage: {
 				DisplayName: 海岸圣甲虫笼
 				Tooltip: ""
 			}
+
 			ForretCage: {
 				DisplayName: 鹿角雪貂笼
 				Tooltip: ""
 			}
+
 			SandskinSpiderCage: {
 				DisplayName: 沙皮蜘蛛笼
 				Tooltip: ""
 			}
+
 			SpiderSwarmerCage: {
 				DisplayName: 蜘蛛蜂拥者笼
 				Tooltip: ""
 			}
+
 			TreeBugCage: {
 				DisplayName: 树虫笼
 				Tooltip: ""
@@ -12075,7 +12107,6 @@ Mods: {
 			SandskinSpiderCageTile.MapEntry: 沙皮蜘蛛笼
 			SpiderSwarmerCageTile.MapEntry: 蜘蛛蜂拥者笼
 			TreeBugCageTile.MapEntry: 树虫笼
-
 		}
 
 		Keybinds: {
