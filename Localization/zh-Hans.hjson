@@ -6164,13 +6164,13 @@ Mods: {
 				Tooltip: “M. Tea”
 				Lore:
 					'''
-					'Once a great captain, a legend to some,
-					Even after death would he still sail the seas,
-					Leading his phantom crew to unknown lands.
-					Only under the brightest light of the moon
-					Could they set a foot on a seashore.
-					Until then, they were ever chasing waves
-					With the thickest of fog keeping them company.'
+					“伟大的船长，坊间的传奇，
+					死亡不曾阻止他远洋，
+					为幽灵船员们引航，前往未知的土壤。
+					仅在至皎的月照耀时，
+					他们得以登滩上岸。
+					此时之外，只有最浓的雾雨，
+					永伴他们逐浪。”
 					'''
 			}
 
