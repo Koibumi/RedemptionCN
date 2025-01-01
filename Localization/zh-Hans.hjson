@@ -399,6 +399,7 @@ Mods: {
 				SkeletonParty3: 骷髅们重新考虑今天的派对……
 				SkeletonParty4: 骷髅们感到厌倦后回家了！
 				Again: 又一次。
+BlobbleSwarm: 弹弹史莱姆们正在纷至弹来！
 			}
 
 			Other: {
@@ -413,6 +414,11 @@ Mods: {
 				NebGone: 涅布琉斯不见踪影……
 				NPCWokeUp: "{0}已苏醒！"
 				Unconscious: "{0}被打得神志不清……"
+				WarheadConditions1: 炸弹离不可爆破的物块太近了
+				WarheadConditions2: 只有在世界较远端的地表才能激活炸弹
+				NothingHappens: 无事发生...
+				Decapitated: 斩首！
+				NoTargets: 未发现目标！
 			}
 		}
 
@@ -524,7 +530,8 @@ Mods: {
 		}
 
 		SpecialTooltips: {
-			Viewer: 按住 [Shift]查看知识
+			Viewer: 按住[Shift]查看知识
+SunkenCaptainViewer: 背面有一张纸条，按住[Shift]阅读
 			Unbreakable: "[c/ff0000:Unbreakable]"
 			Unbreakable5000: "[c/ff0000:Unbreakable (5000% Pickaxe Power)]"
 
@@ -1076,6 +1083,8 @@ Mods: {
 					3D: 不要再来烦我了，让我下一会4D象棋。
 					4: "[@f0]再来烦我我可要揍你了"
 				}
+ScannerUnimportant: 目标无关紧要...
+
 
 				Intro: {
 					DroneBreak: 你真把我的无人机摧毁了？
@@ -1356,10 +1365,9 @@ Mods: {
 					1: 啊，[0.1]你主动召唤了我。
 					2: 我已视察你的旅途良久，[0.1]现在是时候进行干涉了。
 					2Alt: 请原谅我的窥探，[0.1]我确实一直在远处观察着你。
-					3: 所有对你产生威胁之物，你都会无畏地猎杀。何其令人毛骨悚然。
-					4: 你的存在占据了我一切的思想，[0.1]我自然不会错过这个唾手可得的机会。
-					5: 闲聊到此为止。[0.5]向我展现你的信念，[0.1]我也同样会向你展现我的信念。
-					6: 在我之上还有更甚强大的观察者，[0.1] 你若败给我，就有望免受他们的注视。
+					3: 你的出现令我殚精竭虑，[0.1]但我绝不会放弃这天赐的机会。
+					4: 闲聊到此为止，[0.5]向我展现你的决心，[0.1]我也将以我的决心奉还。
+					5: 如果你输给了我，[0.1]你便可能幸免于那些远强于我的观察者的注视。
 				}
 
 				Resummon: {
@@ -2603,6 +2611,10 @@ Mods: {
 			CursedSamuraiBuff: {
 				DisplayName: 咒魂武士
 				Description: 右键增益清除咒魂武士
+			}
+			NebPetBuff2: {
+				DisplayName: 涅比
+				Description: 涅比缇·涅比缇·涅比缇·露，这只星星宝宝会跟着你的
 			}
 		}
 
