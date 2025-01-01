@@ -1082,9 +1082,9 @@ Mods: {
 					3C: 不要再来烦我了，我们各自做自己的事情行吗。
 					3D: 不要再来烦我了，让我下一会4D象棋。
 					4: "[@f0]再来烦我我可要揍你了"
-					ScannerUnimportant: 目标无关紧要...
-
 				}
+
+				ScannerUnimportant: 目标无关紧要...
 
 				Intro: {
 					DroneBreak: 你真把我的无人机摧毁了？
