@@ -3631,7 +3631,7 @@ Mods: {
 			}
 
 			GildedBonnet2: {
-				DisplayName: Bygone Gilded Bonnet
+				DisplayName: 旧版镀金软帽
 				Tooltip: 召唤小涅比，给你道义上的支持！
 			}
 
@@ -4393,15 +4393,15 @@ Mods: {
 			}
 
 			NebuleusMask2: {
-				DisplayName: Bygone Nebuleus Mask
+				DisplayName: 旧版涅布琉斯面具
 				Tooltip: ""
 			}
 			NebuleusVanity2: {
-				DisplayName: Bygone Nebuleus Vanity
+				DisplayName: 旧版涅布琉斯长袍
 				Tooltip: ""
 			}
 			NebWings2: {
-				DisplayName: Bygone Nebuleus Wings
+				DisplayName: 旧版涅布琉斯之翼
 				Tooltip: "{$Mods.Redemption.Items.NebWings.Tooltip}"
 			}
 
