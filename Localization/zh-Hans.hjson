@@ -2704,44 +2704,44 @@ Mods: {
 		}
 
 		Prefixes: {
-			// CruxHealthTooltip: "{0:+0;-#}% health"
-			// CruxDefenseTooltip: "{0:+0;-#}% defense"
-			// SpiritExtractTooltip: "{0:+0;-#}% spirit extraction chance"
-			// HealthyPrefix.DisplayName: Healthy
-			// DepressedPrefix.DisplayName: Depressed
-			// CrestfallenPrefix.DisplayName: Crestfallen
-			// DeterminedPrefix.DisplayName: Determined
-			// FrenziedPrefix.DisplayName: Frenzied
-			// GladPrefix.DisplayName: Glad
-			// GlumPrefix.DisplayName: Glum
-			// HardyPrefix.DisplayName: Hardy
-			// IrkedPrefix.DisplayName: Irked
-			// JovialPrefix.DisplayName: Jovial
-			// LoyalPrefix.DisplayName: Loyal
-			// StalwartPrefix.DisplayName: Stalwart
-			// UnyieldingPrefix.DisplayName: Unyielding
-			// VexedPrefix.DisplayName: Vexed
-			// BlasphemousPrefix.DisplayName: Blasphemous
-			// CovertPrefix.DisplayName: Covert
-			// ForbiddenPrefix.DisplayName: Forbidden
-			// OccultPrefix.DisplayName: Occult
-			// RustedPrefix.DisplayName: Rusted
-			// SpectralPrefix.DisplayName: Spectral
-			// SpellbindingPrefix.DisplayName: Spellbinding
-			// StainedPrefix.DisplayName: Stained
-			// VerbotenPrefix.DisplayName: Verboten
-			// BloodthirstyPrefix.DisplayName: Bloodthirsty
-			// ChillingPrefix.DisplayName: Chilling
-			// ClandestinePrefix.DisplayName: Clandestine
-			// EtherealPrefix.DisplayName: Ethereal
-			// ForgottenPrefix.DisplayName: Forgotten
-			// HauntingPrefix.DisplayName: Haunting
-			// ProfanePrefix.DisplayName: Profane
-			// ReverentPrefix.DisplayName: Reverent
-			// RunicPrefix.DisplayName: Runic
-			// SacrilegiousPrefix.DisplayName: Sacrilegious
-			// SinisterPrefix.DisplayName: Sinister
-			// UncannyPrefix.DisplayName: Uncanny
+			CruxHealthTooltip: "{0:+0;-#}%生命"
+			CruxDefenseTooltip: "{0:+0;-#}%防御"
+			// SpiritExtractTooltip: "{0:+0;-#}% spirit extraction scale"
+			HealthyPrefix.DisplayName: 健壮
+			DepressedPrefix.DisplayName: 抑郁
+			CrestfallenPrefix.DisplayName: 沮丧
+			DeterminedPrefix.DisplayName: 坚毅
+			FrenziedPrefix.DisplayName: 狂乱
+			GladPrefix.DisplayName: 愉悦
+			GlumPrefix.DisplayName: 阴沉
+			HardyPrefix.DisplayName: 坚忍
+			IrkedPrefix.DisplayName: 恼火
+			JovialPrefix.DisplayName: 快活
+			LoyalPrefix.DisplayName: 忠诚
+			StalwartPrefix.DisplayName: 坚定
+			UnyieldingPrefix.DisplayName: 不屈
+			VexedPrefix.DisplayName: 烦恼
+			BlasphemousPrefix.DisplayName: 渎神
+			CovertPrefix.DisplayName: 隐蔽
+			ForbiddenPrefix.DisplayName: 忌讳
+			OccultPrefix.DisplayName: 玄妙
+			RustedPrefix.DisplayName: 锈蚀
+			SpectralPrefix.DisplayName: 鬼魅
+			SpellbindingPrefix.DisplayName: 着魔
+			StainedPrefix.DisplayName: 玷污
+			VerbotenPrefix.DisplayName: 违禁
+			BloodthirstyPrefix.DisplayName: 嗜血
+			ChillingPrefix.DisplayName: 恐怖
+			ClandestinePrefix.DisplayName: 秘密
+			EtherealPrefix.DisplayName: 空灵
+			ForgottenPrefix.DisplayName: 遗忘
+			HauntingPrefix.DisplayName: 作祟
+			ProfanePrefix.DisplayName: 亵圣
+			ReverentPrefix.DisplayName: 虔敬
+			RunicPrefix.DisplayName: 符文
+			SacrilegiousPrefix.DisplayName: 亵渎
+			SinisterPrefix.DisplayName: 阴险
+			UncannyPrefix.DisplayName: 异常
 		}
 
 		Subworlds.SoullessSub.DisplayName: 失魂维度
@@ -9311,9 +9311,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤骷髅监守者、旗手与贵族的灵魂
-					右键将灵魂拉回你的位置，消耗2[i:Redemption/LostSoul]
-					消耗14[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一支均衡的战队，由攻击、防御、支援人员组成。监守者站在敌人与朋友之间，]
+					[c/99D4FF:当旗手增强他们的能力时，监守者会使用大盾保护贵族免受敌人的攻击。']
 					'''
 			}
 
@@ -9322,9 +9324,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤森林仙女的灵魂
-					右键将灵魂拉回你的位置，消耗1[i:Redemption/LostSoul]
-					消耗12[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一名谨慎的战士，她的精力格外旺盛。森林仙女的灵魂会使用镰刀斩击敌人，]
+					[c/99D4FF:那把镰刀是对付黑暗生物的利器。快被打败时，她会逃跑，在远处用根刺击敌人。']
 					'''
 			}
 
@@ -9332,10 +9336,12 @@ Mods: {
 				DisplayName: 魂符：加苏士兵
 				Tooltip:
 					'''
-					召唤2个骷髅游荡者与1个骷髅决斗者的灵魂
-					右键将灵魂拉回你的位置，消耗1[i:Redemption/LostSoul]
-					消耗10[i:Redemption/LostSoul]召唤灵魂
+					召唤2个骷髅游荡者与2个骷髅决斗者的灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一支纯粹而迅猛的攻击型战队。这些灵魂会以一种近乎原始本能的战术]
+					[c/99D4FF:刺穿和切割敌人。不过至少决斗者还有点脑子，会试着躲避飞来的弹幕。']
 					'''
 			}
 
@@ -9344,9 +9350,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤2个远古林间石像的灵魂
-					右键将灵魂拉回你的位置，消耗3[i:Redemption/LostSoul]
-					消耗18[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'两台耐用的机械。在它们岩石般的外表之下，隐藏着锈迹斑斑的秘密。]
+					[c/99D4FF:这些灵魂会用石柱将自己或是敌人击飞出去。']
 					'''
 			}
 
@@ -9355,9 +9363,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤苔藓巨兽的巨大灵魂
-					右键将灵魂拉回你的位置，消耗5[i:Redemption/LostSoul]
-					消耗30[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一只来自泥泞雨林的陆行巨兽。这种巨兽的践踏可以击晕敌人，它的咆哮则能扰乱对手。]
+					[c/99D4FF:除了凶狠的猛攻之外，它还会喷吐有毒气体。']
 					'''
 			}
 
@@ -9366,9 +9376,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤2个埃庇多特骷髅的灵魂
-					右键将灵魂拉回你的位置，消耗1[i:Redemption/LostSoul]
-					消耗6[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一对目光短浅的骷髅好友。他们并不清楚究竟发生了什么，但很高兴能在这里。]
+					[c/99D4FF:一看到敌人，他们就会冲过去用自己骨感的脑袋猛撞对方。']
 					'''
 			}
 
@@ -9377,9 +9389,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤3个骷髅刺客的灵魂
-					右键将灵魂拉回你的位置，消耗1[i:Redemption/LostSoul]
-					消耗10[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'由三个隐秘的灵魂组成的凶残战队。这伙骷髅会将自己隐藏在阴影之中，]
+					[c/99D4FF:悄悄跟踪敌人，然后给予致命一击。']
 					'''
 			}
 
@@ -9388,9 +9402,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤掘颅者的巨大灵魂
-					右键将灵魂拉回你的位置，消耗2[i:Redemption/LostSoul]
-					消耗30[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一位忠诚的守护者。掘颅者始终想对敌人保持仁慈的态度，就算是最强大的对手。]
+					[c/99D4FF:但对于那些威胁他所爱之人的家伙，他愿意大开杀戒。']
 					'''
 			}
 
@@ -9399,9 +9415,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤阿什卡的灵魂
-					右键将灵魂拉回你的位置，消耗1[i:Redemption/LostSoul]
-					消耗14[i:Redemption/LostSoul]召唤灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一位敏捷的战士和朋友。阿什卡的过去对所有人来说都是个谜团，只有他一人知晓。]
+					[c/99D4FF:他的灵魂会斩杀切碎敌人，并试图躲避飞来的弹幕。']
 					'''
 			}
 
@@ -9976,9 +9994,11 @@ Mods: {
 				Tooltip:
 					'''
 					召唤持山峦之刃的凯莉莎巨大灵魂
-					右键将灵魂拉回你的位置，消耗3[i:Redemption/LostSoul]
-					消耗30[i:Redemption/LostSoul]召唤灵魂
+                    消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
+					[c/99D4FF:'一位摆脱束缚的骄傲战士。凯莉莎的灵魂用她著名的冰之刃劈砍和刺击敌人。]
+					[c/99D4FF:卡拉维亚的敏捷身手与这位山峦之刃的原主相比黯然失色。']
 					'''
 			}
 
