@@ -1,22 +1,16 @@
+using System.Linq;
+using System.Reflection;
+using System.Threading;
+using Terraria;
 using Terraria.ModLoader;
-using RedemptionCN.Patch;
-
 namespace RedemptionCN
 {
 	public class RedemptionCN : Mod
 	{
-        public static RedemptionCN Instance;
-
-        public override void Load()
-        {
-            Instance = this;
-            PatchManager.Load();
-        }
-
-        public override void Unload()
-        {
-            Instance = null;
-        }
-
-    }
+		public override void Load()
+		{
+			RedemptionTranslator.RedemptionTranslator.LoadTranslator();
+			base.Load();
+		}
+	}
 }

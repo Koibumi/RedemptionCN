@@ -532,8 +532,8 @@ Mods: {
 		SpecialTooltips: {
 			Viewer: 按住 [Shift]查看知识
 			SunkenCaptainViewer: 背面有一张纸条，按住[Shift]阅读
-			Unbreakable: "[c/ff0000:Unbreakable]"
-			Unbreakable5000: "[c/ff0000:Unbreakable (5000% Pickaxe Power)]"
+			Unbreakable: "[c/ff0000:不可破坏]"
+			Unbreakable5000: "[c/ff0000:不可破坏 (5000% 镐力)]"
 
 			CommonGuard: {
 				CommonGuardGreaves:
@@ -9151,7 +9151,7 @@ Mods: {
 				Tooltip:
 					'''
 					将箭矢转化为骨之箭
-					            如果所有箭矢都命中了一个目标，那么下次攻击会喷出一团火焰
+					如果所有箭矢都命中了一个目标，那么下次攻击会喷出一团火焰
 					'''
 			}
 
@@ -9307,7 +9307,7 @@ Mods: {
 			}
 
 			CruxCardAnglonSkeletons: {
-				DisplayName: 魂符：共同卫兵
+				// DisplayName: Crux Card: Common Guard
 				Tooltip:
 					'''
 					召唤骷髅监守者、旗手与贵族的灵魂
@@ -9320,7 +9320,7 @@ Mods: {
 			}
 
 			CruxCardForestNymph: {
-				DisplayName: 魂符：森林仙女
+				// DisplayName: Crux Card: Forest Nymph
 				Tooltip:
 					'''
 					召唤森林仙女的灵魂
@@ -9333,7 +9333,7 @@ Mods: {
 			}
 
 			CruxCardGathicSkeletons: {
-				DisplayName: 魂符：加苏士兵
+				// DisplayName: Crux Card: Gathic Soldiers
 				Tooltip:
 					'''
 					召唤2个骷髅游荡者与2个骷髅决斗者的灵魂
@@ -9346,7 +9346,7 @@ Mods: {
 			}
 
 			CruxCardGladestone: {
-				DisplayName: 魂符：损毁岩械
+				// DisplayName: Crux Card: Crumbling Automatons
 				Tooltip:
 					'''
 					召唤2个远古林间石像的灵魂
@@ -9359,7 +9359,7 @@ Mods: {
 			}
 
 			CruxCardMossyGoliath: {
-				DisplayName: 魂符：苔藓巨兽
+				// DisplayName: Crux Card: Mossy Goliath
 				Tooltip:
 					'''
 					召唤苔藓巨兽的巨大灵魂
@@ -9372,7 +9372,7 @@ Mods: {
 			}
 
 			CruxCardSkeleton: {
-				DisplayName: 魂符：骨头双人组
+				// DisplayName: Crux Card: Bone Duo
 				Tooltip:
 					'''
 					召唤2个埃庇多特骷髅的灵魂
@@ -9385,7 +9385,7 @@ Mods: {
 			}
 
 			CruxCardSkeletonAssassin: {
-				DisplayName: 魂符：突袭小队
+				// DisplayName: Crux Card: Gank Squad
 				Tooltip:
 					'''
 					召唤3个骷髅刺客的灵魂
@@ -9398,7 +9398,7 @@ Mods: {
 			}
 
 			CruxCardSkullDigger: {
-				DisplayName: 魂符：掘颅者
+				// DisplayName: Crux Card: Skull Digger
 				Tooltip:
 					'''
 					召唤掘颅者的巨大灵魂
@@ -9411,7 +9411,7 @@ Mods: {
 			}
 
 			CruxCardTied: {
-				DisplayName: 魂符：阿什卡
+				// DisplayName: Crux Card: Asher
 				Tooltip:
 					'''
 					召唤阿什卡的灵魂
@@ -9990,11 +9990,11 @@ Mods: {
 			}
 
 			CruxCardCalavia: {
-				DisplayName: 魂符:凯莉莎
+				// DisplayName: Crux Card: Kyretha
 				Tooltip:
 					'''
 					召唤持山峦之刃的凯莉莎巨大灵魂
-                    消耗{0} [i:Redemption/LostSoul]迷失灵魂
+					消耗{0} [i:Redemption/LostSoul]迷失灵魂
 					右键将灵魂拉回你的位置
 					只能同时使用一个魂符
 					[c/99D4FF:'一位摆脱束缚的骄傲战士。凯莉莎的灵魂用她著名的冰之刃劈砍和刺击敌人。]
@@ -10333,8 +10333,8 @@ Mods: {
 			}
 
 			CruxCardHazmatZombie: {
-				DisplayName: 魂符：防化服僵尸
-				Tooltip: ""
+				// DisplayName: Crux Card Hazmat Zombie
+				// Tooltip: ""
 			}
 
 			ShadestoneMirrorSpecial: {
