@@ -419,30 +419,33 @@ Mods: {
 				NothingHappens: 无事发生...
 				Decapitated: 斩首！
 				NoTargets: 未发现目标！
+				BloodLoss: 失 血 过 多！
 			}
 		}
 
 		GenericTooltips: {
 			Bonuses: {
-				AxeBonus: "[i:Redemption/Axe]3倍暴击伤害，增加将人形敌人斩首的概率"
-				SlashBonus: "[i:Redemption/Slash]小概率将人形敌人斩首，直接杀死他们"
-				HammerBonus: "[i:Redemption/Hammer]对格挡值造成四倍伤害并且无视它们带来的击退抗性"
 				ChaliceLine: "[i:Redemption/RedemptionRoute]关于这个物品，圣杯有些话想和你说"
-				ExplodeBonus: "[i:Redemption/Explosive]对格挡值造成双倍伤害，穿透防御"
-				ArcaneBonus: "[i:Redemption/Arcane]可以攻击处于灵域的敌人"
-				BloodBonus: "[i:Redemption/Blood]增加对有机体的伤害，降低对机器人的伤害"
-				CelestialBonus: "[i:Redemption/Celestial]攻击敌人在周围产生星星，杀死敌人时从中恢复生命值与魔力"
-				EarthBonus: "[i:Redemption/Earth]对地面上的敌人造成额外伤害并概率眩晕"
-				FireBonus: "[i:Redemption/Fire]有概率对敌人施加更加强力的‘着火了’减益"
-				HolyBonus: "[i:Redemption/Holy]增加对亡灵与恶魔敌人的伤害"
-				IceBonus: "[i:Redemption/Ice]概率冻结史莱姆，降低敌人的速度"
-				NatureBonus: "[i:Redemption/Nature]攻击带有非火系减益的敌人时，概率掉落能增加防御的自然恩惠"
-				PoisonBonus: "[i:Redemption/Poison]增加对中毒的敌人的伤害"
-				PsychicBonus: "[i:Redemption/Psychic]无视敌人的格挡值"
-				ShadowBonus: "[i:Redemption/Shadow]杀死敌人概率掉落增加暗影伤害的暗影燃料"
-				ThunderBonus: "[i:Redemption/Thunder]敌人在水中时，使其触电并造成更多伤害"
-				WaterBonus: "[i:Redemption/Water]增加对恶魔的伤害，让机器人触电"
-				WindBonus: "[i:Redemption/Wind]对空中的敌人造成更高的击退"
+				AxeBonus: 3倍暴击伤害，增加将人形敌人斩首的概率
+				SlashBonus: 小概率将人形敌人斩首，直接杀死他们
+				HammerBonus: 对格挡值造成四倍伤害并且无视它们带来的击退抗性
+				SpearBonus: 穿透敌人的格挡值
+				ClashBonus: 在恰当时机可与敌人的劈砍攻击进行拼刀，触发"惊人一刻"
+				ExplodeBonus: 对格挡值造成双倍伤害，穿透防御
+				ArcaneBonus: 可以攻击处于灵域的敌人
+				BloodBonus: 增加对有机体的伤害，降低对机器人的伤害
+				CelestialBonus: 攻击敌人在周围产生星星，杀死敌人时从中恢复生命值与魔力
+				EarthBonus: 对地面上的敌人造成额外伤害并概率眩晕
+				FireBonus: 有概率对敌人施加更加强力的‘着火了’减益
+				HolyBonus: 增加对亡灵与恶魔敌人的伤害
+				IceBonus: 概率冻结史莱姆，降低敌人的速度
+				NatureBonus: 攻击带有非火系减益的敌人时，概率掉落能增加防御的自然恩惠
+				PoisonBonus: 增加对中毒的敌人的伤害
+				PsychicBonus: 无视敌人的格挡值
+				ShadowBonus: 杀死敌人概率掉落增加暗影伤害的暗影燃料
+				ThunderBonus: 敌人在水中时，使其触电并造成更多伤害
+				WaterBonus: 增加对恶魔的伤害，让机器人触电
+				WindBonus: 对空中的敌人造成更高的击退
 			}
 
 			RodOfHarmonyLine: 当救赎boss存活时造成混乱状态
@@ -467,7 +470,11 @@ Mods: {
 						'''
 				}
 
-				LivingWood: 免疫中毒，增加最大仆从栏位
+				LivingWood:
+					'''
+					免疫中毒，增加1点召唤伤害
+					增加15%{0}元素伤害与抗性
+					'''
 				CommonGuardHelm1: 增加12%近战速度
 				CommonGuardHelm2: 增加6%伤害减免
 				PureIron.Bonus:
@@ -530,7 +537,8 @@ Mods: {
 		}
 
 		SpecialTooltips: {
-			Viewer: 按住 [Shift]查看知识
+			Viewer: 按住 [Shift]查看传说
+			Viewer2: 按住[Shift]查看内容
 			SunkenCaptainViewer: 背面有一张纸条，按住[Shift]阅读
 			Unbreakable: "[c/ff0000:不可破坏]"
 			Unbreakable5000: "[c/ff0000:不可破坏 (5000% 镐力)]"
@@ -1562,6 +1570,14 @@ Mods: {
 					用[i:Redemption/DeadRinger]死亡之铃右键带灵魂的遗骸以召唤灵魂。
 					'''
 			}
+			ElementPanelUI: {
+				Button: 显示元素属性统计
+				Title: 元素属性统计
+				Resistance: 元素抗性
+				Damage: 元素伤害
+			}
+
+			BookOfBonusesInGameNotification: 发现新的元素属性效果：{0}
 		}
 
 		DialogueBox: {
@@ -2247,7 +2263,7 @@ Mods: {
 
 			EvilJellyBuff: {
 				DisplayName: 恶魔般可口
-				Description: 增加暗影燃料的掉落概率
+				Description: 增加暗影属性伤害与暗影燃料的掉落概率
 			}
 
 			ExplosiveFlaskBuff: {
@@ -2873,6 +2889,11 @@ Mods: {
 				Dialogue15: 这里有僵尸？我并不感到惊讶，大陆上也有着各种亡灵。
 				NoMoneyDialogue1: 你跟我一样穷？
 				NoMoneyDialogue2: 你钱真的不够吗？啊，行吧，不论如何我也不会埋怨的。
+				BookQuestComplete:
+					'''
+					嘿，你好像把我给你的那本书[i:Redemption/BookOfBonuses]填满了！你花了多长时间？我看看……
+					嗯…有意思…干得漂亮！哦，我也信守承诺——这是给你的报答！这东西是我在废弃的法师塔里找到的，希望能对你有用吧。
+					'''
 
 				Advice: {
 					StarSerpent: 说实话，我挺惊讶的，你竟然还来找我寻求建议。你看起来是个聪明人，比我聪明多了。算了，不说这个，我最近在天空中看到了一些有意思的飞龙，黄紫相间的。想看的话可以去看看。
@@ -2881,11 +2902,7 @@ Mods: {
 					ForestNymph: 树妖{0}说她曾经在岛上看到过一只森林仙女，不知道你相不相信。她们非常罕见，你只能在那些大树周围找到她们。如果你真的遇到了一只，我不会在那周围逗留太久的，她们不喜欢人类接近她们的私人空间。我想知道有没有办法和她们交朋友。
 					UGPortal: "{0}告诉我他是从另一个位于地下的传送门里过来的。很明显它通往加苏拉姆的一些地下墓穴，但是你无法穿过其中。不过，他告诉我传送门旁边有一些有意思的东西，如果我是你的话我会去看看的。"
 					EaglecrestGolem: 我散步的时候发现一块形状奇特的石头，看起来像是有腿的岩石。我当然很好奇，就在安全距离射了一箭。无事发生……不过我感觉里面有什么东西。你，作为身经百战之人，应该四处搜寻把它找到，这可能是另一个需要面对的强敌。
-					Spirits:
-						'''
-						见过在死去的骷髅身上闪动的微光吗？亦或地下的提灯鬼魂？那些都是迷失灵魂，据我所知，只有
-						{0}或是{1}武器才能对它们造成伤害。当然，这不代表我建议你去伤害这些无助的小东西。
-						'''
+					Spirits: 见过在死去的骷髅身上闪动的微光吗？亦或地下的提灯鬼魂？那些都是迷失灵魂，据我所知，只有{0}或是{1}武器才能对它们造成伤害。当然，这不代表我建议你去伤害这些无助的小东西。
 					Insects: 想知道一些昆虫知识吗？如果你想找到叶甲虫，你们这里叫它树虫，就砍下一些树。它们生活在树梢上，用它们的绿色外壳伪装成树叶。海岸圣甲虫也经常能在沙滩的棕榈树上找到，它们的外壳被浸湿时会闪闪发光。巨蛆是，呃……太恶心了，不过它们能当作不错的鱼饵。前提是，你得有勇气去靠近这些家伙。
 					Undead: 遭遇骷髅和亡灵时，假设{0}武器对其无效是合乎逻辑的，{1}武器反之。我曾经喜欢探索洞穴，直到我和泽弗斯遭遇了一个骷髅Vex……
 					Slimes: 对付史莱姆最有效的手段？烧了它们。或者，{0}武器可以将其冻结在原位，然后再把它们烧了！
@@ -2896,6 +2913,12 @@ Mods: {
 					Erhan: 我注意到有个卷轴放在了我出来的那个传送门旁的桌子上，你把它捡回来了吗？那个看起来真是……像恶魔一样。
 					Chalice: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟随它的指引。
 					Elements: 武器或敌人本身可能会有元素属性。某些元素对其他元素会效果更强，比如{0}对{1}。在选择武器时，请记住这一点。你有一本图鉴对吧？上面会显示敌人的弱点或抗性。
+					ElementsBook:
+						'''
+
+
+						我并不是什么都知道，所以当你发现关于元素的新东西时，请写在这本书里。如果你能都写出来，我会给你一份回礼，绝对不会让你浪费时间的。
+						'''
 				}
 
 				Revived1: 我刚刚被打倒了？谢谢你救了我。
@@ -2923,6 +2946,7 @@ Mods: {
 				Dialogue11: 你没告诉过我这里还有亡灵！什么，它们叫僵尸？这里也有一些骷髅跑到了外面，一般它们更喜欢待在地下。这地方真是诡异啊。你是怎么住在这里的？
 				NoMoneyDialogue1: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue1}"
 				NoMoneyDialogue2: "{$Mods.Redemption.Dialogue.Daerel.NoMoneyDialogue2}"
+				BookQuestComplete: 哇，你真的把我给你的那本书[i:Redemption/BookOfBonuses]都给写满了！你花了多长时间？我看不懂，不过我朋友会很高兴的……如果我能找到他的话。作为回报，这个炫酷小玩意儿给你吧！希望对你有用！
 
 				Advice: {
 					StarSerpent: 说实话，我挺惊讶的，你竟然还来找我寻求建议！我知道我肯定不是最聪明的人。算了，不说这个，我最近在天空中看到了一些外表很特别的飞龙，黄紫相间的。快去看看！
@@ -2942,6 +2966,12 @@ Mods: {
 					Erhan: 我注意到有个卷轴放在了我出来的那个传送门旁的桌子上，你把它捡回来了吗？那个看起来真是……像恶魔一样。
 					Chalice: 我钻回传送门的时候是不是掉了什么东西？哦，那些发光的碎片？它好像在指引你去一个重要的地方，在遇到强敌之前我都会跟着它的指引！
 					Elements: 武器或敌人本身可能会有元素属性。某些元素对其他元素会效果更强，比如{0}对{1}。在选择武器时，请记住这一点。你有一本图鉴对吧？上面会显示敌人的弱点或抗性。
+					ElementsBook:
+						'''
+
+
+						我并不是什么都知道，所以拿着这本书，写下你对元素作用的新发现！如果你能都写出来，我会给你一个有意思的东西！
+						'''
 				}
 
 				Revived1: *打哈欠* 为什么叫醒我？我做了个梦…梦里我意气风发，声名显赫。
@@ -3539,7 +3569,7 @@ Mods: {
 				DisplayName: 全息护盾
 				Tooltip:
 					'''
-					6%伤害减免
+					6%伤害减免，对无元素属性伤害则为16%伤害减免
 					双击方向键冲刺
 					撞到射弹时能反弹它们
 					不能反弹伤害超过200点的射弹
@@ -4243,7 +4273,7 @@ Mods: {
 
 			LivingWoodHelmet: {
 				DisplayName: 生命木头盔
-				Tooltip: +1召唤伤害
+				Tooltip: 增加哨兵数量上限
 			}
 
 			LivingWoodLeggings: {
@@ -7540,7 +7570,11 @@ Mods: {
 
 			EvilJelly: {
 				DisplayName: 邪恶果冻
-				Tooltip: 显著增加用{0}元素攻击杀死敌人时掉落暗影燃料的概率
+				Tooltip:
+					'''
+					显著增加用{0}元素攻击杀死敌人时掉落暗影燃料的概率
+					增加8%{0}元素伤害
+					'''
 			}
 
 			FirstAidKit: {
@@ -8163,15 +8197,12 @@ Mods: {
 					'''
 					在空中长按左键向下冲击
 					锤击地面会召唤神圣之锤，神圣之锤的数量取决于你之前击中敌人的次数
+					神圣之锤额外造成{1}伤害
 					此时增加玩家的下落速度
 					在达到一定速度后能击晕敌人
 					'''
 			}
 
-			Hammer: {
-				DisplayName: 锤
-				Tooltip: ""
-			}
 
 			InfectiousGlaive: {
 				DisplayName: 疫染关刀
@@ -8519,7 +8550,11 @@ Mods: {
 
 			PoemOfIlmatar: {
 				DisplayName: 伊尔玛达尔之诗
-				Tooltip: 长按左键制造一场龙卷风将敌人卷起
+				Tooltip:
+					'''
+					长按左键制造一场龙卷风将敌人卷起
+					龙卷风会卷起岩石向敌人射出，造成{0}元素伤害
+					'''
 			}
 
 			TeslaCoil: {
@@ -8934,7 +8969,7 @@ Mods: {
 
 			Bindeklinge: {
 				DisplayName: 封印之剑
-				Tooltip: 暴击时释放追踪光雨
+				Tooltip: 暴击时释放追踪光雨，造成{0}与{1}元素伤害
 				Lore:
 					'''
 					“一把阔剑，曾被光冕王国重生神谕的领导者使用。
@@ -9073,7 +9108,7 @@ Mods: {
 				DisplayName: 贵族长戟
 				Tooltip:
 					'''
-					右键刺出长戟
+					右键将长戟像{0}一样刺出
 					“安格隆共同卫兵的主要武器之一”
 					'''
 			}
@@ -9199,7 +9234,7 @@ Mods: {
 				DisplayName: 月矢
 				Tooltip:
 					'''
-					将木箭替换为月矢，造成{0}与{1}伤害
+					将木箭替换为月矢，造成{0}、{1}与{2}伤害
 					月亮升起时，月矢会召唤月辉蝙蝠
 					满月期间再额外召唤一只
 					'''
@@ -9900,87 +9935,122 @@ Mods: {
 			}
 
 			Ice: {
-				DisplayName: "[i:Redemption/Ice][c/E0FFFF:冰]"
+				DisplayName: "[i:Redemption/Ice][c/B7FFFF:冰]"
+				PlainName: 冰
 				Tooltip: ""
 			}
 
 			Earth: {
-				DisplayName: "[i:Redemption/Earth][c/f4a460:大地]"
+				DisplayName: "[i:Redemption/Earth][c/A97D5D:大地]"
+				PlainName: 大地
 				Tooltip: ""
 			}
 
 			Shadow: {
-				DisplayName: "[i:Redemption/Shadow][c/7b68ee:暗影]"
+				DisplayName: "[i:Redemption/Shadow][c/7B68EE:暗影]"
+				PlainName: 暗影
 				Tooltip: ""
 			}
 
 			Nature: {
-				DisplayName: "[i:Redemption/Nature][c/7cfc00:自然]"
+				DisplayName: "[i:Redemption/Nature][c/87CC00:自然]"
+				PlainName: 自然
 				Tooltip: ""
 			}
 
 			Holy: {
-				DisplayName: "[i:Redemption/Holy][c/fafad2:神圣]"
+				DisplayName: "[i:Redemption/Holy][c/FFED7C:神圣]"
+				PlainName: 神圣
 				Tooltip: ""
 			}
 
 			Blood: {
-				DisplayName: "[i:Redemption/Blood][c/cd5c5c:血腥]"
+				DisplayName: "[i:Redemption/Blood][c/CC4141:血腥]"
+				PlainName: 血腥
 				Tooltip: ""
 			}
 
 			Fire: {
-				DisplayName: "[i:Redemption/Fire][c/FFA500:火]"
+				DisplayName: "[i:Redemption/Fire][c/F57E19:火]"
+				PlainName: 火
 				Tooltip: ""
 			}
 
 			Arcane: {
-				DisplayName: "[i:Redemption/Arcane][c/ADD8E6:奥术]"
+				DisplayName: "[i:Redemption/Arcane][c/D0CEFF:奥术]"
+				PlainName: 奥术
 				Tooltip: ""
 			}
 
 			Axe: {
-				DisplayName: 镐
+				DisplayName: "[i:Redemption/Axe][c/FFC896:斧]"
+				PlainName: 斧
 				Tooltip: ""
 			}
 
-			Celestial: {
-				DisplayName: "[i:Redemption/Celestial][c/ffc0cb:天界]"
+			Cosmic: {
+				DisplayName: "[i:Redemption/Cosmic][c/FEBEF3:天界]"
+				PlainName: 天界
 				Tooltip: ""
 			}
 
 			Explosive: {
 				DisplayName: "[i:Redemption/Explosive][c/FFC896:爆炸]"
+				PlainName: 爆炸
 				Tooltip: ""
 			}
 
 			Poison: {
-				DisplayName: "[i:Redemption/Poison][c/9370db:毒]"
+				DisplayName: "[i:Redemption/Poison][c/4D7F69:毒]"
+				PlainName: 毒
 				Tooltip: ""
 			}
 
 			Psychic: {
-				DisplayName: "[i:Redemption/Psychic][c/ffb6c1:心灵]"
+				DisplayName: "[i:Redemption/Psychic][c/C888F5:心灵]"
+				PlainName: 心灵
 				Tooltip: ""
 			}
 
 			Slash: {
-				DisplayName: 斩击
+				DisplayName: "[i:Redemption/Slash][c/FFC896:斩击]"
+				PlainName: 斩击
+				Tooltip: ""
+			}
+
+			Spear: {
+				DisplayName: "[i:Redemption/Spear][c/FFC896:穿刺]"
+				PlainName: 穿刺
+				Tooltip: ""
+			}
+
+			Hammer: {
+				DisplayName: "[i:Redemption/Hammer][c/FFC896:锤]"
+				PlainName: 锤
+				Tooltip: ""
+			}
+
+			Clash: {
+				DisplayName: "[i:Redemption/Clash][c/FFC896:拼刀]"
+				PlainName: 拼刀
 				Tooltip: ""
 			}
 
 			Thunder: {
-				DisplayName: "[i:Redemption/Thunder][c/ffffe0:雷电]"
+				DisplayName: "[i:Redemption/Thunder][c/FFFFE0:雷电]"
+				PlainName: 雷电
 				Tooltip: ""
 			}
 
 			Water: {
-				DisplayName: "[i:Redemption/Water][c/87CEEB:水]"
+				DisplayName: "[i:Redemption/Water][c/329AEF:水]"
+				PlainName: 水
 				Tooltip: ""
 			}
 
 			Wind: {
 				DisplayName: "[i:Redemption/Wind][c/B4B4B4:风]"
+				PlainName: 风
 				Tooltip: ""
 			}
 
@@ -10367,7 +10437,7 @@ Mods: {
 				Tooltip:
 					'''
 					召唤一朵乌戈雷云向敌人降下暴雨
-					用鞭子打击敌人时雷云会降下雷击
+					用鞭子打击敌人时雷云会降下雷击，造成{0}元素伤害
 					“一首古代的赞诗，赞颂乌戈带来的丰沛雨水和五谷丰登”
 					'''
 			}
@@ -10684,6 +10754,11 @@ Mods: {
 			TreeBugCage: {
 				DisplayName: 树虫笼
 				Tooltip: ""
+			}
+
+			BookOfBonuses: {
+				DisplayName: 元素作用手册
+				Tooltip: 通过触发元素效果来了解元素的作用
 			}
 		}
 
@@ -12174,11 +12249,41 @@ Mods: {
 			InSoullessCaverns: 处于失魂洞窟时
 			ForestNymphTrust: 获得森林仙女的信任时
 			OldTophat: 悬挂骷髅消失之后
+			ElementBookObtained: 在徒步旅行者给予手册后
+			ElementBookQuest: 在填满元素作用手册后
 		}
 
 		Configs: {
 			RedeConfigClient: {
-				DisplayName: 救赎客户端配置
+				DisplayName: 个人配置
+
+				NoBossIntroText: {
+					Label: 禁用塞尔达风格的Boss头衔
+					Tooltip: 禁用《塞尔达传说》风格的boss介绍文本。
+				}
+
+				CameraLockDisable: {
+					Label: 禁用镜头锁定
+					Tooltip:
+						'''
+						在过场动画中禁用视角锁定，以及伴随的特效与期间获得的无敌帧
+						不推荐开启，至少在第一次游玩此mod时不要开启，因为它会破坏演出效果。
+						'''
+				}
+
+				ShakeIntensity: {
+					Label: 屏幕抖动强度
+					Tooltip: 降低该选项会减弱屏幕抖动效果的强度，降低至0会完全禁用屏幕抖动
+				}
+
+				ElementalDamageTooltipStyle: {
+					Label: 元素伤害的工具提示类型
+					Tooltip: 更改武器工具提示中元素伤害的显示方式，或禁用该功能
+				}
+			}
+
+			RedeConfigServer: {
+				DisplayName: 全局配置
 
 				DialogueWaitTime: {
 					Label: 额外的对话等待时间
@@ -12199,20 +12304,6 @@ Mods: {
 						'''
 				}
 
-				NoBossIntroText: {
-					Label: 禁用塞尔达风格的Boss头衔
-					Tooltip: 禁用《塞尔达传说》风格的boss介绍文本。
-				}
-
-				CameraLockDisable: {
-					Label: 禁用视角锁定
-					Tooltip:
-						'''
-						在过场动画中禁用视角锁定，以及伴随的特效与期间获得的无敌帧
-						不推荐开启，至少在第一次游玩此mod时不要开启，因为它会破坏演出效果。
-						'''
-				}
-
 				ElementDisable: {
 					Label: 禁用元素属性系统
 					Tooltip: 禁用元素抗性和元素伤害
@@ -12223,15 +12314,21 @@ Mods: {
 					Tooltip: 禁用原版敌人的格挡值
 				}
 
-				ShakeIntensity: {
-					Label: 屏幕抖动强度
-					Tooltip: 降低该选项会减弱屏幕抖动效果的强度，降低至0会完全禁用屏幕抖动
-				}
-
 				NoPZBuildUp: {
 					Label: 跳过零号病患的开场蓄力
 					Tooltip: 使Boss立刻开启战斗，为急着与Boss战斗的人设置。(注意：这会导致Boss的演出效果与音乐协调得不是很好)
 				}
+
+				FindNewStructureCoords: {
+					Label: 重置结构坐标
+					Tooltip:
+						'''
+						进入世界后，游戏会检索重要的建筑方块，并设置它们的坐标
+						此选项仅在你想重置重要结构时才建议开启，例如摧毁地表传送门并将传送门框架生成在其他地方。
+						关闭时，坐标已被设定，不会更改。
+						'''
+				}
+
 
 				FunniHeader: 滑稽世界(打算生成正常世界的时候，记得禁用它们)
 
@@ -12259,6 +12356,13 @@ Mods: {
 					Label: 远古世界
 					Tooltip: 生成新世界时将其物块转换为对应的加苏拉姆或远古版本。加苏拉姆墓葬会更频繁地生成。
 				}
+			}
+
+			ElementDamageTooltipEnum: {
+				Tooltip: ""
+				Disabled.Label: 禁用
+				ShowAdded.Label: 显示添加的内容
+				ShowTotalled.Label: 显示完整内容
 			}
 		}
 
