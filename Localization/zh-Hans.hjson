@@ -10760,6 +10760,11 @@ Mods: {
 				DisplayName: 元素作用手册
 				Tooltip: 通过触发元素效果来了解元素的作用
 			}
+
+			CalaviaRelic: {
+				DisplayName: 卡拉维亚圣物
+				Tooltip: ""
+			}
 		}
 
 		Projectiles: {
@@ -12279,6 +12284,11 @@ Mods: {
 				ElementalDamageTooltipStyle: {
 					Label: 元素伤害的工具提示类型
 					Tooltip: 更改武器工具提示中元素伤害的显示方式，或禁用该功能
+				}
+
+				NoFlyBuzz: {
+					Label: 禁用苍蝇的嗡嗡声
+					Tooltip: 让苍蝇闭嘴
 				}
 			}
 
