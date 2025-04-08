@@ -8735,7 +8735,7 @@ Mods: {
 				DisplayName: 钚轨道炮
 				Tooltip:
 					'''
-					(9[i:Redemption/EnergyCell]) 连续发射三束穿刺钚光，每束消耗3能量
+					(9[i:Redemption/EnergyCell]) 连续发射三束穿透钚光，每束消耗3能量
 					需要玩家物品栏内存在能量罐
 					'''
 			}
@@ -10019,8 +10019,8 @@ Mods: {
 			}
 
 			Spear: {
-				DisplayName: "[i:Redemption/Spear][c/FFC896:穿刺]"
-				PlainName: 穿刺
+				DisplayName: "[i:Redemption/Spear][c/FFC896:矛]"
+				PlainName: 矛
 				Tooltip: ""
 			}
 
