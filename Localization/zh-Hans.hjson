@@ -313,7 +313,7 @@ Mods: {
 			RaveyardSkeleton: 当一具遗骸被灵魂控制，且灵魂仍记得它生前最后听到的音乐时，跳舞骷髅便被创造出来。它会试图模仿它记忆中确切的声音。如果模仿不了，它就会开始不受控制地跳舞。它们的曲子与其他的音乐相比显得更加枯燥无味。
 			LivingBloom: 一种原产于安格隆的常见生物，生活在繁茂的森林中。它们是由植物纤维与根组成的。
 			JollyMadman: 加苏拉姆贵族骑士的躯体，罪犯的灵魂。现在它们死了，被困在黑暗迷宫般的洞穴里，连已经分裂的精神都失去了，彻底陷入疯狂。
-			ForestNymph: 在远离文明的森林里发现的稀有人形生物。她们通常住在魔法池塘附近巨大中空的树里。她们是有孤独、带领地意识的生物，很少与其他同类在一起。目前尚不清楚这些生物是如何形成的，传说她们是埃庇多特本身的杰作：与所有植物一样从大地中生长出来，只不过长成了人形。
+			ForestNymph: 在远离文明的森林里发现的稀有人形生物。她们是孤独、带有领地意识的生物，很少与其他同类在一起。
 			VagrantSpirit: 当灵魂没有兼容的容器可以注入，被困在灵域太久时，它们便会渗出，变成肉眼略微可见的状态。它们会在洞穴中徘徊至永远。
 			BlisteredScientist: 一名不幸的科学家，被异辉感染折磨得面目全非。它有一定的攻击性，皮肤上长满了水疱……天哪，看起来真恶心。
 			BloatedScientist: 一名不幸的科学家，被异辉感染折磨得残破变形。它有一些攻击性，胃部膨胀到了可怕的大小……天哪，太恶心了……
@@ -346,6 +346,7 @@ Mods: {
 			BloatedClinger: 受到放射性粒子辐射的爬藤怪，因为快速、不稳定的细胞增殖而变得面目全非。
 			Forret: 加苏拉姆常绿森林里的一种顽皮动物。在很久以前，加苏人就把这些长着鹿角的雪貂从地下通道带到了这座小岛的地表。
 			MoonflareSkeleton: 信仰月亮的教徒。他们掌握着一种特殊魔法，能让敌人从悬崖上飞出去。
+			StarSerpent: 来自以桑高空中的稀有蛇类。它们好像对某人情有独钟，跟着她穿过了那个金色的大门。
 		}
 
 		Bestiary.Android: Api机械战士是用一个遥远恒星系的一种高度耐用金属制造的实验品。这种金属被弑君者III称为“玫瑰钛”——在银河系中发现的最坚固的材料之一。然而弑君者III讨厌它的粉红色调，所以在用它制作了几个机器人之后，他顽固地拒绝使用它。
@@ -372,24 +373,24 @@ Mods: {
 				FoolLeft: 傻子离开了……
 				WastelandGrow: 感染在废土上肆虐……
 				PortalRumble: 一个传送门在隆隆作响……（查看地图来确定位置）
-				// Return: "{0} has returned!"
+				Return: "{0}回来了！"
 			}
 
 			Death: {
-				Infested: 突然变成了蛆虫！
-				DirtyWound: 伤口感染了
-				Swarmed: 被蚕食殆尽
-				Xenomite: 结晶化了
-				Radiation: 辐射致死
-				Incandesence: 如此璀璨
-				Ensnared: 被荆棘吞噬
-				Nuclear1: 看到第二个太阳冉冉升起
-				Nuclear2: 被彻底抹除于
-				Nuclear3: 遭受了审判日
-				Nuclear4: 变成了地上的黑影
-				Nuclear5: 砰的一声直冲云霄
-				Nuclear6: 没能及时找到冰箱
-				DoorStuck: 熟 练 地 被 门 卡 住 了
+				Infested: "{0}突然变成了蛆虫！"
+				DirtyWound: "{0}伤口感染了"
+				Swarmed: "{0}被蚕食殆尽"
+				Xenomite: "{0}结晶化了"
+				Radiation: "{0}辐射致死"
+				Incandesence: "{0}如此璀璨"
+				Ensnared: "{0}被荆棘吞噬"
+				Nuclear1: "{0}看到第二个太阳冉冉升起"
+				Nuclear2: "{0}被彻底抹除于"
+				Nuclear3: "{0}遭受了审判日"
+				Nuclear4: "{0}变成了地上的黑影"
+				Nuclear5: "{0}砰的一声直冲云霄"
+				Nuclear6: "{0}没能及时找到冰箱"
+				DoorStuck: "{0}熟 练 地 被 门 卡 住 了"
 			}
 
 			Event: {
@@ -425,7 +426,7 @@ Mods: {
 
 		GenericTooltips: {
 			Bonuses: {
-				ChaliceLine: "[i:Redemption/RedemptionRoute]关于这个物品，圣杯有些话想和你说"
+				ChaliceLine: "[i:Redemption/ChaliceIcon]关于这个物品，圣杯有些话想和你说"
 				AxeBonus: 3倍暴击伤害，增加将人形敌人斩首的概率
 				SlashBonus: 小概率将人形敌人斩首，直接杀死他们
 				HammerBonus: 对格挡值造成四倍伤害并且无视它们带来的击退抗性
@@ -452,16 +453,8 @@ Mods: {
 
 			ArmorSetBonus: {
 				VanillaArmor: {
-					Resistance:
-						'''
-
-						增加{0}%{1}元素抗性
-						'''
-					Damage:
-						'''
-
-						增加{0}%{1}元素伤害
-						'''
+					Resistance: 增加{0}%{1}元素抗性
+					Damage: 增加{0}%{1}元素伤害
 					SolarCelestial:
 						'''
 
@@ -1521,15 +1514,15 @@ Mods: {
 					'''
 				NebSummon3: ……我明白了。
 				A0: 你完全中立……
-				A1N: 你已略行小恶，不过暂时还是安全的……
+				A1N: 你已略行小恶，不过没什么不能原谅的……
 				A1: 迄今为止，你做的很好……
-				A2: 你选择了正确的道路，请坚持下去。
+				A2: 你选择了正确的道路。
 				A2N: 注意，你正在偏离善的道路……
-				A3N: 你真是一意孤行啊……执意如此的话，迎接你的将是审判。
+				A3N: 若一意孤行，迎接你的将是审判。
 				A3: 我真是感到骄傲，你仍在坚守着真善之光……
-				A4N: ……听着，你正沿着歧路前行……悬崖勒马，为时不晚。
+				A4N: 你已经走上了一条危险的歧路。
 				A4: 你斩灭了世上的一切邪恶……真是了不起。
-				A5N: 对不起，已经覆水难收了……
+				A5N: 已经覆水难收了……
 				A5: 你的善行长明于世，但前方仍有强敌环伺……
 				A6N: 你已经错过了最后的救赎……
 				A6: 你才是这个世界所需的救赎……
@@ -1570,6 +1563,7 @@ Mods: {
 					用[i:Redemption/DeadRinger]死亡之铃右键带灵魂的遗骸以召唤灵魂。
 					'''
 			}
+
 			ElementPanelUI: {
 				Button: 显示元素属性统计
 				Title: 元素属性统计
@@ -2640,6 +2634,11 @@ Mods: {
 				DisplayName: 小涅比
 				Description: 涅比涅比涅~，这颗可爱的小星星会跟着你
 			}
+
+			WeirdBloomBuff: {
+				DisplayName: 怪异花朵
+				Description: 我就是最初的……生命花
+			}
 		}
 
 		Biomes: {
@@ -3031,9 +3030,9 @@ Mods: {
 				MysticBlossomDialogueAggressive: 你这是……天哪。你为什么会给我如此珍贵的东西！我不禁感到其中的恶意。不过，世界说你是个好人，世界从不会说谎。这个送你当回礼吧，
 				MysticBlossomDialogue: 这个是……你能送我这个真是令人费解，毫不夸张地说。我能回赠什么呢？什么都无法与其媲美吧？我的所有之物是有限的，但我的祝福是无限的。
 				MysticBlossomDialogueCont: 拿走我的武器吧，这是我唯一有价值的礼物了。
-				HomeDialogue1: 我们通常住在水源附近的大空心树里。这种树木只适合躲藏，但是树周围的水源对我们的生存至关重要，没有水我们就不能繁茂生长。在这个岛上，与传送门另一侧世界中巨型橡木最相似的东西是生命树，不过需要再装修一下。这些树并不是非常宜居。
-				HomeDialogue2: 你的仙灵如实介绍了你。如果不是很费事的话，我可以接受你为我建造一个居所。但是，我有要求。首先，房子要是生命木做的——如果你愿意的话，可以翻新现有的生命木，不过只要是生命木做我就很满意。其次，我需要附近有一片水源。一小片就好，只要够我的根浸入就可以。
-				HomeDialogue3: 房子要是用生命木做的——如果你愿意的话，可以翻新现有的生命木，不过只要是生命木做我就很满意。其次，我需要附近有一片水源。一小片就好，只要够我的根浸入就可以。
+				HomeDialogue1: 我们通常住在水源附近的大空心树里。这种树木只适合躲藏，但是树周围的水源对我们的生存至关重要。在这个岛上，与传送门另一侧世界中巨型橡木最相似的东西是生命树，不过需要再装修一下。这些树并不是非常宜居。
+				HomeDialogue2: 你的仙灵如实介绍了你。如果不是很费事的话，我可以接受你为我建造一个居所。但是，我有要求。首先，房子要是生命木做的——如果你愿意的话，可以翻新现有的生命木。其次，我需要附近有一片水源。一小片就好，只要够我的根浸入就可以。
+				HomeDialogue3: 房子要是用生命木做的——如果你愿意的话，可以翻新现有的生命木。其次，我需要附近有一片水源。一小片就好，只要够我的根浸入就可以。
 				HomeNeedWaterDialogueCalm: 再在这周围安置一片宜人的水源，我能就把这里当成新家了。
 				HomeNeedWaterDialogueShy: 如果不麻烦的话，能在我的新家旁边安置一片水源吗。
 				HomeNeedWaterDialogueJolly: 一个小湖或者水池对于我们森林仙女而言是很重要的。如果能有一个在附近的话，我会很高兴的。
@@ -3136,6 +3135,7 @@ Mods: {
 				Dialogue13: 你戴的什么东西？你是想cosplay我还是咋地？
 				Dialogue14: 看起来你吃饱了……这对你真好啊。
 				Dialogue15: 一只鸡是怎么闯进我的船的？
+				DialogueAndroidHead: 我不蠢，当我看到自己的机器人时，我就知道了。
 				Chat1: 我也可以问你同样的问题。如果你在战斗后只是想来闲聊，抱歉我并不感兴趣。
 				Chat1B: 修理这艘坠毁飞船，反思我们之间的战斗。老实说，我这么做只是因为我没别的事可干。
 				Chat1C: 飞船修好了……只是我懒得起来。
@@ -7824,7 +7824,7 @@ Mods: {
 				DisplayName: 鹰冠魔咒
 				Tooltip:
 					'''
-					唤醒鹰冠魔像
+					发出一道光，指向最近的沉眠石像
 					在世界吞噬怪/克苏鲁之脑被击败后由泽弗斯/戴雷尔出售
 					'''
 			}
@@ -8202,7 +8202,6 @@ Mods: {
 					在达到一定速度后能击晕敌人
 					'''
 			}
-
 
 			InfectiousGlaive: {
 				DisplayName: 疫染关刀
@@ -10336,7 +10335,7 @@ Mods: {
 
 			RaveyardBox: {
 				DisplayName: 音乐盒（骷髅狂欢）
-				Tooltip: PeriTune - Spook3
+				Tooltip: Zeus073 - Rattle Thy Bones
 			}
 
 			AetherianGreathelm: {
@@ -10763,6 +10762,61 @@ Mods: {
 
 			CalaviaRelic: {
 				DisplayName: 卡拉维亚圣物
+				Tooltip: ""
+			}
+
+			SpiritExtractor: {
+				DisplayName: 灵魂提取器
+				Tooltip: 取消魂符召唤物的灵魂外观。
+			}
+
+			GloomMushroomBig: {
+				DisplayName: 大型黯淡菇
+				Tooltip: ""
+			}
+
+			GloomMushroomBlock: {
+				DisplayName: 黯淡菇块
+				Tooltip: ""
+			}
+
+			WeirdBloom: {
+				DisplayName: 看起来很奇怪的花
+				Tooltip: 召唤一只宠物…宠物生命花？
+			}
+
+			ChaliceIcon: {
+				DisplayName: 圣杯图标
+				Tooltip: ""
+			}
+
+			AndroidHead: {
+				DisplayName: 机器战士头
+				Tooltip: ""
+			}
+
+			AndroidHead2: {
+				DisplayName: 机器战士头
+				Tooltip: ""
+			}
+
+			AndroidHead3: {
+				DisplayName: 机器战士头（玫瑰钛）
+				Tooltip: ""
+			}
+
+			LegoPistol: {
+				DisplayName: 仓促组装的手枪
+				Tooltip: "'我只需要一个回合'"
+			}
+
+			CorruptChickenBanner: {
+				DisplayName: 腐化鸡旗
+				Tooltip: ""
+			}
+
+			ViciousChickenBanner: {
+				DisplayName: 猩红鸡旗
 				Tooltip: ""
 			}
 		}
@@ -11403,9 +11457,7 @@ Mods: {
 			Bindeklinge_Slash.DisplayName: "{$Mods.Redemption.Items.Bindeklinge.DisplayName}"
 			TileLine_Proj.DisplayName: ""
 			ShootingStar.DisplayName: 流星
-			TwinklestarHoldout.DisplayName: "{$Mods.Redemption.Items.Twinklestar.DisplayName}"
 			TwinklestarRadius.DisplayName: ""
-			TwinklestarTinyStar.DisplayName: 小烁星
 			Fallen_BeardedHatchet_Proj.DisplayName: "{$Mods.Redemption.Items.BeardedHatchet.DisplayName}"
 			Zephos_SwordSlicer_Slash.DisplayName: "{$Mods.Redemption.Items.SwordSlicer.DisplayName}"
 			VasaraRock_Proj.DisplayName: 神锤岩石
@@ -11472,6 +11524,11 @@ Mods: {
 			Neb_Vortex.DisplayName: 星宇漩涡
 			PoemTornado_Rock.DisplayName: 伊尔玛达尔之石
 			NebPet2_Proj.DisplayName: 小涅比
+			WeirdBloomPet.DisplayName: 怪异花朵
+			Scream.DisplayName: 尖叫
+			Twinklestar_Holdout.DisplayName: "{$Mods.Redemption.Items.Twinklestar.DisplayName}"
+			Twinklestar_ShootingStar.DisplayName: 流星
+			Twinklestar_TinyStar.DisplayName: 微型烁星
 		}
 
 		NPCs: {
@@ -11814,6 +11871,21 @@ Mods: {
 			TreebarkDryad: {
 				DisplayName: 树皮精
 				Title: " 树皮精"
+				Name1: Gentlewood
+				Name2: Blandwood
+				Name3: Elmshade
+				Name4: Vinewood
+				Name5: Bitterthorn
+				Name6: Irontwig
+				Name7: Tapio
+				Name1Willow: Willowbark
+				Name1Sakura: Cherrysplinter
+				Name2Sakura: Blossomwood
+				Name1Acacia: Drywood
+				Name2Acacia: Needlebark
+				Name3Acacia: Antshade
+				Name4Acacia: Sapwarden
+				Name5Acacia: Gumroot
 			}
 
 			WraithSlayer_Samurai.DisplayName: 咒魂武士
@@ -11964,6 +12036,7 @@ Mods: {
 			BrambleTrap.DisplayName: 蔷薇陷阱
 			Forret.DisplayName: 鹿角雪貂
 			MoonflareSkeleton.DisplayName: 月辉投射者
+			TreebarkDryad_Savanna.DisplayName: "{$Mods.Redemption.NPCs.TreebarkDryad.DisplayName}"
 		}
 
 		Tiles: {
@@ -12207,6 +12280,8 @@ Mods: {
 			SandskinSpiderCageTile.MapEntry: 沙皮蜘蛛笼
 			SpiderSwarmerCageTile.MapEntry: 蜘蛛蜂拥者笼
 			TreeBugCageTile.MapEntry: 树虫笼
+			GloomShroomFoliage.MapEntry: 黯淡菇
+			GloomShroomFoliage2.MapEntry: 黯淡菇
 		}
 
 		Keybinds: {
@@ -12256,6 +12331,8 @@ Mods: {
 			OldTophat: 悬挂骷髅消失之后
 			ElementBookObtained: 在徒步旅行者给予手册后
 			ElementBookQuest: 在填满元素作用手册后
+			InSavanna: 在稀树平原时
+			NotInSavanna: 不在稀树平原时
 		}
 
 		Configs: {
@@ -12289,6 +12366,16 @@ Mods: {
 				NoFlyBuzz: {
 					Label: 禁用苍蝇的嗡嗡声
 					Tooltip: 让苍蝇闭嘴
+				}
+
+				DialogueInChat: {
+					Label: 在聊天栏里显示过场对话
+					Tooltip: 过场动画、圣杯与boss的对话也会在聊天栏里显示
+				}
+
+				LegacyNebSky: {
+					Label: 旧版涅布琉斯战斗背景
+					Tooltip: 使用旧版涅布琉斯二阶段的旋转战斗背景
 				}
 			}
 
@@ -12338,7 +12425,6 @@ Mods: {
 						关闭时，坐标已被设定，不会更改。
 						'''
 				}
-
 
 				FunniHeader: 滑稽世界(打算生成正常世界的时候，记得禁用它们)
 
@@ -12390,6 +12476,32 @@ Mods: {
 			FowlMorning: {
 				SpawnInfo: 在正午之前用 [i:Redemption/FowlWarHorn]召唤
 				EntryName: 鸡晓
+			}
+		}
+
+		Origins: {
+			SkySquire: {
+				DisplayName: 天空侍卫
+				Flavor: 南以桑的一名士兵，莽撞地闯入金色大门之中。他们会发现进来就没有回头路了。
+				Description: 开局拥有天空侍卫时装与云朵瓶，出生点位于金色大门
+			}
+
+			SpiritWalker: {
+				DisplayName: 灵魂行者
+				Flavor: 窥探现实的领域，你一定能找到新朋友的。
+				Description: 开局拥有80最大生命值，1个缚魂珠，1个已灌注的魂符，5个空魂符，50个迷失灵魂，25个骨头火把，灵魂行者能力，出生点位于地下传送门。
+			}
+
+			Madman: {
+				DisplayName: 癫愉狂人
+				Flavor: 你从墓地醒来，在一个陌生的世界。
+				Description: 开局拥有60最大生命值，1个余晖之胄，1个被弃者之灯，1个双手大剑，一套殒钢装备，20个远古金币，出生点位于加苏古墓。
+			}
+
+			FacilityGuard: {
+				DisplayName: 设施警卫
+				Flavor: '''"太好了！这次那个东西把我送哪去了？"'''
+				Description: 开局拥有120最大生命值，无魔力值，没有工具，1套设施警卫时装，3把仓促组装的手枪，1个全球定位系统，1个IO定位器，3个银子弹，99个锁链。
 			}
 		}
 	}
