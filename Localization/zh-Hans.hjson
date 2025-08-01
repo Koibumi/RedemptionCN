@@ -334,6 +334,7 @@ Mods: {
 			CoopCrate: 为特别想弄到一个爆蛋的人准备的战利品箱。鸡们还没有意识到让它们装的东西更具随机性才能更加刺激。
 			ShadesoulNPC: 埃庇多特存在着意志力——你越快乐，对生活的渴求越热烈，你的灵魂就会越大越强。反之，如果一个人失去了活下去的意志，他的灵魂会变得极其渺小，甚至反转过去，成为空魂者。空魂者直到伪神时代结束后才出现。
 			ScannerDrone: 用于收集数据并将其存储在SoS中的无人机。
+			SpaceKeeper: 第三代弑君者机型，在弑君者百万年的星际航行中创造出来。在一场与外星人的战争中，弑君者的机器战士死伤大半。战后，弑君者便展开了此机型的研发制造。这种机型专职于用纳米机器人治疗其他机器人。
 			CorruptChicken: 如此纯净的存在怎会变得如此肮脏？这就是生命的归宿。
 			ViciousChicken: "{$Mods.Redemption.FlavorTextBestiary.CorruptChicken}"
 			HeadlessChicken: *骇人的叫声*
@@ -421,6 +422,13 @@ Mods: {
 				Decapitated: 斩首！
 				NoTargets: 未发现目标！
 				BloodLoss: 失 血 过 多！
+				MPWarning:
+					'''
+					注意：救赎MOD不支持多人模式。为了游戏体验，建议您开启单人模式游玩。
+							   如果您坚持要进行多人游戏，可能会出现许多错误，许多功能也无法正常运行！
+
+					若要关闭此提示，请到MOD配置 > Mod of Redemption > 个人配置 > 关闭多人模式警告
+					'''
 			}
 		}
 
@@ -465,7 +473,7 @@ Mods: {
 
 				LivingWood:
 					'''
-					免疫中毒，增加1点召唤伤害
+					+1召唤伤害
 					增加15%{0}元素伤害与抗性
 					'''
 				CommonGuardHelm1: 增加12%近战速度
@@ -525,6 +533,13 @@ Mods: {
 					双击“下”键激活[c/BCF160:肩炮模式]:
 					在肩炮模式下，无法使用任何武器，攻击时发射可以辅助瞄准的炮弹
 					炮弹会给所有命中的敌人施加易伤效果
+					'''
+				ElderWood:
+					'''
+					免疫中毒
+					降低10%魔力消耗，对{0}或{1}元素武器降低60%魔力消耗
+					增加8%{0}与{1}元素伤害
+					增加12%{0}与{1}元素抗性
 					'''
 			}
 		}
@@ -2639,6 +2654,11 @@ Mods: {
 				DisplayName: 怪异花朵
 				Description: 我就是最初的……生命花
 			}
+
+			SoulboundBuff: {
+				DisplayName: 灵魂绑定
+				Description: 击杀的敌人身上有概率出现迷失灵魂
+			}
 		}
 
 		Biomes: {
@@ -4267,7 +4287,7 @@ Mods: {
 			}
 
 			LivingWoodBody: {
-				DisplayName: 生命木躯干
+				DisplayName: 生命木胸甲
 				Tooltip: +1召唤伤害
 			}
 
@@ -4277,7 +4297,7 @@ Mods: {
 			}
 
 			LivingWoodLeggings: {
-				DisplayName: 生命木腿甲
+				DisplayName: 生命木护胫
 				Tooltip: ""
 			}
 
@@ -6199,6 +6219,16 @@ Mods: {
 					光环内无法进行生命回复
 					'''
 			}
+
+			SoulCandle: {
+				DisplayName: 灵魂蜡烛
+				Tooltip:
+					'''
+					手持时击杀的敌人身上有概率出现迷失灵魂
+					也可以使敌人掉落更多光明之魂与暗影之魂
+					'''
+			}
+
 
 			SunkenCaptainPainting: {
 				DisplayName: 沉没船长
@@ -8968,7 +8998,7 @@ Mods: {
 
 			Bindeklinge: {
 				DisplayName: 封印之剑
-				Tooltip: 暴击时释放追踪光雨，造成{0}与{1}元素伤害
+				Tooltip: 暴击时释放追踪光雨
 				Lore:
 					'''
 					“一把阔剑，曾被光冕王国重生神谕的领导者使用。
@@ -10475,8 +10505,9 @@ Mods: {
 				DisplayName: 瘟魔混浆
 				Tooltip:
 					'''
-					小动物们正被你吸引着
-					胆怯的小动物不再害怕你
+					召唤友好的蓝色苍蝇保护你
+					锁定你的苍蝇会被转化为蓝色苍蝇
+					小动物们会被你吸引，胆怯的小动物不再害怕你
 					{$Mods.Redemption.Items.ErleasFlower.Tooltip}
 					{$Mods.Redemption.Items.SpiderSerum.Tooltip}
 					'''
@@ -10818,6 +10849,31 @@ Mods: {
 			ViciousChickenBanner: {
 				DisplayName: 猩红鸡旗
 				Tooltip: ""
+			}
+
+			ElderWoodBreastplate: {
+				DisplayName: 远古木胸甲
+				Tooltip: +1魔法伤害
+			}
+
+			ElderWoodGreaves: {
+				DisplayName: 远古木护胫
+				Tooltip: +1魔法伤害
+			}
+
+			ElderWoodHelmet: {
+				DisplayName: 远古木头盔
+				Tooltip: 增加4%魔法暴击率
+			}
+
+			ElderWoodStaff: {
+				DisplayName: 远古木法杖
+				Tooltip:
+					'''
+					召唤一圈精灵光环保护玩家
+					小精灵会随机注入{0}或{1}元素属性
+					右键将光环射向鼠标
+					'''
 			}
 		}
 
@@ -11529,6 +11585,10 @@ Mods: {
 			Twinklestar_Holdout.DisplayName: "{$Mods.Redemption.Items.Twinklestar.DisplayName}"
 			Twinklestar_ShootingStar.DisplayName: 流星
 			Twinklestar_TinyStar.DisplayName: 微型烁星
+			ElderWoodStaff_Proj.DisplayName: "{$Mods.Redemption.Items.ElderWoodStaff.DisplayName}"
+			AncientPixie_Proj.DisplayName: 远古精灵
+			BlueFly_Proj.DisplayName: 蓝色苍蝇
+			XenoSplat.DisplayName: 异辉泼溅
 		}
 
 		NPCs: {
@@ -11917,7 +11977,12 @@ Mods: {
 
 			Zephos_Intro.DisplayName: 泽弗斯
 			ZephosUnconscious.DisplayName: "{$Mods.Redemption.NPCs.Zephos_Intro.DisplayName}"
-			Android.DisplayName: 机械战士Mk.I
+
+			Android: {
+				DisplayName: 机械战士Mk.I
+				ApidroidName: Apidroid Mk.I
+			}
+
 			PrototypeSilver.DisplayName: 白银原型机Mk.I
 			SlayerSpawner.DisplayName: 弑君者生成
 			SpacePaladin.DisplayName: 太空圣骑士Mk.I
@@ -11970,7 +12035,13 @@ Mods: {
 			CorpseWalkerPriest.DisplayName: 行骸祭司
 			DancingSkeleton.DisplayName: 跳舞骷髅
 			DevilsTongue.DisplayName: 恶魔之舌
-			EpidotrianSkeleton.DisplayName: 埃庇多特骷髅
+
+			EpidotrianSkeleton: {
+				DisplayName: 埃庇多特骷髅
+				SoulfulPrefix: "缚灵 "
+				GreedyPrefix: "贪婪 "
+			}
+
 			ForestNymph.DisplayName: 森林仙女
 			GathicTomb_Spawner.DisplayName: 加苏墓葬埃庇多特骷髅生成
 			JollyMadman.DisplayName: 癫愉狂人
@@ -12282,12 +12353,13 @@ Mods: {
 			TreeBugCageTile.MapEntry: 树虫笼
 			GloomShroomFoliage.MapEntry: 黯淡菇
 			GloomShroomFoliage2.MapEntry: 黯淡菇
+			SoulCandleTile.MapEntry: 灵魂蜡烛
 		}
 
 		Keybinds: {
-			"Special Ability Key.DisplayName": 特殊能力按键
-			"Spirit Walker Key.DisplayName": 灵魂行者按键
-			"Skip Dialogue Key.DisplayName": 跳过对话按键
+			SpecialAbilityKey.DisplayName: 特殊能力按键
+			SpiritWalkerKey.DisplayName: 灵魂行者按键
+			SkipDialogueKey.DisplayName: 跳过对话按键
 		}
 
 		Conditions: {
@@ -12368,6 +12440,7 @@ Mods: {
 					Tooltip: 让苍蝇闭嘴
 				}
 
+				
 				DialogueInChat: {
 					Label: 在聊天栏里显示过场对话
 					Tooltip: 过场动画、圣杯与boss的对话也会在聊天栏里显示
@@ -12376,6 +12449,11 @@ Mods: {
 				LegacyNebSky: {
 					Label: 旧版涅布琉斯战斗背景
 					Tooltip: 使用旧版涅布琉斯二阶段的旋转战斗背景
+				}
+
+				DisableMPWarning: {
+					Label: 禁用多人模式警告
+					Tooltip: 禁用开启多人模式时出现的警告文本
 				}
 			}
 
