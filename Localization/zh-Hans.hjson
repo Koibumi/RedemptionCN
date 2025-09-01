@@ -3772,7 +3772,11 @@ Mods: {
 
 			NebWings: {
 				DisplayName: 涅布琉斯之翼
-				Tooltip: "{$CommonItemTooltip.FlightAndSlowfall}"
+				Tooltip:
+					'''
+					{$CommonItemTooltip.FlightAndSlowfall}
+					增加15%{0}元素抗性
+					'''
 			}
 
 			ObliterationDrive: {
