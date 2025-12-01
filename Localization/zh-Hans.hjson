@@ -1415,8 +1415,8 @@ Mods: {
 					11Alt: 现在，你若不再渴望与我继续战斗，我也会停止对你的干涉。
 					12: 你仍然意图战斗？
 					13: 接下来的战斗，可不会那么容易了……
-					14: 你本有机会接受救赎，所以不要责怪我……
-					15: ……让你在死亡的泥潭中挣扎！
+					14: 那么，[0.5]如果你的剑真的无法阻挡……
+					15: ……那便由我一人来承担吧！
 					Spare1: 谢谢你……[1]请[0.1]继续讨伐邪恶，[0.1]这个世界需要一个英雄。
 					Spare2: 谢谢你……[1]起初我还以为，仁慈对你来说是一个陌生的概念。
 				}
@@ -1604,6 +1604,7 @@ Mods: {
 			RevivialPotion: 使用复苏药水
 			RequestCruxDescription: 由灵魂行走揭示
 			Offer: 提供{0}
+			Read: 阅读{0}
 			Fight: 战斗
 
 			Advice: {
@@ -1742,13 +1743,7 @@ Mods: {
 				Eye: “眼”的起源？
 			}
 
-			TBot: {
-				FloppyDisc: {
-					Name: 读取软盘
-					Description: 亚当可以解读你手里的软盘。
-				}
-			}
-
+			TBot.FloppyDisc.Description: 亚当可以解读你手里的软盘。
 			SkullDigger.Give: 赠送结婚戒指
 
 			ForestNymph: {
@@ -10879,6 +10874,11 @@ Mods: {
 					右键将光环射向鼠标
 					'''
 			}
+
+			JungleStatuette: {
+				DisplayName: 丛林雕像
+				Tooltip: ""
+			}
 		}
 
 		Projectiles: {
@@ -12358,6 +12358,7 @@ Mods: {
 			GloomShroomFoliage.MapEntry: 黯淡菇
 			GloomShroomFoliage2.MapEntry: 黯淡菇
 			SoulCandleTile.MapEntry: 灵魂蜡烛
+			JungleStatuetteTile.MapEntry: Jungle Statuette
 		}
 
 		Keybinds: {
@@ -12584,6 +12585,17 @@ Mods: {
 				DisplayName: 设施警卫
 				Flavor: '''"太好了！这次那个东西把我送哪去了？"'''
 				Description: 开局拥有120最大生命值，无魔力值，没有工具，1套设施警卫时装，3把仓促组装的手枪，1个全球定位系统，1个IO定位器，3个银子弹，99个锁链。
+			}
+		}
+
+		Achievements: {
+			FowlEmperorKilled: {
+				FriendlyName: My Eggcelency!
+				Description:
+					'''
+					击败鸡皇，自负的鸡之族长
+					是的，这是唯一一个救赎MOD新增的成就……
+					'''
 			}
 		}
 	}
