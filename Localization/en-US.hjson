@@ -1123,21 +1123,13 @@ Mods: {
 					KeeperDowned3: "[@h0]Great,[0.1] now I have even more reason to pummel you to ash!"
 				}
 
-				PlayerKilled: {
-					0: "[@h4]Uh...[1] I wasn't expecting you to just explode like that."
-					1: I'll...[0.2] uh...
-					2: "[@h3]Could've sworn you died...[1][@h4] Must be some sort of magic of this place."
-					3G: "[@h0]On the upside,[0.1] I didn't just kill a person.[1][@h1] On the downside,[0.1] you chose to waste your time annoying me again."
-					3B: "[@h1]No matter,[0.1] I have a mission to do.[1][@h3] I'll figure out how to defeat you for good soon enough."
-				}
-
 				Resummon: {
 					Downed1: "[@h1]Why must you summon me again?"
 					Downed2: "[@h2]Could you maybe possibly probably potentially LEAVE ME ALONE?"
 					Downed3: "[@h1]Really,[0.1] a rematch?[0.5] Fine."
 					Downed4: "[@h1]Why don't you go preemptively die and save me the effort."
 					Downed5: "[@h4]What?[0.5] Do you want to fight me again?"
-					1: "[@h3]You keep on coming back..."
+					1: "[@h3]Could've sworn you died..."
 					2: Ready for a rematch?
 					3: Welp,[0.1] time to win again!
 					4: Still wanna fight?
@@ -1175,7 +1167,7 @@ Mods: {
 					Alright: Alright alright alright!
 					Draw1: "[@h1]We'll...[0.5] call it a draw then."
 					Draw2: "[@h2]If you agree to stop,[0.1] I'll go back to more [0.1]IMPORTANT[0.1] business."
-					Draw3: "[@h3]But,[0.1] if you so choose,[0.1] we can continue...[1] Be wary of your decision."
+					Draw3: "[@h3]But,[0.1] if you so choose,[0.1] we can continue...[1] But I won't be happy if I lose."
 				}
 
 				Spare: {
@@ -1187,10 +1179,11 @@ Mods: {
 					Accept: I see how it is...
 					Overclock1: Once again,[0.1] you really are eager to win...
 					Overclock2: I'm disappointed I actually have to overclock this vessel...
-					Overclock3: ... [@b2]I guess you like doing things the hard way.
+					Overclock3: ... I guess you like doing things the hard way.
 					IfRobot: ... And for a heap of scrap no less.
 					IfChicken: ... And for what?[0.5] A bloody chicken!?
 					IfHuman: ... And for an annoying brat no less.
+					Begin: "[@h0]Let's begin.[@c]"
 					Overclock4: "[@h1]Your intentions are vague,[0.2][@h3] but just know this..."
 					Overclock5: There are morons beyond your little world that could wipe you out with a sneeze...
 					Overclock6: "[@h1]So if you seek to conquer,[0.1] destroy,[0.1] kill,[0.2] or whatever..."
@@ -1199,7 +1192,6 @@ Mods: {
 					Overclock5Alt: I understand you want me to go all out,[0.1] but just know this...
 					Overclock6Alt: If I get too damaged,[0.1] the others will know.
 					Overclock7Alt: "[@ov][@b1]Now let's begin."
-					Begin: "[@h0]Just so we're clear,[0.1] you asked for this.[@c]"
 					Begin2: "[@h0][@ov]Let's begin.[@c]"
 					OverclockBreak1: D'ah![0.1] Why can't I do this?
 					OverclockBreak2: They'd be able to deal with you just fine,[0.1] so why can't I?!
@@ -1208,6 +1200,14 @@ Mods: {
 					OverclockEnd3: You win,[0.1] fair and square.[1] Now leave me be already.
 					OverclockEnd4: I'll need to repair this vessel again,[0.5] as if I'm not dealing with enough already.
 					OverclockEnd5: Begone from my sight.
+				}
+
+				PlayerKilled: {
+					0: "[@h4]Uh...[1] I wasn't expecting you to just explode like that."
+					1: I'll...[0.2] uh...
+					2: "[@h3]Could've sworn you died...[1][@h4] Must be some sort of magic of this place."
+					3G: "[@h0]On the upside,[0.1] I didn't just kill a person.[1][@h1] On the downside,[0.1] you chose to waste your time annoying me again."
+					3B: "[@h1]No matter,[0.1] I have a mission to do.[1][@h3] I'll figure out how to defeat you for good soon enough."
 				}
 
 				MLHelp: {
@@ -1585,14 +1585,14 @@ Mods: {
 				A5: Light shines within you, but I am sure more dangerous foes lie ahead...
 				A6N: You are past redemption...
 				A6: You are the redemption this world needed...
-				ADDDefeat: It is unknown how these forgotten deities ruled, so I cannot judge their defeat.
+				ADDDefeat: It is unknown how these forgotten deities ruled, perhaps defeating them was for the best, or worst.
 				FowlDefeat: ... What?
 				KeeperSave: You've redeemed yourself, Octavia may rest in undisturbed peac-
 				KS3Spared: Good thing you left him be...
 				KS3Defeat:
 					'''
-					You have certainly made yourself known to the Heroes now.
-					For better or for worse.
+					Oh dear, he seems to have a very short temper, and you winning probably made it worse.
+					I hope he doesn't do anything stupid.
 					'''
 				KS3Choice: I would leave him be, if I were you.
 				NebChoice: Don't go down the road you seek, please.
@@ -8444,7 +8444,7 @@ Mods: {
 				DisplayName: Flak Cannon
 				Tooltip:
 					'''
-					Uses grenades as ammo
+					Uses grenades as ammo, sticky and bouncy grenades included
 					Fires flak grenades that penetrate through defense
 
 					Holding left-click will charge a stream of grenades with no additional ammo consumption
@@ -9252,7 +9252,7 @@ Mods: {
 				Tooltip:
 					'''
 					Replaces arrows with Bone Arrows
-					Next shot will breathe fire if all arrows hit a target
+					Next shot will breath fire if all arrows hit a target
 					'''
 			}
 
@@ -11659,7 +11659,7 @@ Mods: {
 			WindGust_Proj.DisplayName: Wind Gust
 			ThornCircletSplinter.DisplayName: Splinter
 			LeechingThornSeed_Friendly.DisplayName: Life-Draining Thorn
-			BlightedClaw_Slash.DisplayName: Claw Slash
+			BlightedClaw_Slash.DisplayName: Blighted Claw_ Slash
 			OmegaPlasmaBall_Explosion.DisplayName: Explosion
 			FlakGrenade_Bee.DisplayName: Flak Beenade
 			KS3_BlasterGore.DisplayName: Hyper-Tech Blaster

@@ -348,6 +348,8 @@ Mods: {
 			Forret: 加苏拉姆常绿森林里的一种顽皮动物。在很久以前，加苏人就把这些长着鹿角的雪貂从地下通道带到了这座小岛的地表。
 			MoonflareSkeleton: 信仰月亮的教徒。他们掌握着一种特殊魔法，能让敌人从悬崖上飞出去。
 			StarSerpent: 来自以桑高空中的稀有蛇类。它们好像对某人情有独钟，跟着她穿过了那个金色的大门。
+			KS3_Magnet: 这种无人机能把弹幕转化为能量，对敌方目标进行反击。
+			KS3_MissileDrone: 弑君者III在百万年的航行中制造的一架导弹无人机。
 		}
 
 		Bestiary.Android: Api机械战士是用一个遥远恒星系的一种高度耐用金属制造的实验品。这种金属被弑君者III称为“玫瑰钛”——在银河系中发现的最坚固的材料之一。然而弑君者III讨厌它的粉红色调，所以在用它制作了几个机器人之后，他顽固地拒绝使用它。
@@ -416,6 +418,7 @@ Mods: {
 				NebGone: 涅布琉斯不见踪影……
 				NPCWokeUp: "{0}已苏醒！"
 				Unconscious: "{0}被打得神志不清……"
+				Slain: "{0}被击杀了…"
 				WarheadConditions1: 炸弹离不可爆破的物块太近了
 				WarheadConditions2: 只有在世界较远端的地表才能激活炸弹
 				NothingHappens: 无事发生...
@@ -1126,7 +1129,7 @@ Mods: {
 					Downed3: "[@h1]真的，[0.1]再来一次？[0.5]好。"
 					Downed4: "[@h1]你为什么不先发制人地去死，省得我费力气。"
 					Downed5: "[@h4]什么？[0.5]你想再和我打一场吗？"
-					1: "[@h3]我敢说你已经死了……"
+					1: "[@h3]你又回来了…"
 					2: 准备好再来一次了吗？
 					3: 好了，[0.1]这下又要赢了！
 					4: 还想打架？
@@ -1164,7 +1167,7 @@ Mods: {
 					Alright: 好吧好吧好吧！
 					Draw1: "[@h1]我们就……[0.5]算是平局了。"
 					Draw2: "[@h2]如果你同意停战，[0.1]我会回到更 [0.1]重要的[0.1]事情上。"
-					Draw3: "[@h3]但，[0.1]如果你想，[0.1]我们也可以继续……[1]不过假如我输了，我不会开心的。"
+					Draw3: "[@h3]但，[0.1]如果你想，[0.1]我们也可以继续……[1]考虑好你的选择。"
 				}
 
 				Spare: {
@@ -1176,11 +1179,51 @@ Mods: {
 					Accept: 我明白了……
 					Overclock1: 又来一次，[0.1]你真的很渴望胜利……
 					Overclock2: 我很失望，我不得不对这副身体进行超频……
-					Overclock3: ……我猜你喜欢用更难的方法解决问题。
+					Overclock3: ……[@b2]我猜你喜欢用更难的方法解决问题。
 					IfRobot: ……居然只是为了一堆废铁。
 					IfChicken: ……为了什么？[0.5]为了一只该死的鸡！？
 					IfHuman: ……居然只是为了一个讨厌的小鬼。
-					Begin: "[@h0]开始吧。[@c]"
+					Begin: "[@h0]事先说明，[0.1]这是你自找的。[@c]"
+					Overclock4: "[@h1]你的意图模糊不清，[0.2][@h3]但你只需要知道…"
+					Overclock5: 在你的小世界之外，有些实力强大的蠢货只要打个喷嚏就能把你抹杀…
+					Overclock6: "[@h1]要是你想去征服，[0.1]毁灭，[0.1]屠戮，[0.2]或是什么其他东西…"
+					Overclock7: "[@ov][@b1]我劝你三思而后行。"
+					Overclock4Alt: "[@h1]这副机体并非为战斗而生。"
+					Overclock5Alt: 我知道你想逼我使出全力，[0.1]但你只需知道…
+					Overclock6Alt: 如果我受到重创，[0.1]那些蠢货会感受到的。
+					Overclock7Alt: "[@ov][@b1]现在，让我们开始吧。"
+					Begin2: "[@h0][@ov]开始吧。[@c]"
+					OverclockBreak1: 啧！[0.1]为什么我做不到？
+					OverclockBreak2: 他们都能轻易地解决你，[0.1]为什么我做不到？！
+					OverclockEnd1: "[@b3]够了。[0.5]已经够了。[@b0]"
+					OverclockEnd2: 你已经够让我难堪了，别再雪上加霜了。N
+					OverclockEnd3: 你赢了，[0.1]公平公正。[1]现在，别再打扰我了。
+					OverclockEnd4: 我又得修一下这个机体了，[0.5]我面临的麻烦已经够多了。
+					OverclockEnd5: 现在，从我视野里消失。
+				}
+
+				PlayerKilled: {
+					0: "[@h4]呃…[1] 我没想到你就这样爆炸了。"
+					1: I我要…[0.2] 呃…
+					2: "[@h3]我差点以为你死了…[1][@h4] 这地方肯定有什么魔法。"
+					3G: "[@h0]好消息是，[0.1]我没有杀人。[1][@h1] 坏消息是，[0.1] 你又来烦我了。"
+					3B: "[@h1]没关系，[0.1]我还有任务要做，[1][@h3]我很快就会找到彻底打败你的办法的。"
+				}
+
+				MLHelp: {
+					1: "[@h0]嘿，[0.1]需要帮忙吗？[@c]"
+					1Dead: 嘿——[0.1][@h3]哦，[0.1] 你怎么死了。[0.5][@h1]真有意思。[0.5]我等你复活吧。
+					1DiedAfter: ...[0.5][@h1]嗯…[0.5][@b2]好吧。
+					Decline: 既然你这么说那算了。
+					TooLate: 呃，[0.1]没时间解释了，[0.1]反正我会来帮忙的。
+					TooLate2: 呃，[0.1]我自己决定吧。
+					Accept: 很好，[0.1]这些月球生物真是烦死我了。
+					Win1: 总算打完了，[0.2]真难缠。[2]看来自从我们交手后你又变强了一些。
+					Win2: 别误会，我来帮忙只是不想欠你的人情，[0.1]明白吗？[2]哦对了，[0.1]临走前，[0.1]我得提醒你一下…
+					Win2Alt: 别误会，我来帮忙只是不想欠你的人情，[0.1]明白吗？
+					Win3: 我很快就要去另一个世界了，[0.3]如果你跟我还有什么未了之事，[0.5]我建议你尽快解决。
+					Win3Alt: 总之，[0.1]我要去另外一个世界了。[1]再次感谢你，[0.1]一直在浪费时间来帮我。
+					WinDied: "[@h4]...[2][@h3]我就当你是故意的吧。[2][@h1]不论如何，[0.1]我要离开这艘飞船了，[0.3]如此这般，[0.3]随意了。"
 				}
 			}
 
@@ -1461,6 +1504,7 @@ Mods: {
 				Fight: 战斗
 				Refuse: 拒绝
 				Accept: 接受
+				Decline: 拒绝
 			}
 		}
 
@@ -1541,14 +1585,14 @@ Mods: {
 				A5: 你的善行长明于世，但前方仍有强敌环伺……
 				A6N: 你已经错过了最后的救赎……
 				A6: 你才是这个世界所需的救赎……
-				ADDDefeat: 不知道这些被遗忘的神灵是如何开展自己的统治的，把它们击败也许最好的选择，但也可能是最糟糕的选择。
+				ADDDefeat: 不知道这些被遗忘的神灵是如何开展自己的统治的，我不好评判击败他们是好是坏。
 				FowlDefeat: ……什么？
 				KeeperSave: 你挽回了这一切，奥克塔微娅终于能安息了……
 				KS3Spared: 幸好你没继续纠缠……
 				KS3Defeat:
 					'''
-					天哪，他脾气非常暴躁，你的胜利会让情况更加糟糕。
-					我希望他不要做出什么傻事。
+					现在，英雄们肯定已经认识你了。
+					不知道是好是坏。
 					'''
 				KS3Choice: 如果我是你，我不会继续纠缠。
 				NebChoice: 请不要再一意孤行了，不要再继续了。
@@ -3824,9 +3868,12 @@ Mods: {
 				DisplayName: 蒺藜环
 				Tooltip:
 					'''
-					使用魔法武器每攻击5次发射一连串毒刺
-					位于森林时增加生命回复
-					增加6%{0}元素暴击率
+					               增加6%{0}元素暴击率
+					以下伤害类型的武器获得新效果:
+					-近战: 击杀敌人有概率从敌人身上生成荆棘
+					-魔法: 每5次攻击发射一连串毒刺
+					-远程: 弹幕在命中时有概率分裂成碎片
+					-召唤: 仆从在造成接触伤害时有概率爪击敌人
 					'''
 			}
 
@@ -6228,7 +6275,6 @@ Mods: {
 					'''
 			}
 
-
 			SunkenCaptainPainting: {
 				DisplayName: 沉没船长
 				Tooltip: “M. Tea”
@@ -8171,7 +8217,7 @@ Mods: {
 					'''
 					伸出刺矛刺入弱小的敌人体内，把他们叉住
 					如果将目标叉住10秒或一次串住5个敌人：
-					这跟刺矛会汲取敌人的生命并附魔10秒
+					这跟刺矛会汲取敌人的生命并附魔10秒，附魔期间造成{0}元素伤害
 					'''
 			}
 
@@ -8406,7 +8452,7 @@ Mods: {
 				DisplayName: 高射炮
 				Tooltip:
 					'''
-					以手榴弹为弹药，包括粘性手榴弹与弹性手榴弹
+					以手榴弹为弹药
 					发射无视防御的高射榴弹
 
 					长按左键可以蓄力发射多枚榴弹，且不消耗额外的弹药
@@ -10879,6 +10925,31 @@ Mods: {
 				DisplayName: 丛林雕像
 				Tooltip: ""
 			}
+
+			SeabreezeStaff: {
+				DisplayName: 海风法杖
+				Tooltip:
+					'''
+					发射呼啸之风
+					每3次射击发射一阵海风，额外造成{0}元素伤害
+					海风会使位于地面的敌人脚下喷水
+					'''
+			}
+
+			PoppySeeds: {
+				DisplayName: 罂粟籽
+				Tooltip: ""
+			}
+
+			SleepingStonesPainting: {
+				DisplayName: 石头会做梦吗？
+				Tooltip: "'E. Laias'"
+			}
+
+			BeyondSteelBox: {
+				DisplayName: 音乐盒（弑君者过载阶段）
+				Tooltip: Sc0p3r - Beyond Steel
+			}
 		}
 
 		Projectiles: {
@@ -11593,6 +11664,14 @@ Mods: {
 			AncientPixie_Proj.DisplayName: 远古精灵
 			BlueFly_Proj.DisplayName: 蓝色苍蝇
 			XenoSplat.DisplayName: 异辉泼溅
+			WindGust_Proj.DisplayName: 阵风
+			ThornCircletSplinter.DisplayName: 蒺藜碎片
+			LeechingThornSeed_Friendly.DisplayName: 蒺藜荆棘
+			BlightedClaw_Slash.DisplayName: 爪击
+			OmegaPlasmaBall_Explosion.DisplayName: 爆炸
+			FlakGrenade_Bee.DisplayName: 高射炮
+			KS3_BlasterGore.DisplayName: 超科技爆弹
+			KS3_Lightning.DisplayName: 闪电
 		}
 
 		NPCs: {
@@ -12112,6 +12191,7 @@ Mods: {
 			Forret.DisplayName: 鹿角雪貂
 			MoonflareSkeleton.DisplayName: 月辉投射者
 			TreebarkDryad_Savanna.DisplayName: "{$Mods.Redemption.NPCs.TreebarkDryad.DisplayName}"
+			KS3_Friendly.DisplayName: "{$Mods.Redemption.NPCs.KS3.DisplayName}"
 		}
 
 		Tiles: {
@@ -12445,7 +12525,6 @@ Mods: {
 					Tooltip: 让苍蝇闭嘴
 				}
 
-				
 				DialogueInChat: {
 					Label: 在聊天栏里显示过场对话
 					Tooltip: 过场动画、圣杯与boss的对话也会在聊天栏里显示
@@ -12539,9 +12618,21 @@ Mods: {
 
 			ElementDamageTooltipEnum: {
 				Tooltip: ""
-				Disabled.Label: 禁用
-				ShowAdded.Label: 显示添加的内容
-				ShowTotalled.Label: 显示完整内容
+
+				Disabled: {
+					Label: 禁用
+					Tooltip: ""
+				}
+
+				ShowAdded: {
+					Label: 显示添加内容
+					Tooltip: ""
+				}
+
+				ShowTotalled: {
+					Label: 显示完整内容
+					Tooltip: ""
+				}
 			}
 		}
 
