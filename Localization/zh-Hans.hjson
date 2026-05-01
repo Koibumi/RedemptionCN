@@ -280,7 +280,7 @@ Mods: {
 			Gigapora: 一台经过改造的盾构机，它最初由帝铬公司设计。它配备有火箭助推器，各种武器以及一些试验用的护盾科技。千兆钻机的护盾发生器如果安装在钻机内部的话是极易过热与熔毁的，因此，它们被安排在了外部。
 			Akka: 阿卡年轻时的事迹鲜为人知，当地人相信她的灵魂注入了灵域中的一颗大树里，默默沉睡，等待她的丈夫将其唤醒，再次接受信仰。
 			Ukko: 古代特苏拉姆地区的一个铁匠，拥有强大的魔法天赋，强大到被众人视为神明。晚年，他对死亡愈加恐惧，于是把自己的灵魂注入一堆巨石之中，待时机成熟时破石重生。
-			PZ: 一名不幸的科学家，被异辉感染折磨得面目全非。这名科学家叫卡里·约翰逊，是所有T-机器人的父亲，也是异辉感染的零号病患。他已经被困在这里50年了，看看他周围的情况……天哪，这一定很痛苦。
+			PZ: 一名不幸的科学家，被异辉感染折磨得面目全非。这名科学家叫卡里·约翰逊，是所有T-机器人的父亲，也是异辉感染的零号病患。他已经被困在这里50年了，早已失去了意识……天哪，这一定很痛苦。
 			Android: 被弑君者III派到岛上扫描的炮灰。是弑君者在他的百万年航行中设计的第一批机器人，也是机械战士单元的第一次应用。他们设计的最初目的是给SoS带来陪伴和生机，然而他们现在已经配备了更多的战斗向部件。受损时，他们会撤退回SoS并向网络发出警报。
 			BloatedGoldfish: 一种因充满放射性脓液而膨胀的金鱼。
 			BloatedGhoul: 受到放射性粒子辐射的食尸鬼，因为快速、不稳定的细胞增殖而变得面目全非。
@@ -425,6 +425,7 @@ Mods: {
 				Decapitated: 斩首！
 				NoTargets: 未发现目标！
 				BloodLoss: 失 血 过 多！
+				GuardBroken: 格挡破损！
 				MPWarning:
 					'''
 					注意：救赎MOD不支持多人模式。为了游戏体验，建议您开启单人模式游玩。
@@ -479,8 +480,16 @@ Mods: {
 					+1召唤伤害
 					增加15%{0}元素伤害与抗性
 					'''
-				CommonGuardHelm1: 增加12%近战速度
-				CommonGuardHelm2: 增加6%伤害减免
+				CommonGuardHelm1:
+					'''
+					增加12%近战速度
+					按住{0}在你所在的位置放置一面为附近友方角色提供增益效果的旗帜。
+					'''
+				CommonGuardHelm2:
+					'''
+					增加6%伤害减免
+					按住{0}在你所在的位置放置一面为附近友方角色提供增益效果的旗帜。
+					'''
 				PureIron.Bonus:
 					'''
 					增加20%{0}元素抗性
@@ -1049,12 +1058,11 @@ Mods: {
 				Chicken3: 你看起来似乎真能明白我在说什么。[0.5]真是令人惊讶。
 				Chicken4: 我，[0.1]呃，[0.1]我会暂时住在这里，[0.5]希望你能接受。
 				Chicken5: 我觉得你“咯咯”叫应该是肯定吧…
-				Warhead1: 啊，[0.1]如果你掌控着核弹，我劝你慎重。
+				Warhead1: 呃，[0.1]如果你想引爆那东西，我劝你慎重。
 				Warhead2: 辐射对你的同类来说是非常严重的威胁，[0.1]但这是可以避免的。
 				Warhead3: 如果你在弹坑附近看到一种发光的蓝色物质，[0.1]不要靠得太近[0.5]那是钚。
 				Warhead4: 盖格辐射计会提醒你辐射区域，[0.2]如果你真的染上了辐射病，[0.1]就立即服用辐射药丸。
-				Warhead5: 只要你引爆核弹我就把这些东西卖了。
-				Warhead6: .[0.1].[0.1].[0.1]呃，[0.1]如果你真的决定引爆它……
+				Warhead5: .[0.1].[0.1].[0.1]就我个人而言，[0.1]我建议一开始就不要引爆它。
 			}
 
 			SoI: 通往另一个世界的传送门打开了！
@@ -1121,6 +1129,14 @@ Mods: {
 					KeeperDowned1: "[@b0][@h0]事实上……[0.5]你就是那个和守夜人战斗的人，对吧！"
 					KeeperDowned2: "[@h2]那本是我的任务！"
 					KeeperDowned3: "[@h0]太好了，[0.1]这下我更有理由把你打成灰了！"
+				}
+
+				PlayerKilled: {
+					0: "[@h4]呃…[1] 我没想到你就这样爆炸了。"
+					1: 我要…[0.2] 呃…
+					2: "[@h3]我差点以为你死了…[1][@h4] 这地方肯定有什么魔法。"
+					3G: "[@h0]好消息是，[0.1]我没有杀人。[1][@h1] 坏消息是，[0.1] 你又来烦我了。"
+					3B: "[@h1]没关系，[0.1]我还有任务要做，[1][@h3]我很快就会找到彻底打败你的办法的。"
 				}
 
 				Resummon: {
@@ -1192,6 +1208,7 @@ Mods: {
 					Overclock5Alt: 我知道你想逼我使出全力，[0.1]但你只需知道…
 					Overclock6Alt: 如果我受到重创，[0.1]那些蠢货会感受到的。
 					Overclock7Alt: "[@ov][@b1]现在，让我们开始吧。"
+					Begin: "[@h0]我们先说清楚，[0.1]是你要求这么做的。[@c]"
 					Begin2: "[@h0][@ov]开始吧。[@c]"
 					OverclockBreak1: 啧！[0.1]为什么我做不到？
 					OverclockBreak2: 他们都能轻易地解决你，[0.1]为什么我做不到？！
@@ -1200,14 +1217,6 @@ Mods: {
 					OverclockEnd3: 你赢了，[0.1]公平公正。[1]现在，别再打扰我了。
 					OverclockEnd4: 我又得修一下这个机体了，[0.5]我面临的麻烦已经够多了。
 					OverclockEnd5: 现在，从我视野里消失。
-				}
-
-				PlayerKilled: {
-					0: "[@h4]呃…[1] 我没想到你就这样爆炸了。"
-					1: I我要…[0.2] 呃…
-					2: "[@h3]我差点以为你死了…[1][@h4] 这地方肯定有什么魔法。"
-					3G: "[@h0]好消息是，[0.1]我没有杀人。[1][@h1] 坏消息是，[0.1] 你又来烦我了。"
-					3B: "[@h1]没关系，[0.1]我还有任务要做，[1][@h3]我很快就会找到彻底打败你的办法的。"
 				}
 
 				MLHelp: {
@@ -1631,6 +1640,7 @@ Mods: {
 			}
 
 			BookOfBonusesInGameNotification: 发现新的元素属性效果：{0}
+			SpareTimer: Spared In: {0}
 		}
 
 		DialogueBox: {
@@ -2135,14 +2145,9 @@ Mods: {
 				Description: 砰砰砰砰砰砰！
 			}
 
-			MicroshieldCoreBuff: {
-				DisplayName: 微盾核心
-				Description: 一架微盾核心在保护你
-			}
-
-			MicroshieldDroneBuff: {
-				DisplayName: 微盾无人机
-				Description: 一架微盾无人机在保护你
+			MicroshieldCoreCooldown: {
+				DisplayName: 微盾破碎
+				Description: 微盾恢复中
 			}
 
 			HoloMinionBuff: {
@@ -2380,8 +2385,8 @@ Mods: {
 			}
 
 			FlagbearerBuff: {
-				DisplayName: 群集
-				Description: ":D"
+				DisplayName: 集结
+				Description: "提升移动速度、防御力与伤害"
 			}
 
 			IceFrozen: {
@@ -2698,6 +2703,11 @@ Mods: {
 				DisplayName: 灵魂绑定
 				Description: 击杀的敌人身上有概率出现迷失灵魂
 			}
+
+			CommonGuardFlagCooldown: {
+				DisplayName: 集结旗帜冷却
+				Description: 你不能放置另一面旗帜
+			}
 		}
 
 		Biomes: {
@@ -2877,6 +2887,7 @@ Mods: {
 				DialogueRad: 你看起来生病了。感觉不适的话可以回来找我。可能没什么大碍，但是…小心点不足为过。
 				DialogueRad2: 你看起来病得非常重。我得持续为你监测生命体征…我建议你把药带在身边。
 				DialogueRad3: …！你已经严重辐射中毒了！快点，请快点把这些药片吃了！
+				NewShop: 之前一直派不上用场，真是不好意思。现在我弄到些新补给，万一你碰上辐射区应该用得上。要看看吗？只是……先别管那个核弹头——我还没找到安全处理的地方。
 				FloppyDisk1:
 					'''
 					上面记录着-[c/b883d8:'当我得到这份研究工作时的邀请时，我没想到我会被调到地下工作，但是，嘿，我猜这有点秘密。有种新材料被发现了，并且已经有人在用它制造武器。嘿嘿，帝铬公司的经典行为。虽说这是我见过的必要物资供应最不足的研究所，使得我们几乎没有足够的手套和防护服来处理放射性物质，不过好在我的工作不涉及这类事情。']
@@ -3650,9 +3661,9 @@ Mods: {
 				DisplayName: 微盾核心
 				Tooltip:
 					'''
-					召唤一架微盾无人机，当敌对弹幕射向玩家时出现。
+					召唤一架阻挡敌对弹幕的微盾无人机。
 					当弹幕击中护盾时，护盾放电并反射该弹幕
-					护盾能够吸收500伤害，被摧毁后需要10秒恢复
+					护盾能够吸收500伤害，被摧毁后需要30秒恢复
 					'''
 			}
 
@@ -6231,8 +6242,8 @@ Mods: {
 				DisplayName: 核弹头
 				Tooltip:
 					'''
-					右键点击放置好的核弹头查看侧板
 					引爆核弹头会制造一片废土
+					右键点击放置好的核弹头查看侧板
 					只能在世界地表外侧三分之一引爆，且附近没有不可破坏的方块
 					'''
 			}
@@ -9060,6 +9071,7 @@ Mods: {
 					剑的尖端能造成更高的伤害
 					用尖端击中敌人会将敌人冻结
 					无法冻结免疫击退的敌人
+					可以与冰坠连携
 					“把他们送进冰冷的墓中”
 					'''
 				Lore:
@@ -10410,7 +10422,7 @@ Mods: {
 
 			RaveyardBox: {
 				DisplayName: 音乐盒（骷髅狂欢）
-				Tooltip: Zeus073 - Rattle Thy Bones
+				Tooltip: PeriTune - Spook3
 			}
 
 			AetherianGreathelm: {
@@ -10949,6 +10961,126 @@ Mods: {
 			BeyondSteelBox: {
 				DisplayName: 音乐盒（弑君者过载阶段）
 				Tooltip: Sc0p3r - Beyond Steel
+			}
+
+			ThornMask2: {
+				DisplayName: 荆棘之心面具
+				Tooltip: ""
+			}
+
+			TerraBombaCore: {
+				DisplayName: 环境重塑炸弹核心
+				Tooltip: ""
+			}
+
+			TerraBombaNose: {
+				DisplayName: 环境重塑炸弹弹头
+				Tooltip: ""
+			}
+
+			TerraBombaTail: {
+				DisplayName: 环境重塑炸弹弹尾
+				Tooltip: ""
+			}
+
+			TerraBombaCorruption: {
+				DisplayName: 环境重塑炸弹
+				Tooltip:
+					'''
+					[c/b883d8:腐化]
+					大范围转化腐化之地
+					'乡村路，带我回家…'
+					'''
+			}
+
+			TerraBombaCrimson: {
+				DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+				Tooltip:
+					'''
+					[c/d88383:猩红]
+					大范围转化猩红之地
+					'乡村路，带我回家…'
+					'''
+			}
+
+			TerraBombaGlowingMushroom: {
+				DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+				Tooltip:
+					'''
+					[c/4561d7:发光蘑菇]
+					大范围转化发光蘑菇地
+					'乡村路，带我回家…'
+					'''
+			}
+
+			TerraBombaHallow: {
+				DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+				Tooltip:
+					'''
+					[c/7de4e8:神圣]
+					大范围转化神圣之地
+					'乡村路，带我回家…'
+					'''
+			}
+
+			TerraBombaPurity: {
+				DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+				Tooltip:
+					'''
+					[c/87d883:纯净]
+					大范围净化环境
+					'乡村路，带我回家…'
+					'''
+			}
+
+			TerraBombaDirt: {
+				DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+				Tooltip:
+					'''
+					[c/BFA17A:森林]
+					大范围转化森林
+					'乡村路，带我回家…'
+					'''
+			}
+
+			TerraBombaSand: {
+				DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+				Tooltip:
+					'''
+					[c/F7DE9E:沙漠]
+					大范围转化沙漠
+					'乡村路，带我回家…'
+					'''
+			}
+
+			TerraBombaSnow: {
+				DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+				Tooltip:
+					'''
+					[c/D9E0EE:雪地]
+					大范围转化雪地
+					'乡村路，带我回家…'
+					'''
+			}
+
+			ClayStatuette: {
+				DisplayName: 粘土雕像
+				Tooltip: ""
+			}
+
+			DesertStatuette: {
+				DisplayName: 沙漠雕像
+				Tooltip: ""
+			}
+
+			ObsidianStatuette: {
+				DisplayName: 黑曜石雕像
+				Tooltip: ""
+			}
+
+			AncientHallBrickWall: {
+				DisplayName: 远古殿堂砖墙
+				Tooltip: ""
 			}
 		}
 
@@ -11672,6 +11804,16 @@ Mods: {
 			FlakGrenade_Bee.DisplayName: 高射炮
 			KS3_BlasterGore.DisplayName: 超科技爆弹
 			KS3_Lightning.DisplayName: 闪电
+			CommonGuardFlag_Proj.DisplayName: 集结旗帜
+			Icefall_HeldProj.DisplayName: "{$Mods.Redemption.Items.Icefall.DisplayName}"
+			TerraBombaCorruption_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+			TerraBombaCrimson_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+			TerraBombaGlowingMushroom_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+			TerraBombaHallow_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+			TerraBombaPurity_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+			TerraBombaDirt_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+			TerraBombaSand_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
+			TerraBombaSnow_Proj.DisplayName: "{$Mods.Redemption.Items.TerraBombaCorruption.DisplayName}"
 		}
 
 		NPCs: {
@@ -11760,6 +11902,11 @@ Mods: {
 			KS3: {
 				DisplayName: 弑君者III
 				BossChecklistIntegration.SpawnInfo: 在白天使用[i:Redemption/CyberTech]，或者攻击地表的机器人并让他们传送逃走。
+			}
+
+			KS3_Clone: {
+				DisplayName: 弑君者III... ?
+				DefeatName: 弑君者III克隆体
 			}
 
 			KS3_Clone.DisplayName: 弑君者III……？
@@ -12438,7 +12585,10 @@ Mods: {
 			GloomShroomFoliage.MapEntry: 黯淡菇
 			GloomShroomFoliage2.MapEntry: 黯淡菇
 			SoulCandleTile.MapEntry: 灵魂蜡烛
-			JungleStatuetteTile.MapEntry: Jungle Statuette
+			JungleStatuetteTile.MapEntry: 丛林雕像
+			ClayStatuetteTile.MapEntry: 粘土雕像
+			DesertStatuetteTile.MapEntry: 沙漠雕像
+			ObsidianStatuetteTile.MapEntry: 黑曜石雕像
 		}
 
 		Keybinds: {
